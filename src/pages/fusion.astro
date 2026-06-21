@@ -1,0 +1,313 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Guía de Fusión" section="fusion" description="Guía completa de fusión de Personas en Persona 3 Reload en español latinoamericano">
+
+  <section class="page-hero">
+    <p class="hero-eyebrow">Cuarto de Terciopelo · Igor · Elizabeth</p>
+    <h1 class="page-title">Guía de <span>Fusión</span></h1>
+    <p class="page-subtitle">
+      Cómo fusionar Personas eficientemente, qué Personas son imprescindibles y
+      recetas para las fusiones más poderosas del juego.
+    </p>
+  </section>
+
+  <div class="content-wrap">
+
+    <nav class="quick-nav">
+      <a href="#velvet">Cuarto de Terciopelo</a>
+      <a href="#tipos">Tipos de fusión</a>
+      <a href="#herencia">Herencia de habilidades</a>
+      <a href="#sl-bonus">Bono de VS</a>
+      <a href="#personas-clave">Personas clave</a>
+      <a href="#recetas">Recetas recomendadas</a>
+      <a href="#elizabeth">Encargos de Elizabeth</a>
+    </nav>
+
+    <!-- VELVET ROOM -->
+    <div id="velvet">
+      <div class="section-label">El corazón del sistema</div>
+      <h2 class="section-title">El Cuarto de Terciopelo</h2>
+      <div class="prose">
+        <p>El Cuarto de Terciopelo es el espacio entre el sueño y la realidad donde Igor y Elizabeth te ayudan a gestionar tu Compendio de Personas. Está disponible en cualquier momento desde el menú del juego.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <span class="card-icon">🔮</span>
+          <div class="card-title">Fusión</div>
+          <p>Combinás dos o más Personas para crear una nueva. El resultado hereda algunas habilidades de los "padres". El nivel resultante depende de los niveles de las Personas combinadas.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">📖</span>
+          <div class="card-title">Compendio</div>
+          <p>Registro de todas las Personas que alguna vez tuviste. Podés recuperar cualquier Persona registrada pagando en dinero. El costo sube con el nivel de la Persona.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">⬆️</span>
+          <div class="card-title">Fusión mejorada</div>
+          <p>Con VS avanzados, las Personas fusionadas del mismo Arcano pueden superar tu nivel actual. Es la forma más poderosa de progresar sin grindear.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">📋</span>
+          <div class="card-title">Encargos</div>
+          <p>Elizabeth te da Encargos — tareas que incluyen traerle Personas específicas, ítems de Tartarus o materiales de Sombras. Las recompensas son excelentes.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TIPOS -->
+    <div id="tipos" style="margin-top:3rem">
+      <div class="section-label">Métodos disponibles</div>
+      <h2 class="section-title">Tipos de Fusión</h2>
+
+      <details open>
+        <summary>Fusión Normal (2 Personas)</summary>
+        <div class="details-body">
+          <p>La más común. Combinás dos Personas y obtenés una del Arcano resultante según la tabla de fusión. El Arcano del resultado depende de los Arcanos de los dos ingredientes — la tabla es fija.</p>
+          <p style="margin-top:0.5rem"><strong>Ejemplo:</strong> Mago + Ermitaño = Luna (en la mayoría de combinaciones). El resultado específico depende de los niveles.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Fusión Triple (3 Personas)</summary>
+        <div class="details-body">
+          <p>Usando tres Personas a la vez, podés acceder a Personas de mayor nivel que con fusión doble. Se desbloquea avanzando en la historia principal.</p>
+          <p style="margin-top:0.5rem">Las fusiones triples permiten acceder a Personas como <strong>Hecatónquiros</strong>, <strong>Anubis</strong> y otras de alto nivel mucho antes de lo que podrías farmearlas.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Fusión Especial (Recetas fijas)</summary>
+        <div class="details-body">
+          <p>Ciertas Personas poderosas solo se obtienen con combinaciones específicas de ingredientes. Elizabeth te da pistas sobre estas recetas especiales en sus Encargos.</p>
+          <p style="margin-top:0.5rem">Ejemplos: <strong>Pixie (fortalecida)</strong>, <strong>Orpheus Telos</strong> (si cumplís todas las condiciones), y Personas de los Arcanos más raros.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Ejecución (Guillotina)</summary>
+        <div class="details-body">
+          <p>Sacrificás una única Persona a cambio de ítems especiales o materiales de fusión. Útil para Personas que ya no usás pero tienen drops valiosos.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- HERENCIA -->
+    <div id="herencia" style="margin-top:3rem">
+      <div class="section-label">La decisión más importante de cada fusión</div>
+      <h2 class="section-title">Herencia de Habilidades</h2>
+
+      <div class="callout callout-tip">
+        <strong>Concepto clave:</strong> Cuando fusionás dos Personas, la resultante puede heredar
+        habilidades de los "padres". Elegís qué habilidades conservar. Esta elección es lo que separa
+        una fusión buena de una excelente.
+      </div>
+
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-title">📌 Regla de herencia</div>
+          <p>Cada Persona tiene un "tipo de herencia" que determina qué categorías de habilidades puede recibir. Una Persona de tipo Fuego puede heredar habilidades de Fuego pero no de Hielo.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">✅ Habilidades que siempre heredar</div>
+          <p>Concentración, Potenciador elemental, Amplificador elemental, Megidolaón, Regenerar 3, Auto-Maraku.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">❌ Habilidades que evitar</div>
+          <p>Habilidades de bajo nivel que ya superaste (Agi cuando ya tenés Agidyne). Las ranuras son limitadas — no las desperdicies.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">💡 Truco del Compendio</div>
+          <p>Si enseñaste habilidades especiales a una Persona y la registraste en el Compendio, podés recuperarla con esas habilidades ya aprendidas.</p>
+        </div>
+      </div>
+
+      <h3 class="sub-title">Habilidades prioritarias para el protagonista</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Habilidad</th><th>Tipo</th><th>Por qué priorizarla</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Megidolaón</strong></td><td>Todopoderoso</td><td>Daño masivo sin resistencias. El ataque más versátil del juego.</td></tr>
+            <tr><td><strong>Concentración</strong></td><td>Apoyo</td><td>Duplica el daño del siguiente ataque mágico. Esencial en jefes.</td></tr>
+            <tr><td><strong>Marakukaja</strong></td><td>Apoyo</td><td>Sube la defensa de todo el equipo. Imprescindible contra jefes.</td></tr>
+            <tr><td><strong>Salvación</strong></td><td>Curación</td><td>Cura todo el equipo de PS y estados alterados. El mejor heal del juego.</td></tr>
+            <tr><td><strong>Debilitación</strong></td><td>Debilitador</td><td>Reduce Ataque, Defensa y Velocidad del enemigo simultáneamente.</td></tr>
+            <tr><td><strong>Absorber [elemento]</strong></td><td>Pasivo</td><td>Absorber un elemento te hace inmune y convierte el daño en PS.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- SL BONUS -->
+    <div id="sl-bonus" style="margin-top:3rem">
+      <div class="section-label">Por qué importan los VS</div>
+      <h2 class="section-title">Bono de Vínculo Social en Fusión</h2>
+      <div class="prose">
+        <p>Cada rango de VS otorga un multiplicador al EXP de las Personas del mismo Arcano cuando las fusionás. Con rango 10 en un VS, la Persona resultante puede estar varios niveles por encima del tuyo.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Rango VS</th><th>Bono EXP de fusión</th></tr></thead>
+          <tbody>
+            <tr><td>Rango 1</td><td>+5%</td></tr>
+            <tr><td>Rango 2</td><td>+10%</td></tr>
+            <tr><td>Rango 3</td><td>+15%</td></tr>
+            <tr><td>Rango 4</td><td>+20%</td></tr>
+            <tr><td>Rango 5</td><td>+25%</td></tr>
+            <tr><td>Rango 6</td><td>+30%</td></tr>
+            <tr><td>Rango 7</td><td>+35%</td></tr>
+            <tr><td>Rango 8</td><td>+45%</td></tr>
+            <tr><td>Rango 9</td><td>+55%</td></tr>
+            <tr><td>Rango 10 (Máximo)</td><td>+65% — puede superar tu nivel actual</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout callout-tip">
+        <strong>Estrategia:</strong> Antes de fusionar una Persona importante, subí el VS correspondiente
+        al máximo si es posible. La diferencia puede ser de 5-8 niveles extra — muy significativa.
+      </div>
+    </div>
+
+    <!-- PERSONAS CLAVE -->
+    <div id="personas-clave" style="margin-top:3rem">
+      <div class="section-label">No te las pierdas</div>
+      <h2 class="section-title">Personas Clave por Etapa</h2>
+
+      <h3 class="sub-title">Primeros meses (Abril–Junio)</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Persona</th><th>Arcano</th><th>Por qué es importante</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Hada</strong></td><td>Los Enamorados</td><td>Curación temprana, excelente para los jefes de mayo.</td></tr>
+            <tr><td><strong>Hombre de Arena</strong></td><td>El Mago</td><td>Ataques de Viento — clave contra las Sombras Gemelas.</td></tr>
+            <tr><td><strong>Arcángel</strong></td><td>La Justicia</td><td>Hama y curación. Bueno contra Sombras débiles a Luz.</td></tr>
+            <tr><td><strong>Apsaras</strong></td><td>La Templanza</td><td>Resistencias mixtas y Bufu. Buena base para heredar hielo.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="sub-title">Período intermedio (Julio–Septiembre)</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Persona</th><th>Arcano</th><th>Por qué es importante</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Principado</strong></td><td>La Justicia</td><td>Hama masivo + curación de equipo. Muy versátil.</td></tr>
+            <tr><td><strong>Thor</strong></td><td>El Carro</td><td>Zio masivo + daño físico enorme.</td></tr>
+            <tr><td><strong>Anubis</strong></td><td>El Juicio</td><td>Mudo masivo + resistencias a Oscuridad. Destruye Sombras débiles a oscuridad.</td></tr>
+            <tr><td><strong>Fortuna</strong></td><td>La Rueda de la Fortuna</td><td>Buenas resistencias y habilidades de apoyo.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="sub-title">Etapa final (Octubre–Enero)</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Persona</th><th>Arcano</th><th>Por qué es importante</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Helel</strong></td><td>La Estrella</td><td>Estrella Matutina (Todopoderoso enorme). Requiere VS La Estrella MAX.</td></tr>
+            <tr><td><strong>Satán</strong></td><td>El Juicio</td><td>Víbora Negra. Todopoderoso devastador + resistencias completas.</td></tr>
+            <tr><td><strong>Metatrón</strong></td><td>La Justicia</td><td>Repele Luz, inmune a Oscuridad. El tanque definitivo.</td></tr>
+            <tr><td><strong>Norn</strong></td><td>La Rueda de la Fortuna</td><td>Salvación + Repele Hielo. La mejor sanadora del juego en el protagonista.</td></tr>
+            <tr><td><strong>Lucifer</strong></td><td>La Estrella</td><td>La Persona más poderosa del juego — requiere VS La Estrella y La Luna MAX.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- RECETAS -->
+    <div id="recetas" style="margin-top:3rem">
+      <div class="section-label">Fusiones específicas</div>
+      <h2 class="section-title">Recetas Recomendadas</h2>
+
+      <details open>
+        <summary>Hada mejorada — temprano</summary>
+        <div class="details-body">
+          <p><strong>Ingredientes:</strong> Hada + Silky<br>
+          <strong>Resultado:</strong> Hada con habilidades adicionales de curación<br>
+          <strong>Por qué:</strong> La Hada inicial es débil. Refundirla temprano con mejores habilidades heredadas te da la mejor sanadora del período mayo-junio.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Ángel → Arcángel → Principado (cadena de La Justicia)</summary>
+        <div class="details-body">
+          <p><strong>Cadena:</strong> Ángel → fusionala para Arcángel → fusionala para Principado<br>
+          <strong>Por qué:</strong> Esta cadena hereda Hama poderoso en cada generación. Con VS de La Justicia (Chihiro) alto, el resultado supera tu nivel. Excelente contra Sombras débiles a Luz.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Thor — daño Rayo masivo</summary>
+        <div class="details-body">
+          <p><strong>Ingredientes:</strong> Odín + Valquiria (o consultá la tabla según tu nivel)<br>
+          <strong>Resultado:</strong> Thor — Ziodyne masivo, Amplificador de Rayo, alta fuerza física<br>
+          <strong>Por qué:</strong> Con el protagonista usando Thor y Akihiko simultáneamente, las Sombras débiles a Rayo mueren en un turno.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Norn — la sanadora definitiva</summary>
+        <div class="details-body">
+          <p><strong>Cómo obtenerla:</strong> Fusión triple con Personas de Arcanos específicos<br>
+          <strong>Habilidades clave:</strong> Salvación (cura todo el equipo de PS y estados), Repele Hielo, Auto-Maraku<br>
+          <strong>Por qué:</strong> Salvación es el heal definitivo — cura todo el PS del equipo más los estados alterados en un turno.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Helel — Estrella Matutina</summary>
+        <div class="details-body">
+          <p><strong>Requisito:</strong> VS La Estrella (Mamoru) en Rango 10<br>
+          <strong>Habilidad signature:</strong> Estrella Matutina — daño Todopoderoso masivo de área<br>
+          <strong>Por qué:</strong> Es la segunda Persona más poderosa del juego. No la podés obtener sin completar el VS de Mamoru.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Lucifer — El Señor del Abismo</summary>
+        <div class="details-body">
+          <p><strong>Requisitos:</strong> VS La Estrella MAX + VS La Luna MAX + nivel 88+<br>
+          <strong>Habilidades:</strong> Estrella Matutina heredada + resistencias absolutas<br>
+          <strong>Por qué:</strong> La Persona más poderosa del juego. Imprescindible para el jefe final en difícil y para el 100%.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- ELIZABETH -->
+    <div id="elizabeth" style="margin-top:3rem">
+      <div class="section-label">Cuarto de Terciopelo — Recompensas únicas</div>
+      <h2 class="section-title">Encargos de Elizabeth</h2>
+
+      <div class="callout callout-info">
+        <strong>¿Qué son?</strong> Elizabeth tiene una lista de Encargos que van desde "traéme esta Persona"
+        hasta "mostrámela con tal habilidad" o "matá a esta Sombra". Las recompensas incluyen equipamiento
+        único, Personas raras y cantidades masivas de dinero.
+      </div>
+
+      <h3 class="sub-title">Encargos de alta prioridad</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>#</th><th>Encargo</th><th>Recompensa</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Traer una Hada</td><td>Ítems de curación básicos — fácil de completar desde el inicio</td></tr>
+            <tr><td>7</td><td>Traer Arcángel</td><td>Guante con buenas stats para Akihiko</td></tr>
+            <tr><td>18</td><td>Material especial de Tartarus Bloque 3</td><td>Arma poderosa para el tramo medio del juego</td></tr>
+            <tr><td>55</td><td>Persona con Maestro del Hechizo</td><td>Armadura única que reduce el costo de PM</td></tr>
+            <tr><td>90</td><td>Persona con Amplificador de Rayo + Potenciador de Rayo</td><td>Accesorio único — uno de los mejores del juego</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout callout-warn">
+        <strong>¡No los olvides!</strong> Algunos Encargos tienen tiempo limitado o dependen de eventos
+        de la historia. Revisalos cada vez que visitás el Cuarto de Terciopelo.
+      </div>
+    </div>
+
+    <div class="callout callout-tip" style="margin-top:2rem">
+      <strong>→ Siguiente:</strong> Con la fusión dominada, mirá la
+      <a href="/cien-por-ciento">Guía al 100%</a> para completar el juego al máximo.
+    </div>
+
+  </div>
+</Layout>

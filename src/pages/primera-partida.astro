@@ -1,0 +1,367 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Primera Partida" section="primera" description="Guía de primera partida para Persona 3 Reload en español — historia, tips, errores a evitar">
+
+  <section class="page-hero">
+    <p class="hero-eyebrow">Guía Principal</p>
+    <h1 class="page-title">Primera <span>Partida</span></h1>
+    <p class="page-subtitle">
+      Todo lo que necesitás saber para tu primer run: cómo funcionan los sistemas,
+      qué priorizar y los errores clásicos que arruinan tu partida.
+    </p>
+  </section>
+
+  <div class="content-wrap">
+
+    <nav class="quick-nav">
+      <a href="#sistemas">Sistemas base</a>
+      <a href="#stats">Stats sociales</a>
+      <a href="#combate">Combate</a>
+      <a href="#theurgy">Theurgia</a>
+      <a href="#dificultad">Dificultad</a>
+      <a href="#errores">Errores comunes</a>
+      <a href="#prioridades">Prioridades</a>
+      <a href="#historia">Resumen historia</a>
+    </nav>
+
+    <!-- SISTEMAS -->
+    <div id="sistemas">
+      <div class="section-label">Lo primero que tenés que entender</div>
+      <h2 class="section-title">Los Sistemas Base</h2>
+      <p class="prose" style="margin-bottom:1.5rem">
+        P3R combina dos bucles de juego que comparten el mismo recurso: el tiempo.
+        Cada día tenés decisiones que tomar — y no podés hacer todo.
+      </p>
+      <div class="card-grid">
+        <div class="card">
+          <span class="card-icon">☀️</span>
+          <div class="card-title">Rutina diurna</div>
+          <p>Clases, actividades después del colegio (libros, trabajos, tiendas, Vínculos Sociales). Las actividades de tarde/noche construyen Vínculos o stats.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">🌙</span>
+          <div class="card-title">La Hora Oscura</div>
+          <p>Disponible casi todas las noches. Explorás Tartarus para subir de nivel, conseguir materiales y avanzar hasta los pisos requeridos antes de cada jefe de luna llena.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">🔗</span>
+          <div class="card-title">Vínculos Sociales</div>
+          <p>Relaciones con NPCs y compañeros vinculadas a Arcanos del Tarot. Subir de rango aumenta el EXP de fusiones del mismo Arcano. Son el corazón del sistema de progresión fuera del combate.</p>
+        </div>
+        <div class="card">
+          <span class="card-icon">📊</span>
+          <div class="card-title">Stats sociales</div>
+          <p>Estudios, Encanto y Valentía — necesarias para desbloquear Vínculos Sociales y opciones de diálogo. Se construyen con actividades, no de forma automática.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <div id="stats" style="margin-top:3rem">
+      <div class="section-label">Estudios · Encanto · Valentía</div>
+      <h2 class="section-title">Stats Sociales</h2>
+      <div class="callout callout-warn">
+        <strong>¡Importante!</strong> Varios Vínculos Sociales requieren un nivel mínimo de stat social para iniciarse. Si no los subís a tiempo, podés perderte rangos en esa partida.
+      </div>
+
+      <div class="card-grid-2">
+        <div class="card">
+          <div class="card-title">📚 Estudios</div>
+          <p><strong>Cómo subirla:</strong> Estudiar en el cuarto/biblioteca, leer libros de texto, responder bien en clase.<br><br>
+          <strong>Requerida para:</strong> VS de Keisuke (rango 1), algunas opciones de diálogo de Mitsuru, exámenes parciales.<br><br>
+          <strong>Tip:</strong> Estudiá especialmente la semana antes de los exámenes — las notas altas dan bonos de stat.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">✨ Encanto</div>
+          <p><strong>Cómo subirla:</strong> Trabajar en el café Chagall, bañarte en el onsen del dormitorio (de noche), tomar ciertos libros.<br><br>
+          <strong>Requerida para:</strong> VS de Yuko (nivel 3), VS de Mitsuru (nivel 4 — máximo).<br><br>
+          <strong>Tip:</strong> El trabajo de café es lo más eficiente. Además ganás dinero. Empezá temprano.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">💪 Valentía</div>
+          <p><strong>Cómo subirla:</strong> Comer "comida misteriosa" en la cafetería del colegio, karaoke, ver ciertos DVDs, algunos libros.<br><br>
+          <strong>Requerida para:</strong> VS de Yuko (nivel 2), VS de Fuuka, algunos encargos de Elizabeth.<br><br>
+          <strong>Tip:</strong> La comida extraña de la cafetería es barata y da Valentía consistentemente.</p>
+        </div>
+      </div>
+
+      <h3 class="sub-title">Niveles requeridos para VS</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Vínculo Social</th><th>Stat requerida</th><th>Nivel</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Yuko</strong> (La Fuerza)</td><td>Valentía</td><td>Nivel 2</td></tr>
+            <tr><td><strong>Yuko</strong> (La Fuerza)</td><td>Encanto</td><td>Nivel 3</td></tr>
+            <tr><td><strong>Keisuke</strong> (La Rueda de la Fortuna)</td><td>Estudios</td><td>Nivel 4</td></tr>
+            <tr><td><strong>Mitsuru</strong> (La Emperatriz)</td><td>Encanto</td><td>Nivel 4 (máximo)</td></tr>
+            <tr><td><strong>Fuuka</strong> (La Suma Sacerdotisa)</td><td>Valentía</td><td>Nivel 3</td></tr>
+            <tr><td><strong>Maiko</strong> (El Colgado)</td><td>Valentía</td><td>Nivel 1</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- COMBATE -->
+    <div id="combate" style="margin-top:3rem">
+      <div class="section-label">Sistema de batalla</div>
+      <h2 class="section-title">Combate: Conceptos Clave</h2>
+
+      <div class="callout callout-tip">
+        <strong>Regla de oro:</strong> Atacar la debilidad de una Sombra la derriba (¡<strong>Derribar</strong>!) y te da el estado "¡<strong>Más!</strong>" para seguir atacando. Explotar esto masivamente es la clave del combate en P3R.
+      </div>
+
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-title">⚡ Derribar y ¡Más!</div>
+          <p>Si golpeás la debilidad de una Sombra, o le hacés un crítico, obtenés un turno extra. Podés encadenar múltiples ¡Más! en un solo turno.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">🎯 Ataque Total</div>
+          <p>Si todos los enemigos están caídos, podés hacer un ataque especial masivo con todo el equipo. Hace muchísimo daño y tiene una animación genial.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">🛡 Relevo (nuevo en Reload)</div>
+          <p>Mecánica nueva: después de un ¡Más!, podés pasarle el turno a otro compañero que todavía no actuó. Muy poderoso para encadenar debilidades.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">🧠 Analizar</div>
+          <p>Fuuka puede analizar las debilidades de Sombras nuevas. Es crucial para optimizar combates. Los datos se guardan para futuros encuentros.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">📋 Tácticas</div>
+          <p>Podés darle directivas generales a los compañeros: Actuar Libremente, Asalto Total, Curar/Apoyar, etc. "Actuar Libremente" generalmente es la mejor opción.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">💀 Game Over</div>
+          <p>Si el protagonista muere, es Game Over. Protegélo con Personas de curación, amuletos de estado y manteniéndolo alejado de sus debilidades.</p>
+        </div>
+      </div>
+
+      <h3 class="sub-title">Tipos de daño y debilidades</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Tipo</th><th>Descripción</th><th>Notas</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Tajo / Golpe / Perforación</strong></td><td>Daño físico (armas)</td><td>Las Sombras físicas son comunes en Tartarus</td></tr>
+            <tr><td><strong>Fuego (Agi)</strong></td><td>Elemental fuego</td><td>Yukari usa Agi; efectivo contra Sombras de hielo</td></tr>
+            <tr><td><strong>Hielo (Bufu)</strong></td><td>Elemental hielo</td><td>Hielo puede generar Congelado</td></tr>
+            <tr><td><strong>Rayo (Zio)</strong></td><td>Elemental rayo</td><td>Akihiko especializado en Zio</td></tr>
+            <tr><td><strong>Viento (Garu)</strong></td><td>Elemental viento</td><td>Útil en los Twin Shadows de mayo</td></tr>
+            <tr><td><strong>Luz (Hama)</strong></td><td>Puede matar al instante</td><td>Sombras inmunes o débiles a Mudo vs Hama</td></tr>
+            <tr><td><strong>Oscuridad (Mudo)</strong></td><td>Puede matar al instante</td><td>Koromaru especializado en Oscuridad</td></tr>
+            <tr><td><strong>Todopoderoso</strong></td><td>Ignora resistencias</td><td>No tiene debilidades propias; el más versátil</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- THEURGY -->
+    <div id="theurgy" style="margin-top:3rem">
+      <div class="section-label">Nuevo en Reload</div>
+      <h2 class="section-title">Sistema de Theurgia</h2>
+      <p class="prose" style="margin-bottom:1.5rem">
+        Cada personaje tiene una habilidad de Theurgia — extremadamente poderosa, pero con una barra de carga que se llena de manera diferente para cada uno.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Personaje</th><th>Theurgia</th><th>Cómo cargar</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Makoto (Protagonista)</strong></td><td>Varía según Persona equipada</td><td>Explotar debilidades enemigas</td></tr>
+            <tr><td><strong>Yukari</strong></td><td>Despertar de Isis</td><td>Curar y apoyar aliados</td></tr>
+            <tr><td><strong>Junpei</strong></td><td>Signo Hackear</td><td>Atacar normalmente con arma</td></tr>
+            <tr><td><strong>Akihiko</strong></td><td>Corte en Cruz</td><td>Recibir daño</td></tr>
+            <tr><td><strong>Mitsuru</strong></td><td>Niflheim</td><td>Debilitar o congelar enemigos</td></tr>
+            <tr><td><strong>Fuuka</strong></td><td>Samsara</td><td>Soporte y navegación activa</td></tr>
+            <tr><td><strong>Aigis</strong></td><td>Modo Orgia</td><td>Atacar con disparos</td></tr>
+            <tr><td><strong>Ken</strong></td><td>Castigo Sagrado</td><td>Usar habilidades de Luz u Oscuridad</td></tr>
+            <tr><td><strong>Koromaru</strong></td><td>Infierno Gaia</td><td>Usar habilidades de Oscuridad</td></tr>
+            <tr><td><strong>Shinjiro</strong></td><td>Furia Sangrante</td><td>Tener PS muy bajo</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout callout-tip">
+        <strong>Tip:</strong> Shinjiro carga su Theurgia cuando tiene poca vida — si lo controlás bien,
+        su Furia Sangrante es devastadora. Combinala con Yukari curando en el mismo turno.
+      </div>
+    </div>
+
+    <!-- DIFICULTAD -->
+    <div id="dificultad" style="margin-top:3rem">
+      <div class="section-label">Elegir bien</div>
+      <h2 class="section-title">¿Qué Dificultad Elegir?</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-title">🟢 Fácil / Tranquilo</div>
+          <p>Para quienes vienen por la historia. Los combates son fáciles y podés disfrutar el juego sin estrés. No limita logros en la mayoría de los casos.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">🔵 Normal</div>
+          <p><strong>Recomendado para primera partida.</strong> Buen balance entre desafío y disfrute. Los jefes requieren estrategia pero no son frustrantes.</p>
+        </div>
+        <div class="card">
+          <div class="card-title">🔴 Difícil / Despiadado</div>
+          <p>Para veteranos de Persona. Difícil es un desafío genuino; Despiadado es brutal. No recomendado en primera partida salvo que ya conozcas el juego.</p>
+        </div>
+      </div>
+      <div class="callout callout-info">
+        <strong>Nota:</strong> Podés cambiar la dificultad en cualquier momento desde el menú del juego, excepto Despiadado que es permanente.
+      </div>
+    </div>
+
+    <!-- ERRORES -->
+    <div id="errores" style="margin-top:3rem">
+      <div class="section-label">No hagas esto</div>
+      <h2 class="section-title">Errores Clásicos de Primera Partida</h2>
+
+      <details>
+        <summary>❌ Ignorar los Vínculos Sociales los primeros meses</summary>
+        <div class="details-body">
+          <p>Muchos jugadores se focalizan en subir Tartarus y dejan los VS para después. Error grave: algunos tienen ventanas muy cortas (Maiko solo está disponible en verano, Shinjiro tiene un corte abrupto). Alternará Tartarus con VS desde el principio.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>❌ No subir las stats sociales a tiempo</summary>
+        <div class="details-body">
+          <p>Mitsuru requiere Encanto nivel 4 (máximo) para iniciar su VS. Si llegás a septiembre sin tenerlo, es imposible completarlo en esa partida. Priorizá Encanto temprano trabajando en el café.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>❌ No guardar antes de los jefes de luna llena</summary>
+        <div class="details-body">
+          <p>Los jefes de luna llena pueden sorprenderte con mecánicas que no esperabas. Guardá siempre la noche anterior. También: aseguráte de tener los pisos de Tartarus requeridos desbloqueados ANTES de la luna llena, o no podés avanzar la historia.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>❌ Gastar todo el dinero en Tartarus</summary>
+        <div class="details-body">
+          <p>Las tiendas del centro comercial venden libros que aumentan stats sociales y equipamiento clave. Guardá al menos 50.000 yen siempre para emergencias. Farmear plata en Tartarus es más fácil que recuperar VS perdidos.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>❌ Ignorar los encargos de Elizabeth</summary>
+        <div class="details-body">
+          <p>Los Encargos de Elizabeth dan recompensas excelentes. Algunos son simples (llevar un ítem) y dan equipamiento poderoso o cantidades grandes de dinero. Revisalos cada vez que visités el Cuarto de Terciopelo.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>❌ No usar el Relevo en combate</summary>
+        <div class="details-body">
+          <p>El Relevo es nuevo en Reload y muchos jugadores lo olvidan. Después de un ¡Más!, podés pasarle el turno a otro compañero. Esto permite encadenar debilidades de múltiples Sombras en un solo turno del equipo.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>❌ Entrar a Tartarus con el equipo Cansado</summary>
+        <div class="details-body">
+          <p>Cuando los compañeros están "Cansados" o "Enfermos", rinden mucho peor en combate. Dejalos descansar al día siguiente. El sistema de fatiga es real y afecta materialmente el desempeño en batalla.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>❌ Ignorar los exámenes parciales</summary>
+        <div class="details-body">
+          <p>Hay exámenes en julio y octubre. Si respondés bien en clase y estudiás previamente, sacás buenas notas que dan bonos de Estudios. Prestá atención a las respuestas del profesor — están todas en la sección de Calendario de esta guía.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- PRIORIDADES -->
+    <div id="prioridades" style="margin-top:3rem">
+      <div class="section-label">Orden de prioridad</div>
+      <h2 class="section-title">Qué Priorizar en Primera Partida</h2>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-content">
+            <h4>Subí Encanto lo antes posible</h4>
+            <p>Trabajá en el café Chagall 2-3 veces por semana. Encanto nivel 4 es requisito para el VS de Mitsuru (uno de los más tardíos y con ventana corta). Si no la tenés para octubre, perdiste a Mitsuru.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-content">
+            <h4>Iniciá Vínculos Sociales ni bien se desbloqueen</h4>
+            <p>Cada VS tiene una fecha de disponibilidad. Apenas puedas iniciar uno, hacélo. No los dejes para "cuando tenga tiempo" — ese tiempo nunca llega.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-content">
+            <h4>Tartarus antes de cada luna llena</h4>
+            <p>Revisá el piso mínimo requerido para avanzar la historia y aseguráte de alcanzarlo ANTES de la fecha del jefe. El calendario de esta guía te lo indica mes a mes.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-content">
+            <h4>Fusioná Personas frecuentemente</h4>
+            <p>No te quedés con la misma Persona todo el tiempo. Fusioná regularmente para tener niveles apropiados y habilidades variadas. Los bonos de VS hacen que cada fusión sea más poderosa.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-content">
+            <h4>No te obsesionés con el 100% en primera partida</h4>
+            <p>Es casi imposible completar TODOS los Vínculos Sociales en un único run sin guía. Disfrutá la historia, tomá tus propias decisiones y usá el Nueva Partida+ para el 100%.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HISTORIA RESUMEN -->
+    <div id="historia" style="margin-top:3rem">
+      <div class="section-label">Sin spoilers de historia central</div>
+      <h2 class="section-title">Estructura de la Historia</h2>
+      <div class="callout callout-info">
+        <strong>Sin spoilers mayores.</strong> Esta sección explica la estructura de arcos para que sepas cuándo vienen los momentos importantes, sin revelar giros de trama.
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">ABRIL — MAYO</div>
+          <div class="timeline-content">
+            <h4>Acto 1: Llegada y primeros pasos</h4>
+            <p>Presentación del SEES, el dormitorio de Gekkoukan, la Hora Oscura y las primeras exploraciones de Tartarus. Conocés a todos los compañeros principales. Jefes: Sombras de los Arcanos La Sacerdotisa y El Emperador.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">JUNIO — JULIO</div>
+          <div class="timeline-content">
+            <h4>Acto 2: El equipo crece</h4>
+            <p>Nuevos miembros se unen al SEES. Las relaciones empiezan a profundizarse. Las Sombras de luna llena se vuelven más complejas. Hay un evento importante en el campamento de verano.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">AGOSTO — SEPTIEMBRE</div>
+          <div class="timeline-content">
+            <h4>Acto 3: Punto de inflexión</h4>
+            <p>El verano trae eventos cruciales que cambian la dinámica del SEES. Uno de los momentos más emotivos del juego ocurre en este período. Nuevos miembros tardíos.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">OCTUBRE — NOVIEMBRE</div>
+          <div class="timeline-content">
+            <h4>Acto 4: Revelaciones</h4>
+            <p>La verdad sobre la Hora Oscura y Tartarus empieza a aclararse. Las 12 Sombras de luna llena se revelan con mayor significado. El juego gana tensión dramática.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">DICIEMBRE — ENERO</div>
+          <div class="timeline-content">
+            <h4>Acto 5 / Clímax</h4>
+            <p>Recta final. Revelaciones sobre Nyx y el objetivo del juego. Los Vínculos Sociales importan más que nunca en el tramo final. El destino del mundo depende de tus decisiones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:2rem">
+      <a href="/calendario" class="callout callout-info" style="display:block;text-decoration:none;">
+        <strong>→ Siguiente:</strong> Ver el Calendario completo mes a mes para saber exactamente qué hacer cada semana.
+      </a>
+    </div>
+
+  </div>
+</Layout>

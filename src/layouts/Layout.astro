@@ -1,0 +1,74 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+  section?: string;
+}
+const { title, description = "Guía completa de Persona 3 Reload en español", section = "" } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title} — Guía P3R</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/global.css" />
+</head>
+<body>
+  <!-- Background aura -->
+  <div class="bg-aura" aria-hidden="true">
+    <div class="aura-orb aura-1"></div>
+    <div class="aura-orb aura-2"></div>
+    <div class="aura-orb aura-3"></div>
+  </div>
+
+  <!-- Nav -->
+  <nav class="main-nav">
+    <a href="/" class="nav-logo">
+      <span class="logo-icon">⦿</span>
+      <span class="logo-text">P3R<span class="logo-sub">GUÍA</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="/" class={section==="inicio" ? "active" : ""}>Inicio</a>
+      <a href="/primera-partida" class={section==="primera" ? "active" : ""}>1ª Partida</a>
+      <a href="/walkthrough" class={section==="walkthrough" || section==="calendario" ? "active" : ""}>Walkthrough</a>
+      <a href="/social-links" class={section==="sl" ? "active" : ""}>Social Links</a>
+      <a href="/tartarus" class={section==="tartarus" ? "active" : ""}>Tartarus</a>
+      <a href="/fusion" class={section==="fusion" ? "active" : ""}>Fusión</a>
+      <a href="/cien-por-ciento" class={section==="100" ? "active" : ""}>100%</a>
+      <a href="/trofeos" class={section==="trofeos" ? "active" : ""}>Trofeos</a>
+    </div>
+  </nav>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="main-footer">
+    <p>Guía de Persona 3 Reload en español · Contenido propio · Sin afiliación con Atlus</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links = document.getElementById('navLinks');
+    toggle?.addEventListener('click', () => {
+      links?.classList.toggle('open');
+      toggle.classList.toggle('open');
+    });
+    // Close on link click (mobile)
+    links?.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        links.classList.remove('open');
+        toggle?.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>

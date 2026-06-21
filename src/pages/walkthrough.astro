@@ -1,0 +1,1536 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Walkthrough Día a Día" section="walkthrough" description="Walkthrough completo de Persona 3 Reload — guía día a día con seguimiento de progreso">
+
+  <section class="page-hero">
+    <p class="hero-eyebrow">Guía Completa · Día a Día</p>
+    <h1 class="page-title"><span>Walkthrough</span> 100%</h1>
+    <p class="page-subtitle">
+      Cada acción, cada respuesta, cada decisión. Marcá lo que ya hiciste y seguí tu progreso.
+      Basado en la guía de TenSquare3 (GameFAQs v2.5.0).
+    </p>
+  </section>
+
+  <div class="content-wrap">
+
+    <!-- PROGRESS BAR -->
+    <div class="wt-progress-box">
+      <div class="wt-progress-header">
+        <span class="wt-progress-label">Progreso total</span>
+        <span id="progress-text" class="wt-progress-count">0 / 0 completados</span>
+      </div>
+      <div class="wt-progress-track">
+        <div id="progress-fill" class="wt-progress-fill" style="width:0%"></div>
+      </div>
+
+      <!-- AUTH ROW -->
+      <div class="wt-auth-row">
+        <!-- Estado: no logueado -->
+        <div id="auth-signed-out" class="wt-auth-section">
+          <button id="btn-google-signin" class="wt-btn wt-btn-google">
+            <svg width="16" height="16" viewBox="0 0 24 24" style="flex-shrink:0"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            Iniciar sesión con Google
+          </button>
+          <span class="wt-auth-hint">Para sincronizar tu progreso entre dispositivos</span>
+        </div>
+
+        <!-- Estado: logueado -->
+        <div id="auth-signed-in" class="wt-auth-section" style="display:none">
+          <img id="auth-avatar" src="" alt="avatar" class="wt-auth-avatar">
+          <div class="wt-auth-info">
+            <span id="auth-name" class="wt-auth-name"></span>
+            <span id="auth-sync-status" class="wt-auth-sync">Sincronizando...</span>
+          </div>
+          <button id="btn-signout" class="wt-btn wt-btn-sec" style="margin-left:auto">Salir</button>
+        </div>
+      </div>
+
+      <div class="wt-save-btns">
+        <button id="btn-export" class="wt-btn wt-btn-sec">⬇ Exportar JSON</button>
+        <button id="btn-import-trigger" class="wt-btn wt-btn-sec">⬆ Importar JSON</button>
+        <button id="btn-reset" class="wt-btn wt-btn-danger">✕ Reiniciar todo</button>
+        <input type="file" id="btn-import" accept=".json" style="display:none">
+      </div>
+    </div>
+
+    <!-- VIEW SWITCHER -->
+    <div class="wt-view-switch">
+      <button class="wt-view-btn active" id="btn-view-dia" onclick="switchView('dia')">✓ Día a Día</button>
+      <button class="wt-view-btn" id="btn-view-resumen" onclick="switchView('resumen')">📅 Resumen Mensual</button>
+      <button class="wt-view-btn" id="btn-view-clase" onclick="switchView('clase')">📖 Respuestas de Clase</button>
+    </div>
+
+    <!-- VISTA: RESPUESTAS DE CLASE -->
+    <div id="view-clase" class="wt-view" style="display:none">
+      <div class="section-label" style="margin-top:0">A lo largo del año escolar</div>
+      <h2 class="section-title">Respuestas en Clase</h2>
+      <p style="color:rgba(200,216,255,0.75);font-size:0.9rem;margin-bottom:1rem">
+        Responder correctamente da <strong style="color:var(--gold)">Encanto +1</strong>. Los exámenes de julio y octubre dan bonos mayores.
+        Con la respuesta correcta también pueden darte <strong>Académicos +1</strong> si quedás entre los mejores.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Fecha</th><th>Pregunta / Contexto</th><th>Respuesta correcta</th></tr></thead>
+          <tbody>
+            <tr><td>4/8</td><td>Pregunta sobre los estandartes del Día del Niño</td><td><strong>"Vivid carp streamers"</strong></td></tr>
+            <tr><td>4/27</td><td>Pregunta de opción múltiple</td><td><strong>"A"</strong></td></tr>
+            <tr><td>5/6</td><td>Pregunta sobre Bullet Train</td><td><strong>"A pantograph"</strong></td></tr>
+            <tr><td>5/13</td><td>Pregunta sobre péndulos</td><td><strong>"The Pendulum"</strong></td></tr>
+            <tr><td>5/15</td><td>Pregunta sobre el mayo de 1968</td><td><strong>"May Blues"</strong></td></tr>
+            <tr style="background:rgba(31,94,255,0.06)"><td colspan="3" style="color:var(--sky);font-weight:700;font-family:'Rajdhani',sans-serif">📝 EXÁMENES DE MAYO (18–22 de mayo)</td></tr>
+            <tr><td>5/18</td><td>Examen — respuesta automática</td><td>—</td></tr>
+            <tr><td>5/19</td><td>Examen parcial</td><td><strong>"May Blues"</strong></td></tr>
+            <tr><td>5/20</td><td>Examen parcial</td><td><strong>"A Pendulum"</strong></td></tr>
+            <tr><td>5/21</td><td>Examen parcial</td><td><strong>"Electricity"</strong></td></tr>
+            <tr><td>5/22</td><td>Examen parcial</td><td><strong>"Jomon"</strong></td></tr>
+            <tr><td>7/3</td><td>Pregunta sobre el período Heian</td><td><strong>"About Romance"</strong></td></tr>
+            <tr style="background:rgba(31,94,255,0.06)"><td colspan="3" style="color:var(--sky);font-weight:700;font-family:'Rajdhani',sans-serif">📝 EXÁMENES DE JULIO (Mediados de julio)</td></tr>
+            <tr><td>Día 1</td><td>Examen de julio</td><td><strong>"A Genius"</strong></td></tr>
+            <tr><td>Día 2</td><td>Examen de julio</td><td><strong>"Synthesis"</strong></td></tr>
+            <tr><td>Día 3</td><td>Examen de julio</td><td><strong>"Electromagnetic Waves"</strong></td></tr>
+            <tr><td>Día 4</td><td>Examen de julio</td><td><strong>"Daydream"</strong></td></tr>
+            <tr><td>Día 5</td><td>Examen de julio</td><td><strong>"Haiku"</strong></td></tr>
+            <tr><td>9/17</td><td>Pregunta sobre la era Meiji</td><td><strong>"Era Meiji"</strong></td></tr>
+            <tr><td>10/6</td><td>Pregunta sobre escritoras japonesas</td><td><strong>"Murasaki Shikibu"</strong></td></tr>
+            <tr style="background:rgba(31,94,255,0.06)"><td colspan="3" style="color:var(--sky);font-weight:700;font-family:'Rajdhani',sans-serif">📝 EXÁMENES DE OCTUBRE (Finales)</td></tr>
+            <tr><td>Día 1</td><td>Examen final</td><td><strong>"Waxing moon"</strong></td></tr>
+            <tr><td>Día 2</td><td>Examen final</td><td><strong>"The Heike Story"</strong></td></tr>
+            <tr><td>Día 3</td><td>Examen final</td><td><strong>"Atavistic"</strong></td></tr>
+            <tr><td>Día 4</td><td>Examen final</td><td><strong>"Gloomy"</strong></td></tr>
+            <tr><td>Día 5</td><td>Examen final</td><td><strong>"Dry"</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout callout-tip">
+        <strong>Tip:</strong> Las respuestas de clase también las podés ver en el Walkthrough día a día. Si quedás Top 3 en el examen, conseguís Encanto +2 extra.
+      </div>
+    </div>
+
+    <!-- VISTA: RESUMEN MENSUAL -->
+    <div id="view-resumen" class="wt-view" style="display:none">
+      <div class="section-label" style="margin-top:0">Vista general · 10 meses</div>
+      <h2 class="section-title">Resumen Mensual</h2>
+      <div class="callout callout-warn">
+        <strong>Regla de oro:</strong> Siempre chequeá el piso de Tartarus requerido antes de la luna llena del mes.
+        Si no lo alcanzaste, la historia no avanza.
+      </div>
+
+      <div class="wt-cal-grid">
+        <!-- ABRIL -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(31,94,255,0.12)">
+            <span class="wt-cal-month">🌑 ABRIL</span>
+            <span class="wt-cal-badge">Sin jefe</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row"><span class="wt-cal-ico">🗼</span><span>Tartarus Bloque 1 — Thebel (1–22F)</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>4/8 — Primer día con clase, respuesta en clase</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>4/18 — Fool R1 desbloqueado (evening)</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>4/20 — Primera visita a Tartarus</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>4/22 — Tartarus 1–22F (sesión principal)</span></div>
+            <div class="wt-cal-row wt-cal-prio"><span class="wt-cal-ico">⚠️</span><span>Abrí Hermit y Strength este mes</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Meta: Encanto R2, Valentía R2, Chariot R3</span></div>
+          </div>
+        </div>
+
+        <!-- MAYO -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(46,255,158,0.08)">
+            <span class="wt-cal-month">🌒 MAYO</span>
+            <span class="wt-cal-badge badge-boss">Jefe: 9/5</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row"><span class="wt-cal-ico">🗼</span><span>Tartarus Bloque 2 (23–44F) — desbloqueado post-jefe</span></div>
+            <div class="wt-cal-row wt-cal-boss"><span class="wt-cal-ico">🔴</span><span>5/9 — JEFE LUNA LLENA: Magician (noche)</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>5/10 — Elizabeth quests desbloqueados</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>5/11 — Hanged Man (Maiko) R1</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📝</span><span>Exámenes: 18–22 de mayo</span></div>
+            <div class="wt-cal-row wt-cal-prio"><span class="wt-cal-ico">⚠️</span><span>Abrí Moon (Nozomi) el 5/30 — requiere Encanto R3</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Meta: Encanto R4, Académicos R3, Valentía R3</span></div>
+          </div>
+        </div>
+
+        <!-- JUNIO -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(31,94,255,0.12)">
+            <span class="wt-cal-month">🌓 JUNIO</span>
+            <span class="wt-cal-badge badge-boss">Jefe: 8/6</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row"><span class="wt-cal-ico">🗼</span><span>Tartarus Bloque 3 (45–69F)</span></div>
+            <div class="wt-cal-row wt-cal-boss"><span class="wt-cal-ico">🔴</span><span>6/8 — JEFE: Empress & Emperor (R3 y R4)</span></div>
+            <div class="wt-cal-row wt-cal-prio"><span class="wt-cal-ico">⚠️</span><span>Maiko (Hanged) — solo disponible JUN–AGO</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🔗</span><span>Emperor R10 posible este mes si priorizás</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Meta: Emperor R5+, Magician R6, Hierophant R5</span></div>
+          </div>
+        </div>
+
+        <!-- JULIO -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(255,209,102,0.08)">
+            <span class="wt-cal-month">🌕 JULIO</span>
+            <span class="wt-cal-badge">Vacaciones</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row"><span class="wt-cal-ico">🗼</span><span>Tartarus Bloque 4 (70–109F)</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🔗</span><span>7/1 — Emperor R10 ✅</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📝</span><span>Exámenes parciales — mediados de julio</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>7/25 — Inicio de vacaciones (SLs del colegio off)</span></div>
+            <div class="wt-cal-row wt-cal-prio"><span class="wt-cal-ico">⚠️</span><span>Piso 71F requerido antes del 7/7</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Meta: Justice R5, Hermit R7, Priestess R1</span></div>
+          </div>
+        </div>
+
+        <!-- AGOSTO -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(255,58,92,0.06)">
+            <span class="wt-cal-month">🌖 AGOSTO</span>
+            <span class="wt-cal-badge badge-boss">Jefe: 6/8</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row wt-cal-boss"><span class="wt-cal-ico">🔴</span><span>8/6 — JEFE: Chariot & Justice</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>8/7–13 — Campamento escolar (solo historia)</span></div>
+            <div class="wt-cal-row wt-cal-prio"><span class="wt-cal-ico">⚠️</span><span>Maiko (Hanged) DEBE terminarse antes del 8/31</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Meta: Hanged R10 ✅, Hermit R10 ✅</span></div>
+          </div>
+        </div>
+
+        <!-- SEPTIEMBRE -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(31,94,255,0.12)">
+            <span class="wt-cal-month">🌗 SEP</span>
+            <span class="wt-cal-badge badge-boss">Jefe: 22/9</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row"><span class="wt-cal-ico">🗼</span><span>Tartarus Bloque 5 (110–146F) — objetivo 107F</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>9/2 — Aigis se une (Aeon SL disponible)</span></div>
+            <div class="wt-cal-row wt-cal-boss"><span class="wt-cal-ico">🔴</span><span>9/22 — JEFE: Hermit</span></div>
+            <div class="wt-cal-row wt-cal-prio"><span class="wt-cal-ico">⚠️</span><span>Mitsuru SL — AHORA O NUNCA (requiere Encanto R4)</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Meta: Empress R1, Aeon R2, Moon R3</span></div>
+          </div>
+        </div>
+
+        <!-- OCTUBRE -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(255,209,102,0.08)">
+            <span class="wt-cal-month">🌘 OCTUBRE</span>
+            <span class="wt-cal-badge badge-boss">Jefe: 4/10</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row"><span class="wt-cal-ico">🗼</span><span>Tartarus Bloque 6 (147–183F) — objetivo 145F</span></div>
+            <div class="wt-cal-row wt-cal-boss"><span class="wt-cal-ico">🔴</span><span>10/4 — JEFE: Fortune</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📝</span><span>Exámenes finales — 19–23 de octubre</span></div>
+            <div class="wt-cal-row wt-cal-prio"><span class="wt-cal-ico">⚠️</span><span>Sprint SLs: Mitsuru, Aigis, Akihiko este mes</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Meta: Empress R5, Aeon R5, Strength R8</span></div>
+          </div>
+        </div>
+
+        <!-- NOVIEMBRE -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(255,58,92,0.06)">
+            <span class="wt-cal-month">🌑 NOVIEMBRE</span>
+            <span class="wt-cal-badge badge-boss">Jefe: 3/11</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row"><span class="wt-cal-ico">🗼</span><span>Tartarus Bloque 7 (184–226F) — objetivo 172F</span></div>
+            <div class="wt-cal-row wt-cal-boss"><span class="wt-cal-ico">🔴</span><span>11/3 — JEFE: Tower (Carols of the Moon)</span></div>
+            <div class="wt-cal-row wt-cal-prio"><span class="wt-cal-ico">⚠️</span><span>CERRÁ todos los SLs que puedas — el tiempo se acaba</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Meta: Empress R10, Aeon R8, Aigis R8</span></div>
+          </div>
+        </div>
+
+        <!-- DICIEMBRE -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(200,216,255,0.06)">
+            <span class="wt-cal-month">🌕 DICIEMBRE</span>
+            <span class="wt-cal-badge badge-boss">Jefe: 2/12</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row wt-cal-boss"><span class="wt-cal-ico">🔴</span><span>12/2 — JEFE TRIPLE: Star, Moon, Sun</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>12/5 — Decisión importante de historia</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>12/24 — Navidad (escena si tenés SL romántico R10)</span></div>
+            <div class="wt-cal-row wt-cal-prio"><span class="wt-cal-ico">⚠️</span><span>SLs que queden sin terminar — última oportunidad</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Meta: Todos los SLs activos a R10</span></div>
+          </div>
+        </div>
+
+        <!-- ENERO -->
+        <div class="wt-cal-card">
+          <div class="wt-cal-header" style="background:rgba(31,94,255,0.15)">
+            <span class="wt-cal-month">🌑 ENERO</span>
+            <span class="wt-cal-badge badge-boss">Jefe Final</span>
+          </div>
+          <div class="wt-cal-body">
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>1/1–20 — Últimas actividades y encargos</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">📅</span><span>1/30 — Preparación para el jefe final</span></div>
+            <div class="wt-cal-row wt-cal-boss"><span class="wt-cal-ico">🔴</span><span>1/31 — JEFE FINAL: Nyx (14 fases)</span></div>
+            <div class="wt-cal-row"><span class="wt-cal-ico">🎯</span><span>Nivel recomendado: 70–75+, Equipo: 65+</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VISTA: DÍA A DÍA -->
+    <div id="view-dia" class="wt-view">
+    <!-- MONTH NAV TABS -->
+    <nav class="month-tabs" id="month-tabs">
+      <a href="#abril" class="month-tab active">ABR</a>
+      <a href="#mayo" class="month-tab">MAY</a>
+      <a href="#junio" class="month-tab">JUN</a>
+      <a href="#julio" class="month-tab">JUL</a>
+      <a href="#agosto" class="month-tab">AGO</a>
+      <a href="#septiembre" class="month-tab">SEP</a>
+      <a href="#octubre" class="month-tab">OCT</a>
+      <a href="#noviembre" class="month-tab">NOV</a>
+      <a href="#diciembre" class="month-tab">DIC</a>
+      <a href="#enero" class="month-tab">ENE</a>
+    </nav>
+
+    <!-- WALKTHROUGH CONTENT -->
+    <div id="walkthrough-content"></div>
+    </div>
+
+  </div>
+
+  <style is:global>
+    /* ---- PROGRESS BOX ---- */
+    .wt-progress-box {
+      background: var(--deep); border: 1px solid rgba(31,94,255,0.25);
+      border-radius: 10px; padding: 1.25rem 1.5rem; margin-bottom: 2rem;
+    }
+    .wt-progress-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; }
+    .wt-progress-label { font-family: 'Rajdhani', sans-serif; font-weight: 700; color: var(--sky); }
+    .wt-progress-count { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; color: var(--moon); }
+    .wt-progress-track { height: 8px; background: rgba(31,94,255,0.15); border-radius: 4px; overflow: hidden; margin-bottom: 1rem; }
+    .wt-progress-fill { height: 100%; background: linear-gradient(90deg, var(--azure), var(--green)); border-radius: 4px; transition: width 0.4s ease; }
+    .wt-save-btns { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .wt-btn { font-family: 'Rajdhani', sans-serif; font-size: 0.85rem; font-weight: 600; padding: 0.35rem 0.9rem; border-radius: 4px; border: 1px solid; cursor: pointer; transition: all 0.2s; }
+    .wt-btn-sec { background: rgba(31,94,255,0.1); border-color: rgba(31,94,255,0.3); color: var(--sky); }
+    .wt-btn-sec:hover { background: rgba(31,94,255,0.2); border-color: var(--azure); }
+    .wt-btn-danger { background: rgba(255,58,92,0.08); border-color: rgba(255,58,92,0.3); color: var(--red); }
+    .wt-btn-danger:hover { background: rgba(255,58,92,0.18); }
+
+    /* ---- MONTH TABS ---- */
+    .month-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 2rem; }
+    .month-tab {
+      font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; font-weight: 600;
+      padding: 0.35rem 0.7rem; border-radius: 4px; text-decoration: none;
+      background: rgba(31,94,255,0.08); border: 1px solid rgba(31,94,255,0.2);
+      color: var(--moon); transition: all 0.2s; position: relative;
+    }
+    .month-tab:hover { background: rgba(31,94,255,0.18); color: var(--sky); }
+    .month-tab .tab-pct { font-size: 0.65rem; display: block; color: rgba(200,216,255,0.5); }
+    .month-tab.done { border-color: rgba(46,255,158,0.4); color: var(--green); }
+    .month-tab.in-progress { border-color: rgba(31,94,255,0.5); color: var(--sky); }
+
+    /* ---- MONTH SECTION ---- */
+    .wt-month { margin-bottom: 3rem; }
+    .wt-month-header {
+      font-family: 'Rajdhani', sans-serif; font-size: 1.5rem; font-weight: 700;
+      color: var(--azure); padding: 0.6rem 0; border-bottom: 2px solid rgba(31,94,255,0.25);
+      margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem; justify-content: space-between;
+    }
+    .wt-month-pct { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--moon); }
+
+    /* ---- DAY CARD ---- */
+    .wt-day {
+      background: var(--deep); border: 1px solid rgba(31,94,255,0.12);
+      border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .wt-day.all-done { border-color: rgba(46,255,158,0.3); }
+    .wt-day-header {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.65rem 1rem; cursor: pointer; user-select: none;
+    }
+    .wt-day-header:hover { background: rgba(31,94,255,0.05); }
+    .wt-day-date {
+      font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
+      color: var(--azure); min-width: 55px; flex-shrink: 0;
+    }
+    .wt-day-title { font-family: 'Rajdhani', sans-serif; font-size: 1rem; color: var(--moon); flex: 1; }
+    .wt-day-mini-prog { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: rgba(200,216,255,0.4); flex-shrink: 0; }
+    .wt-day-check { font-size: 1rem; flex-shrink: 0; color: var(--green); display: none; }
+    .wt-day.all-done .wt-day-check { display: block; }
+    .wt-day-toggle { font-size: 0.9rem; color: rgba(200,216,255,0.3); flex-shrink: 0; transition: transform 0.2s; }
+    .wt-day.open .wt-day-toggle { transform: rotate(90deg); }
+
+    /* ---- DAY BODY ---- */
+    .wt-day-body { display: none; padding: 0 1rem 1rem; }
+    .wt-day.open .wt-day-body { display: block; }
+
+    /* ---- SLOT ---- */
+    .wt-slot { margin-bottom: 0.75rem; }
+    .wt-slot-label {
+      font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--azure); margin-bottom: 0.4rem; padding-top: 0.5rem;
+      border-top: 1px solid rgba(31,94,255,0.1);
+    }
+
+    /* ---- CHECK ITEM ---- */
+    .wt-check-item {
+      display: flex; align-items: flex-start; gap: 0.6rem;
+      padding: 0.3rem 0; cursor: pointer; border-radius: 4px;
+      font-size: 0.88rem; color: rgba(200,216,255,0.85); line-height: 1.5;
+    }
+    .wt-check-item:hover { color: var(--white); }
+    .wt-check-item input[type="checkbox"] { display: none; }
+    .wt-checkmark {
+      width: 16px; height: 16px; border: 1.5px solid rgba(31,94,255,0.4);
+      border-radius: 3px; flex-shrink: 0; margin-top: 2px;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.15s; background: transparent;
+    }
+    .wt-check-item.checked .wt-checkmark {
+      background: var(--green); border-color: var(--green);
+    }
+    .wt-check-item.checked .wt-checkmark::after { content: '✓'; font-size: 10px; color: var(--ink); font-weight: 700; }
+    .wt-check-item.checked .wt-check-text { text-decoration: line-through; color: rgba(200,216,255,0.35); }
+
+    /* ---- BADGES INLINE ---- */
+    .wt-tag { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 3px; font-weight: 600; letter-spacing: 0.03em; margin-left: 0.3rem; vertical-align: middle; }
+    .wt-tag-sl { background: rgba(46,255,158,0.12); color: var(--green); }
+    .wt-tag-stat { background: rgba(255,209,102,0.12); color: var(--gold); }
+    .wt-tag-boss { background: rgba(255,58,92,0.12); color: var(--red); }
+    .wt-tag-note { background: rgba(31,94,255,0.12); color: var(--sky); }
+    .wt-tag-trophy { background: rgba(255,209,102,0.15); color: var(--gold); }
+
+    /* ---- END-OF-MONTH CHECKLIST ---- */
+    .wt-eom { background: rgba(13,22,51,0.7); border: 1px solid rgba(31,94,255,0.2); border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0; }
+    .wt-eom h4 { font-family: 'Rajdhani', sans-serif; color: var(--sky); font-size: 1.05rem; margin-bottom: 0.6rem; }
+    .wt-eom-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.4rem; }
+    .wt-eom-item { font-size: 0.82rem; color: rgba(200,216,255,0.75); display: flex; align-items: center; gap: 0.4rem; }
+    .wt-eom-item strong { color: var(--white); }
+
+    /* ---- AUTH ROW ---- */
+    .wt-auth-row { margin: 0.75rem 0; }
+    .wt-auth-section { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+    .wt-btn-google {
+      display: flex; align-items: center; gap: 0.5rem;
+      background: #fff; border-color: #dadce0; color: #3c4043;
+      font-family: 'Inter', sans-serif; font-weight: 500;
+    }
+    .wt-btn-google:hover { background: #f8f9fa; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+    .wt-auth-hint { font-size: 0.78rem; color: rgba(200,216,255,0.4); }
+    .wt-auth-avatar { width: 32px; height: 32px; border-radius: 50%; border: 1.5px solid rgba(31,94,255,0.3); }
+    .wt-auth-info { display: flex; flex-direction: column; gap: 0.1rem; }
+    .wt-auth-name { font-family: 'Rajdhani', sans-serif; font-weight: 600; font-size: 0.95rem; color: var(--white); }
+    .wt-auth-sync { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; color: rgba(46,255,158,0.7); }
+
+    /* ---- VIEW SWITCHER ---- */
+    .wt-view-switch { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .wt-view-btn {
+      font-family: 'Rajdhani', sans-serif; font-size: 0.9rem; font-weight: 700;
+      padding: 0.45rem 1.1rem; border-radius: 6px; border: 1.5px solid rgba(31,94,255,0.25);
+      background: rgba(31,94,255,0.06); color: var(--moon); cursor: pointer; transition: all 0.2s;
+    }
+    .wt-view-btn:hover { background: rgba(31,94,255,0.15); color: var(--sky); }
+    .wt-view-btn.active { background: rgba(31,94,255,0.18); border-color: var(--azure); color: var(--white); }
+
+    /* ---- CALENDAR CARDS (vista resumen) ---- */
+    .wt-cal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .wt-cal-card { background: var(--deep); border: 1px solid rgba(31,94,255,0.14); border-radius: 10px; overflow: hidden; }
+    .wt-cal-header { display: flex; align-items: center; justify-content: space-between; padding: 0.7rem 1rem; }
+    .wt-cal-month { font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 1rem; color: var(--white); }
+    .wt-cal-badge { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; padding: 0.15rem 0.5rem; border-radius: 3px; background: rgba(31,94,255,0.15); color: var(--sky); }
+    .wt-cal-badge.badge-boss { background: rgba(255,58,92,0.12); color: var(--red); }
+    .wt-cal-body { padding: 0.75rem 1rem; }
+    .wt-cal-row { display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.82rem; color: rgba(200,216,255,0.75); padding: 0.2rem 0; }
+    .wt-cal-ico { flex-shrink: 0; font-size: 0.85rem; }
+    .wt-cal-boss { color: var(--red) !important; }
+    .wt-cal-prio { color: var(--gold) !important; font-weight: 600; }
+
+    @media (max-width: 600px) {
+      .wt-day-header { gap: 0.5rem; }
+      .wt-eom-grid { grid-template-columns: 1fr 1fr; }
+      .wt-cal-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <script>
+    // =============================================
+    // FIREBASE IMPORTS (deben ir primero en el módulo)
+    // =============================================
+    import { initializeApp } from 'firebase/app';
+    import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged } from 'firebase/auth';
+    import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
+
+    // =============================================
+    // WALKTHROUGH DATA
+    // =============================================
+    const W = {
+      abril: {
+        title: "🌑 ABRIL — Comienzo del año escolar",
+        days: [
+          {
+            id: "406", date: "4/6", name: "Lunes",
+            slots: [
+              { label: "Noche", items: [
+                { text: "Llegás a Iwatodai Station — explorá la zona", tags: [] },
+                { text: "Elegí tu nombre (canónico: Makoto Yuki)", tags: [] },
+                { text: "Guardá tus items en el closet y dormí", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "407", date: "4/7", name: "Martes",
+            slots: [
+              { label: "Mañana", items: [{ text: "Encontrá la sala de profesores en el colegio", tags: [] }] },
+              { label: "Tarde/Noche", items: [
+                { text: "Explorá el colegio, luego volvé al dormitorio", tags: [] },
+                { text: "Dormí en tu cuarto", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "408", date: "4/8", name: "Miércoles",
+            slots: [
+              { label: "Tarde", items: [{ text: 'Respuesta en clase: "Vivid carp streamers" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Noche", items: [{ text: "Evento de historia", tags: [] }] }
+            ]
+          },
+          {
+            id: "409", date: "4/9", name: "Jueves",
+            slots: [
+              { label: "Mañana", items: [{ text: 'Quedáte despierto en clase <span class="wt-tag wt-tag-stat">Académicos +1</span>', tags: [] }] },
+              { label: "Noche", items: [
+                { text: "Dormí en tu cuarto", tags: [] },
+                { text: "Hora Oscura: Evento de historia — Trofeo: Awakened Power 🏆", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "417", date: "4/17", name: "Viernes",
+            slots: [{ label: "Noche", items: [{ text: "Dormí en tu cuarto", tags: [] }] }]
+          },
+          {
+            id: "418", date: "4/18", name: "Sábado",
+            slots: [
+              { label: "Tarde", items: [{ text: 'Respuesta en clase: "Middens" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Noche", items: [
+                { text: "Recibís Twilight Fragment x1", tags: [] },
+                { text: "Subí al 4F del dorm — <strong>Fool Rango 1</strong> 🏆 SEES the Day", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "420", date: "4/20", name: "Lunes",
+            slots: [
+              { label: "Hora Oscura", items: [
+                { text: "Tutorial de Tartarus y combate", tags: [] },
+                { text: "Elegí la carta de YEN en shuffle time", tags: [] },
+                { text: "<strong>Fool Rango 2</strong>", tags: [] },
+                { text: "⚠️ IMPORTANTE: Hay un cofre bloqueado con 2x Snuff Soul (restauran SP)", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "421", date: "4/21", name: "Martes",
+            slots: [
+              { label: "Tarde (clase)", items: [{ text: 'Quedáte despierto <span class="wt-tag wt-tag-stat">Académicos +1</span>', tags: [] }] },
+              { label: "Después del colegio", items: [
+                { text: "Paulownia Mall — NO compres equipo todavía", tags: [] },
+                { text: "Enfermería del colegio → Tomá la medicina rara <span class=\"wt-tag wt-tag-stat\">Valentía +1</span>", tags: [] },
+                { text: "Recolectá los 16 Twilight Fragments por el mapa (colegio, mall, shrine, etc.)", tags: [] },
+                { text: "Screen Shot (Port Island Station) → mirá película <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>", tags: [] },
+              ]},
+              { label: "Noche", items: [
+                { text: "4F del dorm → otro Twilight Fragment (total: 17)", tags: [] },
+                { text: "Comprá todos los Mad Bulls (2F dorm, Iwatodai Station) y Fountain Dew (3F Strip Mall)", tags: [] },
+                { text: "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "422", date: "4/22", name: "Miércoles",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: "<strong>Evento de historia → Magician Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] },
+                { text: "⚠️ Siempre llevá una Persona del mismo Arcano del SL que vas a visitar (bonus 1.51x)", tags: [] },
+              ]},
+              { label: "Noche / Hora Oscura", items: [
+                { text: "Tartarus pisos 1–22F. Objetivo: 37k yen, Yukari nivel 11", tags: [] },
+                { text: "Fusión: Apsaras + Orpheus → Nekomata (pasar: Bufu)", tags: [] },
+                { text: "Fusión en 11F: Angel+Nekomata→Omokaine, Pixie+Nekomata→Ara Mitama", tags: [] },
+                { text: "Fusiones finales: múltiples (ver guía de fusión)", tags: [] },
+                { text: "⚠️ Llevate al menos 1x Odd Morsel del inventario para más adelante", tags: [] },
+                { text: "Trofeos: The First of Many 🏆, There's no I in Team 🏆, The Thrill of the Hunt 🏆, The Power of Choice 🏆, Shrouded Assassin 🏆, Making the Dream Work 🏆", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "423", date: "4/23", name: "Jueves",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: "Enfermería → medicina rara <span class=\"wt-tag wt-tag-stat\">Valentía +1</span>", tags: [] },
+                { text: "Vendé el botín en la comisaría", tags: [] },
+                { text: "Gimnasio → unite al equipo de atletismo → <strong>Chariot Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] },
+                { text: 'Hablale a Yuko: elegí "I think I will" y "Wanna walk home together?" (flag Strength)', tags: [] },
+              ]},
+              { label: "Noche", items: [
+                { text: "Game Parade → High School of Youth <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "424", date: "4/24", name: "Viernes",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: 'Salir con Kazushi: "Toughen Up! (+1)" → <strong>Chariot Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Hablale a Yuko: "I think I will" + "Wanna walk home together?" → <strong>Strength Rango 1</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [
+                { text: "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "425", date: "4/25", name: "Sábado",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: "Bookworms en Strip Mall", tags: [] },
+                { text: "Buscá la hoja de caqui en el árbol del patio del colegio, volvé a Bookworms → <strong>Hierophant Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Game Parade → You're the Answer <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "426", date: "4/26", name: "Domingo",
+            slots: [
+              { label: "Día", items: [
+                { text: "Recargá las máquinas de vending (2F dorm, 3F Strip Mall, Iwatodai Station)", tags: [] },
+                { text: "Trabajá en Screen Shot (Port Island Station) <span class=\"wt-tag wt-tag-stat\">Acad+1, Val+1</span> + 5.000 yen", tags: [] },
+              ]},
+              { label: "Noche", items: [
+                { text: "Wakatsu Kitchen → Prodigy Platter <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "427", date: "4/27", name: "Lunes",
+            slots: [
+              { label: "Tarde (clase)", items: [{ text: 'Respuesta en clase: "A" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Después del colegio", items: [{ text: "Sala del Consejo Estudiantil → <strong>Emperor Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] },
+              { label: "Noche", items: [{ text: "Game Parade → High School of Youth <span class=\"wt-tag wt-tag-stat\">Encanto +2</span> → Encanto Rango 2", tags: [] }] }
+            ]
+          },
+          {
+            id: "428", date: "4/28", name: "Martes",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: 'Hablale a Chihiro en el pasillo del 2F: "I just wanted to talk" (flag Justice)', tags: [] },
+                { text: 'Salir con Kazushi: "Are you going to be okay? (+1)" + "Will it heal? (+1)" → <strong>Chariot Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span> → Valentía Rango 2", tags: [] }] }
+            ]
+          },
+          {
+            id: "429", date: "4/29", name: "Miércoles",
+            slots: [
+              { label: "Día", items: [{ text: "Jugá Innocent Sin Online en la compu de tu cuarto → <strong>Hermit Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] },
+              { label: "Noche", items: [
+                { text: "Club Escapade en Paulownia Mall (requiere Valentía Rango 2)", tags: [] },
+                { text: "Comprá Iwatodai Forum Note y School X Site Note del tipo sospechoso", tags: [] },
+                { text: "Game Parade → You're the Answer <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "430", date: "4/30", name: "Jueves",
+            slots: [
+              { label: "Tarde (clase)", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
+              { label: "Después del colegio", items: [
+                { text: 'Hablale a Chihiro: "I\'m a guy" (flag Justice)', tags: [] },
+                { text: 'Bookworms: "MC name (+1)", "Thank you (+3)" → <strong>Hierophant Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Usá School X Site Note en la compu compartida (desbloquea Lukewarm Taiyaki)", tags: [] }] }
+            ]
+          },
+          {
+            id: "430eom", date: "FIN", name: "CHECKLIST DE ABRIL",
+            isChecklist: true,
+            checklist: {
+              stats: ["Encanto: Rango 2 (Plain)", "Académicos: Rango 1 (Slacker)", "Valentía: Rango 2 (Ordinary)"],
+              sl: ["Fool R2", "Magician R1", "Emperor R1", "Hierophant R2", "Chariot R3", "Hermit R1", "Strength R1"],
+              trophies: ["Awakened Power", "SEES the Day", "The First of Many", "There's no I in Team", "The Thrill of the Hunt", "The Power of Choice", "Shrouded Assassin", "Making the Dream Work"]
+            }
+          }
+        ]
+      },
+
+      mayo: {
+        title: "🌒 MAYO — El SEES se organiza",
+        days: [
+          {
+            id: "501", date: "5/1", name: "Viernes",
+            slots: [
+              { label: "Después del colegio", items: [{ text: "Evento de historia", tags: [] }] },
+              { label: "Noche", items: [
+                { text: "Net Cafe (3F Strip Mall) → comprá todo excepto Muscle Boot Camp y Mindful Boot Camp", tags: [] },
+                { text: "Compu compartida → Digital Cram School <span class=\"wt-tag wt-tag-stat\">Académicos +2</span> → Académicos Rango 2", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "502", date: "5/2", name: "Sábado",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: "Comprá Lukewarm Taiyaki de la tienda del colegio (lobby)", tags: [] },
+                { text: 'Hablale a Chihiro: "Hello" y "Let\'s hang out" (flag Justice)', tags: [] },
+                { text: 'Salir con Yuko: "What happened (+3)", "It wasn\'t your fault (+1)", "That\'s true (+3)" → <strong>Strength Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [
+                { text: "Guardá el Lukewarm Taiyaki en la heladera", tags: [] },
+                { text: "Game Parade → You're the Answer <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] },
+                { text: "Hora Oscura: Evento de historia", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "503", date: "5/3", name: "Domingo",
+            slots: [
+              { label: "Día", items: [
+                { text: "Canal de compras → Mother's Day set (Rose Bouquet + 2x Luxury Chocolate) 2.980 yen — ¡COMPRAR!", tags: [] },
+                { text: "Recargá las máquinas de vending", tags: [] },
+                { text: 'Innocent Sin Online: "Of course (+3)", "Sunshine is overrated (+1)" → <strong>Hermit Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Compu compartida → Language Made Easy <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "504", date: "5/4", name: "Lunes",
+            slots: [
+              { label: "Día", items: [{ text: 'Aceptá invitación de Kazushi: "Are you on a diet? (+3)"', tags: [] }] },
+              { label: "Noche", items: [{ text: "Compu compartida → Animal Othello <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "505", date: "5/5", name: "Martes",
+            slots: [
+              { label: "Día", items: [
+                { text: 'Innocent Sin Online: "Oh really? (+1)", "You don\'t like your job? (+3)" → <strong>Hermit Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Compu compartida → Typing Ghoul <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "506", date: "5/6", name: "Miércoles",
+            slots: [
+              { label: "Mañana", items: [{ text: 'Respuesta en clase: "A pantograph" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Después del colegio", items: [
+                { text: "Comprá un Weird Takoyaki en Octopia, llevalo al santuario y dáselo a Maiko con un Mad Bull — <strong>Hanged Flag</strong>", tags: [] },
+                { text: 'Salir con Yuko: "Don\'t worry about it (+1)", "I\'m honoured (+1)" → <strong>Strength Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [
+                { text: "Revisá la heladera ⚠️ Guardá el Chilled Taiyaki para un encargo más tarde", tags: [] },
+                { text: "Compu compartida → Iwatodai Forum Note (desbloquea nuevas bebidas)", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "507", date: "5/7", name: "Jueves",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: "Iwatodai Station → comprá 4biotic Pack y Happiness Water", tags: [] },
+                { text: 'Hablá con Chihiro: "Let\'s walk home together" → <strong>Justice Rango 1</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Compu compartida → Lessons in Etiquette <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "508", date: "5/8", name: "Viernes",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: 'Salir con Kenji: "That\'s a secret (+1)", "I\'m into older women, too (+1)" → <strong>Magician Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "509", date: "5/9", name: "Sábado",
+            slots: [
+              { label: "Hora Oscura", items: [
+                { text: "🔴 JEFE: Primera Sombra Mayor — Valkyrie es muy útil en este combate", tags: [] },
+                { text: "Trofeo: Back on Track 🏆 — Fool Rango 3", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "510", date: "5/10", name: "Domingo",
+            slots: [
+              { label: "Día", items: [
+                { text: "Recargá máquinas de vending — comprá 1 de cada bebida única para los encargos", tags: [] },
+                { text: "Canal de compras → Jelly Tasting Set — ¡NO COMPRAR!", tags: [] },
+                { text: 'Innocent Sin Online: "Let\'s plan our wedding (+3)" → <strong>Hermit Rango 4</strong> <span class="wt-tag wt-tag-sl">SL</span> (flag Devil)', tags: [] },
+              ]},
+              { label: "Noche", items: [
+                { text: "Visitá a Elizabeth en Paulownia Mall — aceptá encargos 1, 2, 3, 4, 5, 8, 12", tags: [] },
+                { text: "Entregá los encargos 2 y 3 → aceptá los nuevos (7, 14, 15)", tags: [] },
+                { text: "Comprá Muscle Drink en Aohige Pharmacy → entregá encargo 1 a Elizabeth", tags: [] },
+                { text: "Hablá con Yukari en el dorm → entregá encargos a Elizabeth → nuevos: 9, 10, 13", tags: [] },
+                { text: "Hablá con Junpei → entregá encargos 9 y 13 → nuevo: 11", tags: [] },
+                { text: "Equipá Pixel Vest en Makoto, Hothead Shirt y Toy Bow en Yukari", tags: [] },
+                { text: "Big Eater Challenge en Wilduck (Strip Mall) → respuestas: Look away, Eat without stopping, Imagine something sour <span class=\"wt-tag wt-tag-stat\">Acad+2, Enc+2, Val+2</span> → Valentía Rango 3", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "511", date: "5/11", name: "Lunes",
+            slots: [
+              { label: "Mañana", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
+              { label: "Después del colegio", items: [{ text: "Santuario → salir con Maiko → <strong>Hanged Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] },
+              { label: "Noche", items: [
+                { text: "Sala de comando → mirá la grabación", tags: [] },
+                { text: "Compu compartida → Umiushi Fan Book (desbloquea compras en Umiushi)", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "512", date: "5/12", name: "Martes",
+            slots: [
+              { label: "Después del colegio", items: [{ text: "Salir con Junpei → <strong>Episodio Vinculado Junpei 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] },
+              { label: "Noche", items: [
+                { text: "Comprá Umiushi Beef Bowl (Strip Mall 3F) — el Spring Cabbage Bowl es de temporada, conseguilo ahora", tags: [] },
+                { text: "Entregá encargos 10 y 11 a Elizabeth", tags: [] },
+                { text: "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 2.500 yen", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "513", date: "5/13", name: "Miércoles",
+            slots: [
+              { label: "Tarde (clase)", items: [{ text: 'Respuesta en clase: "The Pendulum" <span class="wt-tag wt-tag-stat">Encanto +1</span> → Encanto Rango 3', tags: [] }] },
+              { label: "Después del colegio", items: [
+                { text: 'Salir con Maiko: "Sure, Let\'s go (+3)" → <strong>Hanged Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 2.500 yen", tags: [] }] }
+            ]
+          },
+          {
+            id: "514", date: "5/14", name: "Jueves",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: 'Bookworms: "Looking for something? (+1)", "Can I help? (+3)" → <strong>Hierophant Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span> (flag Temperance)', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Wakatsu Kitchen → Seafood Full Course <span class=\"wt-tag wt-tag-stat\">Académicos +2</span> (requiere Encanto R3) 🏆 Gourmand", tags: [] }] }
+            ]
+          },
+          {
+            id: "515", date: "5/15", name: "Viernes",
+            slots: [
+              { label: "Tarde (clase)", items: [{ text: 'Respuesta en clase: "May Blues" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Después del colegio", items: [
+                { text: 'Bookworms: "I\'ll wait here (+3)", "I\'m worried (+1)" → <strong>Hierophant Rango 4</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Estudiar con Mitsuru y Sanada <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "516", date: "5/16", name: "Sábado",
+            slots: [
+              { label: "Mañana", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
+              { label: "Después del colegio", items: [
+                { text: 'Salir con Maiko: "Don\'t worry, he\'ll be there (+3)" → <strong>Hanged Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span> (flag Sun)', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Estudiar con Yukari y Junpei <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "517", date: "5/17", name: "Domingo",
+            slots: [
+              { label: "Día", items: [
+                { text: "Canal de compras → The home alone security set — ¡NO COMPRAR!", tags: [] },
+                { text: "Recargá máquinas de vending", tags: [] },
+                { text: 'Innocent Sin Online: "Do you mean S.O.B.? (+1)", "Are you a teacher? (+1)" → <strong>Hermit Rango 5</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Estudiar con compañeros <span class=\"wt-tag wt-tag-stat\">Académicos +3</span> → Académicos Rango 3", tags: [] }] }
+            ]
+          },
+          {
+            id: "518", date: "5/18", name: "Lunes — EXAMEN",
+            slots: [{ label: "Examen", items: [{ text: "Pregunta automática (no hay respuesta manual)", tags: [] }] }]
+          },
+          {
+            id: "519", date: "5/19", name: "Martes — EXAMEN",
+            slots: [{ label: "Examen", items: [{ text: 'Respuesta: <strong>"May Blues"</strong>', tags: [] }] }]
+          },
+          {
+            id: "520", date: "5/20", name: "Miércoles — EXAMEN",
+            slots: [{ label: "Examen", items: [{ text: 'Respuesta: <strong>"A Pendulum"</strong>', tags: [] }] }]
+          },
+          {
+            id: "521", date: "5/21", name: "Jueves — EXAMEN",
+            slots: [{ label: "Examen", items: [{ text: 'Respuesta: <strong>"Electricity"</strong>', tags: [] }] }]
+          },
+          {
+            id: "522", date: "5/22", name: "Viernes — EXAMEN",
+            slots: [{ label: "Examen", items: [{ text: 'Respuesta: <strong>"Jomon"</strong>', tags: [] }] }]
+          },
+          {
+            id: "523", date: "5/23", name: "Sábado",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: "Velvet Room → summoná Archangel", tags: [] },
+                { text: 'Salir con Chihiro: "Don\'t worry about it (+3)", "I read manga (+1)", "I\'m having fun (+1)" → <strong>Justice Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Compu compartida → Virtual Diet <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "524", date: "5/24", name: "Domingo",
+            slots: [
+              { label: "Día", items: [
+                { text: "Canal de compras → Beginner's home cooking set — ¡COMPRAR! (2.980 yen)", tags: [] },
+                { text: "Recargá máquinas de vending", tags: [] },
+                { text: 'Aceptá invitación de Kenji: "I\'m pretty picky (+3)"', tags: [] },
+              ]},
+              { label: "Noche", items: [
+                { text: "Club Escapade → lectura de fortuna (3.000 yen) para un encargo", tags: [] },
+                { text: "⚠️ TARTARUS: Bloques 23–44F. Objetivos: nivel Naga 22, 125k yen", tags: [] },
+                { text: "Múltiples fusiones de Personas (ver guía de fusión completa)", tags: [] },
+                { text: "Entregá encargos 4, 5, 8, 15 → acepta 6, 16, 17, 22", tags: [] },
+                { text: "Derrota el jefe de los pisos 34F y 42F (usa Poisma + guard strategy)", tags: [] },
+                { text: "Agarrá Old Document 2 en el cofre del 44F", tags: [] },
+                { text: "Necesitás 70k para las siguientes fusiones", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "525", date: "5/25", name: "Lunes",
+            slots: [
+              { label: "Almuerzo", items: [{ text: "Resultado de examen: Top de la clase <span class=\"wt-tag wt-tag-stat\">Encanto +2</span> 🏆 Top of the Class", tags: [] }] },
+              { label: "Tarde (clase)", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
+              { label: "Después del colegio", items: [
+                { text: "Hablá con Mitsuru → recibís Incense items + Proto-Choker (equipá en Makoto)", tags: [] },
+                { text: "Enfermería → Strange Medicine <span class=\"wt-tag wt-tag-stat\">Valentía +1</span>", tags: [] },
+                { text: "Vendé botín en la comisaría", tags: [] },
+                { text: "Santuario → copiá Makouha con Inari, enseñásela a Principality", tags: [] },
+                { text: "Visitá a Elizabeth → entregá encargo 77", tags: [] },
+                { text: 'Sala Consejo Estudiantil: "Sounds like nonsense (+3)" → <strong>Emperor Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [
+                { text: "Azotea del dorm → plantá Healthy Tomato Sprout", tags: [] },
+                { text: "Agarrá el Twilight Fragment (esquina izquierda) 🏆 Eagle Eye", tags: [] },
+                { text: "Comprá Muscle Boot Camp y Mindful Boot Camp en la Net Cafe", tags: [] },
+                { text: "Compu compartida → Mindful Boot Camp (SP +5)", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "526", date: "5/26", name: "Martes",
+            slots: [
+              { label: "Después del colegio", items: [{ text: "Sala de Economía Doméstica (1F) → <strong>Temperance Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span> (requiere Académicos R2)", tags: [] }] },
+              { label: "Noche", items: [
+                { text: "Equipá All-Purpose Apron en Makoto, Pixel Vest a Junpei, Hothead Shirt a Yukari", tags: [] },
+                { text: "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 3.500 yen → Encanto Rango 4", tags: [] },
+              ]}
+            ]
+          },
+          {
+            id: "527", date: "5/27", name: "Miércoles",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: "Rafflesia en Port Island Station → comprá Buff Potato Sprout", tags: [] },
+                { text: 'Sala Consejo Estudiantil: "What happened? (+1)" → <strong>Emperor Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 2.500 yen", tags: [] }] }
+            ]
+          },
+          {
+            id: "528", date: "5/28", name: "Jueves",
+            slots: [
+              { label: "Mañana", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
+              { label: "Después del colegio", items: [
+                { text: 'Salir con Kenji: "What, of life? (+3)", "Good luck! (+1)" → <strong>Magician Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Wakatsu Kitchen → Seafood Full Course <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "529", date: "5/29", name: "Viernes",
+            slots: [
+              { label: "Mañana", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
+              { label: "Después del colegio", items: [
+                { text: 'Salir con Kenji: "Good luck! (+3)" → <strong>Magician Rango 4</strong> <span class="wt-tag wt-tag-sl">SL</span> (flag Moon)', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Revisá el mail → salir con Akihiko → <strong>Episodio Vinculado Akihiko 1</strong>", tags: [] }] }
+            ]
+          },
+          {
+            id: "530", date: "5/30", name: "Sábado",
+            slots: [
+              { label: "Después del colegio", items: [
+                { text: "Comprá Lukewarm Taiyaki de la tienda del colegio", tags: [] },
+                { text: "Paulownia Mall → hablá con el Chubby Student (requiere Encanto R3): What are you eating? / Pheromone Coffee / Red / Hagakure Bowl / handover Odd Morsel → <strong>Moon Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Compu compartida → Muscle Boot Camp (HP +7)", tags: [] }] }
+            ]
+          },
+          {
+            id: "531", date: "5/31", name: "Domingo",
+            slots: [
+              { label: "Día", items: [
+                { text: "Canal de compras → Healthy lifestyle set — ¡COMPRAR! (3.980 yen)", tags: [] },
+                { text: "Recargá máquinas de vending", tags: [] },
+                { text: "Guardá el Lukewarm Taiyaki en la heladera", tags: [] },
+                { text: 'Aceptá invitación de Yuko: "Let\'s just calm down first (+3)"', tags: [] },
+              ]},
+              { label: "Noche", items: [{ text: "Wilduck → Weekend Wilduck Set <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
+            ]
+          },
+          {
+            id: "531eom", date: "FIN", name: "CHECKLIST DE MAYO",
+            isChecklist: true,
+            checklist: {
+              stats: ["Encanto: Rango 4 (Charismatic)", "Académicos: Rango 3 (Above Average)", "Valentía: Rango 3 (Determined)"],
+              sl: ["Fool R3", "Magician R4", "Emperor R3", "Hierophant R4", "Chariot R3", "Justice R2", "Hermit R5", "Strength R3", "Hanged R3", "Temperance R1", "Moon R1"],
+              trophies: ["Back on Track", "Gourmand", "Briefcase Burglar", "Top of the Class", "Eagle Eye"]
+            }
+          }
+        ]
+      },
+
+      junio: {
+        title: "🌓 JUNIO — Nuevas caras",
+        days: [
+          { id: "601", date: "6/1", name: "Lunes", slots: [
+            { label: "Después del colegio", items: [{ text: 'Student Council: "Knock it off!", "Looks like you\'re hard at work (+3)" → <strong>Emperor Rango 4</strong>', tags: [] }] },
+            { label: "Noche", items: [{ text: "Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 3.000 yen → Encanto Rango 4 (si no lo tenías)", tags: [] }] }
+          ]},
+          { id: "602", date: "6/2", name: "Martes", slots: [
+            { label: "Mañana", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
+            { label: "Después del colegio", items: [{ text: 'Salir con Kenji: "Okay... (+3)" → <strong>Magician Rango 5</strong>', tags: [] }] },
+            { label: "Noche", items: [{ text: "⚠️ Hablá con el Man in a Suit (Devil Flag, requiere Encanto R4): 20.000 yen", tags: [] }, { text: "Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> → Valentía Rango 4", tags: [] }] }
+          ]},
+          { id: "603", date: "6/3", name: "Miércoles", slots: [
+            { label: "Después del colegio", items: [{ text: 'Student Council: "They\'re the worst (+3)" → <strong>Emperor Rango 5</strong>', tags: [] }] },
+            { label: "Noche", items: [{ text: "Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 3.000 yen", tags: [] }] }
+          ]},
+          { id: "604", date: "6/4", name: "Jueves", slots: [
+            { label: "Después del colegio", items: [{ text: 'Chihiro: "They have no shame (+1)", "I agree (+1)" → <strong>Justice Rango 3</strong>', tags: [] }] },
+            { label: "Noche", items: [{ text: "Cosecha jardín (3x Healthy Tomato), plantá Buff Potato Sprout", tags: [] }, { text: "Game Parade → High School of Youth <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>", tags: [] }] }
+          ]},
+          { id: "605", date: "6/5", name: "Viernes", slots: [
+            { label: "Después del colegio", items: [{ text: 'Kenji: "I\'ve got plans already (+3)" → <strong>Magician Rango 6</strong>', tags: [] }] },
+            { label: "Noche", items: [{ text: "Respuestas de Yukari (ghost investigation): 'Three victims', 'Hung out together' → recibís Cielo Mist", tags: [] }, { text: "Wakatsu Kitchen → Seafood Full Course <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
+          ]},
+          { id: "606", date: "6/6", name: "Sábado", slots: [
+            { label: "Después del colegio", items: [{ text: 'Yuko: "Sure thing (+1)" → <strong>Strength Rango 4</strong>', tags: [] }] },
+            { label: "Noche", items: [{ text: "Wilduck → Weekend Wilduck Set <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
+          ]},
+          { id: "607", date: "6/7", name: "Domingo", slots: [
+            { label: "Día", items: [{ text: "Canal de compras → Designer Brand Set — ¡COMPRAR! (3.980 yen)", tags: [] }, { text: "Recargá vending machines", tags: [] }, { text: "Santuario → tirada de fortuna: elegí Online Game <span class=\"wt-tag wt-tag-sl\">Hermit +2</span>", tags: [] }] },
+            { label: "Noche", items: [{ text: "⚠️ Mitsuru te avisa sobre el próximo ordeal. Preparate para Tartarus.", tags: [] }, { text: "Wilduck → Weekend Wilduck Set <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
+          ]},
+          { id: "608", date: "6/8", name: "Lunes", slots: [
+            { label: "Hora Oscura", items: [{ text: "🔴 JEFE LUNA LLENA: Empress & Emperor (Rango 3 y 4 de Arcano)", tags: [] }, { text: "Trofeos múltiples", tags: [] }] }
+          ]},
+          { id: "608eom-note", date: "JUNIO", name: "Continuación (resto del mes)", slots: [
+            { label: "Después del jefe (continuá)", items: [
+              { text: "Continuá con Emperor, Magician, Justice, Hermit SLs", tags: [] },
+              { text: "Tartarus exploraciones según disponibilidad", tags: [] },
+              { text: "Chagall Café para subir Encanto cuando no tenés SLs", tags: [] },
+              { text: "Fin de junio → Emperor Rango 10, Hermit Rango 7, Magician Rango 7", tags: [] },
+            ]}
+          ]},
+        ]
+      },
+
+      julio: {
+        title: "🌕 JULIO — Exámenes de mitad de año",
+        days: [
+          { id: "701", date: "7/1", name: "Miércoles", slots: [
+            { label: "Después del colegio", items: [{ text: "Student Council → <strong>Emperor Rango 10 ✅ COMPLETADO</strong> 🏆 Unbreakable Link", tags: [] }] },
+            { label: "Noche", items: [{ text: "Hagakure → Special Hagakure Bowl <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>", tags: [] }] }
+          ]},
+          { id: "702", date: "7/2", name: "Jueves", slots: [
+            { label: "Después del colegio", items: [{ text: 'Chihiro: "I\'m all ears (+2)", "Yeah, she\'s in love (+3)", "Happy to help (+2)", "Hold her hand (+3)" → <strong>Justice Rango 5</strong>', tags: [] }] },
+            { label: "Noche", items: [{ text: "⚠️ TARTARUS: Bloques 43–69F. Piso 69F = Old Document 3", tags: [] }, { text: "Objetivo: Naga nivel 22, 125k yen", tags: [] }, { text: "Múltiples fusiones y encargos de Elizabeth", tags: [] }] }
+          ]},
+          { id: "703", date: "7/3", name: "Viernes", slots: [
+            { label: "Mañana", items: [{ text: 'Respuesta en clase: "About Romance" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+            { label: "Después del colegio", items: [{ text: "Vendé botín en comisaría, andá a la enfermería", tags: [] }, { text: "Salir con Fuuka → <strong>Priestess Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] }
+          ]},
+          { id: "7exam", date: "7/18–22", name: "EXÁMENES PARCIALES", slots: [
+            { label: "Respuestas de examen", items: [
+              { text: 'Día 1: <strong>"A Genius"</strong>', tags: [] },
+              { text: 'Día 2: <strong>"Synthesis"</strong>', tags: [] },
+              { text: 'Día 3: <strong>"Electromagnetic Waves"</strong>', tags: [] },
+              { text: 'Día 4: <strong>"Daydream"</strong>', tags: [] },
+              { text: 'Día 5: <strong>"Haiku"</strong>', tags: [] },
+            ]}
+          ]},
+          { id: "725", date: "7/25", name: "Vacaciones", slots: [
+            { label: "Inicio de vacaciones", items: [
+              { text: "Los SLs del colegio NO están disponibles hasta septiembre", tags: [] },
+              { text: "SLs disponibles: Maiko (dom), Mamoru (dom), Tanaka (sáb), Mutatsu (noches), Maya (compu)", tags: [] },
+              { text: "Tartarus disponible todas las noches", tags: [] },
+            ]}
+          ]}
+        ]
+      },
+
+      agosto: {
+        title: "🌖 AGOSTO — Campamento + giro de trama",
+        days: [
+          { id: "806", date: "8/6", name: "Lunes", slots: [
+            { label: "Hora Oscura", items: [{ text: "🔴 JEFE LUNA LLENA: Chariot & Justice", tags: [] }] }
+          ]},
+          { id: "807", date: "8/7–13", name: "Campamento escolar", slots: [
+            { label: "Historia", items: [
+              { text: "Campamento escolar — solo historia, sin acciones disponibles", tags: [] },
+              { text: "⚠️ Evento importante al final del campamento — decisión de historia", tags: [] },
+            ]}
+          ]},
+          { id: "814", date: "8/14+", name: "Post-campamento", slots: [
+            { label: "Retomá", items: [
+              { text: "Tartarus disponible nuevamente — Bloques adicionales abiertos", tags: [] },
+              { text: "⚠️ Maiko (Hanged) debe estar terminado antes de fin de agosto", tags: [] },
+              { text: "Continuá Tanaka (sáb), Mutatsu (noches), Maya (compu)", tags: [] },
+            ]}
+          ]}
+        ]
+      },
+
+      septiembre: {
+        title: "🌗 SEPTIEMBRE — Vuelta al colegio + Aigis",
+        days: [
+          { id: "902", date: "9/2", name: "Martes", slots: [
+            { label: "Historia", items: [{ text: "Aigis se une al SEES — <strong>Aeon SL disponible</strong> (lun/mié)", tags: [] }] }
+          ]},
+          { id: "905", date: "9/5", name: "Viernes", slots: [
+            { label: "Después del colegio", items: [
+              { text: "⚠️ Si Encanto = Rango 4: iniciá SL de Mitsuru (Empress) HOY — martes y viernes", tags: [] },
+              { text: "Si Encanto < Rango 4: el SL de Mitsuru es IMPOSIBLE en este run", tags: [] },
+            ]}
+          ]},
+          { id: "910", date: "9/10", name: "Jueves", slots: [
+            { label: "Noche", items: [{ text: "Nozomi (Moon) disponible lun/mié de noche en el shopping mall", tags: [] }] }
+          ]},
+          { id: "922", date: "9/22", name: "Domingo", slots: [
+            { label: "Hora Oscura", items: [
+              { text: "🔴 JEFE LUNA LLENA: Hermit (Fortune's Reversal) — usa Analyze de Fuuka constantemente", tags: [] },
+              { text: "⚠️ Necesitás el piso 107 de Tartarus antes de este jefe", tags: [] },
+            ]}
+          ]}
+        ]
+      },
+
+      octubre: {
+        title: "🌘 OCTUBRE — Finales + giro oscuro",
+        days: [
+          { id: "1004", date: "10/4", name: "Sábado", slots: [
+            { label: "Hora Oscura", items: [
+              { text: "🔴 JEFE LUNA LLENA: Fortune — múltiples fases, guardá SP para la final", tags: [] },
+              { text: "⚠️ Necesitás el piso 145 de Tartarus antes de este jefe", tags: [] },
+            ]}
+          ]},
+          { id: "1019", date: "10/19–23", name: "EXÁMENES FINALES", slots: [
+            { label: "Respuestas de examen", items: [
+              { text: 'Día 1: <strong>"Waxing moon"</strong>', tags: [] },
+              { text: 'Día 2: <strong>"The Heike Story"</strong>', tags: [] },
+              { text: 'Día 3: <strong>"Atavistic"</strong>', tags: [] },
+              { text: 'Día 4: <strong>"Gloomy"</strong>', tags: [] },
+              { text: 'Día 5: <strong>"Dry"</strong>', tags: [] },
+            ]}
+          ]}
+        ]
+      },
+
+      noviembre: {
+        title: "🌑 NOVIEMBRE — Tensión máxima",
+        days: [
+          { id: "1103", date: "11/3", name: "Martes", slots: [
+            { label: "Hora Oscura", items: [
+              { text: "🔴 JEFE LUNA LLENA: Tower (Carols of the Moon)", tags: [] },
+              { text: "⚠️ Necesitás el piso 172 de Tartarus antes de este jefe", tags: [] },
+            ]}
+          ]},
+          { id: "1130", date: "NOV", name: "Todo el mes — sprint de SLs", slots: [
+            { label: "Prioridad absoluta", items: [
+              { text: "Cerrá TODOS los SLs que puedas — el tiempo se acaba", tags: [] },
+              { text: "SLs críticos a terminar: Mitsuru, Aigis, Akihiko, Chihiro, Yukari, Fuuka", tags: [] },
+              { text: "Post-jefe: priorizá SLs sobre Tartarus, ya deberías tener nivel suficiente", tags: [] },
+            ]}
+          ]}
+        ]
+      },
+
+      diciembre: {
+        title: "🌕 DICIEMBRE — Recta final",
+        days: [
+          { id: "1202", date: "12/2", name: "Martes", slots: [
+            { label: "Hora Oscura", items: [
+              { text: "🔴 JEFE TRIPLE: Star, Moon, Sun en secuencia — el más exigente hasta ahora", tags: [] },
+              { text: "⚠️ Guardá ANTES del combate. Llevá muchos ítems de SP y curación.", tags: [] },
+            ]}
+          ]},
+          { id: "1205", date: "12/5", name: "Viernes", slots: [
+            { label: "Historia", items: [{ text: "⚠️ Decisión importante de trama — pensála bien (sin spoilers)", tags: [] }] }
+          ]},
+          { id: "1224", date: "12/24", name: "Navidad", slots: [
+            { label: "Evento", items: [{ text: "Escena especial si tenés SL romántico en Rango 10", tags: [] }] }
+          ]},
+          { id: "1231", date: "12/31", name: "Año Nuevo", slots: [
+            { label: "Historia", items: [{ text: "Cierres narrativos de SLs. Preparáte para enero.", tags: [] }] }
+          ]}
+        ]
+      },
+
+      enero: {
+        title: "🌑 ENERO — Final del juego",
+        days: [
+          { id: "120", date: "1/1–20", name: "Primeras semanas", slots: [
+            { label: "Últimas oportunidades", items: [
+              { text: "Completá encargos de Elizabeth pendientes", tags: [] },
+              { text: "Cerrá cualquier SL que falte", tags: [] },
+              { text: "Completá el Compendio de Personas si querés el 100%", tags: [] },
+              { text: "Subí al equipo al nivel 70+", tags: [] },
+            ]}
+          ]},
+          { id: "130", date: "1/30", name: "Víspera del jefe final", slots: [
+            { label: "Preparación", items: [
+              { text: "Stockeáte: 10+ Elixires, Soma x5, Plumas de Phoenix x10, Full Moon Oil", tags: [] },
+              { text: "Nivel recomendado: protagonista 70-75, equipo 65+", tags: [] },
+              { text: "Guardá en un slot nuevo la noche del 30", tags: [] },
+            ]}
+          ]},
+          { id: "131", date: "1/31", name: "JEFE FINAL", slots: [
+            { label: "Nyx — Jefe Final", items: [
+              { text: "🔴 JEFE FINAL: Nyx — 14 fases, una por cada Arcano mayor", tags: [] },
+              { text: "No gastes todo el SP en las primeras fases — guardalo para las fases 10-14", tags: [] },
+              { text: "Los SLs completados al Rango 10 importan en el desenlace", tags: [] },
+              { text: "¡FELICITACIONES por completar Persona 3 Reload! 🎉", tags: [] },
+            ]}
+          ]}
+        ]
+      }
+    };
+
+    // =============================================
+    // PROGRESS STATE
+    // =============================================
+    const STORAGE_KEY = 'p3r_walkthrough_v1';
+    let checked = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
+
+    function save() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify([...checked]));
+      updateProgress();
+      // Si Firebase está listo y hay usuario logueado, sincroniza a la nube
+      (window as any)._scheduleCloudSave?.();
+    }
+
+    // =============================================
+    // RENDER
+    // =============================================
+    function buildCheckId(monthKey, dayId, slotIdx, itemIdx) {
+      return `${monthKey}-${dayId}-${slotIdx}-${itemIdx}`;
+    }
+
+    function renderItem(id, text) {
+      const isDone = checked.has(id);
+      return `<label class="wt-check-item ${isDone ? 'checked' : ''}" data-id="${id}">
+        <input type="checkbox" ${isDone ? 'checked' : ''}>
+        <span class="wt-checkmark"></span>
+        <span class="wt-check-text">${text}</span>
+      </label>`;
+    }
+
+    function countDayItems(monthKey, day) {
+      if (day.isChecklist) return 0;
+      let total = 0, done = 0;
+      day.slots.forEach((slot, si) => {
+        slot.items.forEach((item, ii) => {
+          total++;
+          if (checked.has(buildCheckId(monthKey, day.id, si, ii))) done++;
+        });
+      });
+      return { total, done };
+    }
+
+    function renderChecklist(day) {
+      const cl = day.checklist;
+      return `<div class="wt-eom">
+        <h4>📋 Checklist de fin de mes</h4>
+        <div class="wt-eom-grid">
+          ${cl.stats.map(s => `<div class="wt-eom-item"><span style="color:var(--gold)">📊</span> ${s}</div>`).join('')}
+          ${cl.sl.map(s => `<div class="wt-eom-item"><span style="color:var(--green)">🔗</span> <strong>${s}</strong></div>`).join('')}
+          ${(cl.trophies||[]).map(t => `<div class="wt-eom-item"><span style="color:var(--gold)">🏆</span> ${t}</div>`).join('')}
+        </div>
+      </div>`;
+    }
+
+    function renderDay(monthKey, day, idx) {
+      if (day.isChecklist) return renderChecklist(day);
+      const { total, done } = countDayItems(monthKey, day);
+      const allDone = total > 0 && done === total;
+      return `<div class="wt-day ${allDone ? 'all-done' : ''}" id="day-${day.id}">
+        <div class="wt-day-header" onclick="toggleDay(this)">
+          <span class="wt-day-date">${day.date}</span>
+          <span class="wt-day-title">${day.name}</span>
+          <span class="wt-day-check">✓</span>
+          <span class="wt-day-mini-prog" data-day-id="${day.id}" data-month="${monthKey}">${done}/${total}</span>
+          <span class="wt-day-toggle">›</span>
+        </div>
+        <div class="wt-day-body">
+          ${day.slots.map((slot, si) => `
+            <div class="wt-slot">
+              <div class="wt-slot-label">${slot.label}</div>
+              ${slot.items.map((item, ii) => renderItem(buildCheckId(monthKey, day.id, si, ii), item.text)).join('')}
+            </div>
+          `).join('')}
+        </div>
+      </div>`;
+    }
+
+    function renderMonth(monthKey, monthData) {
+      const totalItems = monthData.days.reduce((acc, d) => {
+        if (d.isChecklist) return acc;
+        return acc + d.slots.reduce((a, s) => a + s.items.length, 0);
+      }, 0);
+      const doneItems = monthData.days.reduce((acc, d) => {
+        if (d.isChecklist) return acc;
+        return acc + d.slots.reduce((a, s, si) => a + s.items.filter((_, ii) => checked.has(buildCheckId(monthKey, d.id, si, ii))).length, 0);
+      }, 0);
+      const pct = totalItems ? Math.round(doneItems / totalItems * 100) : 0;
+
+      return `<div class="wt-month" id="${monthKey}">
+        <div class="wt-month-header">
+          <span>${monthData.title}</span>
+          <span class="wt-month-pct" data-month-pct="${monthKey}">${pct}% (${doneItems}/${totalItems})</span>
+        </div>
+        ${monthData.days.map((d, idx) => renderDay(monthKey, d, idx)).join('')}
+      </div>`;
+    }
+
+    function render() {
+      const container = document.getElementById('walkthrough-content');
+      container.innerHTML = Object.entries(W).map(([k, v]) => renderMonth(k, v)).join('');
+      attachListeners();
+      updateProgress();
+    }
+
+    function attachListeners() {
+      document.querySelectorAll('.wt-check-item').forEach(label => {
+        label.addEventListener('click', (e) => {
+          e.preventDefault();
+          const id = label.dataset.id;
+          if (checked.has(id)) checked.delete(id);
+          else checked.add(id);
+          label.classList.toggle('checked', checked.has(id));
+          save();
+          updateDayState(label);
+        });
+      });
+    }
+
+    function updateDayState(label) {
+      const dayEl = label.closest('.wt-day');
+      if (!dayEl) return;
+      const all = dayEl.querySelectorAll('.wt-check-item');
+      const done = dayEl.querySelectorAll('.wt-check-item.checked');
+      dayEl.classList.toggle('all-done', all.length > 0 && all.length === done.length);
+      const miniProg = dayEl.querySelector('[data-day-id]');
+      if (miniProg) {
+        const mk = miniProg.dataset.month, di = miniProg.dataset.dayId;
+        miniProg.textContent = `${done.length}/${all.length}`;
+      }
+      updateMonthPct(dayEl.closest('.wt-month'));
+    }
+
+    function updateMonthPct(monthEl) {
+      if (!monthEl) return;
+      const all = monthEl.querySelectorAll('.wt-check-item');
+      const done = monthEl.querySelectorAll('.wt-check-item.checked');
+      const pct = all.length ? Math.round(done.length / all.length * 100) : 0;
+      const key = monthEl.id;
+      const pctEl = monthEl.querySelector(`[data-month-pct="${key}"]`);
+      if (pctEl) pctEl.textContent = `${pct}% (${done.length}/${all.length})`;
+      // update tab
+      const tab = document.querySelector(`.month-tab[href="#${key}"]`);
+      if (tab) {
+        tab.classList.toggle('done', pct === 100);
+        tab.classList.toggle('in-progress', pct > 0 && pct < 100);
+      }
+    }
+
+    function updateProgress() {
+      const all = document.querySelectorAll('.wt-check-item');
+      const done = document.querySelectorAll('.wt-check-item.checked');
+      const pct = all.length ? Math.round(done.length / all.length * 100) : 0;
+      const fill = document.getElementById('progress-fill');
+      const txt = document.getElementById('progress-text');
+      if (fill) fill.style.width = pct + '%';
+      if (txt) txt.textContent = `${done.length} / ${all.length} completados (${pct}%)`;
+      document.querySelectorAll('.wt-month').forEach(m => updateMonthPct(m));
+    }
+
+    function toggleDay(header: HTMLElement) {
+      header.closest('.wt-day')?.classList.toggle('open');
+    }
+    (window as any).toggleDay = toggleDay;
+
+    // =============================================
+    // VIEW SWITCHER
+    // =============================================
+    function switchView(view: string) {
+      ['dia','resumen','clase'].forEach(v => {
+        const el = document.getElementById('view-' + v);
+        const btn = document.getElementById('btn-view-' + v);
+        if (el) el.style.display = v === view ? '' : 'none';
+        if (btn) btn.classList.toggle('active', v === view);
+      });
+    }
+    (window as any).switchView = switchView;
+
+    // =============================================
+    // EXPORT / IMPORT / RESET
+    // =============================================
+    document.getElementById('btn-export')?.addEventListener('click', () => {
+      const data = JSON.stringify({ version: 1, checked: [...checked], date: new Date().toISOString() }, null, 2);
+      const blob = new Blob([data], { type: 'application/json' });
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+      a.download = `p3r-progreso-${new Date().toISOString().slice(0,10)}.json`;
+      a.click();
+    });
+
+    document.getElementById('btn-import-trigger')?.addEventListener('click', () => {
+      (document.getElementById('btn-import') as HTMLInputElement)?.click();
+    });
+
+    (document.getElementById('btn-import') as HTMLInputElement)?.addEventListener('change', (e) => {
+      const input = e.target as HTMLInputElement;
+      const file = input?.files?.[0]; if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        try {
+          const result = (ev.target as FileReader)?.result;
+          if (typeof result !== 'string') return;
+          const data = JSON.parse(result);
+          if (data.checked) {
+            checked = new Set(data.checked);
+            save();
+            render();
+            alert('✅ Progreso importado correctamente.');
+          }
+        } catch { alert('❌ Error al leer el archivo. Aseguráte de que sea un JSON válido.'); }
+      };
+      reader.readAsText(file);
+      input.value = '';
+    });
+
+    document.getElementById('btn-reset')?.addEventListener('click', () => {
+      if (confirm('¿Estás seguro? Esto borra TODO tu progreso guardado.')) {
+        checked = new Set();
+        save();
+        render();
+      }
+    });
+
+    // =============================================
+    // FIREBASE AUTH + FIRESTORE (browser-only, diferido)
+    // =============================================
+    document.addEventListener('DOMContentLoaded', () => {
+      const firebaseConfig = {
+        apiKey: "AIzaSyAyEtaoQevMJ9-McgTMm9mezVMcYYbvdpg",
+        authDomain: "persona-3-reload.firebaseapp.com",
+        projectId: "persona-3-reload",
+        storageBucket: "persona-3-reload.firebasestorage.app",
+        messagingSenderId: "990228520136",
+        appId: "1:990228520136:web:6536e72ab9cb47f434d9fd"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+      const db = getFirestore(app);
+
+      let currentUser: any = null;
+      let syncTimeout: ReturnType<typeof setTimeout> | null = null;
+
+      function setSyncStatus(msg: string) {
+        const el = document.getElementById('auth-sync-status');
+        if (el) el.textContent = msg;
+      }
+
+      async function saveToFirestore() {
+        if (!currentUser) return;
+        setSyncStatus('Guardando...');
+        try {
+          await setDoc(doc(db, 'progress', currentUser.uid), {
+            checked: [...checked],
+            updatedAt: new Date().toISOString()
+          });
+          setSyncStatus('✓ Guardado en la nube');
+        } catch (e) {
+          setSyncStatus('Error al guardar');
+          console.error(e);
+        }
+      }
+
+      // Expone el debounce para que save() lo pueda llamar
+      (window as any)._scheduleCloudSave = () => {
+        if (!currentUser) return;
+        if (syncTimeout) clearTimeout(syncTimeout);
+        syncTimeout = setTimeout(saveToFirestore, 1500);
+      };
+
+      async function loadFromFirestore(uid: string) {
+        setSyncStatus('Cargando progreso...');
+        try {
+          const snap = await getDoc(doc(db, 'progress', uid));
+          if (snap.exists()) {
+            const cloud: string[] = snap.data().checked ?? [];
+            cloud.forEach((id: string) => checked.add(id));
+            save();
+            render();
+          }
+          setSyncStatus('✓ Sincronizado');
+        } catch (e) {
+          setSyncStatus('Error al cargar');
+          console.error(e);
+        }
+      }
+
+      onAuthStateChanged(auth, async (user) => {
+        const signedOut = document.getElementById('auth-signed-out');
+        const signedIn  = document.getElementById('auth-signed-in');
+        const avatar    = document.getElementById('auth-avatar') as HTMLImageElement;
+        const nameEl    = document.getElementById('auth-name');
+
+        if (user) {
+          currentUser = user;
+          if (signedOut) signedOut.style.display = 'none';
+          if (signedIn)  signedIn.style.display  = 'flex';
+          if (avatar && user.photoURL) avatar.src = user.photoURL;
+          if (nameEl) nameEl.textContent = user.displayName ?? user.email ?? '';
+          await loadFromFirestore(user.uid);
+        } else {
+          currentUser = null;
+          if (signedOut) signedOut.style.display = 'flex';
+          if (signedIn)  signedIn.style.display  = 'none';
+        }
+      });
+
+      document.getElementById('btn-google-signin')?.addEventListener('click', async () => {
+        try {
+          await signInWithPopup(auth, new GoogleAuthProvider());
+        } catch (e: any) {
+          if (e.code !== 'auth/popup-closed-by-user') alert('Error al iniciar sesión: ' + e.message);
+        }
+      });
+
+      document.getElementById('btn-signout')?.addEventListener('click', async () => {
+        if (confirm('¿Cerrar sesión? Tu progreso queda guardado localmente.')) {
+          await signOut(auth);
+        }
+      });
+    }); // fin DOMContentLoaded
+
+    // =============================================
+    // INIT
+    // =============================================
+    render();
+  </script>
+
+</Layout>

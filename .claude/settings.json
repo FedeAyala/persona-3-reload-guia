@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx astro *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(cd \"f:/Desktop/Proyectos/persona3-reload-guia\" && rm -f .git/index.lock && git add -A && git status --short | head -30)"
+    ],
+    "additionalDirectories": [
+      "f:\\Desktop\\Proyectos\\persona3-reload-guia\\.git"
+    ]
+  }
+}
