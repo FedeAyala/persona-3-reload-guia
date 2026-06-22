@@ -1441,12 +1441,12 @@ import Layout from '../layouts/Layout.astro';
     // =============================================
     document.addEventListener('DOMContentLoaded', () => {
       const firebaseConfig = {
-        apiKey: "AIzaSyAyEtaoQevMJ9-McgTMm9mezVMcYYbvdpg",
-        authDomain: "persona-3-reload.firebaseapp.com",
-        projectId: "persona-3-reload",
-        storageBucket: "persona-3-reload.firebasestorage.app",
-        messagingSenderId: "990228520136",
-        appId: "1:990228520136:web:6536e72ab9cb47f434d9fd"
+        apiKey: import.meta.env.PUBLIC_FIREBASE_API_KEY,
+        authDomain: import.meta.env.PUBLIC_FIREBASE_AUTH_DOMAIN,
+        projectId: import.meta.env.PUBLIC_FIREBASE_PROJECT_ID,
+        storageBucket: import.meta.env.PUBLIC_FIREBASE_STORAGE_BUCKET,
+        messagingSenderId: import.meta.env.PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+        appId: import.meta.env.PUBLIC_FIREBASE_APP_ID
       };
 
       const app = initializeApp(firebaseConfig);
