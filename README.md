@@ -75,26 +75,6 @@ persona3-reload-guia/
 
 ---
 
-## Setup local
-
-```bash
-# Clonar
-git clone https://github.com/FedeAyala/persona-3-reload-guia.git
-cd persona-3-reload-guia
-
-# Instalar dependencias
-npm install
-
-# Dev server
-npm run dev
-# → http://localhost:4321
-
-# Build
-npm run build
-```
-
----
-
 ## Firebase — sincronización en la nube
 
 El sitio usa Firebase para auth + guardado de progreso. Para correrlo localmente con tu propia instancia:
