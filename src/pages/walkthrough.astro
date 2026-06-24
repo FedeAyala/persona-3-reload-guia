@@ -1,5 +1,48 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+import { marked } from 'marked';
+
+function loadGuide(filename: string): string {
+  const raw = readFileSync(join(process.cwd(), 'Guia', filename), 'utf-8');
+  const start = raw.indexOf('\n## Main Game\n');
+  const end = raw.indexOf('\n## Privacy Preference Center');
+  let content = raw.slice(start !== -1 ? start : 0, end !== -1 ? end : undefined);
+
+  // Strip GameFAQs navigation links
+  content = content.replace(/\[(?:Prev|Next|Previous)[^\]]*\]\(https?:\/\/gamefaqs[^)]*\)/gi, '');
+  content = content.replace(/https?:\/\/gamefaqs\.gamespot\.com\/[^\s)]+/g, '');
+  content = content.replace(/https?:\/\/aqiu384\.github\.io\/[^\s)]+/g, '');
+
+  // Convert YouTube links to embeds (markdown link format)
+  content = content.replace(
+    /\[([^\]]+)\]\((https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([\w-]+)[^)]*)\)/g,
+    '\n\n<div class="guide-yt-wrap"><iframe class="guide-yt" src="https://www.youtube.com/embed/$3" frameborder="0" allowfullscreen loading="lazy"></iframe><p class="guide-yt-caption">$1</p></div>\n\n'
+  );
+  // Also handle bare YouTube URLs left in text
+  content = content.replace(
+    /(?<!\()(https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([\w-]+)[^\s]*)/g,
+    '<a href="$1" target="_blank" rel="noopener">▶ Ver en YouTube</a>'
+  );
+
+  return marked(content) as string;
+}
+
+const guideHtml = {
+  abril:      loadGuide('02.md'),
+  mayo:       loadGuide('03.md'),
+  junio:      loadGuide('04.md'),
+  julio:      loadGuide('05.md'),
+  agosto:     loadGuide('06.md'),
+  septiembre: loadGuide('07.md'),
+  octubre:    loadGuide('08.md'),
+  noviembre:  loadGuide('09.md'),
+  diciembre:  loadGuide('10.md'),
+  enero:      loadGuide('11.md'),
+};
+
+const guideHtmlJson = JSON.stringify(guideHtml);
 ---
 <Layout title="Walkthrough Día a Día" section="walkthrough" description="Walkthrough completo de Persona 3 Reload — guía día a día con seguimiento de progreso">
 
@@ -293,6 +336,8 @@ import Layout from '../layouts/Layout.astro';
 
   </div>
 
+  <script type="application/json" id="guide-html-data" is:inline set:html={guideHtmlJson}></script>
+
   <style is:global>
     /* ---- PROGRESS BOX ---- */
     .wt-progress-box {
@@ -395,6 +440,105 @@ import Layout from '../layouts/Layout.astro';
     .wt-tag-boss { background: rgba(255,58,92,0.12); color: var(--red); }
     .wt-tag-note { background: rgba(31,94,255,0.12); color: var(--sky); }
     .wt-tag-trophy { background: rgba(255,209,102,0.15); color: var(--gold); }
+
+    /* ---- GUÍA COMPLETA ACORDEÓN ---- */
+    .guide-full-details {
+      border: 1px solid rgba(77,168,255,0.2);
+      border-radius: 10px;
+      margin: 1.5rem 0 0.5rem;
+      background: rgba(8,13,30,0.6);
+      overflow: hidden;
+    }
+    .guide-full-summary {
+      display: flex; align-items: center; gap: 0.6rem;
+      padding: 0.85rem 1.1rem;
+      cursor: pointer;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1rem; font-weight: 600;
+      color: var(--sky);
+      list-style: none;
+      user-select: none;
+      transition: background 0.2s;
+    }
+    .guide-full-summary::-webkit-details-marker { display: none; }
+    .guide-full-summary:hover { background: rgba(31,94,255,0.08); }
+    .guide-full-icon { font-size: 1.1rem; }
+    .guide-full-arrow { margin-left: auto; font-size: 1.2rem; transition: transform 0.2s; display: inline-block; }
+    .guide-full-details[open] .guide-full-arrow { transform: rotate(90deg); }
+    .guide-full-body {
+      padding: 1.25rem 1.4rem;
+      border-top: 1px solid rgba(77,168,255,0.12);
+      color: rgba(200,216,255,0.85);
+      font-size: 0.88rem;
+      line-height: 1.7;
+    }
+    .guide-full-body h2, .guide-full-body h3 {
+      font-family: 'Rajdhani', sans-serif;
+      color: var(--sky);
+      margin: 1.2rem 0 0.4rem;
+    }
+    .guide-full-body h4 {
+      font-family: 'Rajdhani', sans-serif;
+      color: var(--gold);
+      margin: 1rem 0 0.3rem;
+      font-size: 0.95rem;
+    }
+    .guide-full-body p { margin: 0.4rem 0 0.6rem; }
+    .guide-full-body strong { color: var(--white); }
+    .guide-full-body em { color: var(--moon); }
+    .guide-full-body ul, .guide-full-body ol {
+      padding-left: 1.4rem;
+      margin: 0.4rem 0 0.8rem;
+    }
+    .guide-full-body li { margin: 0.2rem 0; }
+    .guide-full-body hr { border: none; border-top: 1px solid rgba(31,94,255,0.15); margin: 0.8rem 0; }
+    .guide-full-body blockquote {
+      border-left: 3px solid var(--azure);
+      margin: 0.6rem 0;
+      padding: 0.5rem 0.9rem;
+      background: rgba(31,94,255,0.06);
+      border-radius: 0 6px 6px 0;
+      color: rgba(200,216,255,0.9);
+    }
+    .guide-full-body blockquote strong { color: var(--gold); }
+    .guide-full-body table {
+      width: 100%; border-collapse: collapse;
+      margin: 0.6rem 0 1rem; font-size: 0.82rem;
+    }
+    .guide-full-body th {
+      background: rgba(31,94,255,0.15);
+      color: var(--sky); padding: 0.4rem 0.7rem;
+      text-align: left; font-family: 'Rajdhani', sans-serif;
+    }
+    .guide-full-body td {
+      padding: 0.35rem 0.7rem;
+      border-bottom: 1px solid rgba(31,94,255,0.1);
+      vertical-align: top;
+    }
+    .guide-full-body tr:hover td { background: rgba(31,94,255,0.05); }
+    .guide-full-body a {
+      color: var(--sky);
+      text-decoration: none;
+    }
+    .guide-full-body a:hover { text-decoration: underline; }
+    .guide-yt-wrap {
+      margin: 1rem 0;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #000;
+      aspect-ratio: 16/9;
+      max-width: 640px;
+    }
+    .guide-yt {
+      width: 100%; height: 100%;
+      display: block; border: none;
+    }
+    .guide-yt-caption {
+      font-size: 0.78rem;
+      color: rgba(200,216,255,0.5);
+      margin: 0.3rem 0 0;
+      padding: 0 0.25rem;
+    }
 
     /* ---- END-OF-MONTH CHECKLIST ---- */
     .wt-eom { background: rgba(13,22,51,0.7); border: 1px solid rgba(31,94,255,0.2); border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0; }
@@ -1292,6 +1436,8 @@ import Layout from '../layouts/Layout.astro';
       </div>`;
     }
 
+    const guideHtml = JSON.parse(document.getElementById('guide-html-data')?.textContent || '{}');
+
     function renderMonth(monthKey, monthData) {
       const totalItems = monthData.days.reduce((acc, d) => {
         if (d.isChecklist) return acc;
@@ -1302,6 +1448,16 @@ import Layout from '../layouts/Layout.astro';
         return acc + d.slots.reduce((a, s, si) => a + s.items.filter((_, ii) => checked.has(buildCheckId(monthKey, d.id, si, ii))).length, 0);
       }, 0);
       const pct = totalItems ? Math.round(doneItems / totalItems * 100) : 0;
+      const fullGuide = guideHtml[monthKey] || '';
+      const guideAccordion = fullGuide ? `
+        <details class="guide-full-details">
+          <summary class="guide-full-summary">
+            <span class="guide-full-icon">📖</span>
+            <span>Guía completa del mes (TenSquare3)</span>
+            <span class="guide-full-arrow">›</span>
+          </summary>
+          <div class="guide-full-body">${fullGuide}</div>
+        </details>` : '';
 
       return `<div class="wt-month" id="${monthKey}">
         <div class="wt-month-header">
@@ -1309,6 +1465,7 @@ import Layout from '../layouts/Layout.astro';
           <span class="wt-month-pct" data-month-pct="${monthKey}">${pct}% (${doneItems}/${totalItems})</span>
         </div>
         ${monthData.days.map((d, idx) => renderDay(monthKey, d, idx)).join('')}
+        ${guideAccordion}
       </div>`;
     }
 
