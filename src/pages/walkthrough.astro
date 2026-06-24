@@ -540,6 +540,23 @@ const guideHtmlJson = JSON.stringify(guideHtml);
       padding: 0 0.25rem;
     }
 
+    /* ---- TIPS POR DÍA ---- */
+    .wt-tips { margin: 0.6rem 0 0; display: flex; flex-direction: column; gap: 0.35rem; }
+    .wt-tip {
+      font-size: 0.8rem; line-height: 1.55;
+      padding: 0.45rem 0.7rem 0.45rem 0.9rem;
+      border-left: 2px solid rgba(77,168,255,0.4);
+      background: rgba(31,94,255,0.05);
+      border-radius: 0 5px 5px 0;
+      color: rgba(200,216,255,0.8);
+    }
+    .wt-tip-warn {
+      border-left-color: var(--gold);
+      background: rgba(255,209,102,0.06);
+      color: rgba(238,243,255,0.9);
+    }
+    .wt-tip strong { color: var(--white); }
+
     /* ---- END-OF-MONTH CHECKLIST ---- */
     .wt-eom { background: rgba(13,22,51,0.7); border: 1px solid rgba(31,94,255,0.2); border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0; }
     .wt-eom h4 { font-family: 'Rajdhani', sans-serif; color: var(--sky); font-size: 1.05rem; margin-bottom: 0.6rem; }
@@ -617,6 +634,9 @@ const guideHtmlJson = JSON.stringify(guideHtml);
         days: [
           {
             id: "406", date: "4/6", name: "Lunes",
+            tips: [
+              "Si tenés DLC comprado, accedé al closet una segunda vez para agregar los items al juego.",
+            ],
             slots: [
               { label: "Noche", items: [
                 { text: "Llegás a Iwatodai Station — explorá la zona", tags: [] },
@@ -627,6 +647,9 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "407", date: "4/7", name: "Martes",
+            tips: [
+              "Los diálogos de los NPCs se actualizan seguido — si ves un globo azul hay contenido nuevo. Seguí especialmente los diálogos de los miembros de SEES en el dorm, agregan mucho contexto y desarrollo de personajes que de otra forma te perdés.",
+            ],
             slots: [
               { label: "Mañana", items: [{ text: "Encontrá la sala de profesores en el colegio", tags: [] }] },
               { label: "Tarde/Noche", items: [
@@ -637,13 +660,19 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "408", date: "4/8", name: "Miércoles",
+            tips: [
+              "Hay 3 stats sociales: <strong>Valentía, Encanto y Académicos</strong>. Subirlos es crítico — ubicaciones, SLs y actividades están bloqueados por nivel mínimo. Los puntos reales son más que las notas que muestra el juego (ej: el arcade da 4 puntos reales pero muestra 2 notas).",
+            ],
             slots: [
-              { label: "Tarde", items: [{ text: 'Respuesta en clase: "Vivid carp streamers" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Tarde", items: [{ text: 'Respuesta en clase: <strong>"Vivid carp streamers"</strong> <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
               { label: "Noche", items: [{ text: "Evento de historia", tags: [] }] }
             ]
           },
           {
             id: "409", date: "4/9", name: "Jueves",
+            tips: [
+              "Cuando tenés que elegir en clase: quedarte despierto da <strong>Académicos +1</strong>, cerrar los ojos da <strong>Valentía +1</strong>. Seguí siempre lo que dice la guía.",
+            ],
             slots: [
               { label: "Mañana", items: [{ text: 'Quedáte despierto en clase <span class="wt-tag wt-tag-stat">Académicos +1</span>', tags: [] }] },
               { label: "Noche", items: [
@@ -658,8 +687,11 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "418", date: "4/18", name: "Sábado",
+            tips: [
+              "Los <strong>Twilight Fragments</strong> son muy valiosos: abren cofres bloqueados o restauran completamente HP y SP de todo el equipo. Son de cantidad limitada — usalos con cabeza.",
+            ],
             slots: [
-              { label: "Tarde", items: [{ text: 'Respuesta en clase: "Middens" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Tarde", items: [{ text: 'Respuesta en clase: <strong>"Middens"</strong> <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
               { label: "Noche", items: [
                 { text: "Recibís Twilight Fragment x1", tags: [] },
                 { text: "Subí al 4F del dorm — <strong>Fool Rango 1</strong> 🏆 SEES the Day", tags: [] },
@@ -668,17 +700,23 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "420", date: "4/20", name: "Lunes",
+            tips: [
+              "⚠️ IMPORTANTE: En el tutorial hay un cofre bloqueado que tiene 2x <strong>Snuff Soul</strong>. Estos restauran SP y son oro en esta etapa del juego — no te lo pierdas.",
+            ],
             slots: [
               { label: "Hora Oscura", items: [
                 { text: "Tutorial de Tartarus y combate", tags: [] },
-                { text: "Elegí la carta de YEN en shuffle time", tags: [] },
+                { text: "Elegí la carta de <strong>YEN</strong> en shuffle time", tags: [] },
                 { text: "<strong>Fool Rango 2</strong>", tags: [] },
-                { text: "⚠️ IMPORTANTE: Hay un cofre bloqueado con 2x Snuff Soul (restauran SP)", tags: [] },
               ]}
             ]
           },
           {
             id: "421", date: "4/21", name: "Martes",
+            tips: [
+              "No compres equipo en el mall todavía — cada yen cuenta para los stats sociales. <strong>La armadura</strong> es lo primero que vas a querer mejorar. Las armas se eligen principalmente por sus efectos secundarios, no por el daño.",
+              "Las bebidas de SP de las máquinas expendedoras <strong>resetean cada domingo</strong>. Son tu principal fuente de SP restaurativo en el early game — comprá todas las que puedas.",
+            ],
             slots: [
               { label: "Tarde (clase)", items: [{ text: 'Quedáte despierto <span class="wt-tag wt-tag-stat">Académicos +1</span>', tags: [] }] },
               { label: "Después del colegio", items: [
@@ -696,29 +734,38 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "422", date: "4/22", name: "Miércoles",
+            tips: [
+              "⚠️ IMPORTANTE: Desde ahora, siempre llevá una <strong>Persona del mismo Arcano</strong> del SL que vas a visitar. Da un multiplicador de 1.51x en los puntos de rango. Excepción: Rango 1 y Rango 10 no lo necesitan.",
+              "Guardá cada 4 días usando distintos slots — permite hacer backup de hasta 2 meses. Usá también el <strong>Rewind</strong> para corregir errores de los últimos días sin recargar.",
+              "Si no subís de rango cuando la guía lo dice, probablemente olvidaste la Persona del Arcano o elegiste una respuesta diferente al rango anterior. El Social Activities Breakdown (en la guía completa) tiene el detalle exacto de cada rango.",
+              "⚠️ TARTARUS 1–22F — Consejos clave: usá comandos manuales, rompé todas las estatuas brillantes (resetean por piso), emboscá siempre para ahorrar SP, usá items de curación (no habilidades como Dia), intentá noquear a todos los enemigos para el All-Out Attack y Shuffle Time garantizado. Huí de los escarabajos en pisos altos — no valen. Recargá después de malas peleas con Gatekeepers.",
+              "⚠️ IMPORTANTE: Salí de Tartarus con al menos 1x <strong>Odd Morsel</strong> en el inventario — lo vas a necesitar para un SL más adelante. Se encuentran en cofres de esta área.",
+              "El reloj en la entrada de Tartarus restaura HP y SP de todo el equipo por 7 Twilight Fragments. Tenés suficientes para usarlo una vez y aún abrir todos los cofres bloqueados del bloque.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
                 { text: "<strong>Evento de historia → Magician Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] },
-                { text: "⚠️ Siempre llevá una Persona del mismo Arcano del SL que vas a visitar (bonus 1.51x)", tags: [] },
               ]},
               { label: "Noche / Hora Oscura", items: [
                 { text: "Tartarus pisos 1–22F. Objetivo: 37k yen, Yukari nivel 11", tags: [] },
-                { text: "Fusión: Apsaras + Orpheus → Nekomata (pasar: Bufu)", tags: [] },
+                { text: "Fusión en 5F: Apsaras + Orpheus → <strong>Nekomata</strong> (pasar: Bufu)", tags: [] },
                 { text: "Fusión en 11F: Angel+Nekomata→Omokaine, Pixie+Nekomata→Ara Mitama", tags: [] },
-                { text: "Fusiones finales: múltiples (ver guía de fusión)", tags: [] },
-                { text: "⚠️ Llevate al menos 1x Odd Morsel del inventario para más adelante", tags: [] },
+                { text: "Fusiones finales en 22F: múltiples (ver acordeón guía completa abajo)", tags: [] },
                 { text: "Trofeos: The First of Many 🏆, There's no I in Team 🏆, The Thrill of the Hunt 🏆, The Power of Choice 🏆, Shrouded Assassin 🏆, Making the Dream Work 🏆", tags: [] },
               ]}
             ]
           },
           {
             id: "423", date: "4/23", name: "Jueves",
+            tips: [
+              "Si quedás corto de yen, podés bajar la dificultad a <strong>Peaceful</strong> al vender el botín — el loot vale más en dificultades más bajas. Ojo: si jugás en Merciless no podés volver a subirla.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
                 { text: "Enfermería → medicina rara <span class=\"wt-tag wt-tag-stat\">Valentía +1</span>", tags: [] },
                 { text: "Vendé el botín en la comisaría", tags: [] },
                 { text: "Gimnasio → unite al equipo de atletismo → <strong>Chariot Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] },
-                { text: 'Hablale a Yuko: elegí "I think I will" y "Wanna walk home together?" (flag Strength)', tags: [] },
+                { text: 'Hablale a Yuko: elegí <strong>"I think I will"</strong> y <strong>"Wanna walk home together?"</strong> (flag Strength)', tags: [] },
               ]},
               { label: "Noche", items: [
                 { text: "Game Parade → High School of Youth <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>", tags: [] },
@@ -727,10 +774,13 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "424", date: "4/24", name: "Viernes",
+            tips: [
+              "Desde el Rango 2 en adelante, las respuestas exactas importan mucho para la velocidad de subida del SL. Seguí las respuestas de la guía y no olvides llevar la Persona del Arcano correcto (multiplicador 1.51x).",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: 'Salir con Kazushi: "Toughen Up! (+1)" → <strong>Chariot Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
-                { text: 'Hablale a Yuko: "I think I will" + "Wanna walk home together?" → <strong>Strength Rango 1</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Salir con Kazushi: <strong>"Toughen Up! (+1)"</strong>, cualquier respuesta → <strong>Chariot Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Hablale a Yuko: <strong>"I think I will"</strong> + <strong>"Wanna walk home together?"</strong> → <strong>Strength Rango 1</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [
                 { text: "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] },
@@ -739,20 +789,26 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "425", date: "4/25", name: "Sábado",
+            tips: [
+              "A partir de esta noche, los miembros del dorm se mueven por el edificio. Si querés ver su diálogo, tendrás que buscarlos.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: "Bookworms en Strip Mall", tags: [] },
-                { text: "Buscá la hoja de caqui en el árbol del patio del colegio, volvé a Bookworms → <strong>Hierophant Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] },
+                { text: "Andá a Bookworms en Strip Mall → entrá", tags: [] },
+                { text: "Volvé al colegio, buscá la hoja de caqui en el árbol del patio, regresá a Bookworms → <strong>Hierophant Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Game Parade → You're the Answer <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
             ]
           },
           {
             id: "426", date: "4/26", name: "Domingo",
+            tips: [
+              "A veces recibís invitaciones de compañeros del colegio los días libres. No suben de rango pero dan puntos de SL — llevá la Persona del Arcano correspondiente. Son escenas únicas que agregan contexto. Podés usar el <strong>Rewind</strong> para ver múltiples invitaciones si te llegan varias.",
+            ],
             slots: [
               { label: "Día", items: [
                 { text: "Recargá las máquinas de vending (2F dorm, 3F Strip Mall, Iwatodai Station)", tags: [] },
-                { text: "Trabajá en Screen Shot (Port Island Station) <span class=\"wt-tag wt-tag-stat\">Acad+1, Val+1</span> + 5.000 yen", tags: [] },
+                { text: "Trabajá en Screen Shot (Port Island Station) <span class=\"wt-tag wt-tag-stat\">Acad+1, Val+1</span> + 5.000 yen 🏆 The Grindset Mindset (parcial)", tags: [] },
               ]},
               { label: "Noche", items: [
                 { text: "Wakatsu Kitchen → Prodigy Platter <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] },
@@ -761,42 +817,54 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "427", date: "4/27", name: "Lunes",
+            tips: [
+              "No necesitás Persona del Arcano cuando iniciás un SL por primera vez (Rango 1). El bonus de 1.51x aplica desde Rango 2 en adelante.",
+            ],
             slots: [
-              { label: "Tarde (clase)", items: [{ text: 'Respuesta en clase: "A" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
-              { label: "Después del colegio", items: [{ text: "Sala del Consejo Estudiantil → <strong>Emperor Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] },
+              { label: "Tarde (clase)", items: [{ text: 'Respuesta en clase: <strong>"A"</strong> <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Después del colegio", items: [{ text: "Mitsuru te invita al Consejo Estudiantil → aceptá → <strong>Emperor Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] },
               { label: "Noche", items: [{ text: "Game Parade → High School of Youth <span class=\"wt-tag wt-tag-stat\">Encanto +2</span> → Encanto Rango 2", tags: [] }] }
             ]
           },
           {
             id: "428", date: "4/28", name: "Martes",
+            tips: [
+              "Hablale a Chihiro en el corredor del 2F y elegí <strong>\"I just wanted to talk\"</strong> — es un flag necesario para iniciar el SL Justice más adelante.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: 'Hablale a Chihiro en el pasillo del 2F: "I just wanted to talk" (flag Justice)', tags: [] },
-                { text: 'Salir con Kazushi: "Are you going to be okay? (+1)" + "Will it heal? (+1)" → <strong>Chariot Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Hablale a Chihiro (corredor 2F): <strong>"I just wanted to talk"</strong> (flag Justice)', tags: [] },
+                { text: 'Salir con Kazushi: <strong>"Are you going to be okay? (+1)"</strong> + <strong>"Will it heal? (+1)"</strong> → <strong>Chariot Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span> → Valentía Rango 2", tags: [] }] }
             ]
           },
           {
             id: "429", date: "4/29", name: "Miércoles",
+            tips: [
+              "La <strong>computadora compartida del lounge</strong> da beneficios variados: stats sociales, ítems ocultos, habilidades de combate y aumentos de HP/SP. Seguila regularmente según la guía.",
+            ],
             slots: [
               { label: "Día", items: [{ text: "Jugá Innocent Sin Online en la compu de tu cuarto → <strong>Hermit Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] },
               { label: "Noche", items: [
-                { text: "Club Escapade en Paulownia Mall (requiere Valentía Rango 2)", tags: [] },
-                { text: "Comprá Iwatodai Forum Note y School X Site Note del tipo sospechoso", tags: [] },
+                { text: "Club Escapade en Paulownia Mall (requiere Valentía Rango 2) — agarrá el Twilight Fragment a la izquierda", tags: [] },
+                { text: "Hablá con el tipo sospechoso → comprá <strong>Iwatodai Forum Note</strong> y <strong>School X Site Note</strong>", tags: [] },
                 { text: "Game Parade → You're the Answer <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] },
               ]}
             ]
           },
           {
             id: "430", date: "4/30", name: "Jueves",
+            tips: [
+              "Hablale a Chihiro y elegí <strong>\"I'm a guy\"</strong> — es otro flag necesario para Justice.",
+            ],
             slots: [
               { label: "Tarde (clase)", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
               { label: "Después del colegio", items: [
-                { text: 'Hablale a Chihiro: "I\'m a guy" (flag Justice)', tags: [] },
-                { text: 'Bookworms: "MC name (+1)", "Thank you (+3)" → <strong>Hierophant Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Hablale a Chihiro (2F): <strong>"I\'m a guy"</strong> (flag Justice)', tags: [] },
+                { text: 'Bookworms: <strong>"MC name (+1)"</strong>, <strong>"Thank you (+3)"</strong> → <strong>Hierophant Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
-              { label: "Noche", items: [{ text: "Usá School X Site Note en la compu compartida (desbloquea Lukewarm Taiyaki)", tags: [] }] }
+              { label: "Noche", items: [{ text: "Usá School X Site Note en la compu compartida (desbloquea Lukewarm Taiyaki en la tienda del colegio)", tags: [] }] }
             ]
           },
           {
@@ -826,11 +894,14 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "502", date: "5/2", name: "Sábado",
+            tips: [
+              "⚠️ IMPORTANTE: Guardá el <strong>Lukewarm Taiyaki</strong> en la heladera del dorm — lo vas a necesitar para un encargo de Elizabeth más adelante.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: "Comprá Lukewarm Taiyaki de la tienda del colegio (lobby)", tags: [] },
-                { text: 'Hablale a Chihiro: "Hello" y "Let\'s hang out" (flag Justice)', tags: [] },
-                { text: 'Salir con Yuko: "What happened (+3)", "It wasn\'t your fault (+1)", "That\'s true (+3)" → <strong>Strength Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: "Comprá <strong>Lukewarm Taiyaki</strong> en la tienda del colegio (lobby)", tags: [] },
+                { text: 'Hablale a Chihiro: <strong>"Hello"</strong> y <strong>"Let\'s hang out"</strong> (flag Justice)', tags: [] },
+                { text: 'Salir con Yuko: <strong>"What happened (+3)"</strong>, <strong>"It wasn\'t your fault (+1)"</strong>, <strong>"That\'s true (+3)"</strong> → <strong>Strength Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [
                 { text: "Guardá el Lukewarm Taiyaki en la heladera", tags: [] },
@@ -841,19 +912,25 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "503", date: "5/3", name: "Domingo",
+            tips: [
+              "El <strong>canal de compras de Tanaka</strong> emite todos los domingos. Tiene ítems muy buenos pero algunos conviene saltearlos para ahorrar yen. Seguí siempre lo que dice la guía para cada domingo.",
+            ],
             slots: [
               { label: "Día", items: [
                 { text: "Canal de compras → Mother's Day set (Rose Bouquet + 2x Luxury Chocolate) 2.980 yen — ¡COMPRAR!", tags: [] },
                 { text: "Recargá las máquinas de vending", tags: [] },
-                { text: 'Innocent Sin Online: "Of course (+3)", "Sunshine is overrated (+1)" → <strong>Hermit Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Innocent Sin Online: <strong>"Of course (+3)"</strong>, <strong>"Sunshine is overrated (+1)"</strong> → <strong>Hermit Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Compu compartida → Language Made Easy <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
             ]
           },
           {
             id: "504", date: "5/4", name: "Lunes",
+            tips: [
+              "Podés usar el Rewind si querés ver el hangout de Kenji en vez de la invitación de Kazushi.",
+            ],
             slots: [
-              { label: "Día", items: [{ text: 'Aceptá invitación de Kazushi: "Are you on a diet? (+3)"', tags: [] }] },
+              { label: "Día", items: [{ text: 'Aceptá invitación de Kazushi: <strong>"Are you on a diet? (+3)"</strong>', tags: [] }] },
               { label: "Noche", items: [{ text: "Compu compartida → Animal Othello <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
             ]
           },
@@ -861,69 +938,87 @@ const guideHtmlJson = JSON.stringify(guideHtml);
             id: "505", date: "5/5", name: "Martes",
             slots: [
               { label: "Día", items: [
-                { text: 'Innocent Sin Online: "Oh really? (+1)", "You don\'t like your job? (+3)" → <strong>Hermit Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Innocent Sin Online: <strong>"Oh really? (+1)"</strong>, <strong>"You don\'t like your job? (+3)"</strong> → <strong>Hermit Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Compu compartida → Typing Ghoul <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
             ]
           },
           {
             id: "506", date: "5/6", name: "Miércoles",
+            tips: [
+              "⚠️ IMPORTANTE: Cuando revises la heladera esta noche, guardá el <strong>Chilled Taiyaki</strong> — lo necesitás para un encargo de Elizabeth más adelante. No lo comas.",
+              "Para hablar con Mitsuru hoy: necesitás <strong>Académicos Rango 6</strong> (Genius) para poder salir con ella. Es un objetivo de largo plazo.",
+            ],
             slots: [
-              { label: "Mañana", items: [{ text: 'Respuesta en clase: "A pantograph" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Mañana", items: [{ text: 'Respuesta en clase: <strong>"A pantograph"</strong> <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
               { label: "Después del colegio", items: [
-                { text: "Comprá un Weird Takoyaki en Octopia, llevalo al santuario y dáselo a Maiko con un Mad Bull — <strong>Hanged Flag</strong>", tags: [] },
-                { text: 'Salir con Yuko: "Don\'t worry about it (+1)", "I\'m honoured (+1)" → <strong>Strength Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: "Octopia → comprá un <strong>Weird Takoyaki</strong>", tags: [] },
+                { text: "Santuario → dáselo a Maiko con un Mad Bull — <strong>Hanged Flag activado</strong>", tags: [] },
+                { text: 'Salir con Yuko: <strong>"Don\'t worry about it (+1)"</strong>, <strong>"I\'m honoured (+1)"</strong> → <strong>Strength Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [
-                { text: "Revisá la heladera ⚠️ Guardá el Chilled Taiyaki para un encargo más tarde", tags: [] },
-                { text: "Compu compartida → Iwatodai Forum Note (desbloquea nuevas bebidas)", tags: [] },
+                { text: "Revisá la heladera → guardá el <strong>Chilled Taiyaki</strong> (encargo Elizabeth)", tags: [] },
+                { text: "Compu compartida → <strong>Iwatodai Forum Note</strong> (desbloquea nuevas bebidas en máquina de Iwatodai)", tags: [] },
               ]}
             ]
           },
           {
             id: "507", date: "5/7", name: "Jueves",
+            tips: [
+              "El <strong>4biotic Pack</strong> restaura 10 SP a todos los miembros del equipo incluyendo al Navegante — es muy útil en esta etapa. Comprá varias unidades.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: "Iwatodai Station → comprá 4biotic Pack y Happiness Water", tags: [] },
-                { text: 'Hablá con Chihiro: "Let\'s walk home together" → <strong>Justice Rango 1</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: "Iwatodai Station → comprá <strong>4biotic Pack</strong> y <strong>Happiness Water</strong>", tags: [] },
+                { text: 'Hablá con Chihiro: <strong>"Let\'s walk home together"</strong> → <strong>Justice Rango 1</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Compu compartida → Lessons in Etiquette <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>", tags: [] }] }
             ]
           },
           {
             id: "508", date: "5/8", name: "Viernes",
+            tips: [
+              "⚠️ IMPORTANTE: El juego te avisa sobre una prueba que viene. Si seguiste la guía de fusión, estás listo. Si hacés tus propias fusiones, aseguráte de tener tus Personas de combate equipadas antes de salir esta noche.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: 'Salir con Kenji: "That\'s a secret (+1)", "I\'m into older women, too (+1)" → <strong>Magician Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Salir con Kenji: <strong>"That\'s a secret (+1)"</strong>, <strong>"I\'m into older women, too (+1)"</strong> → <strong>Magician Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
             ]
           },
           {
             id: "509", date: "5/9", name: "Sábado",
+            tips: [
+              "<strong>Valkyrie</strong> es muy útil contra el jefe de luna llena de este mes. Si la tenés equipada o disponible, úsala.",
+            ],
             slots: [
               { label: "Hora Oscura", items: [
-                { text: "🔴 JEFE: Primera Sombra Mayor — Valkyrie es muy útil en este combate", tags: [] },
-                { text: "Trofeo: Back on Track 🏆 — Fool Rango 3", tags: [] },
+                { text: "🔴 JEFE LUNA LLENA: Primera Sombra Mayor — es una sección lineal hasta el jefe", tags: [] },
+                { text: "Trofeo: Back on Track 🏆 — <strong>Fool Rango 3</strong>", tags: [] },
               ]}
             ]
           },
           {
             id: "510", date: "5/10", name: "Domingo",
+            tips: [
+              "⚠️ MUY IMPORTANTE: Los <strong>encargos de Elizabeth</strong> dan ítems increíbles, yen, Personas y son tu principal fuente de Twilight Fragments. Son obligatorios para seguir esta guía — algunos dan stats sociales que la guía usa. Si saltás encargos, puede que no tengas acceso a los correctos en el momento y te pierdas rangos de SL.",
+              "Los encargos de Shadow Hunting y Treasure Hunting pueden completarse antes de lo que dice la guía si farmeás más — no pasa nada, solo desbloqueás el siguiente antes de tiempo.",
+            ],
             slots: [
               { label: "Día", items: [
-                { text: "Recargá máquinas de vending — comprá 1 de cada bebida única para los encargos", tags: [] },
+                { text: "Recargá máquinas de vending — comprá 1 de cada bebida única (las necesitás para encargos)", tags: [] },
                 { text: "Canal de compras → Jelly Tasting Set — ¡NO COMPRAR!", tags: [] },
-                { text: 'Innocent Sin Online: "Let\'s plan our wedding (+3)" → <strong>Hermit Rango 4</strong> <span class="wt-tag wt-tag-sl">SL</span> (flag Devil)', tags: [] },
+                { text: 'Innocent Sin Online: <strong>"Let\'s plan our wedding (+3)"</strong> → <strong>Hermit Rango 4</strong> <span class="wt-tag wt-tag-sl">SL</span> (flag Devil)', tags: [] },
               ]},
               { label: "Noche", items: [
-                { text: "Visitá a Elizabeth en Paulownia Mall — aceptá encargos 1, 2, 3, 4, 5, 8, 12", tags: [] },
-                { text: "Entregá los encargos 2 y 3 → aceptá los nuevos (7, 14, 15)", tags: [] },
-                { text: "Comprá Muscle Drink en Aohige Pharmacy → entregá encargo 1 a Elizabeth", tags: [] },
-                { text: "Hablá con Yukari en el dorm → entregá encargos a Elizabeth → nuevos: 9, 10, 13", tags: [] },
+                { text: "Visitá a <strong>Elizabeth</strong> (Paulownia Mall) → aceptá encargos 1, 2, 3, 4, 5, 8, 12", tags: [] },
+                { text: "Entregá encargos 2 y 3 → aceptá nuevos: 7, 14, 15", tags: [] },
+                { text: "Comprá Muscle Drink en Aohige Pharmacy → entregá encargo 1", tags: [] },
+                { text: "Hablá con Yukari en el dorm → entregá encargos → nuevos: 9, 10, 13", tags: [] },
                 { text: "Hablá con Junpei → entregá encargos 9 y 13 → nuevo: 11", tags: [] },
-                { text: "Equipá Pixel Vest en Makoto, Hothead Shirt y Toy Bow en Yukari", tags: [] },
-                { text: "Big Eater Challenge en Wilduck (Strip Mall) → respuestas: Look away, Eat without stopping, Imagine something sour <span class=\"wt-tag wt-tag-stat\">Acad+2, Enc+2, Val+2</span> → Valentía Rango 3", tags: [] },
+                { text: "Equipá <strong>Pixel Vest</strong> en Makoto, <strong>Hothead Shirt</strong> y <strong>Toy Bow</strong> en Yukari", tags: [] },
+                { text: 'Big Eater Challenge en Wilduck: <strong>"Look away"</strong>, <strong>"Eat without stopping"</strong>, <strong>"Imagine something sour"</strong> <span class="wt-tag wt-tag-stat">Acad+2, Enc+2, Val+2</span> → Valentía Rango 3', tags: [] },
               ]}
             ]
           },
@@ -934,16 +1029,19 @@ const guideHtmlJson = JSON.stringify(guideHtml);
               { label: "Después del colegio", items: [{ text: "Santuario → salir con Maiko → <strong>Hanged Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] },
               { label: "Noche", items: [
                 { text: "Sala de comando → mirá la grabación", tags: [] },
-                { text: "Compu compartida → Umiushi Fan Book (desbloquea compras en Umiushi)", tags: [] },
+                { text: "Compu compartida → <strong>Umiushi Fan Book</strong> (desbloquea compras en Umiushi Beef Bowls)", tags: [] },
               ]}
             ]
           },
           {
             id: "512", date: "5/12", name: "Martes",
+            tips: [
+              "El <strong>Spring Cabbage Bowl</strong> de Umiushi Beef Bowls es un ítem de temporada — conseguilo antes de que desaparezca del menú.",
+            ],
             slots: [
               { label: "Después del colegio", items: [{ text: "Salir con Junpei → <strong>Episodio Vinculado Junpei 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] }] },
               { label: "Noche", items: [
-                { text: "Comprá Umiushi Beef Bowl (Strip Mall 3F) — el Spring Cabbage Bowl es de temporada, conseguilo ahora", tags: [] },
+                { text: "Umiushi Beef Bowls (Strip Mall 3F) → comprá <strong>Spring Cabbage Bowl</strong> (ítem de temporada)", tags: [] },
                 { text: "Entregá encargos 10 y 11 a Elizabeth", tags: [] },
                 { text: "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 2.500 yen", tags: [] },
               ]}
@@ -952,18 +1050,21 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           {
             id: "513", date: "5/13", name: "Miércoles",
             slots: [
-              { label: "Tarde (clase)", items: [{ text: 'Respuesta en clase: "The Pendulum" <span class="wt-tag wt-tag-stat">Encanto +1</span> → Encanto Rango 3', tags: [] }] },
+              { label: "Tarde (clase)", items: [{ text: 'Respuesta en clase: <strong>"The Pendulum"</strong> <span class="wt-tag wt-tag-stat">Encanto +1</span> → Encanto Rango 3', tags: [] }] },
               { label: "Después del colegio", items: [
-                { text: 'Salir con Maiko: "Sure, Let\'s go (+3)" → <strong>Hanged Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Salir con Maiko: <strong>"Sure, Let\'s go (+3)"</strong> → <strong>Hanged Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 2.500 yen", tags: [] }] }
             ]
           },
           {
             id: "514", date: "5/14", name: "Jueves",
+            tips: [
+              "El flag de <strong>Temperance</strong> se activa hoy con Hierophant R3 — no te lo pierdas o no podrás iniciar ese SL en el momento correcto.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: 'Bookworms: "Looking for something? (+1)", "Can I help? (+3)" → <strong>Hierophant Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span> (flag Temperance)', tags: [] },
+                { text: 'Bookworms: <strong>"Looking for something? (+1)"</strong>, <strong>"Can I help? (+3)"</strong> → <strong>Hierophant Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span> — activa flag Temperance', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Wakatsu Kitchen → Seafood Full Course <span class=\"wt-tag wt-tag-stat\">Académicos +2</span> (requiere Encanto R3) 🏆 Gourmand", tags: [] }] }
             ]
@@ -971,19 +1072,22 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           {
             id: "515", date: "5/15", name: "Viernes",
             slots: [
-              { label: "Tarde (clase)", items: [{ text: 'Respuesta en clase: "May Blues" <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
+              { label: "Tarde (clase)", items: [{ text: 'Respuesta en clase: <strong>"May Blues"</strong> <span class="wt-tag wt-tag-stat">Encanto +1</span>', tags: [] }] },
               { label: "Después del colegio", items: [
-                { text: 'Bookworms: "I\'ll wait here (+3)", "I\'m worried (+1)" → <strong>Hierophant Rango 4</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Bookworms: <strong>"I\'ll wait here (+3)"</strong>, <strong>"I\'m worried (+1)"</strong> → <strong>Hierophant Rango 4</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Estudiar con Mitsuru y Sanada <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
             ]
           },
           {
             id: "516", date: "5/16", name: "Sábado",
+            tips: [
+              "El flag de <strong>Sun</strong> se activa hoy con Hanged R3 — también necesario para el SL del Sol más adelante.",
+            ],
             slots: [
               { label: "Mañana", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
               { label: "Después del colegio", items: [
-                { text: 'Salir con Maiko: "Don\'t worry, he\'ll be there (+3)" → <strong>Hanged Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span> (flag Sun)', tags: [] },
+                { text: 'Salir con Maiko: <strong>"Don\'t worry, he\'ll be there (+3)"</strong> → <strong>Hanged Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span> — activa flag Sun', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Estudiar con Yukari y Junpei <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
             ]
@@ -994,13 +1098,14 @@ const guideHtmlJson = JSON.stringify(guideHtml);
               { label: "Día", items: [
                 { text: "Canal de compras → The home alone security set — ¡NO COMPRAR!", tags: [] },
                 { text: "Recargá máquinas de vending", tags: [] },
-                { text: 'Innocent Sin Online: "Do you mean S.O.B.? (+1)", "Are you a teacher? (+1)" → <strong>Hermit Rango 5</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Innocent Sin Online: <strong>"Do you mean S.O.B.? (+1)"</strong>, <strong>"Are you a teacher? (+1)"</strong> → <strong>Hermit Rango 5</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Estudiar con compañeros <span class=\"wt-tag wt-tag-stat\">Académicos +3</span> → Académicos Rango 3", tags: [] }] }
             ]
           },
           {
             id: "518", date: "5/18", name: "Lunes — EXAMEN",
+            tips: ["Los exámenes de mayo duran 5 días. Respondé bien para quedar entre los mejores → bonus de Encanto y Académicos."],
             slots: [{ label: "Examen", items: [{ text: "Pregunta automática (no hay respuesta manual)", tags: [] }] }]
           },
           {
@@ -1021,70 +1126,88 @@ const guideHtmlJson = JSON.stringify(guideHtml);
           },
           {
             id: "523", date: "5/23", name: "Sábado",
+            tips: [
+              "Archangel en Velvet Room: para summonarlo necesitás tener Fool R3 (ya deberías tenerlo tras el jefe de luna llena). Cada Persona que summonás puede desbloquear diálogos de encargos con Elizabeth.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: "Velvet Room → summoná Archangel", tags: [] },
-                { text: 'Salir con Chihiro: "Don\'t worry about it (+3)", "I read manga (+1)", "I\'m having fun (+1)" → <strong>Justice Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: "Velvet Room → summoná <strong>Archangel</strong>", tags: [] },
+                { text: 'Salir con Chihiro: <strong>"Don\'t worry about it (+3)"</strong>, <strong>"I read manga (+1)"</strong>, <strong>"I\'m having fun (+1)"</strong> → <strong>Justice Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Compu compartida → Virtual Diet <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>", tags: [] }] }
             ]
           },
           {
             id: "524", date: "5/24", name: "Domingo",
+            tips: [
+              "⚠️ SESIÓN DE TARTARUS: Esta noche es la sesión principal de farmeo del mes. Tenés que llegar hasta el piso 44F, derrotar dos jefes de bloque y acumular al menos 125k yen para las fusiones que vienen.",
+              "Para los <strong>jefes de los pisos 34F y 42F</strong>: usá Poisma si lo tenés disponible y la estrategia de guardia en los turnos del jefe para sobrevivir los ataques más duros.",
+              "El <strong>Old Document 2</strong> está en un cofre del 44F — es obligatorio agarrarlo para completar un encargo de Elizabeth.",
+            ],
             slots: [
               { label: "Día", items: [
                 { text: "Canal de compras → Beginner's home cooking set — ¡COMPRAR! (2.980 yen)", tags: [] },
                 { text: "Recargá máquinas de vending", tags: [] },
-                { text: 'Aceptá invitación de Kenji: "I\'m pretty picky (+3)"', tags: [] },
+                { text: 'Aceptá invitación de Kenji: <strong>"I\'m pretty picky (+3)"</strong>', tags: [] },
               ]},
               { label: "Noche", items: [
-                { text: "Club Escapade → lectura de fortuna (3.000 yen) para un encargo", tags: [] },
-                { text: "⚠️ TARTARUS: Bloques 23–44F. Objetivos: nivel Naga 22, 125k yen", tags: [] },
-                { text: "Múltiples fusiones de Personas (ver guía de fusión completa)", tags: [] },
-                { text: "Entregá encargos 4, 5, 8, 15 → acepta 6, 16, 17, 22", tags: [] },
-                { text: "Derrota el jefe de los pisos 34F y 42F (usa Poisma + guard strategy)", tags: [] },
-                { text: "Agarrá Old Document 2 en el cofre del 44F", tags: [] },
-                { text: "Necesitás 70k para las siguientes fusiones", tags: [] },
+                { text: "Club Escapade → lectura de fortuna (3.000 yen) — necesaria para un encargo de Elizabeth", tags: [] },
+                { text: "⚠️ TARTARUS: Bloques 23–44F. Objetivos: nivel ~Naga 22, 125k yen", tags: [] },
+                { text: "Múltiples fusiones de Personas (ver guía de fusión completa del mes)", tags: [] },
+                { text: "Entregá encargos 4, 5, 8, 15 a Elizabeth → aceptá nuevos: 6, 16, 17, 22", tags: [] },
+                { text: "Derrotá jefes en pisos 34F y 42F (Poisma + guardia)", tags: [] },
+                { text: "Agarrá <strong>Old Document 2</strong> en cofre del 44F", tags: [] },
               ]}
             ]
           },
           {
             id: "525", date: "5/25", name: "Lunes",
+            tips: [
+              "El <strong>Proto-Choker</strong> que te da Mitsuru es un accesorio muy bueno para esta etapa — equipálo en Makoto de inmediato.",
+              "La <strong>huerta de la azotea</strong> comienza hoy. Las plantas dan ítems de stats valiosos después de varios días. Seguí plantando y regando según indica la guía.",
+              "No te olvides del <strong>Twilight Fragment</strong> en la esquina izquierda de la azotea — es fácil pasarlo por alto.",
+            ],
             slots: [
               { label: "Almuerzo", items: [{ text: "Resultado de examen: Top de la clase <span class=\"wt-tag wt-tag-stat\">Encanto +2</span> 🏆 Top of the Class", tags: [] }] },
               { label: "Tarde (clase)", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
               { label: "Después del colegio", items: [
-                { text: "Hablá con Mitsuru → recibís Incense items + Proto-Choker (equipá en Makoto)", tags: [] },
+                { text: "Hablá con Mitsuru → recibís Incense items + <strong>Proto-Choker</strong> (equipálo en Makoto)", tags: [] },
                 { text: "Enfermería → Strange Medicine <span class=\"wt-tag wt-tag-stat\">Valentía +1</span>", tags: [] },
                 { text: "Vendé botín en la comisaría", tags: [] },
                 { text: "Santuario → copiá Makouha con Inari, enseñásela a Principality", tags: [] },
                 { text: "Visitá a Elizabeth → entregá encargo 77", tags: [] },
-                { text: 'Sala Consejo Estudiantil: "Sounds like nonsense (+3)" → <strong>Emperor Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Sala Consejo Estudiantil: <strong>"Sounds like nonsense (+3)"</strong> → <strong>Emperor Rango 2</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [
-                { text: "Azotea del dorm → plantá Healthy Tomato Sprout", tags: [] },
-                { text: "Agarrá el Twilight Fragment (esquina izquierda) 🏆 Eagle Eye", tags: [] },
-                { text: "Comprá Muscle Boot Camp y Mindful Boot Camp en la Net Cafe", tags: [] },
+                { text: "Azotea del dorm → plantá <strong>Healthy Tomato Sprout</strong>", tags: [] },
+                { text: "Agarrá el <strong>Twilight Fragment</strong> en la esquina izquierda de la azotea 🏆 Eagle Eye", tags: [] },
+                { text: "Net Cafe → comprá Muscle Boot Camp y Mindful Boot Camp", tags: [] },
                 { text: "Compu compartida → Mindful Boot Camp (SP +5)", tags: [] },
               ]}
             ]
           },
           {
             id: "526", date: "5/26", name: "Martes",
+            tips: [
+              "El SL de <strong>Temperance</strong> (profesora de Economía Doméstica) empieza hoy. El flag se activó el 5/14 con Hierophant R3, y necesitás Académicos R2 para iniciar el vínculo.",
+            ],
             slots: [
               { label: "Después del colegio", items: [{ text: "Sala de Economía Doméstica (1F) → <strong>Temperance Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span> (requiere Académicos R2)", tags: [] }] },
               { label: "Noche", items: [
-                { text: "Equipá All-Purpose Apron en Makoto, Pixel Vest a Junpei, Hothead Shirt a Yukari", tags: [] },
-                { text: "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 3.500 yen → Encanto Rango 4", tags: [] },
+                { text: "Equipá <strong>All-Purpose Apron</strong> en Makoto, <strong>Pixel Vest</strong> a Junpei, <strong>Hothead Shirt</strong> a Yukari", tags: [] },
+                { text: "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 3.500 yen → <strong>Encanto Rango 4</strong>", tags: [] },
               ]}
             ]
           },
           {
             id: "527", date: "5/27", name: "Miércoles",
+            tips: [
+              "En Rafflesia podés comprar el <strong>Buff Potato Sprout</strong> para la huerta de la azotea. Las plantas de vegetales dan ítems que aumentan stats del partido.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: "Rafflesia en Port Island Station → comprá Buff Potato Sprout", tags: [] },
-                { text: 'Sala Consejo Estudiantil: "What happened? (+1)" → <strong>Emperor Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: "Rafflesia (Port Island Station) → comprá <strong>Buff Potato Sprout</strong>", tags: [] },
+                { text: 'Sala Consejo Estudiantil: <strong>"What happened? (+1)"</strong> → <strong>Emperor Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 2.500 yen", tags: [] }] }
             ]
@@ -1094,39 +1217,49 @@ const guideHtmlJson = JSON.stringify(guideHtml);
             slots: [
               { label: "Mañana", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
               { label: "Después del colegio", items: [
-                { text: 'Salir con Kenji: "What, of life? (+3)", "Good luck! (+1)" → <strong>Magician Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
+                { text: 'Salir con Kenji: <strong>"What, of life? (+3)"</strong>, <strong>"Good luck! (+1)"</strong> → <strong>Magician Rango 3</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Wakatsu Kitchen → Seafood Full Course <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>", tags: [] }] }
             ]
           },
           {
             id: "529", date: "5/29", name: "Viernes",
+            tips: [
+              "Con Magician R4 hoy se activa el flag de <strong>Moon</strong>. Nozomi (el SL de Luna) se puede iniciar mañana en Paulownia Mall si tenés Encanto R3 y el Odd Morsel.",
+            ],
             slots: [
               { label: "Mañana", items: [{ text: "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>", tags: [] }] },
               { label: "Después del colegio", items: [
-                { text: 'Salir con Kenji: "Good luck! (+3)" → <strong>Magician Rango 4</strong> <span class="wt-tag wt-tag-sl">SL</span> (flag Moon)', tags: [] },
+                { text: 'Salir con Kenji: <strong>"Good luck! (+3)"</strong> → <strong>Magician Rango 4</strong> <span class="wt-tag wt-tag-sl">SL</span> — activa flag Moon', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Revisá el mail → salir con Akihiko → <strong>Episodio Vinculado Akihiko 1</strong>", tags: [] }] }
             ]
           },
           {
             id: "530", date: "5/30", name: "Sábado",
+            tips: [
+              "Para iniciar <strong>Moon R1 (Nozomi)</strong>: hablale al Chubby Student en Paulownia Mall. El orden de respuestas es importante — seguilo exactamente. Necesitás Encanto R3 y tener el Odd Morsel en el inventario.",
+              "⚠️ Comprá el <strong>Lukewarm Taiyaki</strong> hoy — mañana lo tenés que guardar en la heladera para el encargo de Elizabeth.",
+            ],
             slots: [
               { label: "Después del colegio", items: [
-                { text: "Comprá Lukewarm Taiyaki de la tienda del colegio", tags: [] },
-                { text: "Paulownia Mall → hablá con el Chubby Student (requiere Encanto R3): What are you eating? / Pheromone Coffee / Red / Hagakure Bowl / handover Odd Morsel → <strong>Moon Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>", tags: [] },
+                { text: "Tienda del colegio → comprá <strong>Lukewarm Taiyaki</strong>", tags: [] },
+                { text: 'Paulownia Mall → Chubby Student (requiere Encanto R3): <strong>"What are you eating?"</strong> / <strong>"Pheromone Coffee"</strong> / <strong>"Red"</strong> / <strong>"Hagakure Bowl"</strong> / handover Odd Morsel → <strong>Moon Rango 1</strong> <span class="wt-tag wt-tag-sl">SL</span>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Compu compartida → Muscle Boot Camp (HP +7)", tags: [] }] }
             ]
           },
           {
             id: "531", date: "5/31", name: "Domingo",
+            tips: [
+              "⚠️ Acordáte de guardar el <strong>Lukewarm Taiyaki</strong> en la heladera — es para el encargo de Elizabeth. No lo comas.",
+            ],
             slots: [
               { label: "Día", items: [
                 { text: "Canal de compras → Healthy lifestyle set — ¡COMPRAR! (3.980 yen)", tags: [] },
                 { text: "Recargá máquinas de vending", tags: [] },
-                { text: "Guardá el Lukewarm Taiyaki en la heladera", tags: [] },
-                { text: 'Aceptá invitación de Yuko: "Let\'s just calm down first (+3)"', tags: [] },
+                { text: "Guardá el <strong>Lukewarm Taiyaki</strong> en la heladera", tags: [] },
+                { text: 'Aceptá invitación de Yuko: <strong>"Let\'s just calm down first (+3)"</strong>', tags: [] },
               ]},
               { label: "Noche", items: [{ text: "Wilduck → Weekend Wilduck Set <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>", tags: [] }] }
             ]
@@ -1417,6 +1550,13 @@ const guideHtmlJson = JSON.stringify(guideHtml);
       if (day.isChecklist) return renderChecklist(day);
       const { total, done } = countDayItems(monthKey, day);
       const allDone = total > 0 && done === total;
+      const tipsHtml = day.tips && day.tips.length
+        ? `<div class="wt-tips">${day.tips.map(t =>
+            t.startsWith('⚠️') || t.startsWith('🔴')
+              ? `<div class="wt-tip wt-tip-warn">${t}</div>`
+              : `<div class="wt-tip">${t}</div>`
+          ).join('')}</div>`
+        : '';
       return `<div class="wt-day ${allDone ? 'all-done' : ''}" id="day-${day.id}">
         <div class="wt-day-header" onclick="toggleDay(this)">
           <span class="wt-day-date">${day.date}</span>
@@ -1432,6 +1572,7 @@ const guideHtmlJson = JSON.stringify(guideHtml);
               ${slot.items.map((item, ii) => renderItem(buildCheckId(monthKey, day.id, si, ii), item.text)).join('')}
             </div>
           `).join('')}
+          ${tipsHtml}
         </div>
       </div>`;
     }
