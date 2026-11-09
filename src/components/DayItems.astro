@@ -1,0 +1,32 @@
+---
+// Muestra ítems de un día del walkthrough con el mismo markup (y las mismas claves de
+// progreso) que la página del walkthrough: tildar acá también tilda allá.
+import type { Item } from '../data/walkthrough';
+
+export interface Props { items: (Item & { slot?: string })[]; showSlots?: boolean }
+const { items, showSlots = false } = Astro.props;
+const isWarn = (t: string) => /^(⚠️|🔴)/.test(t) || /¡Importante!/.test(t);
+let lastSlot = '';
+---
+<div class="day-items">
+  {items.map((it) => {
+    const label = showSlots && it.slot && it.slot !== lastSlot ? it.slot : null;
+    if (label) lastSlot = label;
+    return (
+      <>
+        {label && <div class="wt-slot-label">{label}</div>}
+        {it.note ? (
+          <div class={`wt-note ${isWarn(it.text) ? 'wt-note-warn' : ''}`} set:html={it.text} />
+        ) : (
+          <div class="wt-check-item" data-check={`c:${it.id}`}>
+            <span class="wt-checkmark" aria-hidden="true"></span>
+            <div class="wt-check-body">
+              <span class="wt-check-text" set:html={it.text} />
+              {it.sub && it.sub.length > 0 && <ul class="wt-sub">{it.sub.map((x) => <li set:html={x} />)}</ul>}
+            </div>
+          </div>
+        )}
+      </>
+    );
+  })}
+</div>

@@ -238,3 +238,40 @@ export function dayIdFor(date: string): string | undefined {
   for (const d of DAYS) if (d.ord <= o && (!best || d.ord >= best.ord)) best = d;
   return best?.id;
 }
+
+// ---------- Tartarus ----------
+export interface TartarusVisit { date: string; dayId: string; floor: number; area: string; items: (Item & { slot: string })[] }
+export const TARTARUS_BLOCKS = [
+  { name: 'Thebel', floors: '1F–22F', months: 'Abril', note: 'Bloque tutorial. La guía lo sube entero en una sola noche.' },
+  { name: 'Arqa', floors: '23F–68F', months: 'Mayo – julio', note: 'Aparecen las Formidable Shadows (30F) y la interferencia de Fuuka (57F).' },
+  { name: 'Yabbashah', floors: '69F–118F', months: 'Agosto – septiembre', note: 'Primer Monad Passage en el 91F. Carta Devil en el 117F.' },
+  { name: 'Tziah', floors: '119F–172F', months: 'Octubre', note: 'Greedy Shadows y Dark Zones. Rescates que bloquean vínculos si se pierden.' },
+  { name: 'Harabah', floors: '173F–226F', months: 'Diciembre', note: 'Cartas Sun y Judgement en el Monad Passage del 225F.' },
+  { name: 'Adamah', floors: '227F–256F', months: 'Enero', note: 'Último bloque y farmeo de endgame. La puerta del 255F lleva al jefe secreto.' },
+];
+const TART_RE = /\b\d{1,3}F\b|guardi[aá]n|Monad|piso frontera|Greedy|Dark Zone|Reaper|rescat|Tartarus|Shuffle Time|Arcano Mayor|Arcana Burst|cofre/i;
+export const TARTARUS_VISITS: TartarusVisit[] = EVENTS.filter((e) => e.kind === 'tartarus').map((e) => {
+  const day = DAYS.find((d) => d.date === e.date)!;
+  const floor = Number(e.title.match(/(\d+)F/)?.[1] ?? 0);
+  const items = day.slots.flatMap((s) => s.items.map((i) => ({ ...i, slot: s.label }))).filter((i) => !i.text.includes('<table') && TART_RE.test(strip(i.text)));
+  return { date: e.date, dayId: day.id, floor, area: e.title.replace(/^Tartarus:\s*/, ''), items };
+});
+
+// ---------- Fusiones ----------
+export interface FusionSession { date: string; dayId: string; month: string; items: (Item & { slot: string })[] }
+const FUS_RE = /Velvet Room|[Ff]usion|[Ff]usión|[Ff]usioná|Invocá|Liberá|Enseñale|Personas que tenés que llevar|Personas DLC|compendio|Theurgy|Heart Item|Growth|Lovers/;
+export const FUSION_SESSIONS: FusionSession[] = DAYS.filter((d) => d.slots.some((s) => s.items.some((i) => i.text.includes('<table')))).map((d) => ({
+  date: d.date,
+  dayId: d.id,
+  month: d.month,
+  items: d.slots.flatMap((s) => s.items.map((i) => ({ ...i, slot: s.label }))).filter((i) => i.text.includes('<table') || FUS_RE.test(strip(i.text))),
+}));
+
+// ---------- Encargos de Elizabeth (scripts/gen-elizabeth.mjs) ----------
+import elizabethRaw from '../elizabeth.json';
+export interface Quest { n: number; name: string; accepted: string | null; done: string | null; acceptedDay?: string; doneDay?: string }
+export const QUESTS: Quest[] = (elizabethRaw as Quest[]).map((q) => ({
+  ...q,
+  acceptedDay: q.accepted ? dayIdFor(q.accepted) : undefined,
+  doneDay: q.done ? dayIdFor(q.done) : undefined,
+}));

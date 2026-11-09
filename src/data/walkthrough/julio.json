@@ -137,9 +137,9 @@
               "text": "Seguí subiendo hasta el piso frontera 69F y abrí el cofre para conseguir el Old Document 3. En algún momento de esta noche deberías desbloquear:",
               "sub": [
                 "🏆 Logro/Trofeo: Extracurricular Excellence (22/48)",
-                "🏆 Logro/Trofeo: The Fool’s Journey (23/48) (Get 10 Major Arcana from shuffle time)",
-                "🏆 Logro/Trofeo: Birthday Present (24/48) (Got mine from Jack-o-Lantern)",
-                "🏆 Logro/Trofeo: Shattered Plumes (25/48) (use 50 Twighlight Fragments)"
+                "🏆 Logro/Trofeo: The Fool’s Journey (23/48) (conseguí 10 Arcanos Mayores en Shuffle Time)",
+                "🏆 Logro/Trofeo: Birthday Present (24/48) (a TenSquare3 le salió con Jack-o-Lantern)",
+                "🏆 Logro/Trofeo: Shattered Plumes (25/48) (usá 50 Twilight Fragments)"
               ]
             },
             {
@@ -249,7 +249,7 @@
             },
             {
               "id": "julio-703-a71f49b8",
-              "text": "Andá a la enfermería a buscar una medicina potente."
+              "text": "Andá a nurse&#39;s office to get a potent medicine."
             },
             {
               "note": true,
@@ -272,7 +272,7 @@
           "items": [
             {
               "id": "julio-703-768e61db",
-              "text": "Andá a Club Escapade, dale un Black Quartz al Luxury Shopkeeper y comprá los anteojos por 10.000 yen."
+              "text": "Andá a Club Escapade and give a Black Quartz to the Luxury Shopkeeper, then buy the glasses for 10.000 yen."
             },
             {
               "id": "julio-703-285ca079",
@@ -351,7 +351,7 @@
             },
             {
               "id": "julio-705-bb848596",
-              "text": "Canal de compras: Tasty Office Snack Set, 3x YABA Chocolate and 3x Doctor in Jelly, por 3.980 yen. Saltear."
+              "text": "Canal de compras: Tasty Office Snack Set, 3x YABA Chocolate y 3x Doctor in Jelly, por 3.980 yen. Saltear."
             },
             {
               "id": "julio-705-ae77ea83",
@@ -672,7 +672,7 @@
           "items": [
             {
               "id": "julio-712-48d7ab48",
-              "text": "Canal de compras: The Outdoor Activity Set, 1x Max Safety Shoes and 2x Instant Curry por 9.800 yen. <strong>¡Comprar!</strong> ¡Lo necesitás para un encargo!"
+              "text": "Canal de compras: The Outdoor Activity Set, 1x Max Safety Shoes y 2x Instant Curry por 9.800 yen. <strong>¡Comprar!</strong> ¡Lo necesitás para un encargo!"
             },
             {
               "id": "julio-712-ae77ea83",
@@ -902,7 +902,7 @@
           "items": [
             {
               "id": "julio-719-9ea3c693",
-              "text": "Canal de compras: The Sweet Seasonal Corn Set: 3x Tetracone and 3x Makaracone, por 14.800 yen. Saltear."
+              "text": "Canal de compras: The Sweet Seasonal Corn Set: 3x Tetracone y 3x Makaracone, por 14.800 yen. Saltear."
             },
             {
               "id": "julio-719-ae77ea83",
@@ -1175,7 +1175,7 @@
           "items": [
             {
               "id": "julio-726-2bd035c3",
-              "text": "Canal de compras: Designer Brand Set, 1x Brand Wallet and 1x Perfume por 6.980 yen. Saltear."
+              "text": "Canal de compras: Designer Brand Set, 1x Brand Wallet y 1x Perfume por 6.980 yen. Saltear."
             },
             {
               "id": "julio-726-ae77ea83",
@@ -1312,7 +1312,7 @@
           "items": [
             {
               "id": "julio-730-c3853146",
-              "text": "Revisá la heladera (1x Chilled Taiyaki and 1x Umugi Water)"
+              "text": "Revisá la heladera (1x Chilled Taiyaki y 1x Umugi Water)"
             },
             {
               "id": "julio-730-cc82ce41",

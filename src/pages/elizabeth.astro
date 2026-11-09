@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { QUESTS, MONTHS, dateOrd } from '../data/walkthrough';
+
+const groups = MONTHS.map((m) => ({ m, list: QUESTS.filter((q) => q.accepted && Number(q.accepted.split('/')[0]) === m.num) })).filter((g) => g.list.length);
+const noDate = QUESTS.filter((q) => !q.accepted);
+---
+<Layout title="Encargos de Elizabeth" section="elizabeth" description="Los 101 encargos de Elizabeth en Persona 3 Reload: cuándo aceptarlos y cuándo los entrega la guía">
+
+  <section class="page-hero">
+    <p class="hero-eyebrow">Velvet Room</p>
+    <h1 class="page-title">Encargos de <span>Elizabeth</span></h1>
+    <p class="page-subtitle">Los 101 encargos con el día en que la guía los acepta y el día en que los entrega.</p>
+  </section>
+
+  <div class="content-wrap">
+    <div class="track-progress" data-pagefind-ignore>
+      <strong class="wt-progress-label">Entregados: <span data-count="el:" data-count-format="full">0/0</span></strong>
+      <div class="wt-progress-track"><div class="wt-progress-fill" data-count-bar="el:"></div></div>
+    </div>
+
+    <div class="callout callout-info" data-pagefind-ignore>
+      <strong>Con tu fecha cargada</strong> los encargos que la guía ya entregó y vos no marcaste aparecen con borde dorado,
+      y los que tenés aceptados pero todavía no toca entregar, con borde azul.
+      <label class="wt-switch" style="margin-top:0.4rem;display:flex"><input type="checkbox" id="only-open" /> <span>Mostrar solo los pendientes</span></label>
+    </div>
+
+    <div class="callout callout-warn">
+      <strong>Son obligatorios para seguir la guía:</strong> dan ítems, yen, Personas y la mayoría de los Twilight Fragments,
+      y algunos dan stats sociales que la ruta necesita. El 100 es el Reaper y el 101, el jefe secreto (opcional, sin logro).
+    </div>
+
+    {groups.map(({ m, list }) => (
+      <div style="margin-top:2rem">
+        <div class="section-label">Aceptados en {m.key}</div>
+        <div class="track-list">
+          {list.map((q) => (
+            <div class="track-row quest-row" data-check={`el:${q.n}`} data-acc={q.accepted ? dateOrd(q.accepted) : -1} data-done={q.done ? dateOrd(q.done) : 999} id={`q-${q.n}`}>
+              <span class="wt-checkmark" aria-hidden="true"></span>
+              <div>
+                <div class="track-name"><span class="track-num">{q.n}.</span> {q.name || 'Encargo ' + q.n}</div>
+                <div class="track-desc">
+                  {q.accepted && <a href={`/walkthrough#d-${q.acceptedDay}`}>aceptar {q.accepted}</a>}
+                  {q.done ? <> · <a href={`/walkthrough#d-${q.doneDay}`}>entregar {q.done}</a></> : <span class="muted"> · opcional</span>}
+                </div>
+              </div>
+              <span class="track-date">{q.done ?? '—'}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+
+    {noDate.length > 0 && (
+      <div style="margin-top:2rem">
+        <div class="section-label">Sin fecha de aceptación en la guía</div>
+        <div class="track-list">
+          {noDate.map((q) => (
+            <div class="track-row quest-row" data-check={`el:${q.n}`} data-acc="-1" data-done={q.done ? dateOrd(q.done) : 999}>
+              <span class="wt-checkmark" aria-hidden="true"></span>
+              <div>
+                <div class="track-name"><span class="track-num">{q.n}.</span> {q.name || 'Encargo ' + q.n}</div>
+                <div class="track-desc">{q.done && <a href={`/walkthrough#d-${q.doneDay}`}>entregar {q.done}</a>}</div>
+              </div>
+              <span class="track-date">{q.done ?? '—'}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+
+  <script>
+    import { store, dateOrd } from '../lib/store';
+    const rows = [...document.querySelectorAll<HTMLElement>('.quest-row')];
+    const only = document.getElementById('only-open') as HTMLInputElement;
+    only.checked = store.has('cfg:elOpen');
+    only.addEventListener('change', () => store.set('cfg:elOpen', only.checked ? 1 : 0));
+    function paint() {
+      const md = store.get<string>('cfg:date', '');
+      const o = md ? dateOrd(md) : -1;
+      for (const r of rows) {
+        const acc = Number(r.dataset.acc), done = Number(r.dataset.done);
+        const checked = store.has(r.dataset.check!);
+        r.classList.toggle('due', o >= 0 && done <= o);
+        r.classList.toggle('active', o >= 0 && acc >= 0 && acc <= o && done > o);
+        r.style.display = store.has('cfg:elOpen') && checked ? 'none' : '';
+      }
+    }
+    store.subscribe((c) => { if (c.some((k) => k.startsWith('el:') || k.startsWith('cfg:'))) paint(); });
+    paint();
+  </script>
+</Layout>

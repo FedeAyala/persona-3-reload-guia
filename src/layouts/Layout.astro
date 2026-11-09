@@ -4,6 +4,8 @@ export interface Props {
   description?: string;
   section?: string;
 }
+// versión del build: invalida la caché del service worker para los CSS sin hash
+const BUILD = Date.now().toString(36);
 const { title, description = "Guía completa de Persona 3 Reload en español", section = "" } = Astro.props;
 const links = [
   ['/', 'inicio', 'Inicio'],
@@ -11,6 +13,7 @@ const links = [
   ['/social-links', 'sl', 'Social Links'],
   ['/tartarus', 'tartarus', 'Tartarus'],
   ['/fusion', 'fusion', 'Fusión'],
+  ['/elizabeth', 'elizabeth', 'Elizabeth'],
   ['/trofeos', 'trofeos', 'Trofeos'],
   ['/cien-por-ciento', '100', '100%'],
   ['/primera-partida', 'primera', '1ª Partida'],
@@ -30,8 +33,8 @@ const links = [
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/styles/global.css" />
-  <link rel="stylesheet" href="/styles/app.css" />
+  <link rel="stylesheet" href={`/styles/global.css?v=${BUILD}`} />
+  <link rel="stylesheet" href={`/styles/app.css?v=${BUILD}`} />
 </head>
 <body>
   <div class="bg-aura" aria-hidden="true">

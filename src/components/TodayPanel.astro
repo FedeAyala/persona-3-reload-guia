@@ -1,5 +1,5 @@
 ---
-import { DAYS, EVENTS, STAT_RANKUPS, SL_ROUTE, ARCANA, STATS, MONTHS } from '../data/walkthrough';
+import { DAYS, EVENTS, STAT_RANKUPS, SL_ROUTE, ARCANA, STATS, MONTHS, QUESTS } from '../data/walkthrough';
 
 export interface Props { compact?: boolean }
 const { compact = false } = Astro.props;
@@ -9,6 +9,7 @@ const data = {
   events: EVENTS,
   stats: STAT_RANKUPS,
   route: Object.values(SL_ROUTE).flat().map((r) => ({ a: r.arcana, r: r.rank, date: r.date, day: r.dayId, act: r.action })),
+  quests: QUESTS.filter((q) => q.done).map((q) => ({ n: q.n, name: q.name, done: q.done, day: q.doneDay })),
   arcana: Object.fromEntries(ARCANA.map((a) => [a.key, `${a.name} · ${a.who}`])),
 };
 const monthOpts = MONTHS.map((m) => ({ num: m.num, name: m.key[0].toUpperCase() + m.key.slice(1) }));
@@ -52,6 +53,7 @@ const monthOpts = MONTHS.map((m) => ({ num: m.num, name: m.key[0].toUpperCase() 
     </div>
     <div class="today-card today-card-wide" id="tc-sl"></div>
     <div class="today-card" id="tc-pending"></div>
+    <div class="today-card today-card-wide" id="tc-eliz"></div>
   </div>
   <p class="today-empty" id="today-empty">Elegí la fecha en la que estás en el juego y te muestro lo que viene: luna llena, Tartarus, exámenes, vínculos y lo que te quedó pendiente.</p>
 </section>
@@ -167,6 +169,15 @@ const monthOpts = MONTHS.map((m) => ({ num: m.num, name: m.key[0].toUpperCase() 
       ? `<div class="tc-main">${pending.length} ítems</div><div class="tc-detail">El primero es del ${pretty(pending[0].day.date)}.</div>
          <a class="tc-link" href="/walkthrough#i-${pending[0].id}" data-goto-item="${pending[0].id}">Ver el primero →</a>`
       : '<div class="tc-main ok">¡Nada pendiente!</div><div class="tc-detail">Vas al día con la guía.</div>');
+
+    // encargos de Elizabeth
+    const byDone = (a: any, b: any) => dateOrd(a.done) - dateOrd(b.done);
+    const lateQ = D.quests.filter((q: any) => dateOrd(q.done) < o && !store.has(`el:${q.n}`)).sort(byDone);
+    const soonQ = D.quests.filter((q: any) => dateOrd(q.done) >= o && daysBetween(md, q.done) <= 7 && !store.has(`el:${q.n}`)).sort(byDone);
+    const qli = (q: any, late: boolean) => `<li><a href="/elizabeth#q-${q.n}"><span class="tc-date">${q.done}</span> <b>${q.n}.</b> ${q.name || 'Encargo ' + q.n}</a>${late ? ' <span class="tc-warn">atrasado</span>' : ''}</li>`;
+    $('tc-eliz').innerHTML = `<div class="tc-label">📋 Encargos de Elizabeth</div>` + (lateQ.length + soonQ.length
+      ? `<ul class="tc-list">${[...lateQ.slice(0, 3).map((q: any) => qli(q, true)), ...soonQ.slice(0, 4).map((q: any) => qli(q, false))].join('')}</ul>${lateQ.length > 3 ? `<a class="tc-link" href="/elizabeth">+${lateQ.length - 3} atrasados más →</a>` : ''}`
+      : '<div class="tc-detail">Nada para entregar en los próximos 7 días.</div>');
   }
 
   $('tc-pending').addEventListener('click', (e) => {
@@ -174,6 +185,6 @@ const monthOpts = MONTHS.map((m) => ({ num: m.num, name: m.key[0].toUpperCase() 
     if (a && onWalkthrough) { e.preventDefault(); window.dispatchEvent(new CustomEvent('p3r:goto-item', { detail: a.dataset.gotoItem })); }
   });
 
-  store.subscribe((changed) => { if (changed.some((k) => k === 'cfg:date' || k.startsWith('st:') || k.startsWith('sl:') || k.startsWith('c:'))) render(); });
+  store.subscribe((changed) => { if (changed.some((k) => k === 'cfg:date' || k.startsWith('st:') || k.startsWith('sl:') || k.startsWith('c:') || k.startsWith('el:'))) render(); });
   render();
 </script>

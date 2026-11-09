@@ -3,8 +3,8 @@
 // - Assets (/_astro, estilos, íconos, fuentes, pagefind): cache-first.
 // Firebase/Google no pasan por acá (son de otro origen y se manejan solos).
 
-const VERSION = 'p3r-v2';
-const PAGES = ['/', '/walkthrough/', '/social-links/', '/trofeos/', '/cien-por-ciento/', '/tartarus/', '/fusion/', '/primera-partida/'];
+const VERSION = 'p3r-v3';
+const PAGES = ['/', '/walkthrough/', '/social-links/', '/trofeos/', '/cien-por-ciento/', '/tartarus/', '/fusion/', '/primera-partida/', '/elizabeth/'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(PAGES).catch(() => {})).then(() => self.skipWaiting()));

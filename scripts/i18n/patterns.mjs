@@ -56,12 +56,18 @@ add(/^Track and Field training\.?$/, () => 'Entrenamiento de atletismo.');
 add(/^(\((?:[^()]*\b(?:Rank|Linked Episode|Social Link|Academics|Charm|Courage|Flag|Stats of equipped)\b[^()]*)\)(?: \([^()]*\))*)$/, (_, r) => T(r));
 add(/^\(For [Hh]aving (.+) in the [Cc]ompendium\)$/, (_, r) => `(por tener ${r.replace(/ and /g, ' y ')} en el compendio)`);
 add(/^\(Requires having (.+) in the compendium\)$/, (_, r) => `(requiere tener ${r.replace(/ and /g, ' y ')} en el compendio)`);
-add(/^Achievement\/Trophy: (.*)$/, (_, r) => `🏆 Logro/Trofeo: ${r}`);
+const TROPHY_COND = {
+  'Get 10 Major Arcana from shuffle time': 'conseguí 10 Arcanos Mayores en Shuffle Time',
+  'Got mine from Jack-o-Lantern': 'a TenSquare3 le salió con Jack-o-Lantern',
+  'Conquer 10 Monad doors': 'completá 10 Monad Doors',
+  'use 50 Twighlight Fragments': 'usá 50 Twilight Fragments',
+};
+add(/^Achievement\/Trophy: (.*)$/, (_, r) => `🏆 Logro/Trofeo: ${r.replace(/\(([^()]+)\)\s*$/, (m, c) => (TROPHY_COND[c] ? `(${TROPHY_COND[c]})` : m))}`);
 add(/^Exam Results?: Top of the [Cc]lass (.*)$/, (_, r) => `Resultado del examen: primero de la clase ${T(r)}`);
 
 // ---- social links
 add(/^Spend [Tt]ime with ([^,.(]+?) at the ([^,.(]+?) (\(.*\))\.?$/, (_, n, w, r) => `Pasá tiempo con ${n} en ${w} ${T(r)}`);
-add(/^(?:Spend [Tt]ime|Spend|Hang out) with ([^,.(]+?)\.?$/, (_, n) => `Pasá tiempo con ${n}`);
+add(/^(?:Spend [Tt]ime|Spend|Hang out) with (?:the )?([^,.(]+?)\.?$/, (_, n) => `Pasá tiempo con ${n}`);
 add(/^Have coffee with (\w+)\.?$/, (_, n) => `Tomá un café con ${n}.`);
 add(/^(\d+x .+?) \(Equip on (\w+)\)$/, (_, i, n) => `${i} (equipáselo a ${n})`);
 add(/^Spend time with ([^,(]+?), then hand in quests? ([\d ,and]+)\.?$/, (_, n, q) => `Pasá tiempo con ${n} y entregá el encargo ${q.replace(/ and /g, ' y ')}`);
@@ -96,7 +102,7 @@ add(/^Use the (?:shared )?(?:computer|PC)(?: to (?:play|use|read))? (.+?) (\(.*\
 add(/^Watch a DVD with (\w+) (\(.*\))\.?$/, (_, n, r) => `Mirá un DVD con ${n} ${T(r)}`);
 add(/^Watch a DVD (\(.*\))\.?$/, (_, r) => `Mirá un DVD ${T(r)}`);
 add(/^Watch (.+?) (\(.*\))\.?$/, (_, n, r) => `Mirá ${n} ${T(r)}`);
-add(/^Read with (\w+) (\(.*\))\.?$/, (_, n, r) => `Leé con ${n} ${T(r)}`);
+add(/^Read [Ww]ith (\w+) (\(.*\))\.?$/, (_, n, r) => `Leé con ${n} ${T(r)}`);
 add(/^Read (.+?) (\(.*\))\.?$/, (_, n, r) => `Leé ${n} ${T(r)}`);
 add(/^Have tea with Mitsuru\.?(.*)$/, (_, r) => `Tomá el té con Mitsuru${T(r)}`);
 add(/^Cook with Shinjiro\.?(.*)$/, (_, r) => `Cociná con Shinjiro${T(r)}`);
@@ -105,10 +111,11 @@ add(/^Head to the Nurse’s Office \(Supplemental Lesson (\d+) of (\d+)\)\.?$/, 
 add(/^Head to the Nurse’s Office and drink the strange medicine (\(.*\))\.?$/, (_, r) => `Andá a la enfermería y tomá la medicina rara ${T(r)}`);
 add(/^Take (?:a )?bath at Naganaki Shrine (\(.*\))\.?$/, (_, r) => `Bañate en el santuario Naganaki ${T(r)}`);
 add(/^Take the Bath at (?:the )?(.+?) (\(.*\))\.?$/, (_, w, r) => `Bañate en ${w} ${T(r)}`);
-add(/^Go to (?:the )?(.+?) (\(.*\))\.?$/, (_, w, r) => `Andá a ${w} ${T(r)}`);
+add(/^Go to (?:the )?movies with (\w+) (\(.*\))\.?$/i, (_, n, r) => `Andá al cine con ${n} ${T(r)}`);
+add(/^Go to (?:the )?(.+?) ((.*)).?$/, (_, w, r) => `Andá a ${w} ${T(r)}`);
 
 // ---- dorm / items
-add(/^Check the fridge (\(.*\))\.?$/, (_, r) => `Revisá la heladera ${r}`);
+add(/^Check the [Ff]ridge \((.*)\)\.?$/, (_, r) => `Revisá la heladera (${r.replace(/ and /g, ' y ').replace(/, fully restores SP of one character/, ', recupera todo el SP de un personaje')})`);
 add(/^Check the fridge\.?$/, () => 'Revisá la heladera');
 add(/^Put the (.+?) in the fridge\.?$/, (_, n) => `Guardá ${n} en la heladera.`);
 add(/^(?:Grab|Buy) (?:a |an |\d+x )?(.+?) from the School Store\.?$/, (_, n) => `Comprá ${n} en la tienda del colegio.`);
@@ -117,7 +124,7 @@ add(/^Harvest the Rooftop Garden(?: \((.*?)\))?\.?$/, (_, h) => `Cosechá la hue
 add(/^Plant (?:a )?(.+?) in the Rooftop Garden\.?$/, (_, p) => `Plantá ${p} en la huerta de la terraza.`);
 add(/^Check the [Cc]ommand [Cc]onsole for a new video\.?$/, () => 'Revisá la consola de comandos: hay un video nuevo.');
 add(/^Speak to Fuuka and head to Tartarus\.?$/, () => 'Hablá con Fuuka y andá a Tartarus.');
-add(/^Shopping Channel: (.+?) for ([\d,]+) [Yy]en\. \*?\*?(Buy|Skip)!?\*?\*?(.*)$/, (_, s, p, a, r) => `Canal de compras: ${s} por ${p.replace(/,/g, '.')} yen. ${a === 'Buy' ? '**¡Comprar!**' : 'Saltear.'}${r.trim() ? ' ' + (TR(r.trim()) ?? r.trim()) : ''}`);
+add(/^Shopping Channel: (.+?) for ([\d,]+) [Yy]en\. \*?\*?(Buy|Skip)!?\*?\*?(.*)$/, (_, s, p, a, r) => `Canal de compras: ${s.replace(/ and /g, ' y ')} por ${p.replace(/,/g, '.')} yen. ${a === 'Buy' ? '**¡Comprar!**' : 'Saltear.'}${r.trim() ? ' ' + (TR(r.trim()) ?? r.trim()) : ''}`);
 add(/^Elizabeth’s quests update today, accept:?$/, () => 'Hoy se actualizan los encargos de Elizabeth. Aceptá:');
 add(/^Elizabeth's quests update today, accept:?$/, () => 'Hoy se actualizan los encargos de Elizabeth. Aceptá:');
 add(/^Quest (\d+) - (.*)$/, (_, n, r) => `Encargo ${n} - ${r}`);
@@ -138,7 +145,8 @@ add(/^Invite (\w+) to the movies (\(.*\))\.?$/, (_, n, r) => `Invitá a ${n} al 
 add(/^Tend (?:to )?the garden with (\w+)\.?(.*)$/, (_, n, r) => `Cuidá la huerta con ${n}${T(r)}`);
 add(/^Cook with (\w+)\.?(.*)$/, (_, n, r) => `Cociná con ${n}${T(r)}`);
 add(/^Study with (\w+) and (\w+) (\(.*\))\.?$/, (_, a, b, r) => `Estudiá con ${a} y ${b} ${T(r)}`);
-add(/^Characteristics Unlocked: (.+)$/, (_, c) => `Característica desbloqueada: ${c}`);
+const CHAR = {"Raises Critical Rate on Foes with Ailments":"sube la tasa de crítico contra enemigos con estados alterados","Greatly Raises Critical Rate on Foes with Ailments":"sube mucho la tasa de crítico contra enemigos con estados alterados","Increases the Effect of Buffs on Self":"aumenta el efecto de los buffs sobre uno mismo","Greatly Increases the Effect of Buffs on Self":"aumenta mucho el efecto de los buffs sobre uno mismo"};
+add(/^Characteristics Unlocked: ([^,]+)(?:, (.+))?$/, (_, c, d) => `Característica desbloqueada: ${c}${d ? ', ' + (CHAR[d] ?? d.replace(/^for hitting (\d+)% compendium$/, 'por llegar al $1% del compendio')) : ''}`);
 add(/^Doesn'?t max out its skill(?:s| list)\.?$|^Doesn't max out skill list\.?$/, () => 'No llena su lista de habilidades');
 add(/^Feed the cat\.?$/, () => 'Dale de comer al gato.');
 add(/^Feed the cat, then hand in quest (\d+) to Elizabeth\.?$/, (_, q) => `Dale de comer al gato y entregá el encargo ${q} a Elizabeth.`);
