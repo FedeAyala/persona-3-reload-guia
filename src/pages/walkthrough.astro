@@ -35,6 +35,7 @@ const isWarn = (t: string) => /^(⚠️|🔴|<strong>¡Importante)/.test(t) || /
         <label class="wt-switch"><input type="checkbox" id="opt-spoilers" /> <span>Ocultar días futuros (spoilers)</span></label>
         <label class="wt-switch"><input type="checkbox" id="opt-hide-done" /> <span>Ocultar días completos</span></label>
         <button class="wt-btn wt-btn-sec" id="btn-collapse">Cerrar todos</button>
+        <span class="wt-keys muted" title="Atajos de teclado">⌨ <kbd>N</kbd> pendiente · <kbd>T</kbd> hoy · <kbd>J</kbd>/<kbd>K</kbd> día sig./ant.</span>
       </div>
     </div>
 
@@ -102,6 +103,7 @@ const isWarn = (t: string) => /^(⚠️|🔴|<strong>¡Importante)/.test(t) || /
                   <div class="wt-day-foot" data-pagefind-ignore>
                     <textarea class="wt-note-input" data-bind={`n:${d.id}`} rows="1" placeholder="Tus notas de este día…"></textarea>
                     <button class="wt-btn wt-btn-sec" data-check-all>✓ Tildar todo el día</button>
+                    <button class="wt-btn wt-btn-primary" data-finish-day title="Marca este día como tu fecha actual en el juego y abre el siguiente">Terminé el día →</button>
                   </div>
                 </div>
               </article>
@@ -259,6 +261,40 @@ const isWarn = (t: string) => /^(⚠️|🔴|<strong>¡Importante)/.test(t) || /
       const now = Date.now();
       store.merge(Object.fromEntries(items.map((i) => [i.dataset.check!, { v: allOn ? 0 : 1, t: now }])), 'local');
     }));
+
+    // terminé el día: la fecha del juego pasa al día siguiente de la guía y se abre
+    document.querySelectorAll<HTMLElement>('[data-finish-day]').forEach((b) => b.addEventListener('click', () => {
+      const day = b.closest<HTMLElement>('.wt-day')!;
+      const i = dayEls.indexOf(day);
+      const next = dayEls[i + 1];
+      if (!next) { store.set('cfg:date', '1/31'); return; }
+      const [m, d] = day.querySelector('.wt-day-date')!.textContent!.split('/').map(Number);
+      const dt = new Date(m >= 4 ? 2009 : 2010, m - 1, d + 1);
+      store.set('cfg:date', `${dt.getMonth() + 1}/${dt.getDate()}`);
+      setOpen(day, false);
+      next.classList.add('revealed');
+      setOpen(next, true);
+      next.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }));
+
+    // atajos de teclado
+    document.addEventListener('keydown', (e) => {
+      const tgt = e.target instanceof Element ? e.target : null;
+      if (e.ctrlKey || e.metaKey || e.altKey || tgt?.closest('input,textarea,select,dialog')) return;
+      const k = e.key.toLowerCase();
+      if (k === 'n') { e.preventDefault(); nextPending(); }
+      else if (k === 't') { const t = currentDay(); if (t) { e.preventDefault(); gotoDay(t.dataset.day!); } }
+      else if (k === 'j' || k === 'k') {
+        e.preventDefault();
+        const open = dayEls.filter((d) => d.classList.contains('open'));
+        const ref = open[open.length - 1] ?? currentDay() ?? dayEls[0];
+        const i = dayEls.indexOf(ref);
+        let j = i;
+        do { j += k === 'j' ? 1 : -1; } while (dayEls[j] && dayEls[j].style.display === 'none');
+        const target = dayEls[j];
+        if (target) { setOpen(ref, false); gotoDay(target.dataset.day!); }
+      }
+    });
 
     // spoilers: revelar un día puntual
     document.querySelectorAll<HTMLElement>('[data-reveal]').forEach((b) => b.addEventListener('click', () => b.closest('.wt-day')!.classList.add('revealed')));

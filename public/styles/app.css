@@ -311,3 +311,6 @@ a.wt-cal-row:hover { color: var(--white); }
 .act-list { list-style: none; display: grid; gap: 0.25rem; font-size: 0.85rem; }
 .act-list a { text-decoration: none; color: var(--moon); }
 .act-list a:hover { color: var(--white); }
+.wt-keys { font-size: 0.75rem; }
+.wt-keys kbd, .search-box kbd { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; border: 1px solid rgba(200,216,255,0.25); border-radius: 3px; padding: 0 0.3rem; color: var(--moon); }
+@media (hover: none) { .wt-keys { display: none; } }

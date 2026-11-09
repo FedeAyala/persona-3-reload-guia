@@ -205,7 +205,7 @@ const links = [
     $('btn-search').addEventListener('click', openSearch);
     document.addEventListener('keydown', (e) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); openSearch(); }
-      else if (e.key === '/' && !(e.target as HTMLElement).closest('input,textarea,select')) { e.preventDefault(); openSearch(); }
+      else if (e.key === '/' && !(e.target instanceof Element && e.target.closest('input,textarea,select'))) { e.preventDefault(); openSearch(); }
     });
     dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
     let seq = 0;
