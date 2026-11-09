@@ -1,0 +1,649 @@
+{
+  "title": "🌑 ABRIL — Comienzo del año escolar",
+  "intro": [],
+  "days": [
+    {
+      "id": "406",
+      "date": "4/6",
+      "name": "Lunes",
+      "tips": [
+        "Si tenés DLC comprado, accedé al closet una segunda vez para agregar los items al juego."
+      ],
+      "slots": [
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-406-0-0",
+              "text": "Llegás a Iwatodai Station — explorá la zona"
+            },
+            {
+              "id": "abril-406-0-1",
+              "text": "Elegí tu nombre (canónico: Makoto Yuki)"
+            },
+            {
+              "id": "abril-406-0-2",
+              "text": "Guardá tus items en el closet y dormí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "date": "4/7",
+      "name": "Martes",
+      "tips": [
+        "Los diálogos de los NPCs se actualizan seguido — si ves un globo azul hay contenido nuevo. Seguí especialmente los diálogos de los miembros de SEES en el dorm, agregan mucho contexto y desarrollo de personajes que de otra forma te perdés."
+      ],
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "abril-407-0-0",
+              "text": "Encontrá la sala de profesores en el colegio"
+            }
+          ]
+        },
+        {
+          "label": "Tarde/Noche",
+          "items": [
+            {
+              "id": "abril-407-1-0",
+              "text": "Explorá el colegio, luego volvé al dormitorio"
+            },
+            {
+              "id": "abril-407-1-1",
+              "text": "Dormí en tu cuarto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "date": "4/8",
+      "name": "Miércoles",
+      "tips": [
+        "Hay 3 stats sociales: <strong>Valentía, Encanto y Académicos</strong>. Subirlos es crítico — ubicaciones, SLs y actividades están bloqueados por nivel mínimo. Los puntos reales son más que las notas que muestra el juego (ej: el arcade da 4 puntos reales pero muestra 2 notas)."
+      ],
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "abril-408-0-0",
+              "text": "Respuesta en clase: <strong>\"Vivid carp streamers\"</strong> <span class=\"wt-tag wt-tag-stat\">Encanto +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-408-1-0",
+              "text": "Evento de historia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "date": "4/9",
+      "name": "Jueves",
+      "tips": [
+        "Cuando tenés que elegir en clase: quedarte despierto da <strong>Académicos +1</strong>, cerrar los ojos da <strong>Valentía +1</strong>. Seguí siempre lo que dice la guía."
+      ],
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "abril-409-0-0",
+              "text": "Quedáte despierto en clase <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-409-1-0",
+              "text": "Dormí en tu cuarto"
+            },
+            {
+              "id": "abril-409-1-1",
+              "text": "Hora Oscura: Evento de historia — Trofeo: Awakened Power 🏆"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "417",
+      "date": "4/17",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-417-0-0",
+              "text": "Dormí en tu cuarto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "418",
+      "date": "4/18",
+      "name": "Sábado",
+      "tips": [
+        "Los <strong>Twilight Fragments</strong> son muy valiosos: abren cofres bloqueados o restauran completamente HP y SP de todo el equipo. Son de cantidad limitada — usalos con cabeza."
+      ],
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "abril-418-0-0",
+              "text": "Respuesta en clase: <strong>\"Middens\"</strong> <span class=\"wt-tag wt-tag-stat\">Encanto +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-418-1-0",
+              "text": "Recibís Twilight Fragment x1"
+            },
+            {
+              "id": "abril-418-1-1",
+              "text": "Subí al 4F del dorm — <strong>Fool Rango 1</strong> 🏆 SEES the Day"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "420",
+      "date": "4/20",
+      "name": "Lunes",
+      "tips": [
+        "⚠️ IMPORTANTE: En el tutorial hay un cofre bloqueado que tiene 2x <strong>Snuff Soul</strong>. Estos restauran SP y son oro en esta etapa del juego — no te lo pierdas."
+      ],
+      "slots": [
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "abril-420-0-0",
+              "text": "Tutorial de Tartarus y combate"
+            },
+            {
+              "id": "abril-420-0-1",
+              "text": "Elegí la carta de <strong>YEN</strong> en shuffle time"
+            },
+            {
+              "id": "abril-420-0-2",
+              "text": "<strong>Fool Rango 2</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "date": "4/21",
+      "name": "Martes",
+      "tips": [
+        "No compres equipo en el mall todavía — cada yen cuenta para los stats sociales. <strong>La armadura</strong> es lo primero que vas a querer mejorar. Las armas se eligen principalmente por sus efectos secundarios, no por el daño.",
+        "Las bebidas de SP de las máquinas expendedoras <strong>resetean cada domingo</strong>. Son tu principal fuente de SP restaurativo en el early game — comprá todas las que puedas."
+      ],
+      "slots": [
+        {
+          "label": "Tarde (clase)",
+          "items": [
+            {
+              "id": "abril-421-0-0",
+              "text": "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "abril-421-1-0",
+              "text": "Paulownia Mall — NO compres equipo todavía"
+            },
+            {
+              "id": "abril-421-1-1",
+              "text": "Enfermería del colegio → Tomá la medicina rara <span class=\"wt-tag wt-tag-stat\">Valentía +1</span>"
+            },
+            {
+              "id": "abril-421-1-2",
+              "text": "Recolectá los 16 Twilight Fragments por el mapa (colegio, mall, shrine, etc.)"
+            },
+            {
+              "id": "abril-421-1-3",
+              "text": "Screen Shot (Port Island Station) → mirá película <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-421-2-0",
+              "text": "4F del dorm → otro Twilight Fragment (total: 17)"
+            },
+            {
+              "id": "abril-421-2-1",
+              "text": "Comprá todos los Mad Bulls (2F dorm, Iwatodai Station) y Fountain Dew (3F Strip Mall)"
+            },
+            {
+              "id": "abril-421-2-2",
+              "text": "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "date": "4/22",
+      "name": "Miércoles",
+      "tips": [
+        "⚠️ IMPORTANTE: Desde ahora, siempre llevá una <strong>Persona del mismo Arcano</strong> del SL que vas a visitar. Da un multiplicador de 1.51x en los puntos de rango. Excepción: Rango 1 y Rango 10 no lo necesitan.",
+        "Guardá cada 4 días usando distintos slots — permite hacer backup de hasta 2 meses. Usá también el <strong>Rewind</strong> para corregir errores de los últimos días sin recargar.",
+        "Si no subís de rango cuando la guía lo dice, probablemente olvidaste la Persona del Arcano o elegiste una respuesta diferente al rango anterior. El Social Activities Breakdown (en la guía completa) tiene el detalle exacto de cada rango.",
+        "⚠️ TARTARUS 1–22F — Consejos clave: usá comandos manuales, rompé todas las estatuas brillantes (resetean por piso), emboscá siempre para ahorrar SP, usá items de curación (no habilidades como Dia), intentá noquear a todos los enemigos para el All-Out Attack y Shuffle Time garantizado. Huí de los escarabajos en pisos altos — no valen. Recargá después de malas peleas con Gatekeepers.",
+        "⚠️ IMPORTANTE: Salí de Tartarus con al menos 1x <strong>Odd Morsel</strong> en el inventario — lo vas a necesitar para un SL más adelante. Se encuentran en cofres de esta área.",
+        "El reloj en la entrada de Tartarus restaura HP y SP de todo el equipo por 7 Twilight Fragments. Tenés suficientes para usarlo una vez y aún abrir todos los cofres bloqueados del bloque."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "abril-422-0-0",
+              "text": "<strong>Evento de historia → Magician Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche / Hora Oscura",
+          "items": [
+            {
+              "id": "abril-422-1-0",
+              "text": "Tartarus pisos 1–22F. Objetivo: 37k yen, Yukari nivel 11"
+            },
+            {
+              "id": "abril-422-1-1",
+              "text": "Fusión en 5F: Apsaras + Orpheus → <strong>Nekomata</strong> (pasar: Bufu)"
+            },
+            {
+              "id": "abril-422-1-2",
+              "text": "Fusión en 11F: Angel+Nekomata→Omokaine, Pixie+Nekomata→Ara Mitama"
+            },
+            {
+              "id": "abril-422-1-3",
+              "text": "Fusiones finales en 22F: múltiples (ver acordeón guía completa abajo)"
+            },
+            {
+              "id": "abril-422-1-4",
+              "text": "Trofeos: The First of Many 🏆, There's no I in Team 🏆, The Thrill of the Hunt 🏆, The Power of Choice 🏆, Shrouded Assassin 🏆, Making the Dream Work 🏆"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "date": "4/23",
+      "name": "Jueves",
+      "tips": [
+        "Si quedás corto de yen, podés bajar la dificultad a <strong>Peaceful</strong> al vender el botín — el loot vale más en dificultades más bajas. Ojo: si jugás en Merciless no podés volver a subirla."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "abril-423-0-0",
+              "text": "Enfermería → medicina rara <span class=\"wt-tag wt-tag-stat\">Valentía +1</span>"
+            },
+            {
+              "id": "abril-423-0-1",
+              "text": "Vendé el botín en la comisaría"
+            },
+            {
+              "id": "abril-423-0-2",
+              "text": "Gimnasio → unite al equipo de atletismo → <strong>Chariot Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            },
+            {
+              "id": "abril-423-0-3",
+              "text": "Hablale a Yuko: elegí <strong>\"I think I will\"</strong> y <strong>\"Wanna walk home together?\"</strong> (flag Strength)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-423-1-0",
+              "text": "Game Parade → High School of Youth <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "date": "4/24",
+      "name": "Viernes",
+      "tips": [
+        "Desde el Rango 2 en adelante, las respuestas exactas importan mucho para la velocidad de subida del SL. Seguí las respuestas de la guía y no olvides llevar la Persona del Arcano correcto (multiplicador 1.51x)."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "abril-424-0-0",
+              "text": "Salir con Kazushi: <strong>\"Toughen Up! (+1)\"</strong>, cualquier respuesta → <strong>Chariot Rango 2</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            },
+            {
+              "id": "abril-424-0-1",
+              "text": "Hablale a Yuko: <strong>\"I think I will\"</strong> + <strong>\"Wanna walk home together?\"</strong> → <strong>Strength Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-424-1-0",
+              "text": "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "date": "4/25",
+      "name": "Sábado",
+      "tips": [
+        "A partir de esta noche, los miembros del dorm se mueven por el edificio. Si querés ver su diálogo, tendrás que buscarlos."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "abril-425-0-0",
+              "text": "Andá a Bookworms en Strip Mall → entrá"
+            },
+            {
+              "id": "abril-425-0-1",
+              "text": "Volvé al colegio, buscá la hoja de caqui en el árbol del patio, regresá a Bookworms → <strong>Hierophant Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-425-1-0",
+              "text": "Game Parade → You're the Answer <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "date": "4/26",
+      "name": "Domingo",
+      "tips": [
+        "A veces recibís invitaciones de compañeros del colegio los días libres. No suben de rango pero dan puntos de SL — llevá la Persona del Arcano correspondiente. Son escenas únicas que agregan contexto. Podés usar el <strong>Rewind</strong> para ver múltiples invitaciones si te llegan varias."
+      ],
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "abril-426-0-0",
+              "text": "Recargá las máquinas de vending (2F dorm, 3F Strip Mall, Iwatodai Station)"
+            },
+            {
+              "id": "abril-426-0-1",
+              "text": "Trabajá en Screen Shot (Port Island Station) <span class=\"wt-tag wt-tag-stat\">Acad+1, Val+1</span> + 5.000 yen 🏆 The Grindset Mindset (parcial)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-426-1-0",
+              "text": "Wakatsu Kitchen → Prodigy Platter <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "date": "4/27",
+      "name": "Lunes",
+      "tips": [
+        "No necesitás Persona del Arcano cuando iniciás un SL por primera vez (Rango 1). El bonus de 1.51x aplica desde Rango 2 en adelante."
+      ],
+      "slots": [
+        {
+          "label": "Tarde (clase)",
+          "items": [
+            {
+              "id": "abril-427-0-0",
+              "text": "Respuesta en clase: <strong>\"A\"</strong> <span class=\"wt-tag wt-tag-stat\">Encanto +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "abril-427-1-0",
+              "text": "Mitsuru te invita al Consejo Estudiantil → aceptá → <strong>Emperor Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-427-2-0",
+              "text": "Game Parade → High School of Youth <span class=\"wt-tag wt-tag-stat\">Encanto +2</span> → Encanto Rango 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "date": "4/28",
+      "name": "Martes",
+      "tips": [
+        "Hablale a Chihiro en el corredor del 2F y elegí <strong>\"I just wanted to talk\"</strong> — es un flag necesario para iniciar el SL Justice más adelante."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "abril-428-0-0",
+              "text": "Hablale a Chihiro (corredor 2F): <strong>\"I just wanted to talk\"</strong> (flag Justice)"
+            },
+            {
+              "id": "abril-428-0-1",
+              "text": "Salir con Kazushi: <strong>\"Are you going to be okay? (+1)\"</strong> + <strong>\"Will it heal? (+1)\"</strong> → <strong>Chariot Rango 3</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-428-1-0",
+              "text": "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span> → Valentía Rango 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "date": "4/29",
+      "name": "Miércoles",
+      "tips": [
+        "La <strong>computadora compartida del lounge</strong> da beneficios variados: stats sociales, ítems ocultos, habilidades de combate y aumentos de HP/SP. Seguila regularmente según la guía."
+      ],
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "abril-429-0-0",
+              "text": "Jugá Innocent Sin Online en la compu de tu cuarto → <strong>Hermit Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-429-1-0",
+              "text": "Club Escapade en Paulownia Mall (requiere Valentía Rango 2) — agarrá el Twilight Fragment a la izquierda"
+            },
+            {
+              "id": "abril-429-1-1",
+              "text": "Hablá con el tipo sospechoso → comprá <strong>Iwatodai Forum Note</strong> y <strong>School X Site Note</strong>"
+            },
+            {
+              "id": "abril-429-1-2",
+              "text": "Game Parade → You're the Answer <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "date": "4/30",
+      "name": "Jueves",
+      "tips": [
+        "Hablale a Chihiro y elegí <strong>\"I'm a guy\"</strong> — es otro flag necesario para Justice."
+      ],
+      "slots": [
+        {
+          "label": "Tarde (clase)",
+          "items": [
+            {
+              "id": "abril-430-0-0",
+              "text": "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "abril-430-1-0",
+              "text": "Hablale a Chihiro (2F): <strong>\"I'm a guy\"</strong> (flag Justice)"
+            },
+            {
+              "id": "abril-430-1-1",
+              "text": "Bookworms: <strong>\"MC name (+1)\"</strong>, <strong>\"Thank you (+3)\"</strong> → <strong>Hierophant Rango 2</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "abril-430-2-0",
+              "text": "Usá School X Site Note en la compu compartida (desbloquea Lukewarm Taiyaki en la tienda del colegio)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": {
+    "stats": [
+      {
+        "stat": "Charm",
+        "rank": 2,
+        "label": "Plain"
+      },
+      {
+        "stat": "Academics",
+        "rank": 1,
+        "label": "Slacker"
+      },
+      {
+        "stat": "Courage",
+        "rank": 2,
+        "label": "Ordinary"
+      }
+    ],
+    "sl": [
+      {
+        "arcana": "Fool",
+        "rank": 2
+      },
+      {
+        "arcana": "Magician",
+        "rank": 1
+      },
+      {
+        "arcana": "Emperor",
+        "rank": 1
+      },
+      {
+        "arcana": "Hierophant",
+        "rank": 2
+      },
+      {
+        "arcana": "Chariot",
+        "rank": 3
+      },
+      {
+        "arcana": "Hermit",
+        "rank": 1
+      },
+      {
+        "arcana": "Strength",
+        "rank": 1
+      }
+    ],
+    "trophies": [
+      "Awakened Power",
+      "SEES the Day",
+      "The First of Many",
+      "There's no I in Team",
+      "The Thrill of the Hunt",
+      "The Power of Choice",
+      "Shrouded Assassin",
+      "Making the Dream Work"
+    ],
+    "compendium": 0
+  }
+}

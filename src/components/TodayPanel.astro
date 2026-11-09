@@ -1,0 +1,179 @@
+---
+import { DAYS, EVENTS, STAT_RANKUPS, SL_ROUTE, ARCANA, STATS, MONTHS } from '../data/walkthrough';
+
+export interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+
+const data = {
+  days: DAYS.map((d) => ({ id: d.id, date: d.date, ord: d.ord, items: d.slots.flatMap((s) => s.items.filter((i) => !i.note).map((i) => i.id)) })),
+  events: EVENTS,
+  stats: STAT_RANKUPS,
+  route: Object.values(SL_ROUTE).flat().map((r) => ({ a: r.arcana, r: r.rank, date: r.date, day: r.dayId, act: r.action })),
+  arcana: Object.fromEntries(ARCANA.map((a) => [a.key, `${a.name} · ${a.who}`])),
+};
+const monthOpts = MONTHS.map((m) => ({ num: m.num, name: m.key[0].toUpperCase() + m.key.slice(1) }));
+---
+<section class={`today ${compact ? 'today-compact' : ''}`} id="today" data-pagefind-ignore>
+  <div class="today-head">
+    <div class="today-title">
+      <span class="today-eyebrow">Tu partida</span>
+      <strong id="today-label">¿En qué día vas?</strong>
+    </div>
+    <div class="today-date">
+      <button class="today-step" id="today-prev" aria-label="Día anterior">◀</button>
+      <select id="today-month" aria-label="Mes">
+        <option value="">Mes</option>
+        {monthOpts.map((m) => <option value={m.num}>{m.name}</option>)}
+      </select>
+      <select id="today-day" aria-label="Día"><option value="">Día</option></select>
+      <button class="today-step" id="today-next" aria-label="Día siguiente">▶</button>
+      <a class="wt-btn wt-btn-primary" id="today-go" href="/walkthrough">Ir al día →</a>
+    </div>
+  </div>
+
+  <div class="today-grid" id="today-grid" hidden>
+    <div class="today-card" id="tc-boss"></div>
+    <div class="today-card" id="tc-tartarus"></div>
+    <div class="today-card" id="tc-exam"></div>
+    <div class="today-card today-card-wide" id="tc-stats">
+      <div class="tc-label">Stats sociales <span class="tc-sub">tu rango · lo que pide la guía a esta fecha</span></div>
+      <div class="tc-stats">
+        {STATS.map((s) => (
+          <label class="tc-stat">
+            <span>{s.name}</span>
+            <select data-bind={`st:${s.key}`} data-type="number" data-stat={s.key}>
+              <option value="">–</option>
+              {[1, 2, 3, 4, 5, 6].map((n) => <option value={n}>R{n}</option>)}
+            </select>
+            <span class="tc-exp" data-exp={s.key}></span>
+          </label>
+        ))}
+      </div>
+    </div>
+    <div class="today-card today-card-wide" id="tc-sl"></div>
+    <div class="today-card" id="tc-pending"></div>
+  </div>
+  <p class="today-empty" id="today-empty">Elegí la fecha en la que estás en el juego y te muestro lo que viene: luna llena, Tartarus, exámenes, vínculos y lo que te quedó pendiente.</p>
+</section>
+
+<script type="application/json" id="today-data" set:html={JSON.stringify(data)}></script>
+
+<script>
+  import { store, dateOrd } from '../lib/store';
+
+  const D = JSON.parse(document.getElementById('today-data')!.textContent!);
+  const $ = (id: string) => document.getElementById(id)!;
+  const monthSel = $('today-month') as HTMLSelectElement;
+  const daySel = $('today-day') as HTMLSelectElement;
+  const MONTHS = ['', 'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+  const year = (m: number) => (m >= 4 ? 2009 : 2010);
+  const toDate = (md: string) => { const [m, d] = md.split('/').map(Number); return new Date(year(m), m - 1, d); };
+  const fromDate = (dt: Date) => `${dt.getMonth() + 1}/${dt.getDate()}`;
+  const daysBetween = (a: string, b: string) => Math.round((toDate(b).getTime() - toDate(a).getTime()) / 86400000);
+  const pretty = (md: string) => { const [m, d] = md.split('/').map(Number); return `${d} de ${MONTHS[m]}`; };
+  const WEEK = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
+  const MIN = '4/6', MAX = '1/31';
+  const onWalkthrough = location.pathname.startsWith('/walkthrough');
+
+  function nearestDay(md: string) {
+    const o = dateOrd(md);
+    let best = null as any;
+    for (const d of D.days) if (d.ord <= o && (!best || d.ord >= best.ord)) best = d;
+    return best ?? D.days[0];
+  }
+  const inDays = (n: number) => n === 0 ? '<b>hoy</b>' : n === 1 ? 'mañana' : n < 0 ? `hace ${-n} días` : `en <b>${n}</b> días`;
+
+  function fillDays(m: number) {
+    const max = new Date(year(m), m, 0).getDate();
+    const min = m === 4 ? 6 : 1;
+    daySel.innerHTML = '<option value="">Día</option>' + Array.from({ length: max - min + 1 }, (_, i) => `<option value="${i + min}">${i + min}</option>`).join('');
+  }
+  function setDate(md: string) {
+    if (dateOrd(md) < dateOrd(MIN)) md = MIN;
+    if (dateOrd(md) > dateOrd(MAX)) md = MAX;
+    store.set('cfg:date', md);
+  }
+  monthSel.addEventListener('change', () => {
+    const m = Number(monthSel.value);
+    if (!m) return;
+    fillDays(m);
+    setDate(`${m}/${m === 4 ? 6 : 1}`);
+  });
+  daySel.addEventListener('change', () => { if (monthSel.value && daySel.value) setDate(`${monthSel.value}/${daySel.value}`); });
+  const step = (n: number) => {
+    const cur = store.get<string>('cfg:date', '') || MIN;
+    const dt = toDate(cur);
+    dt.setDate(dt.getDate() + n);
+    setDate(fromDate(dt));
+  };
+  $('today-prev').addEventListener('click', () => step(-1));
+  $('today-next').addEventListener('click', () => step(1));
+  $('today-go').addEventListener('click', (e) => {
+    const md = store.get<string>('cfg:date', '');
+    if (!md) return;
+    const day = nearestDay(md);
+    if (onWalkthrough) { e.preventDefault(); window.dispatchEvent(new CustomEvent('p3r:goto-day', { detail: day.id })); }
+  });
+
+  function render() {
+    const md = store.get<string>('cfg:date', '');
+    const grid = $('today-grid');
+    $('today-empty').hidden = !!md;
+    grid.hidden = !md;
+    if (!md) { $('today-label').textContent = '¿En qué día vas?'; return; }
+    const [m, d] = md.split('/').map(Number);
+    if (monthSel.value !== String(m)) { monthSel.value = String(m); fillDays(m); }
+    daySel.value = String(d);
+    $('today-label').textContent = `${WEEK[toDate(md).getDay()][0].toUpperCase()}${WEEK[toDate(md).getDay()].slice(1)} ${pretty(md)}`;
+    const day = nearestDay(md);
+    ($('today-go') as HTMLAnchorElement).href = `/walkthrough#d-${day.id}`;
+    const o = dateOrd(md);
+
+    const next = (kind: string) => D.events.find((e: any) => dateOrd(e.end ?? e.date) >= o && e.kind === kind);
+    const card = (id: string, icon: string, label: string, ev: any, empty: string) => {
+      $(id).innerHTML = ev
+        ? `<div class="tc-label">${icon} ${label}</div><div class="tc-main">${ev.title}</div>
+           <div class="tc-meta">${pretty(ev.date)}${ev.end ? ` al ${pretty(ev.end)}` : ''} · ${dateOrd(ev.date) <= o ? '<b>en curso</b>' : inDays(daysBetween(md, ev.date))}</div>
+           ${ev.detail ? `<div class="tc-detail">${ev.detail}</div>` : ''}`
+        : `<div class="tc-label">${icon} ${label}</div><div class="tc-detail">${empty}</div>`;
+    };
+    card('tc-boss', '🌕', 'Próximo jefe', next('boss'), 'No quedan jefes.');
+    card('tc-tartarus', '🗼', 'Próxima subida a Tartarus', next('tartarus'), 'Tartarus terminado.');
+    card('tc-exam', '📝', 'Próximos exámenes', next('exam'), 'No quedan exámenes.');
+
+    // stats esperados
+    for (const el of document.querySelectorAll<HTMLElement>('[data-exp]')) {
+      const key = el.dataset.exp!;
+      const exp = D.stats.filter((r: any) => r.stat === key && dateOrd(r.date) <= o).reduce((a: number, r: any) => Math.max(a, r.rank), 1);
+      const mine = Number(store.get(`st:${key}`, 0));
+      el.textContent = `guía: R${exp}`;
+      el.className = 'tc-exp ' + (!mine ? '' : mine >= exp ? 'ok' : 'low');
+    }
+
+    // vínculos que suben pronto
+    const upcoming = D.route.filter((r: any) => dateOrd(r.date) >= o).sort((a: any, b: any) => dateOrd(a.date) - dateOrd(b.date)).slice(0, 6);
+    $('tc-sl').innerHTML = `<div class="tc-label">🔗 Próximos rangos de vínculos según la guía</div>` + (upcoming.length
+      ? `<ul class="tc-list">${upcoming.map((r: any) => {
+          const mine = Number(store.get(`sl:${r.a}`, 0));
+          const warn = mine && mine < r.r - 1 ? ` <span class="tc-warn" title="Tenés R${mine}">⚠ vas en R${mine}</span>` : '';
+          return `<li><a href="/walkthrough#d-${r.day}"><span class="tc-date">${r.date}</span> <b>${D.arcana[r.a]}</b> → R${r.r}</a>${warn}</li>`;
+        }).join('')}</ul>`
+      : '<div class="tc-detail">Ya no quedan rangos por subir.</div>');
+
+    // pendientes atrasados
+    const past = D.days.filter((x: any) => x.ord < day.ord);
+    const pending = past.flatMap((x: any) => x.items.filter((id: string) => !store.has(`c:${id}`)).map((id: string) => ({ id, day: x })));
+    $('tc-pending').innerHTML = `<div class="tc-label">⏳ Pendientes de días anteriores</div>` + (pending.length
+      ? `<div class="tc-main">${pending.length} ítems</div><div class="tc-detail">El primero es del ${pretty(pending[0].day.date)}.</div>
+         <a class="tc-link" href="/walkthrough#i-${pending[0].id}" data-goto-item="${pending[0].id}">Ver el primero →</a>`
+      : '<div class="tc-main ok">¡Nada pendiente!</div><div class="tc-detail">Vas al día con la guía.</div>');
+  }
+
+  $('tc-pending').addEventListener('click', (e) => {
+    const a = (e.target as HTMLElement).closest<HTMLElement>('[data-goto-item]');
+    if (a && onWalkthrough) { e.preventDefault(); window.dispatchEvent(new CustomEvent('p3r:goto-item', { detail: a.dataset.gotoItem })); }
+  });
+
+  store.subscribe((changed) => { if (changed.some((k) => k === 'cfg:date' || k.startsWith('st:') || k.startsWith('sl:') || k.startsWith('c:'))) render(); });
+  render();
+</script>

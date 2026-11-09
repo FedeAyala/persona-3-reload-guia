@@ -1,0 +1,1378 @@
+{
+  "title": "🌓 JUNIO — Exámenes y la escuela de noche",
+  "intro": [],
+  "days": [
+    {
+      "id": "601",
+      "date": "6/1",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-601-6e250341",
+              "text": "Andá a la sala del Consejo Estudiantil",
+              "sub": [
+                "Knock it off!",
+                "“Looks like you’re hard at work” (+3)",
+                "(Emperor Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-601-715d5469",
+              "text": "Trabajá en Chagall Café (Encanto y Valentía +1, 3.000 yen)",
+              "sub": [
+                "(Encanto Rango 4)",
+                "🏆 Logro/Trofeo: The Grindset Mindset (19,000/50,000)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "602",
+      "date": "6/2",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "junio-602-03fba73c",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "note": true,
+              "text": "Hoy empieza una especie de minijuego: hacés de detective en el colegio para descubrir la verdad detrás de los rumores del fantasma. Es totalmente opcional, pero si querés participar hablá con todos los que tengan globo de diálogo azul en el colegio durante los próximos días."
+            },
+            {
+              "id": "junio-602-6e623ddc",
+              "text": "Pasá tiempo con Kenji",
+              "sub": [
+                "“Okay...” (+3)",
+                "(Magician Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-602-b3968746",
+              "text": "Llegaron las Health Sandals: equipáselas a Makoto."
+            },
+            {
+              "id": "junio-602-bb8c51a5",
+              "text": "Revisá la heladera (2x Instant Ramen)"
+            },
+            {
+              "note": true,
+              "text": "Hablá con el Man in a Suit, elegí &quot;Tell me more&quot; y dale 20.000 yen."
+            },
+            {
+              "note": true,
+              "text": "(Requiere Encanto Rango 4) (flag Devil)"
+            },
+            {
+              "id": "junio-602-9d04d0ce",
+              "text": "Trabajá en Chagall Café (Encanto y Valentía +1, 4.000 yen)",
+              "sub": [
+                "(Valentía Rango 4)",
+                "🏆 Logro/Trofeo: The Grind set Mindset (23,000/50,000)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "603",
+      "date": "6/3",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-603-6e250341",
+              "text": "Andá a la sala del Consejo Estudiantil",
+              "sub": [
+                "“They’re the worst” (+3)",
+                "(Emperor Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-603-715d5469",
+              "text": "Trabajá en Chagall Café (Encanto y Valentía +1, 3.000 yen)",
+              "sub": [
+                "🏆 Logro/Trofeo: The Grindset Mindset (26,000/50,000)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "604",
+      "date": "6/4",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-604-f9e602e9",
+              "text": "Pasá tiempo con Chihiro",
+              "sub": [
+                "“They have no shame” (+1)",
+                "“I agree” (+1)",
+                "(Justice Rango 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-604-604a37fe",
+              "text": "Cosechá la huerta de la terraza (3x Healthy Tomato) y plantá Buff Potato Sprout."
+            },
+            {
+              "id": "junio-604-f620f0eb",
+              "text": "Jugá High School of Youth en Game Parade (Encanto +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "605",
+      "date": "6/5",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-605-6e623ddc",
+              "text": "Pasá tiempo con Kenji",
+              "sub": [
+                "Cualquiera",
+                "“I’ve got plans already” (+3)",
+                "(Magician Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-605-48201604",
+              "text": "Las respuestas a las preguntas de Yukari son:",
+              "sub": [
+                "There were three victims",
+                "They hung out together",
+                "Receive Cielo Mist"
+              ]
+            },
+            {
+              "id": "junio-605-d383c71b",
+              "text": "Comé Seafood Full Course en Wakatsu Kitchen (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "606",
+      "date": "6/6",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-606-42bc1706",
+              "text": "Pasá tiempo con Yuko",
+              "sub": [
+                "Cualquiera",
+                "“Sure thing” (+1)",
+                "(Strength Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-606-411f6ea1",
+              "text": "Hablá con el estudiante y el viejo enojado afuera del dormitorio, después andá a las afueras de la estación (Station Outskirts)."
+            },
+            {
+              "id": "junio-606-ea8f9988",
+              "text": "Comé Weekend Wilduck Set en Wilduck (Valentía +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "607",
+      "date": "6/7",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "junio-607-a6cf6169",
+              "text": "Canal de compras: The Designer Brand Set, 1x Perfume and 2x Health Supplement por 3.980 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "junio-607-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "id": "junio-607-0ddd38ae",
+              "text": "Andá al santuario y sacá una fortuna, elegí Online Game (Hermit +2)"
+            },
+            {
+              "note": true,
+              "text": "Los puntos de vínculo son siempre los mismos, pero si no te molesta el RNG podés recargar hasta conseguir la mejor tirada: 10k yen y un Lucky Charm (puede llevar muchos intentos). Solo necesitás los puntos de vínculo, así que no hace falta repetir salvo que quieras el yen y el accesorio."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Mitsuru te avisa que te ocupes de cualquier asunto urgente hoy. Si no usás la guía de fusión, equipate tus Personas de combate. Muy recomendable tener una Persona con ataque perforante (Pierce)."
+            },
+            {
+              "id": "junio-607-ea8f9988",
+              "text": "Comé Weekend Wilduck Set en Wilduck (Valentía +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "608",
+      "date": "6/8",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "junio-608-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-608-d9d2cbc7-2",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-608-ec7b95d8",
+              "text": "Esta noche vas a andar a escondidas por el colegio: seguí el punto ! del mapa para avanzar."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "junio-608-e0c8db11",
+              "text": "(Nota al margen: a Mitsuru le parece perfecto que Junpei use explosivos para entrar al colegio, pero amenaza con ejecutarlos por querer espiar los exámenes)"
+            },
+            {
+              "note": true,
+              "text": "Puede salirte una carta de Arcano Mayor en un Shuffle Time. Yo las ignoraría esta noche: no vas a estar en Tartarus el tiempo suficiente para aprovecharlas."
+            },
+            {
+              "note": true,
+              "text": "Parece que cada sombra da un Shuffle Time garantizado y siempre trae una carta de yen. Agarralas todas: son 15k yen muy rápidos."
+            },
+            {
+              "note": true,
+              "text": "Explorá todos los pisos por completo: hay muchos cofres con ítems útiles y así peleás contra todas las sombras para las cartas de yen garantizadas."
+            },
+            {
+              "note": true,
+              "text": "Tratá de tener a Naga equipada cuando mates al jefe esta noche. Da muchísima EXP y vas a querer subir a Naga al nivel 22 para que aprenda Invigorate 1, una habilidad muy útil que recupera 3 SP por turno."
+            },
+            {
+              "id": "junio-608-89a2862f",
+              "text": "Abrite paso entre las sombras y reunite con tus compañeros un par de pisos más arriba. Después de la escena vas directo a tu segunda pelea contra un jefe Arcano Mayor.",
+              "sub": [
+                "🏆 Logro/Trofeo: Empowered Protector (14/48)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "609",
+      "date": "6/9",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "note": true,
+              "text": "Andá a la enfermería y tomá la medicina rara (Valentía +1)"
+            },
+            {
+              "id": "junio-609-66d86ff2",
+              "text": "Pasá tiempo con Bebe",
+              "sub": [
+                "“Sure, let’s go” (+1)",
+                "“I totally agree” (+3)",
+                "(Temperence Rango 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Dale otros 10k al Man in a Suit (flag Devil)"
+            },
+            {
+              "id": "junio-609-9d04d0ce",
+              "text": "Trabajá en Chagall Café (Encanto y Valentía +1, 4.000 yen)",
+              "sub": [
+                "🏆 Logro/Trofeo: The Grindset Mindset (30,000/50,000)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "610",
+      "date": "6/10",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "junio-610-43fd7862",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-610-6e250341",
+              "text": "Andá a la sala del Consejo Estudiantil",
+              "sub": [
+                "Cualquiera",
+                "“But I just got here” (+3)",
+                "(Emperor Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Las actividades de las próximas noches no son las más óptimas en puntos de stats sociales, pero hay que hacerlas una vez para completar todas las actividades del juego."
+            },
+            {
+              "id": "junio-610-20dd052a",
+              "text": "Estudiá en tu cuarto (Académicos +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "611",
+      "date": "6/11",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-611-6e623ddc",
+              "text": "Pasá tiempo con Kenji",
+              "sub": [
+                "“What happened?” (+1)",
+                "“Bride-to-Be?” (+1)",
+                "“Congrats!” (+1)",
+                "(Magician Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-611-dddc4e8c",
+              "text": "Tomá un café en Chagall Café (Encanto +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "612",
+      "date": "6/12",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-612-56d9f833",
+              "text": "Pasá tiempo con Kazushi",
+              "sub": [
+                "Cualquiera",
+                "“That really sucks” (+3)",
+                "(Chariot Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-612-9ae9c383",
+              "text": "Cantá karaoke solo en Mandragora (Valentía +1)"
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "junio-612-5c1ea3d4",
+              "text": "Evento de historia (Death Rango 1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "613",
+      "date": "6/13",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-613-77c990a6",
+              "text": "Pasá tiempo con Maiko",
+              "sub": [
+                "“That’s great news” (+3)",
+                "(Hanged Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-613-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "junio-613-68883ebf",
+              "text": "Theurgy tutorial"
+            },
+            {
+              "id": "junio-613-7563488b",
+              "text": "El grupo recibe uniformes y equipo nuevos. Equipá las armas nuevas a todos: para algunos personajes son una mejora importante. A Fuuka no hace falta equiparla: desde ahora es tu navegadora y no participa directamente en combate."
+            },
+            {
+              "note": true,
+              "text": "El único equipo que le sirve a Fuuka es el que sube SP: si conseguís alguno, equipáselo. Si conocés la debilidad de un enemigo, podés apretar RB/R1 para cambiar al instante a una Persona que tenga esa habilidad."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "614",
+      "date": "6/14",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Tenés botín del último jefe Arcano Mayor y del tutorial de Theurgy: podés venderlo hoy si querés un poco más de yen."
+            },
+            {
+              "id": "junio-614-358a7cb3",
+              "text": "Canal de compras: The Father’s Day Gift, 1x Brand Watch, 2x Mega Protein por 3.980 yen. Saltear."
+            },
+            {
+              "id": "junio-614-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "id": "junio-614-dc745cdc",
+              "text": "Hoy se actualizan los encargos de Elizabeth. Aceptá:",
+              "sub": [
+                "18. I’d like to be gifted a bouquet of flowers",
+                "20. Bring me some potent medicine",
+                "21. Retrieve the third old document",
+                "23. Persona Fusion Milestone",
+                "24. Create a Persona that’s level 23 or above",
+                "26. Bring me an Onimaru Kunitsuna",
+                "27. Bring me a triangular sword",
+                "29. I want to look fashionable"
+              ]
+            },
+            {
+              "id": "junio-614-4c27c513",
+              "text": "Deberías poder entregar ya los encargos 18 y 23, que desbloquean:",
+              "sub": [
+                "19. I want Jack Frost Dolls",
+                "33. Persona Fusion Milestone #2"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Vas a ver un ! en Paulownia Mall: es del encargo 29, que no podés hacer hasta la próxima visita a Tartarus. Ignoralo por ahora."
+            },
+            {
+              "id": "junio-614-bc62c2d6",
+              "text": "Volvé al dormitorio y hablá con Mitsuru, después volvé con Elizabeth y entregá el encargo 27. Desbloquea:",
+              "sub": [
+                "28. Bring me a protein not for pros"
+              ]
+            },
+            {
+              "id": "junio-614-e81e3c26",
+              "text": "Andá a la Crane Game al lado de Game Parade, elegí “Play until you win a prize” y repetilo 2 veces más."
+            },
+            {
+              "id": "junio-614-23c2bff1",
+              "text": "Volvé al dormitorio y hablá con Akihiko, después volvé con Elizabeth y entregá los encargos 19 y 28."
+            },
+            {
+              "id": "junio-614-e9ed93eb",
+              "text": "Equipá las Gallant Sneakers a Yukari y el Spiked Bat a Junpei."
+            },
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Kenji."
+            },
+            {
+              "id": "junio-614-0fbff6bb",
+              "text": "Aceptá la invitación de Kazushi",
+              "sub": [
+                "“You can get through this” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-614-199088fe",
+              "text": "Comé Seafood Full Course en Wakatsu Kitchen (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "615",
+      "date": "6/15",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "junio-615-95eb838f",
+              "text": "Respuesta: <strong>Keen Eye</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-615-56d9f833",
+              "text": "Pasá tiempo con Kazushi",
+              "sub": [
+                "“Back from the hospital” (+1)",
+                "“Take my shoulder!” (+3)",
+                "(Chariot Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-615-715d5469",
+              "text": "Trabajá en Chagall Café (Encanto y Valentía +1, 3.000 yen)",
+              "sub": [
+                "(Valentía Rango 5)",
+                "🏆 Logro/Trofeo: The Grindset Mindset (33,000/50,000)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "616",
+      "date": "6/16",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-616-f4c6d3ec",
+              "text": "Comprá Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "junio-616-56d9f833",
+              "text": "Pasá tiempo con Kazushi",
+              "sub": [
+                "“Show some guts, man!” (+1)",
+                "“Why go so far?” (+1)",
+                "“What about your knee?” (+1)",
+                "(Chariot Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-616-7437d082",
+              "text": "Se desbloquean nuevas actividades en el dormitorio."
+            },
+            {
+              "note": true,
+              "text": "Las actividades del dormitorio tienen varios beneficios: más desarrollo de personajes, suben stats sociales y desbloquean una habilidad nueva y poderosa para cada miembro del equipo."
+            },
+            {
+              "id": "junio-616-d537350e",
+              "text": "Guardá Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "id": "junio-616-ea334a87",
+              "text": "Cosechá la huerta de la terraza y plantá Healthy Tomato Sprout."
+            },
+            {
+              "id": "junio-616-c2108ab1",
+              "text": "Leé con Junpei (Valentía +1)",
+              "sub": [
+                "🏆 Logro/Trofeo: Dorm Life (15/48)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "617",
+      "date": "6/17",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "junio-617-b8c57941",
+              "text": "Respuesta: <strong>Shamanism</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-617-9b42e04e",
+              "text": "Andá a la sala de Arte en el 1F y unite al club",
+              "sub": [
+                "(Fortune Rango 1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-617-212bd009",
+              "text": "Cociná con Akihiko"
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Guardá la Iron-Athlete Meal: la vas a necesitar para un encargo más adelante."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "618",
+      "date": "6/18",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "note": true,
+              "text": "Elizabeth te cuenta que hay personas perdidas en Tartarus que hay que rescatar antes de una fecha. Los detalles (nombre, fecha límite y descripción) están en el tablero afuera de la comisaría. Hoy no los rescatás: van a aparecer más durante el mes y los vas a rescatar a todos juntos, justo antes de la luna llena."
+            },
+            {
+              "id": "junio-618-a74b6c94",
+              "text": "Liberá a Inugami, entrá al Velvet Room, registrá tus Personas y fusioná:",
+              "sub": [
+                "🏆 Logro/Trofeo: Fusion Artisan (16/48)"
+              ]
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td></tr><tr><td>Fusioná Fortuna (fusión especial)</td><td>Zio, Kouha, / Agi y Dia</td></tr></table></div>"
+            },
+            {
+              "id": "junio-618-ce3ac70a",
+              "text": "Mientras estás ahí también desbloqueás la Theurgy Jack Brothers",
+              "sub": [
+                "(requiere tener Jack Frost y Jack-o-Lantern en el compendio)"
+              ]
+            },
+            {
+              "id": "junio-618-bdad03ca",
+              "text": "Pasá tiempo con Keisuke",
+              "sub": [
+                "Cualquiera",
+                "Cualquiera",
+                "(Fortune Rango 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-618-4b8b2d23",
+              "text": "Revisá la heladera (1x Precious Egg, fully restores SP of one character)"
+            },
+            {
+              "id": "junio-618-152bb404",
+              "text": "Leé con Fuuka (Académicos +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "619",
+      "date": "6/19",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-619-4a477f9b",
+              "text": "Podés intentar hablar con Fuuka hoy, pero no vas a tener suficiente valentía (Requiere Valentía Rango 6)"
+            },
+            {
+              "id": "junio-619-6e250341",
+              "text": "Andá a la sala del Consejo Estudiantil",
+              "sub": [
+                "“It seems too harsh” (+3)",
+                "(Emperor Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-619-598a4521",
+              "text": "Jugá House of the Deceased en Game Parade (Valentía +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "620",
+      "date": "6/20",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-620-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-620-e23686e5",
+              "text": "Cuidá la huerta con Junpei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "621",
+      "date": "6/21",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "junio-621-5bf4db4e",
+              "text": "Canal de compras: The Diet Support Set, 1x Amenity Suite, 3x Super Diet Food por 9.800 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "junio-621-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Bebe."
+            },
+            {
+              "id": "junio-621-f7ce8b84",
+              "text": "Aceptá la invitación de Chihiro",
+              "sub": [
+                "“I think it’s fun, actually” (+3)"
+              ]
+            },
+            {
+              "id": "junio-621-67a5463a",
+              "text": "🏆 Logro/Trofeo: In High Demand (17/48)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-621-7fe81fb7",
+              "text": "Comé Weekend Wilduck set en Wilduck (Valentía +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "622",
+      "date": "6/22",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "junio-622-2e20ed59",
+              "text": "Respuesta: <strong>Witch of Agnesi</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-622-56d9f833",
+              "text": "Pasá tiempo con Kazushi",
+              "sub": [
+                "“How’s your knee?” (+1)",
+                "“You have to get tougher!” (+3)",
+                "(Chariot Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-622-7bf0553e",
+              "text": "Revisá la consola de la sala de comando: hay un video nuevo."
+            },
+            {
+              "id": "junio-622-c2108ab1",
+              "text": "Leé con Junpei (Valentía +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "623",
+      "date": "6/23",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-623-66d86ff2",
+              "text": "Pasá tiempo con Bebe",
+              "sub": [
+                "“I can do better” (+1)",
+                "“How about a kimono?” (+3)",
+                "(Temperence Rango 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-623-ae7b45dc",
+              "text": "Equipá el Amenity Suit a Makoto y el All-Purpose Apron a Yukari."
+            },
+            {
+              "id": "junio-623-9870c743",
+              "text": "Andá a Club Escapade y comprale la Revenge Site Note al Suspicious Man."
+            },
+            {
+              "id": "junio-623-9d04d0ce",
+              "text": "Trabajá en Chagall Café (Encanto y Valentía +1, 4.000 yen)",
+              "sub": [
+                "🏆 Logro/Trofeo: The Grindset Mindset (37,000/50,000)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "624",
+      "date": "6/24",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-624-6e250341",
+              "text": "Andá a la sala del Consejo Estudiantil",
+              "sub": [
+                "Cualquiera",
+                "“It wasn’t me” (+3)",
+                "(Emperor Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-624-715d5469",
+              "text": "Trabajá en Chagall Café (Encanto y Valentía +1, 3.000 yen)",
+              "sub": [
+                "🏆 Logro/Trofeo: The Grindset Mindset 40,000/50,000)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "625",
+      "date": "6/25",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "junio-625-923c7fe3",
+              "text": "Respuesta: <strong>The flutter effect</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-625-56d9f833",
+              "text": "Pasá tiempo con Kazushi",
+              "sub": [
+                "“........” (+1)",
+                "(Chariot Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-625-0f7de0f0",
+              "text": "Usá la Revenge Site Note en la compu compartida (Valentía +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "626",
+      "date": "6/26",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-626-6e250341",
+              "text": "Andá a la sala del Consejo Estudiantil",
+              "sub": [
+                "“What matters is you realized it” (+3)",
+                "(Emperor Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-626-ea334a87",
+              "text": "Cosechá la huerta de la terraza y plantá Healthy Tomato Sprout.",
+              "sub": [
+                "🏆 Logro/Trofeo: Eat Your Veggies, Peas! (18/48)"
+              ]
+            },
+            {
+              "id": "junio-626-a830f20f",
+              "text": "Comé Pork Ramen en Hagakure Ramen (Encanto +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "627",
+      "date": "6/27",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-627-f9e602e9",
+              "text": "Pasá tiempo con Chihiro",
+              "sub": [
+                "Cualquiera",
+                "“I’m here for you” (+3)",
+                "(Justice Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-627-581ba5c3",
+              "text": "Cuidá la huerta con Junpei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "628",
+      "date": "6/28",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "junio-628-cec4b1a1",
+              "text": "Canal de compras: Home Gardening Set: 1x Amronion Sprout and 3x Buff Potato Sprout por 2.980 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "junio-628-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "id": "junio-628-f16ed5b2",
+              "text": "Jugá Innocent Sin Online",
+              "sub": [
+                "“What bastard?” (+3)",
+                "(Hermit Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-628-ea8f9988",
+              "text": "Comé Weekend Wilduck Set en Wilduck (Valentía +2)",
+              "sub": [
+                "(Valentía Rango 6)",
+                "🏆 Logro/Trofeo: Specialist (19/48)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "629",
+      "date": "6/29",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "junio-629-98592632",
+              "text": "Respuesta: <strong>Dowsing</strong> (Encanto +1)",
+              "sub": [
+                "(Encanto Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-629-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "(Priestess Rango 1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-629-b97db164",
+              "text": "Leé With Junpei (Valentía +1)",
+              "sub": [
+                "Característica desbloqueada: Critical Boost, Increased Crit Rate and Strength",
+                "(Sube la tasa de crítico un 5% y el daño crítico un 20%)",
+                "🏆 Logro/Trofeo: Through Thick and Thin (20/48)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "630",
+      "date": "6/30",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "junio-630-299e50e5",
+              "text": "Comprá Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "junio-630-d3944643",
+              "text": "Pasá tiempo con Kenji",
+              "sub": [
+                "“Are you in trouble?” (+3)",
+                "“You two should talk it out” (+1)",
+                "(Magician Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "junio-630-d537350e",
+              "text": "Guardá Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "id": "junio-630-cb31f6bf",
+              "text": "Comé Special Hagakure Bowl en Hagakure (Encanto +2)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": {
+    "stats": [
+      {
+        "stat": "Charm",
+        "rank": 5,
+        "label": "Popular"
+      },
+      {
+        "stat": "Academics",
+        "rank": 3,
+        "label": "Above Average"
+      },
+      {
+        "stat": "Courage",
+        "rank": 6,
+        "label": "Badass"
+      }
+    ],
+    "sl": [
+      {
+        "arcana": "Fool",
+        "rank": 3
+      },
+      {
+        "arcana": "Magician",
+        "rank": 8
+      },
+      {
+        "arcana": "Priestess",
+        "rank": 1
+      },
+      {
+        "arcana": "Emperor",
+        "rank": 9
+      },
+      {
+        "arcana": "Hierophant",
+        "rank": 4
+      },
+      {
+        "arcana": "Chariot",
+        "rank": 8
+      },
+      {
+        "arcana": "Justice",
+        "rank": 4
+      },
+      {
+        "arcana": "Hermit",
+        "rank": 6
+      },
+      {
+        "arcana": "Fortune",
+        "rank": 2
+      },
+      {
+        "arcana": "Strength",
+        "rank": 4
+      },
+      {
+        "arcana": "Hanged",
+        "rank": 4
+      },
+      {
+        "arcana": "Death",
+        "rank": 1
+      },
+      {
+        "arcana": "Temperance",
+        "rank": 3
+      },
+      {
+        "arcana": "Moon",
+        "rank": 1
+      }
+    ],
+    "trophies": [
+      "Awakened Power",
+      "SEES the Day",
+      "The First of Many",
+      "There’s no “I” in “Team”",
+      "The Thrill of the Hunt",
+      "The Power of Choice",
+      "Shrouded Assassin",
+      "Making the Dream Work",
+      "Back on Track",
+      "Gourmand",
+      "Briefcase Burglar",
+      "Top of the Class",
+      "Eagle Eye",
+      "Empowered Protector",
+      "Dorm Life",
+      "Fusion Artisan",
+      "In High Demand",
+      "Eat Your Veggies Peas!",
+      "Specialist",
+      "Through Thick and Thin"
+    ],
+    "compendium": 31
+  }
+}

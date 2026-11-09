@@ -1,0 +1,1300 @@
+{
+  "title": "🌘 NOVIEMBRE — La verdad",
+  "intro": [],
+  "days": [
+    {
+      "id": "1101",
+      "date": "11/1",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "noviembre-1101-78c5fb74",
+              "text": "Canal de compras: Become-a-Samurai Set: 1x Myohou Muramasa, 1x Samurai&#39;s Haori por 39.800 yen. Saltear."
+            },
+            {
+              "id": "noviembre-1101-15818e4f",
+              "text": "Pasá tiempo con Akinari",
+              "sub": [
+                "“I&#39;d say so” (+3)",
+                "“I stop if I get bored” (+1)",
+                "(Sun Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1101-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Yukari comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1102",
+      "date": "11/2",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1102-f80aa98f",
+              "text": "Pasá tiempo con Yukari",
+              "sub": [
+                "“Sounds good” (+3)",
+                "(Lovers Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Si no seguís la guía de fusión, equipate tus Personas de combate antes de la actividad de esta noche."
+            },
+            {
+              "id": "noviembre-1102-12319704",
+              "text": "(Fool Rango 6)"
+            },
+            {
+              "id": "noviembre-1102-0c9b79e4",
+              "text": "Usá Veggie Blog Note en la compu compartida.",
+              "sub": [
+                "(Desbloquea los Golden Tomato Sprouts)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1103",
+      "date": "11/3",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "noviembre-1103-b015373f",
+              "text": "Llegó la última pelea contra un jefe Arcano Mayor. Armá tu equipo y preparate para varias peleas seguidas.",
+              "sub": [
+                "🏆 Logro/Trofeo: A Sense of Finality (39/48)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1104",
+      "date": "11/4",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Temprano",
+          "items": [
+            {
+              "id": "noviembre-1104-74c0faab",
+              "text": "(Death Rango 10)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1104-41380d3a",
+              "text": "No podés hacer nada: salí del aula y volvé al dormitorio."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1104-d9d2cbc7",
+              "text": "Evento de historia",
+              "sub": [
+                "(Fool Rango 7)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1105",
+      "date": "11/5",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1105-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1105-2d2458d4",
+              "text": "Andá a Club Escapade y comprá la Ninja Fansite Note."
+            },
+            {
+              "id": "noviembre-1105-ff845f03",
+              "text": "Pasá tiempo con Mutatsu",
+              "sub": [
+                "“Yeah, that might look cool” (+3)",
+                "(Tower Rango 4)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1106",
+      "date": "11/6",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1106-46e6c92f",
+              "text": "Se actualizaron los encargos de Elizabeth. Aceptá:",
+              "sub": [
+                "82. Retrieve the last old document",
+                "84. Create a Persona with Tempest Slash",
+                "86. Fusion Series #8: Death, Alice",
+                "88. Defeat a Greedy Shadow",
+                "89. Bring me a Rai Kunimitsu",
+                "92. Go clean a restroom",
+                "93. Go water the flowers",
+                "94. Bring me a food for a furry friend",
+                "96. I&#39;d like to try Oden Juice"
+              ]
+            },
+            {
+              "id": "noviembre-1106-edb875d6",
+              "text": "Andá a la estación de Port Island y limpiá el baño (subiendo la escalera, a la derecha)"
+            },
+            {
+              "id": "noviembre-1106-f2e76229",
+              "text": "Comprá 5x Golden Tomato Sprout en Rafflesia."
+            },
+            {
+              "id": "noviembre-1106-4a705cfa",
+              "text": "Andá a la terraza de Gekkoukan, revisá las plantas junto a los bancos y regá las que lo necesiten."
+            },
+            {
+              "id": "noviembre-1106-770809c6",
+              "text": "Hablá con el Friendly Student junto al árbol de caqui."
+            },
+            {
+              "id": "noviembre-1106-66d86ff2",
+              "text": "Pasá tiempo con Bebe",
+              "sub": [
+                "“He&#39;ll definitely agree!” (+3)",
+                "(Temperance Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1106-6dbdcba1",
+              "text": "Hablá con Koromaru."
+            },
+            {
+              "id": "noviembre-1106-bc70cd06",
+              "text": "Andá a la tienda de antigüedades y mejorá tu equipo. Si todavía no lo tenés, conseguí hoy Mikazuki Munechika. Si la vez pasada no pudiste, conseguí hoy la carta Growth 3."
+            },
+            {
+              "note": true,
+              "text": "Para hacer el mejor equipo del juego vas a necesitar Heart Items de casi todas las mejores Personas, y bastantes Growth 3 (unas 30). No hace falta priorizarlas ahora porque la mayoría no las vas a necesitar hasta fines de enero, pero conviene empezar."
+            },
+            {
+              "note": true,
+              "text": "Si querés juntar todos los ítems de la tienda de antigüedades, vas a necesitar muchísimas Growth 3: vas a tener que refusionar y volver a subir varias Personas de endgame para conseguir suficientes Heart Items, porque muchos ítems piden Heart Items de la misma Persona."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td></td><td><strong>Arma</strong></td><td><strong>Armadura</strong></td><td><strong>Calzado</strong></td><td><strong>Accesorio</strong></td></tr><tr><td><strong>Makoto</strong></td><td>Outenta Mitsuyo</td><td>Tigerhide Belt</td><td>Silent Sandals</td><td>Mega Master Band</td></tr><tr><td><strong>Yukari</strong></td><td>Whirlwind Bow</td><td>Rangda Robe</td><td>Killer Cleats / (comisaría)</td><td>Yellow Shawl / or Vayu Bracers</td></tr><tr><td><strong>Junpei</strong></td><td>Mikazuki Munechika</td><td>Samue of the Tengu</td><td>Silent Sandals</td><td>Power Enhancer</td></tr><tr><td><strong>Akihiko</strong></td><td>Champion Gloves</td><td>Tigerhide Belt</td><td>Silent Sandals</td><td>Blue Shawl / or Indra Bracers</td></tr><tr><td><strong>Mitsuru</strong></td><td>Aristocracy</td><td>Rangda Robe</td><td>Silent Sandals</td><td>Red Shawl / or Varna Bracers</td></tr><tr><td><strong>Aigis</strong></td><td>Blast Magnum</td><td>Fifth Number</td><td>Free Walkers</td><td>Yellow Shawl / or Pierce Bracers</td></tr><tr><td><strong>Koromaru</strong></td><td>Elementary Mask</td><td>Powered Dog Suit</td><td>Bare Paws</td><td>Dark Bracers</td></tr><tr><td><strong>Ken</strong></td><td>Gae Bolg</td><td>Tigerhide Belt</td><td>Silent Sandals</td><td>Light Bracers</td></tr></table></div>"
+            },
+            {
+              "id": "noviembre-1106-a6e241e5",
+              "text": "Entregá los encargos 73, 92, 93 y 94 a Elizabeth, que desbloquean:",
+              "sub": [
+                "95. Bring me a Featherman R action figure"
+              ]
+            },
+            {
+              "id": "noviembre-1106-618ae6d4",
+              "text": "Ahora Elizabeth pide visitar tu cuarto."
+            },
+            {
+              "id": "noviembre-1106-f66617b1",
+              "text": "Volvé al dormitorio y hablá con Ken, después volvé con Elizabeth y entregá el encargo 95."
+            },
+            {
+              "note": true,
+              "text": "No le equiparía Bone a Koromaru si ya tenés la Elementary Mask."
+            },
+            {
+              "id": "noviembre-1106-ff845f03",
+              "text": "Pasá tiempo con Mutatsu",
+              "sub": [
+                "“I have enough” (+1)",
+                "“No” (+3)",
+                "(Tower Rango 5)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1107",
+      "date": "11/7",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "noviembre-1107-5dcd3d99",
+              "text": "Respuesta: <strong>The Upanishads</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1107-5432ff3e",
+              "text": "Pasá tiempo con Junpei (Académicos +1)",
+              "sub": [
+                "(Episodio de Junpei 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1107-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "“Mamoru” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1108",
+      "date": "11/8",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Podés usar el Rewind para ver los hangouts."
+            },
+            {
+              "id": "noviembre-1108-c5e45d7c",
+              "text": "Canal de compras: Mystery Doll Set, 1x Japanese Doll and 2x Homunculus por 9.800 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "noviembre-1108-e3c85e67",
+              "text": "Comprá una White Flower en Rafflesia."
+            },
+            {
+              "id": "noviembre-1108-afce18c3",
+              "text": "Pasá tiempo con Elizabeth",
+              "sub": [
+                "🏆 Logro/Trofeo: Distinguished Visitor (40/48)"
+              ]
+            },
+            {
+              "id": "noviembre-1108-1988050a",
+              "text": "Entregá el encargo 81 a Elizabeth."
+            },
+            {
+              "id": "noviembre-1108-15818e4f",
+              "text": "Pasá tiempo con Akinari",
+              "sub": [
+                "“You need to listen to your body” (+3)",
+                "(Sun Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1108-7776a96a",
+              "text": "Dale la White Flower a Junpei."
+            },
+            {
+              "note": true,
+              "text": "Te recomiendo tener a Siegfried como Persona equipada para un evento de mañana."
+            },
+            {
+              "id": "noviembre-1108-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "(Yuko +3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1109",
+      "date": "11/9",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "noviembre-1109-6ee04360",
+              "text": "Cualquiera:"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1109-ff761533",
+              "text": "(Episodio de Ryoji 1) (Automatic)",
+              "sub": [
+                "(Stats de la Persona equipada +1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1109-32fe3998",
+              "text": "Usá Ninja Fansite Note en la compu compartida.",
+              "sub": [
+                "(Reduce el tiempo necesario para activar la emboscada)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1110",
+      "date": "11/10",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1110-f9e602e9",
+              "text": "Pasá tiempo con Chihiro",
+              "sub": [
+                "(Justice Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1110-c1fb4912",
+              "text": "Cosechá la huerta de la terraza y plantá Golden Tomato Sprout."
+            },
+            {
+              "id": "noviembre-1110-13b769a6",
+              "text": "Pasá tiempo con President Tanaka",
+              "sub": [
+                "“Whose face?” (+1)",
+                "Cualquiera",
+                "“It&#39;s all about the money” (+1)",
+                "(Devil Rango 5)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1111",
+      "date": "11/11",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1111-299e50e5",
+              "text": "Comprá Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "noviembre-1111-42bc1706",
+              "text": "Pasá tiempo con Yuko",
+              "sub": [
+                "Cualquiera",
+                "“An instructor?” (+3)",
+                "(Strength Rango 9)",
+                "Cualquiera",
+                "<strong>Amistad:</strong> “It&#39;s because you&#39;re a close friend”",
+                "“Okay, I will” (+1)",
+                "<strong>Relación:</strong> “It&#39;s because I love you”",
+                "“I love you, Yuko” (+1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1111-d537350e",
+              "text": "Guardá Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "id": "noviembre-1111-8b5dca8b",
+              "text": "Pasá tiempo con Ken (Encanto +1)",
+              "sub": [
+                "(Episodio de Ken 3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1112",
+      "date": "11/12",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "noviembre-1112-021a4783",
+              "text": "Respuesta: <strong>Her favourite time in winter</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "note": true,
+              "text": "Te recomiendo tener a Siegfried como Persona equipada en todos los episodios vinculados de Ryoji."
+            },
+            {
+              "id": "noviembre-1112-fa773e96",
+              "text": "Pasá tiempo con Ryoji",
+              "sub": [
+                "(Episodio de Ryoji 2)",
+                "(Stats de la Persona equipada +1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Ya se puede comprar la Dating Site Note al Suspicious Man. Cada una es de un solo uso y da puntos para un vínculo específico; las vas a usar para subir ciertos vínculos. Comprá 5."
+            },
+            {
+              "id": "noviembre-1112-ff845f03",
+              "text": "Pasá tiempo con Mutatsu",
+              "sub": [
+                "“You should go home” (+3)",
+                "“Do you have any coworkers?” (+1)",
+                "(Tower Rango 6)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1113",
+      "date": "11/13",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1113-66d86ff2",
+              "text": "Pasá tiempo con Bebe",
+              "sub": [
+                "“Aren&#39;t you homesick?” (+3)",
+                "(Temperance Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1113-ff845f03",
+              "text": "Pasá tiempo con Mutatsu",
+              "sub": [
+                "“You probably shouldn&#39;t” (+3)",
+                "(Tower Rango 7)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1114",
+      "date": "11/14",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "noviembre-1114-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1114-42bc1706",
+              "text": "Pasá tiempo con Yuko",
+              "sub": [
+                "(Strength Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1114-23797866",
+              "text": "Revisá la heladera (1x Chilled Taiyaki)"
+            },
+            {
+              "id": "noviembre-1114-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "“Chihiro” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1115",
+      "date": "11/15",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Yukari."
+            },
+            {
+              "id": "noviembre-1115-9fe09667",
+              "text": "Canal de compras: Bodybuilder&#39;s Support Set 1x Sid&#39;s Jacket and 8x Mega Protein por 39.800 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "noviembre-1115-15818e4f",
+              "text": "Pasá tiempo con Akinari",
+              "sub": [
+                "“Sounds fine to me” (+3)",
+                "“It sounds interesting” (+3)",
+                "(Sun Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1115-ff845f03",
+              "text": "Pasá tiempo con Mutatsu",
+              "sub": [
+                "“Dad?” (+3)",
+                "“None of your business” (+1)",
+                "(Tower Rango 8)",
+                "Cualquiera",
+                "“Are you running away?” (+1)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1116",
+      "date": "11/16",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "noviembre-1116-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1116-f80aa98f",
+              "text": "Pasá tiempo con Yukari",
+              "sub": [
+                "“All right” (+3)",
+                "Cualquiera",
+                "(Lovers Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1116-1cc6674c",
+              "text": "Equipá la Sid&#39;s Jacket a Akihiko y reemplazá los Champion Gloves por Kaiser Knuckles o Rapid Bands."
+            },
+            {
+              "id": "noviembre-1116-7d4a4197",
+              "text": "Usá la Dating Site Note en la compu compartida y elegí a Fuuka (Vínculo +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1117",
+      "date": "11/17",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "noviembre-1117-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1117-71b7f788",
+              "text": "Vas a encontrar varios vínculos repartidos en los tres pisos; también podés entrar a las habitaciones para hablar con gente."
+            },
+            {
+              "note": true,
+              "text": "Es tu única oportunidad de comprar los ítems de 6HARA y de la máquina expendedora de Kioto."
+            },
+            {
+              "id": "noviembre-1117-f88954aa",
+              "text": "Comprá un souvenir al 6HARA Clerk y las bebidas de la máquina expendedora del 2F."
+            },
+            {
+              "id": "noviembre-1117-918af898",
+              "text": "Cuando termines de hablar con todos, andá a tu cuarto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1118",
+      "date": "11/18",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "noviembre-1118-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Te recomiendo tener a Siegfried como Persona equipada para un evento de mañana."
+            },
+            {
+              "id": "noviembre-1118-3bd8bfda",
+              "text": "Aceptá pasar tiempo con Ryoji mañana; cuando estés listo, andá a tu cuarto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1119",
+      "date": "11/19",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "noviembre-1119-5cb9004f",
+              "text": "(Episodio de Ryoji 3)",
+              "sub": [
+                "(Stats de la Persona equipada +1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1119-6c3e7382",
+              "text": "Cuando termines de recorrer, hablá con Junpei y andá a tu cuarto."
+            },
+            {
+              "note": true,
+              "text": "El evento de las aguas termales cambia según si te atrapan o no. Si querés ver los dos desenlaces, usá el Rewind."
+            },
+            {
+              "id": "noviembre-1119-7b134123",
+              "text": "Intentás escapar de las aguas termales sin que te vean; las respuestas correctas son:",
+              "sub": [
+                "“We&#39;ll hide in the steam”",
+                "“Use the duck as a red herring”",
+                "“Just follow my lead”"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1120",
+      "date": "11/20",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "noviembre-1120-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1120-242b2c5c",
+              "text": "Dale un souvenir a Ken."
+            },
+            {
+              "id": "noviembre-1120-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Ken comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1121",
+      "date": "11/21",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "noviembre-1121-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1121-4b937a6b",
+              "text": "Hablá con el Friendly Student junto al árbol de caqui y comprá la bebida por 5.000 yen. Entregá el encargo 96 a Elizabeth."
+            },
+            {
+              "id": "noviembre-1121-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "(Empress Rango 1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1121-13b769a6",
+              "text": "Pasá tiempo con President Tanaka",
+              "sub": [
+                "“Sounds fun” (+3)",
+                "(Devil Rango 6)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1122",
+      "date": "11/22",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "noviembre-1122-63155482",
+              "text": "Canal de compras: Enticing Jewelry Set, 3x Garnet y 2x Opal por 49.800 yen. Por ahora estas gemas no se pueden comprar en otro lado: comprá si te sobra yen."
+            },
+            {
+              "id": "noviembre-1122-15818e4f",
+              "text": "Pasá tiempo con Akinari",
+              "sub": [
+                "“It sounds really depressing” (+3)",
+                "(Sun Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1122-07530d2a",
+              "text": "Revisá la consola de comandos: hay un video nuevo."
+            },
+            {
+              "id": "noviembre-1122-a77e9fad",
+              "text": "Tomá un café con Ken."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "noviembre-1122-5cf91afa",
+              "text": "Pelea contra el jefe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1123",
+      "date": "11/23",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "noviembre-1123-5b05baac",
+              "text": "Andá al Velvet Room e invocá a Hecatoncheires."
+            },
+            {
+              "id": "noviembre-1123-7e4efe35",
+              "text": "Pasá tiempo con Nozomi",
+              "sub": [
+                "“The world is ending?” (+3)",
+                "(Moon Rango 7)",
+                "Cualquiera"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1123-c73ed7b6",
+              "text": "Usá la Dating Site Note en la compu compartida y elegí a la chica del santuario (Vínculo +2)"
+            }
+          ]
+        },
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "noviembre-1123-feda01a5",
+              "text": "Pasantía laboral."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1127",
+      "date": "11/27",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "noviembre-1127-feda01a5",
+              "text": "Pasantía laboral."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1127-7c9b90a1",
+              "text": "Cosechá la huerta y plantá Golden Tomato Sprout."
+            },
+            {
+              "id": "noviembre-1127-ff845f03",
+              "text": "Pasá tiempo con Mutatsu",
+              "sub": [
+                "“Why not take a break” (+1)",
+                "“Time to retire?” (+1)",
+                "“What&#39;s this about?” (+1)",
+                "(Tower Rango 9)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1128",
+      "date": "11/28",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1128-73bbfee5",
+              "text": "Liberá a Cu Chulainn e invocá a Astarte si usás Personas DLC, o a Hariti si no."
+            },
+            {
+              "id": "noviembre-1128-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "“Is this your first time?” (+1)",
+                "(Empress Rango 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1128-c3dae246",
+              "text": "(Fool Rango 9)"
+            },
+            {
+              "id": "noviembre-1128-13b769a6",
+              "text": "Pasá tiempo con President Tanaka",
+              "sub": [
+                "“Sort of...” (+1)",
+                "“The organic one” (+3)",
+                "(Devil Rango 7)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1129",
+      "date": "11/29",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Bebe."
+            },
+            {
+              "id": "noviembre-1129-e31ee3a3",
+              "text": "Canal de compras: Become-a-Spy Set, 1x Shoes of Bane and 1x Infrared Goggles por 39.800 yen. <strong>¡Comprar!</strong> Las Shoes of Bane son muy recomendables si pensás enfrentar al jefe secreto al final del juego."
+            },
+            {
+              "id": "noviembre-1129-15818e4f",
+              "text": "Pasá tiempo con Akinari",
+              "sub": [
+                "“Take as long as you need” (+1)",
+                "“Why did you stop?” (+1)",
+                "(Sun Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1129-d6133831",
+              "text": "Tomá un café con Ken."
+            },
+            {
+              "id": "noviembre-1129-2141fa08",
+              "text": "Característica desbloqueada: Spirit Restore",
+              "sub": [
+                "(Recupera 10 SP por turno en combate)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1130",
+      "date": "11/30",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "noviembre-1130-eea5268b",
+              "text": "Respuesta: <strong>The cherry blossom</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "noviembre-1130-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "“I believe in myself” (+1)",
+                "(Priestess Rango 8)",
+                "“Not at all” (+1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "noviembre-1130-0a29ca58",
+              "text": "Usá Part-Time Master en la compu compartida",
+              "sub": [
+                "(Aumenta el yen que ganás trabajando)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": {
+    "stats": [
+      {
+        "stat": "Charm",
+        "rank": 6,
+        "label": "Popular"
+      },
+      {
+        "stat": "Academics",
+        "rank": 6,
+        "label": "Genius"
+      },
+      {
+        "stat": "Courage",
+        "rank": 6,
+        "label": "Badass"
+      }
+    ],
+    "sl": [
+      {
+        "arcana": "Fool",
+        "rank": 9
+      },
+      {
+        "arcana": "Magician",
+        "rank": 9
+      },
+      {
+        "arcana": "Priestess",
+        "rank": 8
+      },
+      {
+        "arcana": "Empress",
+        "rank": 2
+      },
+      {
+        "arcana": "Emperor",
+        "rank": 10
+      },
+      {
+        "arcana": "Hierophant",
+        "rank": 8
+      },
+      {
+        "arcana": "Lovers",
+        "rank": 8
+      },
+      {
+        "arcana": "Chariot",
+        "rank": 10
+      },
+      {
+        "arcana": "Justice",
+        "rank": 10
+      },
+      {
+        "arcana": "Hermit",
+        "rank": 10
+      },
+      {
+        "arcana": "Fortune",
+        "rank": 6
+      },
+      {
+        "arcana": "Strength",
+        "rank": 10
+      },
+      {
+        "arcana": "Hanged",
+        "rank": 7
+      },
+      {
+        "arcana": "Death",
+        "rank": 10
+      },
+      {
+        "arcana": "Temperance",
+        "rank": 9
+      },
+      {
+        "arcana": "Devil",
+        "rank": 7
+      },
+      {
+        "arcana": "Tower",
+        "rank": 9
+      },
+      {
+        "arcana": "Star",
+        "rank": 3
+      },
+      {
+        "arcana": "Moon",
+        "rank": 7
+      },
+      {
+        "arcana": "Sun",
+        "rank": 8
+      }
+    ],
+    "trophies": [
+      "Awakened Power",
+      "SEES the Day",
+      "The First of Many",
+      "There’s no “I” in “Team”",
+      "The Thrill of the Hunt",
+      "The Power of Choice",
+      "Shrouded Assassin",
+      "Making the Dream Work",
+      "Back on Track",
+      "Gourmand",
+      "Briefcase Burglar",
+      "Eagle Eye",
+      "Empowered Protector",
+      "In High Deman",
+      "Birthday Present",
+      "Fusion Artisan",
+      "The Fool’s Journey",
+      "Dorm Life",
+      "Eat Your Veggies, Peas",
+      "Specialist",
+      "Through Thick and Thin",
+      "Unbreakable Link",
+      "Shattered Plumes",
+      "Extracurricular Excellence",
+      "Never Toy with Matter of the Heart",
+      "Benevolent Purr-tector",
+      "Top of the Class",
+      "Beyond the Darkness",
+      "Armor Disarmed",
+      "The Strength of Our Hearts",
+      "Get a Load of Those Numbers!",
+      "Tempting Fate",
+      "Dodging Lightning",
+      "Glimpse of the Depths",
+      "Twist of Fate",
+      "That Special Someone",
+      "Peak Performance",
+      "The Horror of the Shade",
+      "A Sense of Finality",
+      "Distinguished Visitor"
+    ],
+    "compendium": 111
+  }
+}

@@ -25,48 +25,65 @@ import Layout from '../layouts/Layout.astro';
       <a href="#cronograma">Cronograma óptimo</a>
     </nav>
 
-    <div class="callout callout-warn">
-      <strong>¿Es posible el 100% en primera partida?</strong> Casi imposible sin guía muy detallada.
-      El 100% real (todos los SL al 10, Compendio completo, todas las misiones) requiere prácticamente
-      Nueva Partida+ y conocer el juego de antemano. Esta guía te orienta para el mejor run posible
-      desde el inicio y el NG+ perfecto.
+    <div class="callout callout-tip">
+      <strong>Se puede en una sola partida.</strong> El <a href="/walkthrough">walkthrough</a> (basado en TenSquare3) está armado
+      para conseguir todos los logros, maxear los 22 vínculos, ver todos los episodios vinculados, completar el compendio
+      y hacer los 101 encargos de Elizabeth en la primera vuelta. NG+ solo hace falta si te salís de la ruta.
     </div>
 
     <!-- CHECKLIST -->
     <div id="checklist">
       <div class="section-label">Todo lo que contar</div>
-      <h2 class="section-title">Checklist General</h2>
+      <h2 class="section-title">Checklist General <span class="muted" style="font-size:1rem" data-pagefind-ignore>(<span data-count="x:100-">0/0</span>)</span></h2>
 
       <div class="card-grid">
-        <div class="card">
+        <div class="card check-card" data-check="x:100-sl">
+          <span class="wt-checkmark" aria-hidden="true"></span>
           <span class="card-icon">🔗</span>
-          <div class="card-title">22 Vínculos Sociales al Rango 10</div>
-          <p>Todos los SL disponibles deben llegar al máximo. Incluye SL automáticos (Fool, Death, Judgement) y los de ventana corta (Maiko, Mitsuru).</p>
+          <div class="card-title">22 Vínculos Sociales al máximo</div>
+          <p>Incluye los automáticos (Fool, Death, Judgement). Seguí tu avance en <a href="/social-links">Social Links</a>.</p>
         </div>
-        <div class="card">
+        <div class="card check-card" data-check="x:100-ep">
+          <span class="wt-checkmark" aria-hidden="true"></span>
+          <span class="card-icon">🎬</span>
+          <div class="card-title">Todos los episodios vinculados</div>
+          <p>Junpei, Akihiko, Ken, Koromaru, Shinjiro y Ryoji. Están al final de <a href="/social-links#episodios">Social Links</a>.</p>
+        </div>
+        <div class="card check-card" data-check="x:100-comp">
+          <span class="wt-checkmark" aria-hidden="true"></span>
           <span class="card-icon">📖</span>
           <div class="card-title">Compendio al 100%</div>
-          <p>Todas las Personas del juego registradas. Incluye Personas especiales de fusión triple y las exclusivas de SL al máximo (Helel, Lucifer).</p>
+          <p>La guía lo completa el 30 de enero, después de terminar todos los vínculos y episodios.</p>
         </div>
-        <div class="card">
+        <div class="card check-card" data-check="x:100-eliz">
+          <span class="wt-checkmark" aria-hidden="true"></span>
           <span class="card-icon">📋</span>
-          <div class="card-title">Todas las Encargos de Elizabeth</div>
-          <p>Elizabeth tiene ~100 misiones. Algunas son simples; otras requieren Personas con habilidades específicas o materiales raros de Tartarus.</p>
+          <div class="card-title">Los 101 encargos de Elizabeth</div>
+          <p>El 100 es el Reaper y el 101 es el jefe secreto (opcional, sin logro). Están todos en el walkthrough día por día.</p>
         </div>
-        <div class="card">
+        <div class="card check-card" data-check="x:100-stats">
+          <span class="wt-checkmark" aria-hidden="true"></span>
           <span class="card-icon">📊</span>
-          <div class="card-title">Stats Sociales al Máximo</div>
-          <p>Estudios, Encanto y Valentía deben llegar al nivel máximo (nivel 5). Necesarios para todos los SL y para algunas misiones de Elizabeth.</p>
+          <div class="card-title">Stats sociales al máximo</div>
+          <p>Académicos, Encanto y Valentía a rango 6. La guía los maxea para octubre.</p>
         </div>
-        <div class="card">
+        <div class="card check-card" data-check="x:100-tart">
+          <span class="wt-checkmark" aria-hidden="true"></span>
           <span class="card-icon">🗼</span>
-          <div class="card-title">Piso 254 de Tartarus</div>
-          <p>El piso más alto disponible. Requiere explorar completamente los 6 bloques, incluyendo todos los cofres y guardianes opcionales.</p>
+          <div class="card-title">Tartarus hasta el 256F</div>
+          <p>El último piso frontera (10 de enero). Más allá solo se sube el día del jefe final.</p>
         </div>
-        <div class="card">
+        <div class="card check-card" data-check="x:100-troph">
+          <span class="wt-checkmark" aria-hidden="true"></span>
           <span class="card-icon">🏆</span>
-          <div class="card-title">Todos los Trofeos</div>
-          <p>El Platino (o todos los logros en Xbox/PC) requiere completar la mayoría de los puntos anteriores. Ver la sección de Trofeos para la lista completa.</p>
+          <div class="card-title">Los 48 logros</div>
+          <p>Lista completa y con seguimiento en <a href="/trofeos">Trofeos</a>.</p>
+        </div>
+        <div class="card check-card" data-check="x:100-act">
+          <span class="wt-checkmark" aria-hidden="true"></span>
+          <span class="card-icon">🏠</span>
+          <div class="card-title">Todas las actividades</div>
+          <p>Hangouts del dormitorio, comidas, juegos de la compu, trabajos y la caja de ofrendas: la guía hace cada una al menos una vez.</p>
         </div>
       </div>
     </div>

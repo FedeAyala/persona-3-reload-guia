@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import TodayPanel from '../components/TodayPanel.astro';
 ---
 <Layout title="Inicio" section="inicio">
 
@@ -14,12 +15,14 @@ import Layout from '../layouts/Layout.astro';
 
   <div class="content-wrap">
 
+    <TodayPanel />
+
     <div class="stat-grid">
       <div class="stat-box"><div class="stat-value">10</div><div class="stat-label">Meses de juego</div></div>
       <div class="stat-box"><div class="stat-value">22</div><div class="stat-label">Vínculos Sociales</div></div>
       <div class="stat-box"><div class="stat-value">6</div><div class="stat-label">Bloques de Tartarus</div></div>
       <div class="stat-box"><div class="stat-value">170+</div><div class="stat-label">Personas fusionables</div></div>
-      <div class="stat-box"><div class="stat-value">50</div><div class="stat-label">Trofeos</div></div>
+      <div class="stat-box"><div class="stat-value">48</div><div class="stat-label">Logros</div></div>
       <div class="stat-box"><div class="stat-value">80+h</div><div class="stat-label">Historia principal</div></div>
     </div>
 
@@ -40,15 +43,16 @@ import Layout from '../layouts/Layout.astro';
         <p class="home-card-desc">Historia principal, tips de combate, qué no hacer en tu primer run.</p>
         <span class="badge badge-green home-card-badge">Recomendado</span>
       </a>
-      <a href="/calendario" class="home-card">
+      <a href="/walkthrough" class="home-card">
         <span class="home-card-icon">📅</span>
-        <div class="home-card-title">Calendario Detallado</div>
-        <p class="home-card-desc">Mes a mes: eventos, fechas límite de Vínculos Sociales y Tartarus.</p>
+        <div class="home-card-title">Walkthrough Día a Día</div>
+        <p class="home-card-desc">Abril a enero, día por día, con checkboxes, notas y progreso sincronizado.</p>
+        <span class="badge badge-gold home-card-badge">Principal</span>
       </a>
       <a href="/social-links" class="home-card">
         <span class="home-card-icon">🔗</span>
         <div class="home-card-title">Vínculos Sociales</div>
-        <p class="home-card-desc">Todos los Arcano, dónde empezarlos, respuestas correctas y bonuses.</p>
+        <p class="home-card-desc">Seguimiento de rango y ruta completa con fechas y respuestas.</p>
         <span class="badge badge-gold home-card-badge">22 SL</span>
       </a>
       <a href="/tartarus" class="home-card">
@@ -70,7 +74,7 @@ import Layout from '../layouts/Layout.astro';
       <a href="/trofeos" class="home-card">
         <span class="home-card-icon">🏆</span>
         <div class="home-card-title">Trofeos y Logros</div>
-        <p class="home-card-desc">Lista completa con guías para los trofeos más difíciles.</p>
+        <p class="home-card-desc">Los 48 logros en orden, con checkbox y el día en que salen.</p>
       </a>
     </nav>
 

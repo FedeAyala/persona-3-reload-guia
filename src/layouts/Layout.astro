@@ -5,70 +5,231 @@ export interface Props {
   section?: string;
 }
 const { title, description = "Guía completa de Persona 3 Reload en español", section = "" } = Astro.props;
+const links = [
+  ['/', 'inicio', 'Inicio'],
+  ['/walkthrough', 'walkthrough', 'Walkthrough'],
+  ['/social-links', 'sl', 'Social Links'],
+  ['/tartarus', 'tartarus', 'Tartarus'],
+  ['/fusion', 'fusion', 'Fusión'],
+  ['/trofeos', 'trofeos', 'Trofeos'],
+  ['/cien-por-ciento', '100', '100%'],
+  ['/primera-partida', 'primera', '1ª Partida'],
+];
 ---
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="description" content={description} />
+  <meta name="theme-color" content="#05070F" />
   <title>{title} — Guía P3R</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles/global.css" />
+  <link rel="stylesheet" href="/styles/app.css" />
 </head>
 <body>
-  <!-- Background aura -->
   <div class="bg-aura" aria-hidden="true">
     <div class="aura-orb aura-1"></div>
     <div class="aura-orb aura-2"></div>
     <div class="aura-orb aura-3"></div>
   </div>
 
-  <!-- Nav -->
-  <nav class="main-nav">
+  <nav class="main-nav" data-pagefind-ignore>
     <a href="/" class="nav-logo">
       <span class="logo-icon">⦿</span>
       <span class="logo-text">P3R<span class="logo-sub">GUÍA</span></span>
     </a>
-    <button class="nav-toggle" id="navToggle" aria-label="Menú">
-      <span></span><span></span><span></span>
-    </button>
     <div class="nav-links" id="navLinks">
-      <a href="/" class={section==="inicio" ? "active" : ""}>Inicio</a>
-      <a href="/primera-partida" class={section==="primera" ? "active" : ""}>1ª Partida</a>
-      <a href="/walkthrough" class={section==="walkthrough" || section==="calendario" ? "active" : ""}>Walkthrough</a>
-      <a href="/social-links" class={section==="sl" ? "active" : ""}>Social Links</a>
-      <a href="/tartarus" class={section==="tartarus" ? "active" : ""}>Tartarus</a>
-      <a href="/fusion" class={section==="fusion" ? "active" : ""}>Fusión</a>
-      <a href="/cien-por-ciento" class={section==="100" ? "active" : ""}>100%</a>
-      <a href="/trofeos" class={section==="trofeos" ? "active" : ""}>Trofeos</a>
+      {links.map(([href, key, label]) => <a href={href} class={section === key ? 'active' : ''}>{label}</a>)}
+    </div>
+    <div class="nav-tools">
+      <button class="nav-tool" id="btn-search" aria-label="Buscar (Ctrl+K)" title="Buscar (Ctrl+K)">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+      <button class="nav-tool" id="btn-wake" aria-label="Mantener la pantalla encendida" title="Mantener la pantalla encendida" hidden>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="nav-tool" id="btn-sync" aria-label="Progreso y sincronización" title="Progreso y sincronización">
+        <img id="sync-avatar" alt="" hidden />
+        <svg id="sync-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19a4.5 4.5 0 1 0-1.4-8.8A6 6 0 0 0 4.5 12 3.5 3.5 0 0 0 6 19z"/></svg>
+        <span class="sync-dot" id="sync-dot"></span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
-  <main>
+  <!-- Panel de progreso / sincronización -->
+  <div class="sync-panel" id="sync-panel" hidden data-pagefind-ignore>
+    <div class="sync-head">
+      <strong>Tu progreso</strong>
+      <button class="sync-close" id="sync-close" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="sync-user" id="sync-user"></div>
+    <p class="sync-status" id="sync-status">Cargando…</p>
+    <div class="sync-actions">
+      <button class="wt-btn wt-btn-google" id="sync-login" hidden>Conectar con Google</button>
+      <button class="wt-btn wt-btn-sec" id="sync-logout" hidden>Cerrar sesión</button>
+    </div>
+    <p class="sync-hint">Tu progreso se guarda en este dispositivo. Conectando Google se sincroniza en vivo entre el celu y la PC.</p>
+    <div class="sync-actions">
+      <button class="wt-btn wt-btn-sec" id="sync-export">⬇ Exportar</button>
+      <button class="wt-btn wt-btn-sec" id="sync-import">⬆ Importar</button>
+      <button class="wt-btn wt-btn-danger" id="sync-reset">✕ Reiniciar</button>
+      <input type="file" id="sync-file" accept=".json" hidden />
+    </div>
+  </div>
+
+  <!-- Buscador -->
+  <dialog class="search-dialog" id="search-dialog" data-pagefind-ignore>
+    <div class="search-box">
+      <input type="search" id="search-input" placeholder="Buscar en toda la guía… (ej: Nozomi, Thanatos, 6/8)" autocomplete="off" />
+      <kbd>Esc</kbd>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-empty">Escribí al menos 2 letras.</p></div>
+  </dialog>
+
+  <main data-pagefind-body>
     <slot />
   </main>
 
-  <footer class="main-footer">
-    <p>Guía de Persona 3 Reload en español · Contenido propio · Sin afiliación con Atlus</p>
+  <footer class="main-footer" data-pagefind-ignore>
+    <p>Guía de Persona 3 Reload en español · Basada en la guía de TenSquare3 · Sin afiliación con Atlus</p>
   </footer>
 
   <script>
+    import { store } from '../lib/store';
+    import { bindAll } from '../lib/bindings';
+
+    // ---- menú móvil ----
     const toggle = document.getElementById('navToggle');
     const links = document.getElementById('navLinks');
-    toggle?.addEventListener('click', () => {
-      links?.classList.toggle('open');
-      toggle.classList.toggle('open');
+    toggle?.addEventListener('click', () => { links?.classList.toggle('open'); toggle.classList.toggle('open'); });
+    links?.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => { links.classList.remove('open'); toggle?.classList.remove('open'); }));
+
+    // ---- checkboxes / selects / notas genéricos ----
+    bindAll(document);
+
+    // ---- panel de progreso ----
+    const panel = document.getElementById('sync-panel')!;
+    const $ = (id: string) => document.getElementById(id)!;
+    $('btn-sync').addEventListener('click', () => { panel.hidden = !panel.hidden; });
+    $('sync-close').addEventListener('click', () => { panel.hidden = true; });
+    document.addEventListener('click', (e) => {
+      if (!panel.hidden && !panel.contains(e.target as Node) && !$('btn-sync').contains(e.target as Node)) panel.hidden = true;
     });
-    // Close on link click (mobile)
-    links?.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        links.classList.remove('open');
-        toggle?.classList.remove('open');
+    $('sync-export').addEventListener('click', () => {
+      const blob = new Blob([JSON.stringify(store.export(), null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `p3r-progreso-${new Date().toISOString().slice(0, 10)}.json`;
+      a.click();
+    });
+    $('sync-import').addEventListener('click', () => $('sync-file').click());
+    $('sync-file').addEventListener('change', async (e) => {
+      const input = e.target as HTMLInputElement;
+      const file = input.files?.[0];
+      if (!file) return;
+      try { const n = store.import(JSON.parse(await file.text())); alert(`✅ Progreso importado (${n} cambios).`); }
+      catch { alert('❌ No pude leer el archivo. Tiene que ser un JSON exportado desde esta guía.'); }
+      input.value = '';
+    });
+    $('sync-reset').addEventListener('click', () => {
+      if (confirm('¿Borrar TODO tu progreso (checkboxes, notas, rangos y fecha)? Si estás conectado, también se borra en la nube.')) store.reset();
+    });
+
+    // ---- sincronización (Firebase se carga en diferido) ----
+    const loadSync = () => import('../lib/sync').then(({ onSync, login, logout }) => {
+      $('sync-login').addEventListener('click', login);
+      $('sync-logout').addEventListener('click', () => { if (confirm('¿Cerrar sesión? Tu progreso queda guardado en este dispositivo.')) logout(); });
+      onSync((s) => {
+        $('sync-status').textContent = s.status;
+        $('sync-login').hidden = !!s.user || s.status === 'Sync no configurado';
+        $('sync-logout').hidden = !s.user;
+        $('sync-user').textContent = s.user ? `Conectado como ${s.user.name}` : '';
+        const av = $('sync-avatar') as HTMLImageElement;
+        if (s.user?.photo) { av.src = s.user.photo; av.hidden = false; $('sync-icon').style.display = 'none'; }
+        else { av.hidden = true; $('sync-icon').style.display = ''; }
+        $('sync-dot').dataset.state = !s.user ? 'off' : s.status.startsWith('✓') ? 'ok' : /Error|Sin conexión/.test(s.status) ? 'err' : 'busy';
       });
     });
+    if ('requestIdleCallback' in window) (window as any).requestIdleCallback(loadSync, { timeout: 2500 });
+    else setTimeout(loadSync, 800);
+
+    // ---- pantalla siempre encendida ----
+    const wakeBtn = $('btn-wake');
+    if ('wakeLock' in navigator) {
+      wakeBtn.hidden = false;
+      let lock: any = null;
+      const want = () => store.has('cfg:wake');
+      const apply = async () => {
+        try {
+          if (want() && !lock && document.visibilityState === 'visible') { lock = await (navigator as any).wakeLock.request('screen'); lock.addEventListener('release', () => { lock = null; }); }
+          if (!want() && lock) { await lock.release(); lock = null; }
+        } catch { /* el navegador lo rechazó */ }
+        wakeBtn.classList.toggle('on', want());
+      };
+      wakeBtn.addEventListener('click', () => { store.toggle('cfg:wake'); apply(); });
+      document.addEventListener('visibilitychange', apply);
+      apply();
+    }
+
+    // ---- buscador (Pagefind, generado en el build) ----
+    const dlg = $('search-dialog') as HTMLDialogElement;
+    const input = $('search-input') as HTMLInputElement;
+    const results = $('search-results');
+    let pf: any = null;
+    const openSearch = async () => {
+      dlg.showModal();
+      input.select();
+      if (!pf) {
+        try {
+          const url = '/pagefind/pagefind.js';
+          pf = await import(/* @vite-ignore */ url);
+          await pf.options({ excerptLength: 22 });
+        } catch {
+          results.innerHTML = '<p class="search-empty">El buscador se genera al hacer el build (<code>npm run build</code>). En modo dev no está disponible.</p>';
+        }
+      }
+    };
+    $('btn-search').addEventListener('click', openSearch);
+    document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); openSearch(); }
+      else if (e.key === '/' && !(e.target as HTMLElement).closest('input,textarea,select')) { e.preventDefault(); openSearch(); }
+    });
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+    let seq = 0;
+    input.addEventListener('input', async () => {
+      const q = input.value.trim();
+      const my = ++seq;
+      if (!pf) return;
+      if (q.length < 2) { results.innerHTML = '<p class="search-empty">Escribí al menos 2 letras.</p>'; return; }
+      const search = await pf.debouncedSearch(q, {}, 180);
+      if (!search || my !== seq) return;
+      const data = await Promise.all(search.results.slice(0, 8).map((r: any) => r.data()));
+      if (my !== seq) return;
+      if (!data.length) { results.innerHTML = '<p class="search-empty">Sin resultados.</p>'; return; }
+      results.innerHTML = data.map((d: any) => {
+        const subs = (d.sub_results ?? []).slice(0, 4);
+        return `<div class="search-page"><div class="search-page-title">${d.meta?.title ?? d.url}</div>${
+          (subs.length ? subs : [{ url: d.url, title: d.meta?.title, excerpt: d.excerpt }]).map((s: any) =>
+            `<a class="search-hit" href="${s.url}"><span class="search-hit-title">${s.title ?? ''}</span><span class="search-hit-ex">${s.excerpt ?? ''}</span></a>`).join('')
+        }</div>`;
+      }).join('');
+    });
+    results.addEventListener('click', (e) => { if ((e.target as HTMLElement).closest('a')) dlg.close(); });
+
+    // ---- PWA ----
+    if ('serviceWorker' in navigator && import.meta.env.PROD) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
+    }
   </script>
 </body>
 </html>

@@ -1,0 +1,1323 @@
+{
+  "title": "🌕 AGOSTO — Verano en Iwatodai",
+  "intro": [],
+  "days": [
+    {
+      "id": "801",
+      "date": "8/1",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-801-e4bd54f4",
+              "text": "Entrenamiento de atletismo."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-801-29671afc",
+              "text": "Leé con Mitsuru (Académicos +1)",
+              "sub": [
+                "Característica desbloqueada: Ailment Burst, Raises Critical Rate on Foes with Ailments",
+                "(Sube la tasa de crítico del grupo un 7% contra enemigos con estados alterados)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "802",
+      "date": "8/2",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-802-089e289b",
+              "text": "Competencia de atletismo."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-802-ed1eb085",
+              "text": "Cuidá la huerta con Aigis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "803",
+      "date": "8/3",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-803-25404a70",
+              "text": "Se recargaron las máquinas expendedoras."
+            },
+            {
+              "id": "agosto-803-77c990a6",
+              "text": "Pasá tiempo con Maiko",
+              "sub": [
+                "“It&#39;s up to you” (+1)",
+                "“That should be enough” (+3)",
+                "(Hanged Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-803-a59f4969",
+              "text": "Sacá una fortuna si querés farmear golden hands."
+            },
+            {
+              "id": "agosto-803-89753540",
+              "text": "Hablá con Fuuka para ir a Tartarus."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "Elizabeth te avisa que aparecieron puertas nuevas (Monad) en Tartarus. Salen en pisos al azar y tienen enemigos más fuertes, pero valen mucho la pena: son la principal fuente de materiales base para craftear equipo y muy buena fuente de gemas raras. Tenés que hacerlas cuando las encontrás: si salís del piso y volvés, ya no están."
+            },
+            {
+              "note": true,
+              "text": "Hay una carta de habilidad rango 6 opcional que conviene buscar: Apt Pupil. Sube la probabilidad de crítico, ideal para Personas físicas."
+            },
+            {
+              "note": true,
+              "text": "Antes de irte esta noche, asegurate de que cada miembro del equipo haya usado su Theurgy al menos una vez en la partida: se necesita para un logro más adelante."
+            },
+            {
+              "note": true,
+              "text": "Si armás el equipo con las 3 chicas, hoy sale la famosa frase del harem. Suena apenas entrás al bloque nuevo, así que si querés escucharla no pelees con sombras enseguida."
+            },
+            {
+              "note": true,
+              "text": "Desde esta noche, al usar Twilight Fragments en cofres cerrados puede aparecer al azar un gran reloj. Sirve para subir de nivel a miembros que se quedaron atrás: cuanto más atrás, más sube (hasta 13 niveles), y podés elegir dos personajes cada vez. Tenés que derrotar una sombra con ese miembro en el equipo para que el nivel se aplique."
+            },
+            {
+              "id": "agosto-803-4cfd458a",
+              "text": "Ya tenés acceso a la carta de Arcano Mayor Lovers, que aumenta el bonus de los vínculos al fusionar Personas: conseguila antes de fusionar esta noche. También tenés que derrotar una sombra rara hoy para un encargo."
+            },
+            {
+              "id": "agosto-803-18d4d2ff",
+              "text": "Si usás Personas DLC, liberá a Gurulu e invocá a Carmen."
+            },
+            {
+              "id": "agosto-803-242ec71c",
+              "text": "Volvé al 68F y seguí subiendo Tartarus hasta el 77F, primer guardián del bloque. Derrotalo, abrí el cofre y dale las Floaty Sandals a quien quieras."
+            },
+            {
+              "note": true,
+              "text": "Fuuka te cuenta sobre su Sylphid Aura, parecida al buff de su Theurgy que da Ata/Def/Prec/Eva, pero Sylphid Aura solo da Def/Prec/Eva. Usala en peleas difíciles cuando la Theurgy de Fuuka no esté lista."
+            },
+            {
+              "id": "agosto-803-6ed46aa1",
+              "text": "Seguí subiendo Tartarus hasta el 82F y derrotá al guardián. Abrí los cofres y dale la Slugger Jacket a Junpei."
+            },
+            {
+              "id": "agosto-803-1b86f007",
+              "text": "Seguí subiendo Tartarus hasta el 89F, donde tenés otra pelea de dos guardianes seguidos. Después de derrotarlos abrí los cofres. Podés darle a Akihiko los Fists of Fury o los Jack&#39;s Gloves: las dos armas tienen buenos efectos secundarios."
+            },
+            {
+              "note": true,
+              "text": "En el 91F encontrás un tipo nuevo de puerta, el &quot;Monad Passage&quot;. Siempre aparece en el mismo piso, normalmente justo antes de un piso frontera, y necesita una carta de Arcano Mayor específica para abrirse. Sus enemigos son por lejos los más fuertes de cada bloque y tenés que derrotar varias sombras para llegar al fondo, pero las recompensas valen la pena: equipo, cosméticos y cartas de Arcano Mayor."
+            },
+            {
+              "note": true,
+              "text": "No hace falta hacer el Monad Passage de una: el juego te deja retirarte después de cada pelea. A diferencia de las Monad Doors, no tenés que hacerlo apenas entrás al piso; podés irte y volver."
+            },
+            {
+              "id": "agosto-803-5f917cb5",
+              "text": "Entrá al Monad Passage, derrotá al primer enemigo, abrí los cofres y dale el Ice Saber a Mitsuru. Seguí bajando, derrotá al segundo enemigo y abrí el cofre para conseguir la carta de Arcano Mayor Temperance.",
+              "sub": [
+                "🏆 Logro/Trofeo: Beyond the Darkness (28/48)"
+              ]
+            },
+            {
+              "id": "agosto-803-e97ab03d",
+              "text": "Cuando termines, subí al piso frontera 92F, abrí el cofre y volvé a la entrada."
+            },
+            {
+              "id": "agosto-803-5d0a4c9f",
+              "text": "Deberías poder entregarle a Elizabeth los encargos 30, 32, 36, 37 y 60."
+            },
+            {
+              "id": "agosto-803-489c6927",
+              "text": "Esto desbloquea:",
+              "sub": [
+                "47. Treasure Hunting Milestone #4"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC, seguí la DLC Fusion Guide de agosto (archivo 14 de la guía original)."
+            },
+            {
+              "id": "agosto-803-190db9e9",
+              "text": "Vas a necesitar 220k antes de la próxima tanda de fusiones. Recomiendo los pisos 82 a 89 para farmear de paso las cartas de habilidad rango 6. Cuando estés listo, guardá, entrá al Velvet Room, registrá tus Personas y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Matador + Take-Minakata → <strong>Mithras</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>Agilao, Makouha, / Swift Strike y Rakunda</td></tr><tr><td>Mitra + Mithras → <strong>Lamia</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>Stagnant Air, Poison Mist, / Poison Boost y Resist Charm</td></tr><tr><td>Lamia + Hua Po → <strong>Yamata-No-Orochi</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>Bufula, Zio, Single Shot / y Single-Target Boost</td></tr></table></div>"
+            },
+            {
+              "id": "agosto-803-1c7a3f98",
+              "text": "Salí y volvé a entrar al Velvet Room: tenés descuento al invocar Personas por tener más del 25% del compendio. También conviene guardar cada tanto mientras fusionás: cuantas más fusiones hacés, más chance de un accidente. Si guardás, no tenés que empezar de cero si no te gusta el resultado."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a conservar</strong></td><td><strong>Habilidades a heredar</strong></td></tr><tr><td>Naga + Narcissus → <strong>Legion</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>Assault Dive, Pulinpa, / Sexy Dance y Confuse Boost</td></tr><tr><td>Legion + Shiisaa → <strong>Orthus</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>Fatal End, Agilao, / Counter y Resist Poison</td></tr><tr><td>Legion + Orthus → <strong>Baphomet</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 1 y Agilao</td><td>Eiga, Maeiga, / Maragi y Fire Boost</td></tr><tr><td>Lamia + High Pixie → <strong>Jikokuten</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 1, last skill doesn&#39;t matter</td><td>Getsu-ei, Revolution, Crit Rate Boost, / Auto Sukukaja y Slash Boost</td></tr><tr><td>Hua Po + Baphomet → <strong>Genbu</strong></td><td>Auto Tarukaja, Invigorate 1 / Agilao y Maragi</td><td>Dekunda, Auto Rakukaja, / Resist Strike, y Anti-Ice Master</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Jikokuten + Fortuna → <strong>Yatagarasu</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>No llena su lista de habilidades</td></tr><tr><td>Genbu + Jack-o-Lantern → <strong>Power</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 1 y Kouha</td><td>Arrow Rain, Torrent Shot, / Mahama y Dodge Dark</td></tr><tr><td>Take-Mikazuchi + Yamata-no-Orochi → <strong>Queen Medb</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>Me Patra, Mazio, / Maragi y Multi-Target Boost</td></tr><tr><td>Narcissus + Baphomet → <strong>Setanta</strong></td><td>Auto Rakukaja, Auto Sukukaja, / Invigorate 1 y Dodge Fire</td><td>No llena su lista de habilidades</td></tr><tr><td>Mithras + Stanta → <strong>Kushi Mitama</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 1 y Dodge Fire</td><td>Garula, Magaru, / Recarm y Regenerate 2</td></tr><tr><td>Yatagarasu + Power → <strong>Sati</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>Agilao, Maragion, / Media y Anti-Fire Master</td></tr><tr><td>Quuen Medb + Sati → <strong>Oni</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>Bash, Swift Strike, / Counterstrike y Anti-Electric Master</td></tr><tr><td>Kushi Mitama + Oni → <strong>Sarasvati</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 1 y Anti-Electric Master</td><td>Diarama, Mediarama, / Mabaisudi y Anti-Wind Master</td></tr><tr><td>Yatagarasu + Gurulu → <strong>Eigor</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 1</td><td>No llena su lista de habilidades</td></tr></table></div>"
+            },
+            {
+              "id": "agosto-803-091b5643",
+              "text": "Ya deberías tener todas las Personas fusionadas hasta nivel 30. Invocá a Mithras.",
+              "sub": [
+                "Característica de Makoto desbloqueada: Weakness Boost, por llegar al 30% del compendio",
+                "(Sube el daño un 10% al pegarle a la debilidad de un enemigo)"
+              ]
+            },
+            {
+              "id": "agosto-803-79c824b0",
+              "text": "Entregá los encargos 25 y 48 a Elizabeth, que desbloquean:",
+              "sub": [
+                "35. Fusion Series #3: Hermit, Mothman"
+              ]
+            },
+            {
+              "id": "agosto-803-bc5e9a86",
+              "text": "Liberá a Mithras. Ahora Elizabeth te pide que la acompañes al santuario Naganaki."
+            },
+            {
+              "id": "agosto-803-de730fb5",
+              "text": "Las Personas que tenés que llevar encima son <strong>Kushi Mitama, Baphomet, Take-Minakata, Yamata-no-Orochi, Jikokuten, Oni, Power, Queen Medb, Genbu, Eligor, Sarasvati</strong> y <strong>Shiisaa</strong>.",
+              "sub": [
+                "Enseñale Makouha a Power reemplazando Mahama",
+                "Cuando Baphomet aprenda Maeiga, reemplazá Dodge Fire."
+              ]
+            },
+            {
+              "id": "agosto-803-814aa735",
+              "text": "Vas a necesitar al menos 50k después de vender todo el botín."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Antes de salir, llevá Personas de estos arcanos: <strong>Priestess, Hanged, Strength, Moon, Justice, Lovers, Temperance, Hierophant, Chariot</strong> y <strong>Tower</strong>, que son los vínculos que vas a trabajar. Necesitás al menos <strong>50k</strong> después de vender el botín."
+            },
+            {
+              "note": true,
+              "text": "Si querés comprar todo lo del canal de compras, vas a necesitar al menos 70k."
+            },
+            {
+              "note": true,
+              "text": "Si querés calcular cuánto vale tu botín antes de salir, la guía original tiene la sección Loot and Breakable Objects de Yabbashah Block 1 con nombres y precios de venta."
+            },
+            {
+              "note": true,
+              "text": "<strong>Si no seguís la guía de fusión, puede que tengas que farmear más yen: los montos de acá no incluyen cambios de Persona que no se mencionen explícitamente.</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "804",
+      "date": "8/4",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-804-f7ba0c79",
+              "text": "Vendé el botín y andá a la tienda de antigüedades: deberías tener gemas suficientes para las cartas Invigorate 2 y Growth 2."
+            },
+            {
+              "id": "agosto-804-107a8b52",
+              "text": "Ya podés empezar a mejorar el equipo del grupo. No vas a poder conseguir todo para todos, así que concentrate en los personajes que usás; el equipo que reemplaces se lo podés pasar a otros. Por ahora no hay crafteo para Aigis, pero se arregla bien con su equipo inicial."
+            },
+            {
+              "note": true,
+              "text": "Hay una pequeña chance de conseguir AS Generic Material en el último bloque de Tartarus (lo necesitás para el equipo de Aigis), pero la tasa de drop ahí es muy baja."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Si querés mejorar a más personajes de una o conseguir todo lo de la tienda de antigüedades, vas a tener que farmear bloques anteriores de Tartarus en futuras visitas. Una vez que limpiás un bloque nuevo, podés volver a los viejos y hacer sus Monad Doors para conseguir materiales base y gemas raras."
+            },
+            {
+              "note": true,
+              "text": "Para el detalle de todo el equipo de la tienda de antigüedades (stats, efectos, materiales y qué Personas hacen falta), mirá la sección Mayoido Antiques Gear de la guía original."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td></td><td><strong>Arma</strong></td><td><strong>Armadura</strong></td><td><strong>Calzado</strong></td><td><strong>Accesorio</strong></td></tr><tr><td><strong>Makoto</strong></td><td>Outenta Mitsuyo</td><td>Plate Mail</td><td>Electro Shoes</td><td>Mega Master Band</td></tr><tr><td><strong>Yukari</strong></td><td>Source Yumi</td><td>Sorcery Robe</td><td>Leg Protector</td><td>Wind Bracers</td></tr><tr><td><strong>Mitsuru</strong></td><td>Flamberge</td><td>Sorcery Robe</td><td>Leg Protector</td><td>Ice Bracers</td></tr><tr><td><strong>Junpei</strong></td><td>Claymore</td><td>Slugger&#39;s Jacket</td><td>Electro Shoes</td><td>Fire Bracer</td></tr><tr><td><strong>Akihiko</strong></td><td>Jack&#39;s Gloves</td><td>Plate Mail</td><td>Electro Shoes</td><td>Thunder Bracers</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "Durante las vacaciones de verano vas a tener que ir al santuario para hacer copias de algunas cartas de habilidad."
+            },
+            {
+              "note": true,
+              "text": "Vas a necesitar:"
+            },
+            {
+              "note": true,
+              "text": "- 15x Invigorate 2 - 6x Growth 2"
+            },
+            {
+              "note": true,
+              "text": "Reemplazá Invigorate 1 por Invigorate 2 en todas tus Personas actuales."
+            },
+            {
+              "note": true,
+              "text": "Growth 2 sirve para las Personas que dan Heart Items: se la enseñás y suben de nivel pasivamente mientras recorrés Tartarus. Esos Heart Items hacen falta para mucho crafteo de equipo más adelante."
+            },
+            {
+              "id": "agosto-804-f99941cd",
+              "text": "Pasá tiempo con Elizabeth y entregá el encargo 79"
+            },
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Keisuke."
+            },
+            {
+              "id": "agosto-804-e022edf5",
+              "text": "Aceptá la invitación de Fuuka",
+              "sub": [
+                "“At home on DVD” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-804-cc97b9f7",
+              "text": "Mirá un DVD con Yukari (Charm and Social Link +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "805",
+      "date": "8/5",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver los hangouts de Kazushi y Kenji."
+            },
+            {
+              "id": "agosto-805-ee90a5ca",
+              "text": "Trabajá en Be Blue V (Académicos y Encanto +1, 3.500 yen)",
+              "sub": [
+                "🏆 Logro/Trofeo: The Grindset Mindset (43,500/50,000)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Si no usás la guía de fusión, equipate tus Personas de combate antes de la actividad de esta noche."
+            },
+            {
+              "id": "agosto-805-1d3c50dd",
+              "text": "Cociná con Akihiko"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "806",
+      "date": "8/6",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "agosto-806-b4757ed3",
+              "text": "Llegó el próximo jefe Arcano Mayor, esta vez bajo tierra. Seguí el camino hacia abajo juntando los ítems en el trayecto."
+            },
+            {
+              "id": "agosto-806-90de0508",
+              "text": "Revisá el Thing on Desk (subsuelo 21M), 1x Twilight Fragment (subsuelo 21M) y 1x Twilight Fragment (subsuelo 33M). Seguí el camino hasta el claro donde está el jefe.",
+              "sub": [
+                "🏆 Logro/Trofeo: Armor Disarmed (29/48)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "807",
+      "date": "8/7",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Bebe."
+            },
+            {
+              "id": "agosto-807-32bba385",
+              "text": "Accept Keisuke&#39;s Invite",
+              "sub": [
+                "“Let&#39;s eat here again, then” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-807-2da259f5",
+              "text": "Cociná con Yukari (Vínculo +1)"
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "agosto-807-7af0c864",
+              "text": "(Death Rango 5)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "808",
+      "date": "8/8",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-808-8c8cf003",
+              "text": "Hoy se actualizan los encargos de Elizabeth. Aceptá:",
+              "sub": [
+                "45. Retrieve the fifth old document",
+                "49. Create a Persona that’s level 38 or above",
+                "50. Perform King and I",
+                "51. Bring me an Outenta Mitsuyo",
+                "52. I’d like to try a home-cooked meal",
+                "54. Attempt a hundred shrine visits",
+                "55. I’d like to see proof of a bond",
+                "56. Look for a drink with my name",
+                "57. I’d like to try Aojiru",
+                "58. I wish to become a straw millionaire"
+              ]
+            },
+            {
+              "id": "agosto-808-a4d10ca8",
+              "text": "Deberías poder entregar los encargos 52, 55 y quizás el 51, según si ya conseguiste la espada en la tienda de antigüedades (si no, no pasa nada; yo tampoco la tenía). Para el 52 elegí el comando “Hand over your cooking”. Desbloquea:",
+              "sub": [
+                "53. I’d like to see a mysterious potato"
+              ]
+            },
+            {
+              "id": "agosto-808-32ddf328",
+              "text": "Elegí el comando “Hand over the potato” para entregar el encargo."
+            },
+            {
+              "id": "agosto-808-e3b57a4e",
+              "text": "Andá a la farmacia y pedí “I’d like some aojiru”, después entrá a la tienda de antigüedades."
+            },
+            {
+              "id": "agosto-808-555a7efc",
+              "text": "Sacá 10x Soul Spinach Sprout de Rafflesia."
+            },
+            {
+              "id": "agosto-808-fd0f8277",
+              "text": "Andá a Station Outskirts y hablá con el Fierce-Looking Delinquent, después entrá a Que Sera Sera, a su izquierda (requiere un rango de Encanto no confirmado)"
+            },
+            {
+              "id": "agosto-808-59b7d640",
+              "text": "Hablá con el Flustered Student en la estación de Port Island y después dale el juguete al Cat-Loving Boy en el Strip Mall."
+            },
+            {
+              "id": "agosto-808-8157a148",
+              "text": "Volvé con Elizabeth y entregá los encargos 56 y 58."
+            },
+            {
+              "note": true,
+              "text": "Ya tenés un AS Generic Material: si te alcanzan las gemas, conseguí el Phalanx Shell para Aigis."
+            },
+            {
+              "id": "agosto-808-f346e58b",
+              "text": "Andá al santuario y revisá la caja de ofrendas (Monetary Offering)."
+            },
+            {
+              "id": "agosto-808-77c990a6",
+              "text": "Pasá tiempo con Maiko",
+              "sub": [
+                "Cualquiera",
+                "Cualquiera",
+                "(Hanged Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-808-3c96fdcc",
+              "text": "Mirá un DVD con Akihiko (Valentía +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "809",
+      "date": "8/9",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Chihiro."
+            },
+            {
+              "id": "agosto-809-daec4a5b",
+              "text": "Canal de compras: Assorted Summer Drinks Set: 10x Isotope Soda and 20x Mad Bull por 3.980 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "agosto-809-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "id": "agosto-809-f38692bf",
+              "text": "Aceptá la invitación de Junpei"
+            },
+            {
+              "id": "agosto-809-d98caab8",
+              "text": "(Episodio de Junpei 2) (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-809-6620cfac",
+              "text": "Sacá a pasear a Koromaru (está en el 2F)",
+              "sub": [
+                "“Kenji” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "810",
+      "date": "8/10",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-810-48ebdfae",
+              "text": "Escuela de verano (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "811",
+      "date": "8/11",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-811-48ebdfae",
+              "text": "Escuela de verano (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "812",
+      "date": "8/12",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-812-48ebdfae",
+              "text": "Escuela de verano (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "813",
+      "date": "8/13",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-813-48ebdfae",
+              "text": "Escuela de verano (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "814",
+      "date": "8/14",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-814-48ebdfae",
+              "text": "Escuela de verano (Académicos +2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-814-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "agosto-814-d9d2cbc7-2",
+              "text": "Evento de historia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "815",
+      "date": "8/15",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-815-48ebdfae",
+              "text": "Escuela de verano (Académicos +2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-815-ab3ffea2",
+              "text": "Cosechá la huerta de la terraza y plantá Soul Spinach Sprout."
+            },
+            {
+              "id": "agosto-815-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Aigis comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "816",
+      "date": "8/16",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "agosto-816-1c541299",
+              "text": "Llevá a quien quieras al festival de verano, o plantalos a todos y andá solo."
+            },
+            {
+              "note": true,
+              "text": "Si querés ver todas las escenas del festival de verano, usá el Rewind y elegí la noche anterior."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "817",
+      "date": "8/17",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-817-07229013",
+              "text": "Canal de compras: Spooky Season Set, 3x Curse Paper y 2x Vanish Ball por 3.980 yen. Saltear."
+            },
+            {
+              "id": "agosto-817-25404a70",
+              "text": "Se recargaron las máquinas expendedoras."
+            },
+            {
+              "id": "agosto-817-a70f71f0",
+              "text": "Abrí el correo y aceptá la invitación de Kenji (Valentía +2) (no necesitás una Persona del mismo arcano)",
+              "sub": [
+                "(Vínculo +2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-817-ecd3c93c",
+              "text": "Mirá un DVD con Koromaru (Académicos +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "818",
+      "date": "8/18",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-818-655dbc48",
+              "text": "Andá a movies with Bebe (Académicos +2)",
+              "sub": [
+                "(Social Link + 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-818-13b769a6",
+              "text": "Pasá tiempo con President Tanaka",
+              "sub": [
+                "“Maybe a little” (+3)",
+                "(Devil Rango 3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "819",
+      "date": "8/19",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-819-b8ef980f",
+              "text": "Andá a movies with Keisuke (Encanto +2)",
+              "sub": [
+                "(Vínculo +2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-819-212bd009",
+              "text": "Cociná con Akihiko",
+              "sub": [
+                "Característica desbloqueada: Buff Boost, Increases the Effect of Buffs on Self",
+                "(Aumenta un 10% el efecto de los buffs sobre uno mismo)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "820",
+      "date": "8/20",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-820-1cad421d",
+              "text": "Revisá la caja de ofrendas del santuario."
+            },
+            {
+              "id": "agosto-820-7e4efe35",
+              "text": "Pasá tiempo con Nozomi",
+              "sub": [
+                "“That’s right” (+3)",
+                "(Moon Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-820-cc82ce41",
+              "text": "Leé con Fuuka (Academics and Social Link +1)",
+              "sub": [
+                "Característica desbloqueada: Weakness Buffer, Reduces Damage Taken When an Ally&#39;s Weakness is Struck",
+                "(Reduce el daño un 10% cuando golpean la debilidad de un aliado)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "821",
+      "date": "8/21",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-821-86a00d57",
+              "text": "Revisá la caja de ofrendas del santuario, después andá con Elizabeth y entregá el encargo 54."
+            },
+            {
+              "id": "agosto-821-7b31768b",
+              "text": "Andá a movies with Yuko (Valentía +2)",
+              "sub": [
+                "(Vínculo +2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-821-ca386930",
+              "text": "Cociná con Yukari",
+              "sub": [
+                "Característica desbloqueada: Healing Master",
+                "(Reduce un 50% el costo de SP de las habilidades de curación)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "822",
+      "date": "8/22",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-822-13a9dc43",
+              "text": "Andá a movies with Kazushi (Valentía +2)",
+              "sub": [
+                "(Vínculo +2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-822-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "(Bunkichi +3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "823",
+      "date": "8/23",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-823-0ae5b069",
+              "text": "Canal de compras: Home Garden Set, 2x Soul Spinach Sprout and 3x Buff Potato Sprout por 2.980 yen. Saltear."
+            },
+            {
+              "id": "agosto-823-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "id": "agosto-823-187880d9",
+              "text": "Andá a movies with Chihiro (Encanto +2)",
+              "sub": [
+                "(Vínculo +2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-823-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Sanada comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "824",
+      "date": "8/24",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-824-d8344bd2",
+              "text": "Invitá a Yukari al cine (Académicos +2)",
+              "sub": [
+                "(Vínculo +2)",
+                "(Académicos Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-824-ecd3c93c",
+              "text": "Mirá un DVD con Koromaru (Académicos +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "825",
+      "date": "8/25",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-825-447eb2f1",
+              "text": "Invitá a Akihiko al cine (Valentía +2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-825-a94969db",
+              "text": "Mirá un DVD con Yukari (Charm and Social Link + 1)",
+              "sub": [
+                "Característica desbloqueada: Healing Apex",
+                "(Reduce un 75% el costo de SP de las habilidades de curación)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "826",
+      "date": "8/26",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-826-6d054646",
+              "text": "Invitá a Koromaru al cine (Valentía +2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-826-e86403d3",
+              "text": "Jugá You’re the Answer en Game Parade (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "827",
+      "date": "8/27",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-827-f185d772",
+              "text": "Invitá a Junpei al cine (Encanto +2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-827-3a3c2b7b",
+              "text": "Guardá en la heladera tu Lukewarm Taiyaki de un mes",
+              "sub": [
+                "(“I’m going to feel sorry if someone ends up eating it”)"
+              ]
+            },
+            {
+              "id": "agosto-827-ab3ffea2",
+              "text": "Cosechá la huerta de la terraza y plantá Soul Spinach Sprout."
+            },
+            {
+              "id": "agosto-827-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Junpei comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "828",
+      "date": "8/28",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-828-5614101f",
+              "text": "Invitá a Aigis al cine (Académicos +2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-828-8d1c9cd7",
+              "text": "Pasá tiempo con the Monk",
+              "sub": [
+                "“None of your business” (+3)",
+                "“How should I address you?” (+1)",
+                "(Tower Rango 2)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "829",
+      "date": "8/29",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-829-56d3086f",
+              "text": "Invitá a Fuuka al cine (Encanto +2)",
+              "sub": [
+                "(Vínculo +2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-829-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Fuuka comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "830",
+      "date": "8/30",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-830-00a26fa4",
+              "text": "Canal de compras: Sutra Set, 3x Fierce Sutra and 3x Depleting Sutra por 9.800 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "agosto-830-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "id": "agosto-830-23797866",
+              "text": "Revisá la heladera (1x Chilled Taiyaki)"
+            },
+            {
+              "id": "agosto-830-2b54af81",
+              "text": "Invitá a Mitsuru al cine (Académicos +2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-830-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Mitsuru comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "831",
+      "date": "8/31",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "agosto-831-72d8ce83",
+              "text": "Invitá a Ken al cine (Valentía +2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "agosto-831-ecd3c93c",
+              "text": "Mirá un DVD con Koromaru (Académicos +1)",
+              "sub": [
+                "Característica desbloqueada: Auto Sukunda",
+                "(Baja la precisión/evasión de 1 enemigo al azar durante 3 turnos al empezar la pelea)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": {
+    "stats": [
+      {
+        "stat": "Charm",
+        "rank": 6,
+        "label": "Popular"
+      },
+      {
+        "stat": "Academics",
+        "rank": 5,
+        "label": "Intelligent"
+      },
+      {
+        "stat": "Courage",
+        "rank": 6,
+        "label": "Badass"
+      }
+    ],
+    "sl": [
+      {
+        "arcana": "Fool",
+        "rank": 5
+      },
+      {
+        "arcana": "Magician",
+        "rank": 9
+      },
+      {
+        "arcana": "Priestess",
+        "rank": 4
+      },
+      {
+        "arcana": "Emperor",
+        "rank": 10
+      },
+      {
+        "arcana": "Hierophant",
+        "rank": 5
+      },
+      {
+        "arcana": "Lovers",
+        "rank": 1
+      },
+      {
+        "arcana": "Chariot",
+        "rank": 8
+      },
+      {
+        "arcana": "Justice",
+        "rank": 5
+      },
+      {
+        "arcana": "Hermit",
+        "rank": 8
+      },
+      {
+        "arcana": "Fortune",
+        "rank": 2
+      },
+      {
+        "arcana": "Strength",
+        "rank": 4
+      },
+      {
+        "arcana": "Hanged",
+        "rank": 7
+      },
+      {
+        "arcana": "Death",
+        "rank": 5
+      },
+      {
+        "arcana": "Temperance",
+        "rank": 3
+      },
+      {
+        "arcana": "Devil",
+        "rank": 3
+      },
+      {
+        "arcana": "Tower",
+        "rank": 2
+      },
+      {
+        "arcana": "Moon",
+        "rank": 5
+      }
+    ],
+    "trophies": [
+      "Awakened Power",
+      "SEES the Day",
+      "The First of Many",
+      "There’s no “I” in “Team”",
+      "The Thrill of the Hunt",
+      "The Power of Choice",
+      "Shrouded Assassin",
+      "Making the Dream Work",
+      "Back on Track",
+      "Gourmand",
+      "Briefcase Burglar",
+      "Eagle Eye",
+      "Empowered Protector",
+      "In High Deman",
+      "Birthday Present",
+      "Fusion Artisan",
+      "The Fool’s Journey",
+      "Dorm Life",
+      "Eat Your Veggies, Peas",
+      "Specialist",
+      "Through Thick and Thin",
+      "Unbreakable Link",
+      "Shattered Plumes",
+      "Extracurricular Excellence",
+      "Never Toy with Matter of the Heart",
+      "Benevolent Purr-tector",
+      "Top of the Class",
+      "Beyond the Darkness",
+      "Armor Disarmed"
+    ],
+    "compendium": 59
+  }
+}

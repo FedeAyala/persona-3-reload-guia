@@ -1,0 +1,1626 @@
+{
+  "title": "🌑 DICIEMBRE — La decisión",
+  "intro": [],
+  "days": [
+    {
+      "id": "1201",
+      "date": "12/1",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "note": true,
+              "text": "Te recomiendo tener a Siegfried como Persona equipada."
+            },
+            {
+              "id": "diciembre-1201-efc82879",
+              "text": "Andá a la sala de música en el 1F.",
+              "sub": [
+                "(Episodio de Ryoji 4)",
+                "(Todos los stats de la Persona equipada +1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1201-8bfd0742",
+              "text": "Sacá la fortuna que quieras en Escapade."
+            },
+            {
+              "id": "diciembre-1201-ab3f38a6",
+              "text": "Hablá con Fuuka y andá a Tartarus."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "Tenés que derrotar una Greedy Shadow para conseguir una Gold Medal para un encargo, pero encontrarlas depende mucho del RNG. Si te cuesta, Fuuka aprende Tartarus Search en nivel 64, que garantiza la pelea cuando te cruzás una (siguen apareciendo al azar, pero te ahorrás el minijuego de izquierda/derecha)."
+            },
+            {
+              "note": true,
+              "text": "En este bloque puede salir Siegfried en los Shuffle Time: le podés dar mucha EXP acá y hacerlo todavía más letal."
+            },
+            {
+              "note": true,
+              "text": "Llegó la disco setentosa en mal viaje de ácido; ya vas a ver a qué me refiero."
+            },
+            {
+              "id": "diciembre-1201-34d9577a",
+              "text": "Si podés, conseguí las cartas Lovers, Devil y Justice/Star. Justice y Star te dejan elegir una carta extra en el Shuffle Time, así que con las dos podés elegir hasta 3. Con una alcanza, pero es preferencia personal."
+            },
+            {
+              "id": "diciembre-1201-ad3ebc8f",
+              "text": "Volvé al 171F y seguí subiendo Tartarus hasta el 179F, primer guardián del bloque. Derrotalo y abrí los cofres; dale las Mirage Sandals a Akihiko si no tenés Silent Sandals para él."
+            },
+            {
+              "id": "diciembre-1201-cbc9f866",
+              "text": "Seguí subiendo hasta el 184F para el próximo guardián, derrotalo y abrí los cofres. Solo le daría Rai Kunimitsu a Koromaru si no tenés la Elementary Mask."
+            },
+            {
+              "id": "diciembre-1201-7e424e00",
+              "text": "Seguí subiendo Tartarus hasta el 188F para el próximo guardián, derrotalo y abrí los cofres. Dale el Circe&#39;s Bow a Yukari y unas Silent Sandals si te sobran."
+            },
+            {
+              "id": "diciembre-1201-2c9e17b4",
+              "text": "Seguí subiendo Tartarus hasta el 193F, último guardián del bloque, derrotalo y abrí los cofres. Dale la Water God Armour a Mitsuru."
+            },
+            {
+              "id": "diciembre-1201-d6848fc2",
+              "text": "Seguí subiendo Tartarus hasta el 197F, donde está el próximo Monad Passage. Derrotá a la primera sombra, abrí los cofres y equipá la Omega Spear a Ken. Derrotá a la segunda y abrí el cofre para conseguir el Arcano Mayor Moon."
+            },
+            {
+              "id": "diciembre-1201-708da8cc",
+              "text": "Subí al piso frontera 198F, abrí el cofre y volvé a la entrada."
+            },
+            {
+              "id": "diciembre-1201-9e85eb24",
+              "text": "Entregá los encargos 82, 89 y 88 (si pudiste derrotar una Greedy Shadow)"
+            },
+            {
+              "note": true,
+              "text": "Si querés más materiales base y gemas, podés farmear las Monad Doors de bloques anteriores, pero dan materiales de menor calidad que los de esta noche."
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC, seguí la DLC Fusion Guide del 1 de diciembre (archivo 14 de la guía original)."
+            },
+            {
+              "id": "diciembre-1201-e6a85bcc",
+              "text": "Farmeá hasta tener 550k. El Arcano Lovers es recomendable pero no imprescindible. Cuando estés listo, guardá, entrá al Velvet Room, registrá tus Personas y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Siegfried + Chernobog → <strong>Pazuzu</strong></td><td>Auto Tarukaja, Maeiga, / Life Aid y Enduring Soul</td><td>Eigaon, Poison Mist, / Infuriate y Ailment Boost</td></tr><tr><td>Jatayu + Hecatoncheires → <strong>Uriel</strong></td><td>Auto Tarukaja, Auto Maraku, / Life Aid y Enduring Soul</td><td>No llena su lista de habilidades</td></tr><tr><td>Ganesha + Titania → <strong>Mot</strong></td><td>Auto Tarukaja, Auto Maraku, / Life Aid y Enduring Soul</td><td>Megidola, Ghastly Wail, / Evil Smile y Null Fear</td></tr><tr><td>Throne + Uriel → <strong>Trumpeter</strong></td><td>Auto Tarukaja, Auto Maraku, / Life Aid y Enduring Soul</td><td>No llena su lista de habilidades</td></tr><tr><td>Hariti + Pazuzu → <strong>Bishamonten</strong></td><td>Auto Tarukaja, Auto Maraku, / Life Aid y Enduring Soul</td><td>Primal Force, Myriad Arrows, / Crit Rate amp y Pierce Boost</td></tr><tr><td>Suzaku + Trumpeter → <strong>Gabriel</strong></td><td>Auto Tarukaja, Auto Maraku, / Life Aid y Enduring Soul</td><td>No llena su lista de habilidades</td></tr><tr><td>Mot + Gabriel → <strong>Raphael</strong></td><td>Megidola, Auto Maraku, / Life Aid y Enduring Soul</td><td>Tempest Slash, Magarudyne, / Mediarama y Angelic Grace</td></tr><tr><td>Succubus + Raphael → <strong>Garuda</strong></td><td>Auto Tarukaja, Auto Maraku, / Life Aid y Enduring Soul</td><td>Garudyne, Magarudyne, / Tentarafoo y Amrita Shower</td></tr><tr><td>Parvati + Garuda → <strong>Barong</strong></td><td>Auto Tarukaja, Auto Maraku, / Life Aid y Enduring Soul</td><td>Ziodyne, Maziodyne, Elec Boost / Drain Elec y Auto Masuku / (borrá Auto Tarukaja)</td></tr><tr><td>Bishamonten + Barong → <strong>Kali</strong></td><td>Auto Maraku, Auto Masuku, / Life Aid y Enduring Soul</td><td>Heat Wave, Deathbound, / Charge y High Counter</td></tr><tr><td>Fuse Pale Rider / From the Special Fusion</td><td>Eiha, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Eiga, Fatal End, / Null Fear y Survive Light</td></tr><tr><td>Fuse Mada / From the Special Fusion</td><td>Auto Maraku, Life Aid, Enduring Soul, / Shfit Boost y Null Pierce</td><td>Agidyne, Maragidyne, / y Null Wind</td></tr><tr><td>Fuse Norn / From the Special Fusion</td><td>Auto Tarukaja, Auto Rakukaja / Auto Sukukaja, Life Aid / y Endure</td><td>Panta Rhei, Magarudyne / Wind Amp e Invigorate 3 / (borrá Auto Tarukaja)</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "Empezaste a sacar Auto Tarukaja, que se reemplaza por el Power Transmitter (ataque arriba para todo el grupo) cuando mejores el equipo. Pronto vas a trabajar para conseguir la habilidad Spell Master."
+            },
+            {
+              "id": "diciembre-1201-01e0a7b2",
+              "text": "Podés liberar a Pale Rider."
+            },
+            {
+              "note": true,
+              "text": "Opcional para esta noche, si sos nivel 69 o no te molesta farmear hasta 69: una fusión más, Loki (no el DLC)."
+            },
+            {
+              "note": true,
+              "text": "Tiene la próxima habilidad que buscás, Spell Master, que aprende en nivel 76. La ventaja de hacerlo ahora es aprovechar el Arcano Lovers activo para darle la mayor EXP posible y empezar a subirlo apenas vuelvas a Tartarus."
+            },
+            {
+              "note": true,
+              "text": "La otra opción es llegar a 69 naturalmente en el próximo bloque de Tartarus, fusionarlo ahí y subirlo a 76."
+            },
+            {
+              "note": true,
+              "text": "Qué conviene depende de cuán cerca estés del nivel 69: si estás cerca, ahorrás tiempo fusionándolo ahora; si te faltan varios niveles, probablemente tardes más farmeando ahora que haciendo todo en el próximo bloque."
+            },
+            {
+              "note": true,
+              "text": "Si decidís hacerlo ahora, esta es la receta:"
+            },
+            {
+              "note": true,
+              "text": "<strong>Receta:</strong> Kali + Nidhoggr → <strong>Loki</strong>. Habilidades a heredar: Auto Maraku, Life Aid y Enduring Soul. Habilidades a conservar: Agidyne, Bufudyne, Ziodyne, Garudyne y Growth 3 (usá la carta para Growth 3 y después reemplazala por Spell Master)."
+            },
+            {
+              "id": "diciembre-1201-cd3f98dd",
+              "text": "Las Personas que tenés que llevar encima antes de salir son <strong>Nidhoggr, Titania, Norn, Mada, Gabriel, Chernobog, Mishaguji, Parvati, Garuda, Siegfried, Throne</strong> y <strong>Kali (o Loki)</strong>. Necesitás <strong>250k</strong> después de vender el botín.",
+              "sub": [
+                "Enseñale Growth 3 a Gabriel reemplazando Auto Tarukaja"
+              ]
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Llevá Personas de estos arcanos: <strong>Lovers, Fortune, Hanged, Moon, Hierophant, Priestess, Star</strong>, que son los próximos vínculos que vas a trabajar. Necesitás <strong>250k</strong> después de vender el botín."
+            },
+            {
+              "note": true,
+              "text": "Si querés comprar todo lo del canal de compras, vas a necesitar al menos 415k."
+            },
+            {
+              "note": true,
+              "text": "Si querés calcular cuánto vale tu botín antes de salir, la guía original tiene la sección Loot and Breakable Objects de Harabah Block 1 con nombres y precios de venta."
+            },
+            {
+              "note": true,
+              "text": "<strong>Si no seguís la guía de fusión, puede que tengas que farmear más yen: los montos de acá no incluyen cambios de Persona que no se mencionen explícitamente.</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1202",
+      "date": "12/2",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1202-1c3a466a",
+              "text": "Vendé el botín y cobrá las recompensas."
+            },
+            {
+              "id": "diciembre-1202-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "“Why not give it a try?” (+1)",
+                "“Are you happy?” (+3)",
+                "“Maybe you&#39;re anxious” (+1)",
+                "(Empress Rango 3)",
+                "“I heard nothing” (+1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1202-4989edfb",
+              "text": "Trabajá en Chagall Café (Encanto y Valentía +1, 4.800 yen)",
+              "sub": [
+                "🏆 Logro/Trofeo: The Grindset Mindset (48,300/50,000)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "diciembre-1202-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1203",
+      "date": "12/3",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1203-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1203-ff845f03",
+              "text": "Pasá tiempo con Mutatsu",
+              "sub": [
+                "(Tower Rango 10)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1204",
+      "date": "12/4",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1204-707f431c",
+              "text": "Hoy se actualizaron los encargos de Elizabeth. Aceptá:",
+              "sub": [
+                "83. Retrieve the progress report",
+                "90. Bring me a Dojigiri Yasutsuna",
+                "97. Bring me my Christmas present"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Umiushi Beef Bowl tiene un plato de temporada nuevo, el Winter Oden Bowl."
+            },
+            {
+              "id": "diciembre-1204-889bc970",
+              "text": "Andá al 2F del Strip Mall, hablá con el Eccentric Man, elegí “I&#39;ll do it” y volvé con Elizabeth para entregar el encargo 97."
+            },
+            {
+              "id": "diciembre-1204-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "“Did something happen?” (+1)",
+                "“It&#39;s all for love” (+3)",
+                "Cualquiera",
+                "(Empress Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Esta noche cada miembro del equipo puede responder varias preguntas."
+            },
+            {
+              "id": "diciembre-1204-9cf44f23",
+              "text": "Usá History Website Note en la compu compartida.",
+              "sub": [
+                "(Emboscar a una sombra por la espalda carga la barra de Theurgy)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1205",
+      "date": "12/5",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1205-f80aa98f",
+              "text": "Pasá tiempo con Yukari",
+              "sub": [
+                "“.....” (+3)",
+                "<strong>Amistad:</strong> “You&#39;re a precious friend”",
+                "(Lovers Rango 9)",
+                "<strong>Relación:</strong> “I love you”",
+                "(Lovers Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1205-289d5d1f",
+              "text": "Andá a la tienda de antigüedades y mejorá tu equipo; si todavía no tenés una, conseguí una carta Regenerate 3, que la necesitás para un encargo."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Parte del equipo listado acá pide Gold Quartz, que no se consigue hasta el próximo bloque de Tartarus; lo incluyo porque está mezclado con el equipo de Silver Quartz. Aunque no puedas hacer todo, te sirve para ver qué materiales y cuántos necesitás para cada pieza."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td></td><td><strong>Arma</strong></td><td><strong>Armadura</strong></td><td><strong>Calzado</strong></td><td><strong>Accesorio</strong></td></tr><tr><td><strong>Makoto</strong></td><td>Kaneshige</td><td>Fairy Cloak</td><td>Mysterious Geta / or Silent Sandals</td><td>Power Transmitter / or Power Enhancer</td></tr><tr><td><strong>Yukari</strong></td><td>Circe&#39;s Bow</td><td>Golden Dress</td><td>Mysterious Geta / or Silent Sandals</td><td>Yellow Shawl / or Vayu Bracers</td></tr><tr><td><strong>Junpei</strong></td><td>Qingdi Blade</td><td>Fairy Cloak</td><td>Dragon Boots</td><td>Green Shawl / or Agni Bracers</td></tr><tr><td><strong>Akihiko</strong></td><td>Double Ziggurat</td><td>Fairy Cloak</td><td>Mysterious Geta / or Silent Sandals</td><td>Blue Shaw / or Indra Bracers</td></tr><tr><td><strong>Mitsuru</strong></td><td>Brionac</td><td>Water God Armour</td><td>Mysterious Geta / or Silent Sandals</td><td>Red Shawl / or Varna Bracers</td></tr><tr><td><strong>Aigis</strong></td><td>Kyriotes</td><td>Fifth Number</td><td>Free Walkers</td><td>Yellow Shawl / or Vijaya Bracers</td></tr><tr><td><strong>Koromaru</strong></td><td>Tyrant&#39;s Knife</td><td>Star Dog Suit</td><td>Bare Paws</td><td>Ratri Bracers</td></tr><tr><td><strong>Ken</strong></td><td>Tonbo-kiri</td><td>Fairy Cloak</td><td>Mysterious Geta / or Silent Sandals</td><td>Ushas Bracers</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "Si llevás a Aigis con Kyriotes (tiene Auto Masuku: precisión/evasión arriba para todo el grupo), usá Mysterious Geta. Si no usás a Aigis, quedate con las Silent Sandals."
+            },
+            {
+              "note": true,
+              "text": "Algunas Personas tienen Auto Masuku, pero pronto lo vas a reemplazar por Spell Master."
+            },
+            {
+              "note": true,
+              "text": "Si seguís la guía de fusión y equipo, deberías tener Auto Mataru (ataque arriba para todo el grupo) con el Power Transmitter equipado en Makoto, Auto Maraku (defensa arriba para todo el grupo) como habilidad en todas tus Personas, y Auto Masuku (precisión/evasión arriba para todo el grupo) en el arma de Aigis o con Silent Sandals en todo el grupo."
+            },
+            {
+              "note": true,
+              "text": "Conviene hacer algunas copias de Life Aid (con 5 alcanza)."
+            },
+            {
+              "note": true,
+              "text": "Podés reemplazar el Auto Tarukaja de Siegfried por Life Aid o Resist Dark si farmeaste una. Ya podés reemplazar Auto Tarukaja en cualquier Persona; te recomiendo una carta Resist o Boost si tenés. Muy opcional."
+            },
+            {
+              "id": "diciembre-1205-13b769a6",
+              "text": "Pasá tiempo con President Tanaka",
+              "sub": [
+                "“Why would he say that?” (+3)",
+                "(Devil Rango 8)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1206",
+      "date": "12/6",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "diciembre-1206-0789909b",
+              "text": "Canal de compras: Luxury Fruit Basket Set, 3x Hogyoku Apple y 2x Hiranya Mandarin por 14.800 yen. Saltear."
+            },
+            {
+              "id": "diciembre-1206-15818e4f",
+              "text": "Pasá tiempo con Akinari",
+              "sub": [
+                "“You finished your story?” (+1)",
+                "(Sun Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1206-e1dd7f3c",
+              "text": "Usá Mental Instructor en la compu compartida",
+              "sub": [
+                "(SP máximo +7)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1207",
+      "date": "12/7",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1207-068fbef3",
+              "text": "Respuesta: <strong>The ozone layer</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1207-77c990a6",
+              "text": "Pasá tiempo con Maiko",
+              "sub": [
+                "“Hamburgers” (+1)",
+                "“You&#39;re a good girl” (+3)",
+                "“You dad” (+3)",
+                "(Hanged Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1207-4989edfb",
+              "text": "Trabajá en Chagall Café (Encanto y Valentía +1, 4.800 yen)",
+              "sub": [
+                "🏆 Logro/Trofeo: The Grindset Mindset (41/48)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1208",
+      "date": "12/8",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1208-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "“Glad you enjoyed it” (+3)",
+                "“A motorcycle?” (+3)",
+                "“Let&#39;s go for a ride” (+3)",
+                "(Empress Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1208-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "“Chihiro” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1209",
+      "date": "12/9",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1209-3158ffc8",
+              "text": "Respuesta: <strong>Kido</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1209-3d512df9",
+              "text": "Pasá tiempo con Mamoru",
+              "sub": [
+                "“What are you doing?” (+1)",
+                "“That would be amazing!” (+1)",
+                "“Yah, I bet it would” (+1)",
+                "(Star Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Ya no necesitás stats sociales, pero las sesiones de estudio siguen siendo escenas únicas."
+            },
+            {
+              "id": "diciembre-1209-278a32df",
+              "text": "Estudiá con Koromaru y Amada (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1210",
+      "date": "12/10",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1210-299e50e5",
+              "text": "Comprá Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "diciembre-1210-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "“Looking for something specific?” (+1)",
+                "Cualquiera",
+                "“I didn&#39;t know...” (+1)",
+                "“I&#39;ll do something about it” (+3)",
+                "(Empress Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1210-d537350e",
+              "text": "Guardá Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "id": "diciembre-1210-ddd56c96",
+              "text": "Usá Image Muscle Trainer en la compu compartida",
+              "sub": [
+                "(HP máximo +9)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1211",
+      "date": "12/11",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "diciembre-1211-f10e735a",
+              "text": "Respuesta: <strong>Lives</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1211-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "“I don&#39;t mind at all” (+3)",
+                "(Empress Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1211-497904f2",
+              "text": "Estudiá con Mitsuru y Akihiko (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1212",
+      "date": "12/12",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1212-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1212-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "Cualquiera",
+                "“Vent all you want” (+1)",
+                "(Empress Rango 8)",
+                "“That&#39;s up to you”",
+                "“Don&#39;t insult her father!” (+3)",
+                "“Don&#39;t give in” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1212-c1fb4912",
+              "text": "Cosechá la huerta de la terraza y plantá Golden Tomato Sprout."
+            },
+            {
+              "id": "diciembre-1212-e1ac776d",
+              "text": "Estudiá con Junpei, Fuuka y Yukari (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1213",
+      "date": "12/13",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "diciembre-1213-941a852c",
+              "text": "Canal de compras: Exam Support Set, 1x Victory Headband and10x Mind Supplement por 29.800 yen. Saltear."
+            },
+            {
+              "id": "diciembre-1213-15818e4f",
+              "text": "Pasá tiempo con Akinari",
+              "sub": [
+                "(Sun Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1213-23797866",
+              "text": "Revisá la heladera (1x Chilled Taiyaki)"
+            },
+            {
+              "id": "diciembre-1213-53f328e7",
+              "text": "Estudiá con todos (Académicos +3)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1214",
+      "date": "12/14",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1214-aab100fa",
+              "text": "Respuesta: <strong>The number zero</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1215",
+      "date": "12/15",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1215-bd2e7454",
+              "text": "Respuesta: <strong>Maltose</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1216",
+      "date": "12/16",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1216-0812461d",
+              "text": "Respuesta: <strong>Venus</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1217",
+      "date": "12/17",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1217-99d9b2ea",
+              "text": "Respuesta: <strong>Murasaki-no-Ue</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1218",
+      "date": "12/18",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1218-b9bf90db",
+              "text": "Respuesta: <strong>Gesses</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1219",
+      "date": "12/19",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1219-b28a327a",
+              "text": "Respuesta automática"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1219-afe3e3fe",
+              "text": "Pasá tiempo con Junpei (Valentía +1)",
+              "sub": [
+                "(Episodio de Junpei 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Esta noche hay un paseo de Koromaru con Kenji, pero es una escena repetida."
+            },
+            {
+              "id": "diciembre-1219-92b41dfd",
+              "text": "Pasá tiempo con Akihiko",
+              "sub": [
+                "(Episodio de Akihiko 4)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1220",
+      "date": "12/20",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "diciembre-1220-b98fa0f0",
+              "text": "Canal de compras: Stay-Warm-and-Toasty Set, 1x Pink Duffle Coat and 3x Luxe Shiruko Can por 40.800 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "diciembre-1220-7e4efe35",
+              "text": "Pasá tiempo con Nozomi",
+              "sub": [
+                "“No, you&#39;re not” (+3)",
+                "(Moon Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1220-7d4a4197",
+              "text": "Usá la Dating Site Note en la compu compartida y elegí a Fuuka (Vínculo +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1221",
+      "date": "12/21",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Almuerzo",
+          "items": [
+            {
+              "id": "diciembre-1221-25943a12",
+              "text": "Resultado del examen: primero de la clase (Encanto +2)"
+            }
+          ]
+        },
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "diciembre-1221-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1221-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "Cualquiera",
+                "Cualquiera",
+                "<strong>Amistad:</strong> “We&#39;ll always be friends”",
+                "(Priestess Rango 9)",
+                "“Sure” (+3)",
+                "“<strong>Relationship:</strong> I love you, Fuuka” (+3)",
+                "Cualquiera",
+                "(Priestess Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1221-4bcb5ab7",
+              "text": "Hablá con Mitsuru para recibir los premios del examen:",
+              "sub": [
+                "4x Master Incense",
+                "1x Phoenix Charm"
+              ]
+            },
+            {
+              "id": "diciembre-1221-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Fuuka comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1222",
+      "date": "12/22",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1222-46b8822b",
+              "text": "Respuesta: <strong>Euphoria</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "note": true,
+              "text": "¡No te olvides de comprar un regalo para Nochebuena!"
+            },
+            {
+              "note": true,
+              "text": "Regalos que le gustan a cada chica:"
+            },
+            {
+              "note": true,
+              "text": "Fuuka: Glass Vase (Rafflesia) o Brand Purse (Tanaka Commodities)"
+            },
+            {
+              "note": true,
+              "text": "Yukari: Brand Purse o Perfume (los dos en Tanaka Commodities)"
+            },
+            {
+              "note": true,
+              "text": "Mitsuru: Goggle-Eyed Doll o Japanese Doll (los dos en la tienda de antigüedades)"
+            },
+            {
+              "note": true,
+              "text": "Yuko: Brand Purse (Tanaka Commodities) o Teddy Bear (tienda de antigüedades)"
+            },
+            {
+              "note": true,
+              "text": "Chihiro: Brand Watch (Tanaka Commodities) o Book Cover (tienda del colegio)"
+            },
+            {
+              "id": "diciembre-1222-299e50e5",
+              "text": "Comprá Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "diciembre-1222-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "“It made me happy” (+3)",
+                "Cualquiera",
+                "<strong>Amistad:</strong> “I&#39;m sorry, but...”",
+                "(Empress Rango 9)",
+                "<strong>Relación:</strong> “I love you too”",
+                "(Empress Rango 9)",
+                "Cualquiera"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1222-6fb12634",
+              "text": "Te recomiendo darle el Pink Duffle Coat a Yukari."
+            },
+            {
+              "id": "diciembre-1222-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Mitsuru comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1223",
+      "date": "12/23",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "diciembre-1223-d537350e",
+              "text": "Guardá Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "id": "diciembre-1223-3d512df9",
+              "text": "Pasá tiempo con Mamoru",
+              "sub": [
+                "“Are you okay?” (+1)",
+                "“I&#39;ll come back here with you” (+1)",
+                "(Star Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1223-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Yukari comes today"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1224",
+      "date": "12/24",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1224-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Almuerzo",
+          "items": [
+            {
+              "id": "diciembre-1224-3fae4be2",
+              "text": "Aceptá la invitación de quien quieras, o plantalos a todos y andá solo."
+            },
+            {
+              "note": true,
+              "text": "Recordá que podés usar el Rewind para ver todas las citas."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1224-48bd6475",
+              "text": "Escena de la cita."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1225",
+      "date": "12/25",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1225-66d86ff2",
+              "text": "Pasá tiempo con Bebe",
+              "sub": [
+                "(Temperance Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1225-97aea77d",
+              "text": "Revisá la heladera (1x YABA Chocolate y 1x Chilled Taiyaki)"
+            },
+            {
+              "id": "diciembre-1225-e863916f",
+              "text": "Pasá tiempo con Ken",
+              "sub": [
+                "(Episodio de Ken 4)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1226",
+      "date": "12/26",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "diciembre-1226-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "diciembre-1226-f3d51961",
+              "text": "Pasá tiempo con Mitsuru",
+              "sub": [
+                "(Empress Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1226-13b769a6",
+              "text": "Pasá tiempo con President Tanaka",
+              "sub": [
+                "“Are you going to donate?” (+3)",
+                "(Devil Rango 9)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1227",
+      "date": "12/27",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Comprar es decisión tuya: es la única vez en el juego que se pueden comprar Rubies (el resto hay que farmearlas) y hacen falta muchas para el equipo de endgame."
+            },
+            {
+              "id": "diciembre-1227-190cd56e",
+              "text": "Canal de compras: End-of-Year Gemstone Sale, 2x Ruby y 5x Opal por 99.000 yen."
+            },
+            {
+              "id": "diciembre-1227-c1fb4912",
+              "text": "Cosechá la huerta de la terraza y plantá Golden Tomato Sprout."
+            },
+            {
+              "id": "diciembre-1227-3d512df9",
+              "text": "Pasá tiempo con Mamoru",
+              "sub": [
+                "Cualquiera",
+                "Cualquiera",
+                "Cualquiera",
+                "“Don&#39;t worry, it&#39;s okay” (+3)",
+                "(Star Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1227-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Junpei comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1228",
+      "date": "12/28",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "diciembre-1228-77c990a6",
+              "text": "Pasá tiempo con Maiko",
+              "sub": [
+                "“Friends forever” (+3)",
+                "(Hanged Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1228-c380b245",
+              "text": "Usá Sengoku Chronicles en la compu compartida (Valentía +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1229",
+      "date": "12/29",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "diciembre-1229-747170d2",
+              "text": "Pasá tiempo en Bookworms",
+              "sub": [
+                "“What does the letter say?” (+1)",
+                "Cualquiera",
+                "(Hierophant Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1229-13b769a6",
+              "text": "Pasá tiempo con President Tanaka",
+              "sub": [
+                "(Devil Rango 10)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1230",
+      "date": "12/30",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "diciembre-1230-3d512df9",
+              "text": "Pasá tiempo con Mamoru",
+              "sub": [
+                "“It&#39;s no problem at all” (+1)",
+                "“Sounds pretty rough” (+1)",
+                "Cualquiera",
+                "“Don&#39;t give up yet” (+3)",
+                "(Star Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1230-d2023d81",
+              "text": "🏆 Logro/Trofeo: A Newfound Strength (42/48)"
+            },
+            {
+              "id": "diciembre-1230-dcfa1897",
+              "text": "Sacá una fortuna."
+            },
+            {
+              "id": "diciembre-1230-ab3f38a6",
+              "text": "Hablá con Fuuka y andá a Tartarus."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Apenas llegues a nivel 69, fusioná a Loki. Tenés que subirlo a nivel 76 para Spell Master antes de cualquier otra fusión. Usá Growth 3 en él hasta el 76 y después reemplazala por Spell Master."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Kali + Nidhoggr → <strong>Loki</strong></td><td>Auto Maraku, Life aid / y Enduring Soul</td><td>Agidyne, Bufudyne, Ziodyne / Garudyne y Growth 3 / (usá la carta para Growth 3)</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "Cuando hoy consigas un Arcana Burst, desbloqueás las cartas de habilidad rango J. Dan bastante más yen que los niveles anteriores, así que aunque necesitás mucho yen hoy, lo farmeás mucho más rápido."
+            },
+            {
+              "id": "diciembre-1230-8ee2b84f",
+              "text": "Tratá de conseguir las cartas Lovers, Devil y Justice/Star esta noche."
+            },
+            {
+              "id": "diciembre-1230-93cb535a",
+              "text": "Andá al 197F y seguí subiendo Tartarus hasta el 203F, primer guardián del bloque. Derrotalo, abrí los cofres y dale la Adamant Armour a quien la necesite."
+            },
+            {
+              "id": "diciembre-1230-b69ca6ca",
+              "text": "Seguí subiendo Tartarus hasta el 212F para el próximo guardián. Derrotalo, abrí los cofres y dale el Dojigiri Yasutsuna a Junpei."
+            },
+            {
+              "id": "diciembre-1230-fca57bcb",
+              "text": "Seguí subiendo Tartarus hasta el 218F para el próximo guardián, derrotalo y abrí los cofres. No le equiparía Longinus a Mitsuru: el Auto Tarukaja no sirve si Makoto tiene el Power Transmitter."
+            },
+            {
+              "id": "diciembre-1230-15041dfd",
+              "text": "Seguí subiendo Tartarus hasta el 225F, último guardián del bloque, derrotalo y abrí los cofres. Dale la Carbon Jacket a quien la necesite."
+            },
+            {
+              "id": "diciembre-1230-887b8e75",
+              "text": "El Monad Passage también está en el 225F: derrotá a la primera sombra y abrí los cofres. Derrotá a la segunda y abrí el cofre para conseguir las cartas de Arcano Mayor Sun y Judgement."
+            },
+            {
+              "id": "diciembre-1230-224302cc",
+              "text": "Subí al piso frontera 226F, abrí el cofre y volvé a la entrada."
+            },
+            {
+              "id": "diciembre-1230-b2fefb24",
+              "text": "Entregá los encargos 83 y 90 a Elizabeth."
+            },
+            {
+              "note": true,
+              "text": "Podés volver al primer bloque de Harabah si querés farmear más materiales base y gemas."
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC, seguí la DLC Fusion Guide del 30 de diciembre (archivo 14 de la guía original)."
+            },
+            {
+              "id": "diciembre-1230-f3da91f7",
+              "text": "Cuando Loki esté en nivel 76 y hayas farmeado al menos 950k (el Arcano Lovers es recomendable), guardá, entrá al Velvet Room, registrá tus Personas y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Loki + Barong → <strong>Yurlungur</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Kougaon, Makougaon, / Evade Dark y Evade Fire</td></tr><tr><td>Yurlungur + Gabriel → <strong>Daisoujou</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Samsara, Hama Boost, / Invigorate 3 y Growth 3</td></tr><tr><td>Daisoujou + Garuda → <strong>Seth</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Agidyne, Maragidyne, / Tetrakarn y Makarakarn</td></tr><tr><td>Seth + Mada → <strong>Thor</strong></td><td>Auto Maraku, Null Wind, / Spell Master, y Enduring Soul</td><td>Ziodyne, Maziodyne, / Gigantic Fist y Elec Amp</td></tr><tr><td>Thor + Titania → <strong>Kikuri-Hime</strong></td><td>Auto Maraku, Life Aid, / Spell Master, y Enduring Soul</td><td>Bufudyne, Mabufula, / Amrita Shower y Samarecarm</td></tr><tr><td>Kikuri-Hime + Norn → <strong>Hell Biker</strong></td><td>Auto Maraku Invigorate 3, / Spell Master, y Enduring Soul</td><td>Eigaon, Maeigaon / Life Aid y Evade Light</td></tr><tr><td>Throne + Mot → <strong>Kumbhanda</strong></td><td>Auto Maraku, Null Fear, / Life Aid y Enduring Soul</td><td>Garudyne, Magarudyne, / Poison Arrow y Myriad Arrows</td></tr><tr><td>Fuse Alice / From the Special Fusion</td><td>Life Aid, Endure, / Concentrate, Auto Rakukaja</td><td>Die for Me!, Megidolaon / Endure Light, Mudo</td></tr><tr><td>Parvati + Alice → <strong>Melchizedek</strong></td><td>Endure, Life Aid, / Megidolaon y Auto Rakukaja</td><td>Hamaon, Mahamaon, / God&#39;s Hand y Hama Boost</td></tr></table></div>"
+            },
+            {
+              "id": "diciembre-1230-9850c197",
+              "text": "Salí y volvé a entrar al Velvet Room para otro descuento al invocar Personas por completar el 75% del compendio."
+            },
+            {
+              "note": true,
+              "text": "Las cuatro pasivas ahora son Auto Maraku, Enduring Soul, Spell Master y Life Aid. Entre Spell Master y Life Aid podés spamear hasta los hechizos de nivel 4 más caros sin preocuparte por el SP."
+            },
+            {
+              "note": true,
+              "text": "Si te gustan las habilidades de muerte instantánea, Alice y Daisoujou son de las mejores. Alice además sirve como potente usuaria de Megidolaon gracias a Concentrate."
+            },
+            {
+              "id": "diciembre-1230-72c212b9",
+              "text": "Invocá a Seth, Yurlungur, Norn, Thor y Trumpeter, y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Seth + Siegried → <strong>Lilith</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Mabufudyne, Maziondyne, / Demonic Decree y Megidola</td></tr><tr><td>Norn + Lilith → <strong>Skadi</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Diamond Dust, Mabufudyne, / Ice Amp y Vorpal Blade</td></tr><tr><td>Yurlungur + Thor → <strong>Arahabaki</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Herculean Strike, Virus Breah, / Null Charm y Repel Dark</td></tr><tr><td>Hell Biker + Skadi → <strong>Houou</strong></td><td>Auto Maraku, Spell Master, / Life aid y Enduring Soul</td><td>Maragidyne, Mediarama, / Samarecarm y Null Pierce</td></tr><tr><td>Trumpeter + Houou → <strong>Qitan Dasheng</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Primal Force, Myriad Arrows / Akasha Arts, Revolution y Apt Pupil / (borrá Spell Master)</td></tr></table></div>"
+            },
+            {
+              "id": "diciembre-1230-9f844e98",
+              "text": "Dismiss Mishaguji, Chernobog, Kumbhanda, Arahabak, Qitian Dasheng y Melchizedek"
+            },
+            {
+              "id": "diciembre-1230-0bbe451d",
+              "text": "Ya deberías tener todas las Personas hasta nivel 70. Las que tenés que llevar encima son <strong>Yurlungur, Houou, Skadi, Thor, Norn, Hell Biker, Siegfried, Seth, Alice, Daisoujou, Loki</strong> y <strong>Raphael</strong>",
+              "sub": [
+                "Teach Daisoujou Regnerate 3, Replace Invigorate 3",
+                "Enseñale Growth 3 a Skadi reemplazando Vorpal Blade. Cuando aprenda Drain Fire, reemplazá Growth 3 por Drain Fire",
+                "Enseñale Life Aid a Thor reemplazando Gigantic Fist",
+                "Enseñale Growth 3 a Seth reemplazando Tetrakarn. Cuando aprenda Repel Ice, reemplazá Makarakarn por Repel Ice"
+              ]
+            },
+            {
+              "id": "diciembre-1230-f69408f0",
+              "text": "Entregá los encargos 72, 84 y 86, que desbloquean:",
+              "sub": [
+                "85. Create a Persona with Auto-Maraku",
+                "87. Fusion Series #9: Fool, Loki"
+              ]
+            },
+            {
+              "id": "diciembre-1230-58d50a76",
+              "text": "Entregá los encargos 85 y 87, que desbloquean:",
+              "sub": [
+                "98. Fusion Series #10 Tower, Masakado"
+              ]
+            },
+            {
+              "id": "diciembre-1230-4ab439ec",
+              "text": "Vas a necesitar al menos <strong>100k</strong> después de vender el botín."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Antes de salir, llevá Personas de estos arcanos: <strong>Moon, Star, Fortune</strong> y <strong>Lovers</strong>, que son los vínculos que vas a trabajar, y tené al menos <strong>100k</strong> después de vender el botín."
+            },
+            {
+              "note": true,
+              "text": "Si querés calcular cuánto vale tu botín antes de salir, la guía original tiene la sección Loot and Breakable Objects de Harabah Block 2 con nombres y precios de venta."
+            },
+            {
+              "note": true,
+              "text": "<strong>Si no seguís la guía de fusión, puede que tengas que farmear más yen: los montos de acá no incluyen cambios de Persona que no se mencionen explícitamente.</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1231",
+      "date": "12/31",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "diciembre-1231-4e4dccc2",
+              "text": "Vendé el botín y cobrá las recompensas."
+            },
+            {
+              "note": true,
+              "text": "Si querés ver el final malo, guardá antes de pasar tiempo con Nozomi."
+            },
+            {
+              "id": "diciembre-1231-7e4efe35",
+              "text": "Pasá tiempo con Nozomi",
+              "sub": [
+                "Cualquiera",
+                "(Moon se revierte) (es parte de la historia, no se puede evitar)",
+                "(Moon Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "diciembre-1231-e8a81de1",
+              "text": "Llegó el momento de la decisión: el tipo de final que tengas depende de lo que elijas acá."
+            }
+          ]
+        },
+        {
+          "label": "Final malo",
+          "items": [
+            {
+              "id": "diciembre-1231-8a2b7681",
+              "text": "1. “Kill Ryoji and forget everything” o “Spare Ryoji and stay as is” 2. “Kill Ryoji and forget everything”"
+            }
+          ]
+        },
+        {
+          "label": "Final bueno",
+          "items": [
+            {
+              "id": "diciembre-1231-71e1e7e0",
+              "text": "1. Spare Ryoji and stay as is 2. Spare Ryoji and stay as is",
+              "sub": [
+                "(Episodio de Ryoji 5)",
+                "(Fool Rango 10)",
+                "(Judgement Rango 1)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": {
+    "stats": [
+      {
+        "stat": "Charm",
+        "rank": 6,
+        "label": "Popular"
+      },
+      {
+        "stat": "Academics",
+        "rank": 6,
+        "label": "Genius"
+      },
+      {
+        "stat": "Courage",
+        "rank": 6,
+        "label": "Badass"
+      }
+    ],
+    "sl": [
+      {
+        "arcana": "Fool",
+        "rank": 10
+      },
+      {
+        "arcana": "Magician",
+        "rank": 9
+      },
+      {
+        "arcana": "Priestess",
+        "rank": 9
+      },
+      {
+        "arcana": "Empress",
+        "rank": 10
+      },
+      {
+        "arcana": "Emperor",
+        "rank": 10
+      },
+      {
+        "arcana": "Hierophant",
+        "rank": 9
+      },
+      {
+        "arcana": "Lovers",
+        "rank": 9
+      },
+      {
+        "arcana": "Chariot",
+        "rank": 10
+      },
+      {
+        "arcana": "Justice",
+        "rank": 10
+      },
+      {
+        "arcana": "Hermit",
+        "rank": 10
+      },
+      {
+        "arcana": "Fortune",
+        "rank": 6
+      },
+      {
+        "arcana": "Strength",
+        "rank": 10
+      },
+      {
+        "arcana": "Hanged",
+        "rank": 9
+      },
+      {
+        "arcana": "Death",
+        "rank": 10
+      },
+      {
+        "arcana": "Temperance",
+        "rank": 10
+      },
+      {
+        "arcana": "Devil",
+        "rank": 10
+      },
+      {
+        "arcana": "Tower",
+        "rank": 10
+      },
+      {
+        "arcana": "Star",
+        "rank": 7
+      },
+      {
+        "arcana": "Moon",
+        "rank": 9
+      },
+      {
+        "arcana": "Sun",
+        "rank": 10
+      },
+      {
+        "arcana": "Judgement",
+        "rank": 1
+      }
+    ],
+    "trophies": [
+      "Awakened Power",
+      "SEES the Day",
+      "The First of Many",
+      "There’s no “I” in “Team”",
+      "The Thrill of the Hunt",
+      "The Power of Choice",
+      "Shrouded Assassin",
+      "Making the Dream Work",
+      "Back on Track",
+      "Gourmand",
+      "Briefcase Burglar",
+      "Eagle Eye",
+      "Empowered Protector",
+      "In High Deman",
+      "Birthday Present",
+      "Fusion Artisan",
+      "The Fool’s Journey",
+      "Dorm Life",
+      "Eat Your Veggies, Peas",
+      "Specialist",
+      "Through Thick and Thin",
+      "Unbreakable Link",
+      "Shattered Plumes",
+      "Extracurricular Excellence",
+      "Never Toy with Matter of the Heart",
+      "Benevolent Purr-tector",
+      "Top of the Class",
+      "Beyond the Darkness",
+      "Armor Disarmed",
+      "The Strength of Our Hearts",
+      "Get a Load of Those Numbers!",
+      "Tempting Fate",
+      "Dodging Lightning",
+      "Glimpse of the Depths",
+      "Twist of Fate",
+      "That Special Someone",
+      "Peak Performance",
+      "The Horror of the Shade",
+      "A Sense of Finality",
+      "Distinguished Visitor",
+      "The Grindset Mindset",
+      "A Newfound Strength"
+    ],
+    "compendium": 139
+  }
+}

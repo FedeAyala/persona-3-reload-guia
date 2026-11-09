@@ -2,7 +2,7 @@
 
 > Guía de walkthrough 100% en español para Persona 3 Reload, con progreso interactivo y sincronización en la nube.
 
-![Astro](https://img.shields.io/badge/Astro-5.x-FF5D01?style=flat-square&logo=astro&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-4.x-FF5D01?style=flat-square&logo=astro&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-Auth+Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Deploy](https://img.shields.io/badge/Deploy-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
 ![License](https://img.shields.io/badge/Licencia-MIT-blue?style=flat-square)
@@ -21,28 +21,29 @@ Basado en la guía de TenSquare3 (GameFAQs v2.5.0), adaptada y traducida al espa
 
 | Feature | Descripción |
 |---|---|
-| **Walkthrough día a día** | Cada acción, cada respuesta, cada decisión — de abril a enero |
-| **Checkboxes con progreso** | Marcá lo que ya hiciste, barra de progreso por mes y total |
-| **Sync en la nube** | Login con Google → tu progreso sincronizado en todos tus dispositivos |
-| **Offline first** | Funciona sin internet, guarda en localStorage |
-| **Respuestas de clase** | Todas las preguntas en clase y exámenes de mayo, julio y octubre |
-| **Resumen mensual** | Vista calendario con jefes, fechas límite y metas por mes |
-| **Social Links** | Respuestas rango a rango para los 22 arcanos |
-| **Fusión de Personas** | Recetas clave y estrategias de fusión |
-| **Guía de Tartarus** | Bloques, jefes y estrategias por piso |
-| **Trofeos** | Checklist de los 50 trofeos con condiciones |
+| **Walkthrough día a día** | Los 288 días de abril a enero, traducidos de la guía de TenSquare3: cada acción, respuesta y decisión |
+| **Checkboxes con progreso** | 1114 ítems tildables con progreso por día, por mes y total; "tildar todo el día" |
+| **Panel "Hoy"** | Cargás la fecha en la que vas y muestra el próximo jefe, la próxima subida a Tartarus, los exámenes, los vínculos que suben y lo que te quedó pendiente |
+| **Stats y Social Links** | Anotás tus rangos y la guía te avisa si vas atrasado respecto de la ruta |
+| **Ruta de Social Links** | Los 22 arcanos rango a rango con fecha, acción y respuestas, generados del walkthrough |
+| **Trofeos** | Los 48 logros en el orden en que salen, con checkbox y link al día |
+| **Notas por día** | Un campo de notas propio en cada día, sincronizado |
+| **Modo spoiler** | Oculta los días posteriores a tu fecha actual |
+| **Buscador (Ctrl+K)** | Búsqueda en toda la guía con Pagefind; lleva directo al día |
+| **Sync en la nube** | Login con Google → progreso en vivo entre dispositivos (también los destildados) |
+| **Offline / instalable** | PWA con service worker: se instala en el celu y funciona sin conexión |
+| **Pantalla encendida** | Botón para que el celu no se apague mientras jugás |
 
 ---
 
 ## Stack
 
 ```
-Astro 5          →  framework estático, build ultra-rápido
-Firebase Auth    →  Google Sign-In sin backend propio
-Firestore        →  sincronización de progreso en la nube
-Vite             →  bundler y HMR en desarrollo
-CSS custom props →  design system con variables (--azure, --sky, --gold...)
-Rajdhani + JetBrains Mono  →  tipografías (Google Fonts)
+Astro 4          →  sitio estático
+Firebase Auth    →  Google Sign-In
+Firestore        →  progreso en vivo (onSnapshot + escrituras parciales)
+Pagefind         →  índice de búsqueda generado en el build
+Service worker   →  offline + instalable
 ```
 
 ---
@@ -52,32 +53,37 @@ Rajdhani + JetBrains Mono  →  tipografías (Google Fonts)
 ```
 persona3-reload-guia/
 ├── src/
-│   ├── layouts/
-│   │   └── Layout.astro          # Nav global, meta, fuentes
-│   └── pages/
-│       ├── index.astro            # Homepage
-│       ├── walkthrough.astro      # Guía día a día + checkboxes + Firebase
-│       ├── social-links.astro     # Los 22 vínculos sociales con respuestas
-│       ├── fusion.astro           # Guía de fusión de Personas
-│       ├── tartarus.astro         # Bloques y estrategias de Tartarus
-│       ├── primera-partida.astro  # Tips para primera partida
-│       ├── cien-por-ciento.astro  # Checklist 100%
-│       ├── trofeos.astro          # Lista de trofeos
-│       └── calendario.astro       # Redirect → /walkthrough
+│   ├── data/walkthrough/
+│   │   ├── abril.json … enero.json   # Datos del walkthrough (un JSON por mes)
+│   │   └── index.ts                  # Tipos, validación de ids y datos derivados (SL, trofeos, eventos)
+│   ├── lib/
+│   │   ├── store.ts                  # Estado del progreso (merge por clave + timestamp)
+│   │   ├── sync.ts                   # Firebase (carga diferida)
+│   │   └── bindings.ts               # data-check / data-bind / data-count en el HTML
+│   ├── components/TodayPanel.astro   # Panel "Hoy"
+│   ├── layouts/Layout.astro          # Nav, buscador, panel de progreso, PWA
+│   └── pages/                        # walkthrough, social-links, trofeos, 100%, etc.
+├── scripts/
+│   ├── gen-walkthrough.mjs           # MD de TenSquare3 → JSON de junio a enero
+│   └── i18n/                         # Patrones de traducción + traducciones (es/*.tsv)
 ├── public/
-│   └── styles/
-│       └── global.css             # Design system completo
-├── Guia/
-│   └── 01.md … 24.md             # Fuente: walkthrough TenSquare3 (markdown)
-├── astro.config.mjs
-└── package.json
+│   ├── styles/global.css, app.css
+│   ├── sw.js, manifest.webmanifest, icons/
+└── Guia/01.md … 24.md                # Fuente: walkthrough TenSquare3 (markdown)
 ```
+
+### Editar el walkthrough
+
+Los JSON de `src/data/walkthrough/` son la fuente de verdad. Cada ítem tildable tiene un `id` que **no hay que
+cambiar ni reutilizar**: es la clave con la que se guarda el progreso. Para un ítem nuevo, inventá un id nuevo.
+El build falla si hay ids repetidos.
+
+`npm run gen` regenera junio–enero desde los MD (no pisa JSON existentes; `npm run gen -- --force` sí).
+Con `--pending` lista las frases que todavía no tienen traducción.
 
 ---
 
 ## Firebase — sincronización en la nube
-
-El sitio usa Firebase para auth + guardado de progreso. Para correrlo localmente con tu propia instancia:
 
 1. Creá un proyecto en [console.firebase.google.com](https://console.firebase.google.com)
 2. Habilitá **Authentication → Google**
@@ -95,24 +101,15 @@ service cloud.firestore {
 }
 ```
 
-5. Reemplazá el `firebaseConfig` en `src/pages/walkthrough.astro` con tus credenciales
+5. Definí las variables `PUBLIC_FIREBASE_*` (API key, auth domain, project id, storage bucket, sender id, app id) en `.env` y en Netlify.
 
-> Sin Firebase configurado, el sitio funciona igual pero el progreso solo se guarda localmente (localStorage).
+> Sin Firebase configurado, el sitio funciona igual y el progreso queda en el dispositivo.
 
 ---
 
 ## Deploy
 
-El sitio está configurado para Netlify:
-
-```bash
-# Build command
-astro build
-
-# Publish directory
-dist/
-```
-
+Netlify corre `npm run build` (= `astro build && pagefind --site dist`) y publica `dist/`.
 Si deployás en otro dominio, agregalo en Firebase Console → **Authentication → Settings → Authorized domains**.
 
 ---

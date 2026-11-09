@@ -1,0 +1,1783 @@
+{
+  "title": "🌗 OCTUBRE — El último arcano mayor",
+  "intro": [],
+  "days": [
+    {
+      "id": "1001",
+      "date": "10/1",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1001-03fba73c",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "note": true,
+              "text": "La cantidad de respuestas en el próximo encuentro con Yukari cambia según lo que elijas acá. Por eso te recomiendo elegir las mismas opciones, así no hay confusión."
+            },
+            {
+              "id": "octubre-1001-bff119e0",
+              "text": "Pasá tiempo con Yukari",
+              "sub": [
+                "Look around",
+                "“Go look for her”",
+                "Cualquiera",
+                "Cualquiera",
+                "(Lovers Rango 5)",
+                "“I’m sorry” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1001-b749bc0d",
+              "text": "Andá a Club Escapade y comprale la Assassin Site Note y la History Website Note al Suspicious Man."
+            },
+            {
+              "id": "octubre-1001-24cf5c75",
+              "text": "Sacá la fortuna que quieras."
+            },
+            {
+              "id": "octubre-1001-ab3f38a6",
+              "text": "Hablá con Fuuka y andá a Tartarus."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Aunque vengas haciendo todos los rescates, no te pierdas ninguno esta noche: si lo hacés, te bloqueás un vínculo para siempre."
+            },
+            {
+              "id": "octubre-1001-48cdd153",
+              "text": "Ya tenés las 3 mejores cartas de Arcano Mayor: Lovers, Justice y Devil. Lovers aumenta el bonus de fusión de tus vínculos, Justice te deja elegir 2 cartas por Shuffle Time y Devil duplica los ítems de objetos rotos y drops de enemigos. Ninguna es imprescindible, pero ahorran muchísimo tiempo subiendo Personas y farmeando cartas, yen, EXP, etc."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Si seguís la guía de fusión, asegurate de que Ose haya aprendido Life Aid y Hanuman Endure antes de la próxima tanda de fusiones. Ose ya debería tener nivel suficiente para Life Aid si lo fusionaste con el Arcano Lovers activo."
+            },
+            {
+              "note": true,
+              "text": "En la próxima sección hay cartas de Hanuman en los Shuffle Time, así que es fácil conseguirle la EXP que le falta. También podés enseñarle Growth 2; yo reemplazaría Fatal End."
+            },
+            {
+              "note": true,
+              "text": "Desde esta noche caen cartas de habilidad rango 8, así que podés empezar a conseguir cartas Resist: convierten una debilidad elemental en resistencia. Tienen muy baja tasa de drop y más adelante las vende la tienda de antigüedades, así que no te desvíes a farmearlas; agarrá las que salgan en Shuffle Time."
+            },
+            {
+              "note": true,
+              "text": "Resist Dark y Resist Light no están en la tienda de antigüedades: si las querés, hay que farmearlas. Muy opcional."
+            },
+            {
+              "note": true,
+              "text": "Esta noche se presenta la Dark Zone: una zona totalmente a oscuras donde tenés que usar el minimapa para orientarte. Te cuesta más ver a las sombras, pero a ellas también verte a vos. Lo principal es que todos los objetos rompibles son estatuas de Twilight Fragments: con el Arcano Devil activo juntás una buena cantidad cada vez que encontrás una Dark Zone."
+            },
+            {
+              "note": true,
+              "text": "Salvo la del tutorial, aparecen al azar. La del tutorial no cuenta para el logro, pero la próxima vez que encuentres una desbloqueás:"
+            },
+            {
+              "note": true,
+              "text": "- 🏆 Logro/Trofeo: The Horror of the Shade (33/48)"
+            },
+            {
+              "note": true,
+              "text": "En algún momento de hoy también deberías desbloquear:"
+            },
+            {
+              "note": true,
+              "text": "- 🏆 Logro/Trofeo: Glimpse of the Depths (34/48) (completá 10 Monad Doors)"
+            },
+            {
+              "id": "octubre-1001-0fe1869c",
+              "text": "Volvé al 117F y seguí subiendo Tartarus hasta el 125F para otra pelea de dos guardianes seguidos. Derrotalos, abrí los cofres y equipá el Ballistic Vest a Makoto y los Warding Shoes a Ken."
+            },
+            {
+              "note": true,
+              "text": "En la próxima sección aparece un tipo nuevo de sombra, la Greedy Shadow. Anda robando todo el botín del piso y entrás en un minijuego para perseguirla: elegís 3 veces izquierda o derecha y, si acertás las tres, la atrapás y peleás. Dan mucha EXP y botín. Normalmente acertar es suerte, pero la del tutorial parece garantizada."
+            },
+            {
+              "note": true,
+              "text": "Contra las Greedy Shadows hacés números mucho más altos, así que deberías poder superar los 999 de daño. Son débiles a Strike: cualquier ataque Strike fuerte como Herculean Strike lo logra fácil."
+            },
+            {
+              "note": true,
+              "text": "- 🏆 Logro/Trofeo: Get a Load of Those Numbers (35/48)"
+            },
+            {
+              "id": "octubre-1001-f2fe1da6",
+              "text": "Seguí subiendo Tartarus hasta el 132F para el próximo guardián; después de derrotarlo, abrí los cofres. Solo le daría Gaea&#39;s Grace a Shinjiro si no tenés Charun&#39;s Hammer: el Auto Rebellion de Charun&#39;s Hammer es mejor que el poco ataque extra de Gaea&#39;s Grace."
+            },
+            {
+              "id": "octubre-1001-360239ed",
+              "text": "Seguí subiendo Tartarus hasta el 136F para el próximo guardián, derrotalo, abrí los cofres y dale el Fiery Vest a Akihiko."
+            },
+            {
+              "id": "octubre-1001-eeb316cb",
+              "text": "Seguí subiendo Tartarus hasta el 143F, derrotá al último guardián del bloque, abrí los cofres y equipá el Ote-gine a Ken."
+            },
+            {
+              "id": "octubre-1001-eeef06ba",
+              "text": "El Monad Passage también está en el 143F: derrotá al primer enemigo y dale el Grand Slasher a Koromaru. Después de derrotar al segundo y al tercero, abrí el cofre para conseguir la carta del Arcano Tower."
+            },
+            {
+              "id": "octubre-1001-8f7acd07",
+              "text": "Subí al piso frontera 144F, abrí el cofre y volvé a la entrada."
+            },
+            {
+              "id": "octubre-1001-6985a1f7",
+              "text": "Entregá los encargos 59, 61, 64 y 65."
+            },
+            {
+              "id": "octubre-1001-e09eaae1",
+              "text": "Ahora Elizabeth te pide que la acompañes a Gekkoukan."
+            },
+            {
+              "note": true,
+              "text": "Podés volver a bloques anteriores de Tartarus y farmear sus Monad Doors para materiales base y gemas, pero los bloques bajos dan materiales de menor calidad que los de esta noche."
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC, seguí la DLC Fusion Guide del 1 de octubre (archivo 14 de la guía original)."
+            },
+            {
+              "id": "octubre-1001-cce3e603",
+              "text": "Farmeá hasta tener 360k, que Ose haya aprendido Life Aid y Hanuman Endure. El Arcano Lovers es recomendable pero no imprescindible; sin él algunas habilidades pueden no coincidir."
+            },
+            {
+              "id": "octubre-1001-e43afbd7",
+              "text": "Cuando estés listo, guardá, entrá al Velvet Room, registrá tus Personas y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Baphomet + Eligor → <strong>Anubis</strong></td><td>Auto Tarukaja, Auto Rakukaja / Auto Sukukaja y Eiga</td><td>No llena su lista de habilidades</td></tr><tr><td>Ose + Hanuman → <strong>Samael</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Life Aid y Endure</td><td>Maeiga, Megido / Masukunda y Dekunda</td></tr><tr><td>Samael + Kushi Mitama → <strong>Kaiwan</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Life Aid y Endure</td><td>Eerie Sound, Evil Smile, / Virus Breath y Spirit Drain</td></tr><tr><td>Sarasvati + Kaiwan → <strong>Naga Raja</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Life Aid y Endure</td><td>Mazionga, Cruel Attack, / Null Pierce y Revolution</td></tr><tr><td>Thoth + Naga Raja → <strong>White Rider</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Life Aid y Endure</td><td>Arrow Rain, Poison Arrow, / Pierce Boost y Null Fear</td></tr><tr><td>Thoth + White Rider → <strong>Lachesis</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Life Aid y Endure</td><td>Magarula, Masukukaja, / Mediarama y Soul Chain</td></tr><tr><td>Anubis + Lachesis → <strong>Quetzalcoatl</strong></td><td>Auto Tarukaja, Life Aid / Endure y Magarula</td><td>No llena su lista de habilidades</td></tr><tr><td>Seiryu + Clotho → <strong>Cu Chulainn</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Matarunda, y Invigorate 2</td><td>Torrent Shot, Matarukaja / Dekaja y Charge</td></tr></table></div>"
+            },
+            {
+              "id": "octubre-1001-2439c54b",
+              "text": "Salí y volvé a entrar al Velvet Room: tenés otro descuento al invocar Personas por tener el 50% del compendio."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Hanuman + Kaiwan → <strong>Ganga</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Life Aid, y Endure</td><td>Neuro Slash, Diarama, / Tentarafoo y Confuse Boost</td></tr><tr><td>Naga Raja + Queen Medb → <strong>Shiki-Ouji</strong></td><td>Auto Tarukaja, Auto Rakukaja / Life Aid y Endure</td><td>Kouga, Torrent Shot / Dekaja y Matarukaja</td></tr><tr><td>Dakini + Shiki-Ouji → <strong>Titania</strong></td><td>Matarukaja, Auto Tarukaja, / Life Aid y Endure</td><td>Bufudyne, Mabufula / Concentrate y Freeze Boost</td></tr><tr><td>Anubis + White Rider → <strong>Succubs</strong></td><td>Auto Tarukaja, Auto Rakukaja / Life Aid y Endure</td><td>Maeiga, Maragion, / Spirit Drain y Drain Abillity</td></tr><tr><td>Naga Raja + Thunderbird → <strong>Okuninushi</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Life Aid y Endure</td><td>Agidyne, Maragion, / Getsu-ei y Deathbound</td></tr><tr><td>Quetzalcoatl + Ganga → <strong>Mishaguji</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Life Aid y Endure</td><td>Ziodyne, Mazionga / Vile Assault y Deathbound</td></tr><tr><td>Seiryu + Mishaguji → <strong>Kurama Tengu</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Life Aid y Endure</td><td>Garudyne, Magarula, / Masukunda y Null Dizzy</td></tr><tr><td>Fuse Parvati / From the Special Fusion</td><td>Auto Tarukaja, Auto Rakuaja, Auto Sukukaja, / Anti-Fire Master y Inviograte 2</td><td>Diarama, Mediarama / Mabaisudi y Divine Grace / (reemplazá Auto Sukukaja por Divine Grace)</td></tr></table></div>"
+            },
+            {
+              "id": "octubre-1001-21c15923",
+              "text": "Ya deberías tener todas las Personas fusionadas hasta nivel 46."
+            },
+            {
+              "id": "octubre-1001-92c34c5f",
+              "text": "Entregá el encargo 62 a Elizabeth, eso desbloquea:",
+              "sub": [
+                "Fusion Series #6: Strength, Siegfried"
+              ]
+            },
+            {
+              "id": "octubre-1001-298a80f6",
+              "text": "Las Personas que tenés que llevar encima son <strong>Titania, White Rider, Dominion, Mishaguji, Succubus, Kurama Tengu, Okuninushi, Lachesis, Cu Chulainn, Kaiwan, Girimehkala</strong> y <strong>Parvati</strong>",
+              "sub": [
+                "Enseñale Growth 2 a Succubus reemplazando Maragion. Cuando aprenda Eigaon, reemplazá Growth 2 por Eigaon",
+                "Enseñale Growth 2 a Lachesis reemplazando Mediarama",
+                "Enseñale Growth 2 a Cu Chulainn reemplazando Torrent Shot",
+                "Enseñale Growth 2 a Titania reemplazando Matarukaja."
+              ]
+            },
+            {
+              "note": true,
+              "text": "Como ves, reemplazaste Invigorate 2 por Life Aid: recupera 8% de SP/HP después de cada pelea, es una mejora sobre Invigorate 2 y, al ser porcentual, rinde más cuanto más subís de nivel. También cambiaste Auto Sukukaja por Endure, ideal por si te liquidan de un golpe con una habilidad de muerte instantánea o te pegan en la debilidad: te puede salvar de un game over. Pronto vas a conseguir equipo con Auto Sukukaja."
+            },
+            {
+              "id": "octubre-1001-cd07e3e8",
+              "text": "Vas a necesitar al menos <strong>150k</strong> después de vender todo el botín. Mañana además una persona rescatada te da 100k."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Antes de salir, llevá Personas de estos arcanos para la próxima tanda de vínculos: <strong>Lovers, Strength, Justice, Hierophant, Priestess, Temperance, Fortune, Tower, Star</strong> y <strong>Moon</strong>. Necesitás al menos <strong>150k</strong> después de vender el botín."
+            },
+            {
+              "note": true,
+              "text": "Si querés comprar todo lo del canal de compras, vas a necesitar al menos 200k."
+            },
+            {
+              "note": true,
+              "text": "Si querés calcular cuánto vale tu botín antes de salir, la guía original tiene la sección Loot and Breakable Objects de Tziah Block 1 con nombres y precios de venta."
+            },
+            {
+              "note": true,
+              "text": "<strong>Si no seguís la guía de fusión, puede que tengas que farmear más yen: los montos de acá no incluyen cambios de Persona que no se mencionen explícitamente.</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "date": "10/2",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1002-b23407af",
+              "text": "Vendé el botín y cobrá las recompensas."
+            },
+            {
+              "id": "octubre-1002-694fa043",
+              "text": "Pasá tiempo con Elizabeth y entregá el encargo 80"
+            },
+            {
+              "id": "octubre-1002-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "Cualquiera",
+                "Cualquiera",
+                "“That’s messed up” (+1)",
+                "(Priestess Rango 7)",
+                "“Is that the only reason?” (flag de romance)"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Un flag de romance es una respuesta que tenés que elegir para poder tener un romance con ese personaje más adelante. Casi siempre son también las respuestas que más puntos dan; esta es una de las pocas excepciones."
+            },
+            {
+              "note": true,
+              "text": "Aunque no pienses tener un romance con Fuuka, te recomiendo elegir el flag: si no, tus opciones de diálogo cambian respecto a lo que dice la guía."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1002-323598ed",
+              "text": "Mirá un DVD con Ken (Valentía +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1003",
+      "date": "10/3",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1003-03fba73c",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1003-42bc1706",
+              "text": "Pasá tiempo con Yuko",
+              "sub": [
+                "Cualquiera",
+                "“Are you relieved” (+1)",
+                "“Let’s do it” (+3)",
+                "(Strength Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Fuuka te avisa que mañana hay luna llena. Si no seguís la guía de fusión, equipate tus Personas de combate antes de la actividad de esta noche."
+            },
+            {
+              "id": "octubre-1003-ab3ffea2",
+              "text": "Cosechá la huerta de la terraza y plantá Soul Spinach Sprout."
+            },
+            {
+              "id": "octubre-1003-3c96fdcc",
+              "text": "Mirá un DVD con Akihiko (Valentía +1)",
+              "sub": [
+                "Característica desbloqueada: Buff Amp, Greatly Increases the Effect of Buffs on Self",
+                "(Aumenta un 30% el efecto de los buffs sobre uno mismo)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1004",
+      "date": "10/4",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "octubre-1004-fe49928b",
+              "text": "Llegó el próximo jefe Arcano Mayor. Ni Shinjiro ni Ken están disponibles: armá el equipo con los demás y derrotá al jefe.",
+              "sub": [
+                "🏆 Logro/Trofeo: A Twist of Fate (36/48)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1005",
+      "date": "10/5",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1005-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1005-ea8a0c85",
+              "text": "Entrá al cuarto de Shinjiro, examiná el escritorio y abrilo.",
+              "sub": [
+                "(Episodio de Shinjiro 5)"
+              ]
+            },
+            {
+              "id": "octubre-1005-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Aigis comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1006",
+      "date": "10/6",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1006-dc745cdc",
+              "text": "Hoy se actualizan los encargos de Elizabeth. Aceptá:",
+              "sub": [
+                "70. Retrieve the seventh old document",
+                "73. Bring me a Mikazuki Munechika",
+                "74. I’d like to try sushi",
+                "75. Bring me a Sengoku-era helm",
+                "76. Bring me a glasses wipe"
+              ]
+            },
+            {
+              "id": "octubre-1006-c2b2b5cc",
+              "text": "Andá al santuario y hablá con Inari (requiere un rango de Académicos no confirmado)"
+            },
+            {
+              "id": "octubre-1006-061ac292",
+              "text": "Andá a la sala de profesores del colegio (Académicos +1)"
+            },
+            {
+              "id": "octubre-1006-9cd1cc29",
+              "text": "Andá a la enfermería (clase suplementaria 1 de 3)"
+            },
+            {
+              "id": "octubre-1006-747170d2",
+              "text": "Pasá tiempo en Bookworms",
+              "sub": [
+                "“Please don’t fight” (+3)",
+                "Cualquiera",
+                "(Hierophant Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1006-df583cd5",
+              "text": "Andá a Manga Star (Net Cafe) y comprá todo."
+            },
+            {
+              "note": true,
+              "text": "Umiushi Beef Bowl tiene el plato de temporada Autumn Beef Bowl."
+            },
+            {
+              "id": "octubre-1006-eecec856",
+              "text": "El Luxury Shopkeeper de Club Escapade ahora vende casi todas las gemas, que podés cambiar o mejorar en la tienda de antigüedades. Hacelo solo si te sobra yen: comprar y mejorar gemas sale caro. Para mejorar gemas, andá a la sección Trade Items."
+            },
+            {
+              "id": "octubre-1006-61e24e9e",
+              "text": "Andá a la tienda de antigüedades y mejorá tu equipo."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td></td><td><strong>Arma</strong></td><td><strong>Armadura</strong></td><td><strong>Calzado</strong></td><td><strong>Acessory</strong></td></tr><tr><td><strong>Makoto</strong></td><td>Outenta Mitsuyo</td><td>Tigerhide Belt</td><td>Silent Sandals</td><td>Mega Master Band</td></tr><tr><td><strong>Yukari</strong></td><td>Bow of Affection</td><td>Rangda Robe</td><td>Silent Sandals</td><td>Yellow Shawl / or Vayu Bracers</td></tr><tr><td><strong>Junpei</strong></td><td>Mikazuki Munechika</td><td>Samue of the Tengu</td><td>Silent Sandals</td><td>Power Enhancer</td></tr><tr><td><strong>Akihiko</strong></td><td>Kaiser Knuckes</td><td>Tigerhide Belt</td><td>Silent Sandals</td><td>Blue Shawl / or Indra Bracers</td></tr><tr><td><strong>Mitsuru</strong></td><td>Ice Saber</td><td>Rangda Robe</td><td>Silent Sandals</td><td>Red Shawl / or Varna Bracers</td></tr><tr><td><strong>Aigis</strong></td><td>Blast Magnum</td><td>Achilles Guard</td><td>Ergotite Legs</td><td>Yellow Bracers / or Pierce Bracers</td></tr><tr><td><strong>Koromaru</strong></td><td>Elementary Mask</td><td>Powered Dog Suit</td><td>Bare Paws</td><td>Dark Bracers</td></tr><tr><td><strong>Ken</strong></td><td>Ote-gine</td><td>Tigerhide Belt</td><td>Silent Sandals</td><td>Light Bracers</td></tr></table></div>"
+            },
+            {
+              "id": "octubre-1006-9e2465f9",
+              "text": "En algunos aliados podés elegir entre proteger su debilidad o ir por daño. Prefiero proteger debilidades porque hace ciertas peleas más fáciles que el daño puro, pero las dos opciones funcionan."
+            },
+            {
+              "note": true,
+              "text": "Si te sobran gemas, conseguí la carta Growth 3. Si no, no pasa nada: seguí usando Growth 2. Hacé 5 copias de la que uses. Las Emeralds se compran en Club Escapade, pero salen 10k cada una."
+            },
+            {
+              "note": true,
+              "text": "Si te sobran Amethysts, conviene cambiarlas por algunas Dekaja Gem y Dekunda Gem: sirven contra enemigos que usan muchos buffs o debuffs. Con 3 a 5 de cada una alcanza; las Amethyst también se compran en Club Escapade a 5k."
+            },
+            {
+              "id": "octubre-1006-4844b9d1",
+              "text": "Usá Sage Brain Training en la compu compartida (Académicos +2)"
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "octubre-1006-cfc716c2",
+              "text": "(Death Rango 8)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1007",
+      "date": "10/7",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1007-7b8a43d3",
+              "text": "Respuesta: <strong>Dopamine</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1007-f8f62d66",
+              "text": "Andá a la sala de profesores (Académicos +1)"
+            },
+            {
+              "id": "octubre-1007-d9bad66b",
+              "text": "Andá a la enfermería (clase suplementaria 2 de 3)"
+            },
+            {
+              "id": "octubre-1007-3d512df9",
+              "text": "Pasá tiempo con Mamoru",
+              "sub": [
+                "“Sounds like a lot of pressure” (+1)",
+                "“Myself” (+3)",
+                "(Star Rango 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1007-8681c25b",
+              "text": "Hablá con Shuji, después andá con Elizabeth y entregá los encargos 74 y 76."
+            },
+            {
+              "id": "octubre-1007-00cded3c",
+              "text": "Revisá la consola de comandos: hay un video nuevo."
+            },
+            {
+              "id": "octubre-1007-f2d9c5ba",
+              "text": "Usá Veggie Farmer Sim en la compu compartida",
+              "sub": [
+                "(Aumenta la cosecha de la huerta de la terraza)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1008",
+      "date": "10/8",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1008-f8f62d66",
+              "text": "Andá a la sala de profesores (Académicos +1)"
+            },
+            {
+              "id": "octubre-1008-f0a736e3",
+              "text": "Andá a la enfermería (clase suplementaria 3 de 3)"
+            },
+            {
+              "id": "octubre-1008-747170d2",
+              "text": "Pasá tiempo en Bookworms",
+              "sub": [
+                "“What happened?” (+1)",
+                "“That’s great” (+1)",
+                "“What are you talking about?” (+1)",
+                "(Hierophant Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1008-c5f7798a",
+              "text": "Estudiá con Mitsuru y Akhiiko (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1009",
+      "date": "10/9",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1009-03fba73c",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1009-f8f62d66",
+              "text": "Andá a la sala de profesores (Académicos +1)"
+            },
+            {
+              "id": "octubre-1009-3d512df9",
+              "text": "Pasá tiempo con Mamoru",
+              "sub": [
+                "“Who’s “them”?” (+1)",
+                "“Sounds like fun” (+1)",
+                "(Star Rango 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1009-bd0bd797",
+              "text": "Estudiá con Fuuka (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1010",
+      "date": "10/10",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1010-5f929f3e",
+              "text": "Respuesta: <strong>Helena Blavatsky</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1010-f8f62d66",
+              "text": "Andá a la sala de profesores (Académicos +1)"
+            },
+            {
+              "id": "octubre-1010-747170d2",
+              "text": "Pasá tiempo en Bookworms",
+              "sub": [
+                "“A fan of yours” (+1)",
+                "Cualquiera",
+                "“Right now?” (+3)",
+                "(Hierophant Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1010-00cded3c",
+              "text": "Revisá la consola de comandos: hay un video nuevo."
+            },
+            {
+              "id": "octubre-1010-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Ken comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1011",
+      "date": "10/11",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "octubre-1011-69870ed2",
+              "text": "Canal de compras: Juicy Seasonal Gift Set, 1x Paring Knife and 2x Candy Hosui Pear por 19.800 yen. Saltear. (Es peor que la Elementary Mask)"
+            },
+            {
+              "note": true,
+              "text": "Para el Arcano Sun no necesitás una Persona del mismo arcano."
+            },
+            {
+              "id": "octubre-1011-15818e4f",
+              "text": "Pasá tiempo con Akinari",
+              "sub": [
+                "“Really?” (+1)",
+                "“You have a point” (+1)",
+                "(Sun Rango 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1011-9933e6a6",
+              "text": "Estudiá con Aigis (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1012",
+      "date": "10/12",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "octubre-1012-7e4efe35",
+              "text": "Pasá tiempo con Nozomi",
+              "sub": [
+                "“Are you sick?” (+3)",
+                "(Moon Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1012-53f328e7",
+              "text": "Estudiá con todos (Académicos +3)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1013",
+      "date": "10/13",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1013-def97c58",
+              "text": "Respuesta: <strong>Addiction</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1014",
+      "date": "10/14",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1014-465357f0",
+              "text": "Respuesta: <strong>Pythagoras</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1015",
+      "date": "10/15",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1015-347a91ff",
+              "text": "Respuesta: <strong>Super Conductivity</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1016",
+      "date": "10/16",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1016-2daa6913",
+              "text": "Respuesta: <strong>To reveal a secret</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1017",
+      "date": "10/17",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1017-a65af677",
+              "text": "Respuesta automática"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1017-42bc1706",
+              "text": "Pasá tiempo con Yuko",
+              "sub": [
+                "Cualquiera",
+                "I do",
+                "“A girl” (+1)",
+                "(Strength Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1017-ab3ffea2",
+              "text": "Cosechá la huerta de la terraza y plantá Soul Spinach Sprout."
+            },
+            {
+              "id": "octubre-1017-00cded3c",
+              "text": "Revisá la consola de comandos: hay un video nuevo."
+            },
+            {
+              "id": "octubre-1017-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "“Kenji” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1018",
+      "date": "10/18",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "octubre-1018-f6075345",
+              "text": "Canal de compras: Assortment of Instant Food, 5x Instant Curry and 10x Instant Ramen por 4.980 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "note": true,
+              "text": "Podés usar el Rewind para ver los hangouts."
+            },
+            {
+              "id": "octubre-1018-15818e4f",
+              "text": "Pasá tiempo con Akinari",
+              "sub": [
+                "“I couldn’t say” (+1)",
+                "“Try not to talk too much” (+1)",
+                "(Sun Rango 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1018-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "(Yuko +3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1019",
+      "date": "10/19",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Almuerzo",
+          "items": [
+            {
+              "id": "octubre-1019-25943a12",
+              "text": "Resultado del examen: primero de la clase (Encanto +2)"
+            }
+          ]
+        },
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "octubre-1019-3e415596",
+              "text": "Respuesta: <strong>India</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1019-f67c758c",
+              "text": "Hablá con Mitsuru para recibir los premios del examen",
+              "sub": [
+                "1x Power Incense III",
+                "1x Guard Incense III",
+                "1x Magic Incense III",
+                "1x Speed Incense III",
+                "1x Pendant of Unity"
+              ]
+            },
+            {
+              "id": "octubre-1019-f8f62d66",
+              "text": "Andá a la sala de profesores (Académicos +1)"
+            },
+            {
+              "id": "octubre-1019-f80aa98f",
+              "text": "Pasá tiempo con Yukari",
+              "sub": [
+                "“Anytime” (+3)",
+                "(Lovers Rango 6)",
+                "“I wouldn’t mind” (+1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1019-54529f08",
+              "text": "Pasá tiempo con Akihiko (Encanto +1)",
+              "sub": [
+                "(Episodio de Akihiko 3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1020",
+      "date": "10/20",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1020-f8f62d66",
+              "text": "Andá a la sala de profesores (Académicos +1)"
+            },
+            {
+              "id": "octubre-1020-9c68eef2",
+              "text": "Pasá tiempo con Keisuke",
+              "sub": [
+                "“You’ve got talent” (+3)",
+                "(Fortune Rango 3)",
+                "Will he be okay?"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1020-00cded3c",
+              "text": "Revisá la consola de comandos: hay un video nuevo."
+            },
+            {
+              "id": "octubre-1020-c48a3543",
+              "text": "Cuidá la huerta con Aigis",
+              "sub": [
+                "Característica desbloqueada: Physical Amp, Greatly Strengthens Physical Skills",
+                "(Potencia un 20% las habilidades físicas)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1021",
+      "date": "10/21",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1021-f8f62d66",
+              "text": "Andá a la sala de profesores (Académicos +1)"
+            },
+            {
+              "id": "octubre-1021-66d86ff2",
+              "text": "Pasá tiempo con Bebe",
+              "sub": [
+                "“Are you all right?” (+3)",
+                "Cualquiera",
+                "(Temperence Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1021-fd1ffcf2",
+              "text": "Entregá el encargo 75 a Elizabeth."
+            },
+            {
+              "id": "octubre-1021-2caed5d4",
+              "text": "Jugá You&#39;re the Answer en Game Parade (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1022",
+      "date": "10/22",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1022-4ae1cd99",
+              "text": "Respuesta: <strong>Venus</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1022-9c68eef2",
+              "text": "Pasá tiempo con Keisuke",
+              "sub": [
+                "“You’re pulling out of the contest?” (+1)",
+                "“Complaining to me won&#39;t help you” (+3)",
+                "(Fortune Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1022-d5d30227",
+              "text": "Brush Koromaru",
+              "sub": [
+                "Característica desbloqueada: Auto Masukunda",
+                "(Baja la precisión/evasión de todos los enemigos durante 3 turnos al empezar la pelea)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1023",
+      "date": "10/23",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1023-03fba73c",
+              "text": "Quedate despierto en clase (Académicos +1)",
+              "sub": [
+                "(Académicos Rango 6)",
+                "🏆 Logro/Trofeo: Peak Performance (37/48)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1023-66d86ff2",
+              "text": "Pasá tiempo con Bebe",
+              "sub": [
+                "“Sure” (+1)",
+                "“Just stay in Japan!” (+1)",
+                "(Temperence Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1023-323598ed",
+              "text": "Mirá un DVD con Ken (Valentía +1)",
+              "sub": [
+                "Característica desbloqueada: Spirit Refresh",
+                "(Recupera 5 SP por turno en combate)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1024",
+      "date": "10/24",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1024-b179e220",
+              "text": "Comprá un Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "octubre-1024-f9e602e9",
+              "text": "Pasá tiempo con Chihiro",
+              "sub": [
+                "That’s all a misunderstanding",
+                "“I know you’re innocent” (+1)",
+                "(Justice Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1024-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "“Keisuke” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1025",
+      "date": "10/25",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "octubre-1025-85cbe816",
+              "text": "Canal de compras: Festive Halloween Set, 1x Pumpkin Mask and 50x Halloween Candy por 24.800 yen. Saltear."
+            },
+            {
+              "id": "octubre-1025-8727a64b",
+              "text": "Guardá tu Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "note": true,
+              "text": "Podés usar el Rewind para ver los hangouts de Yukari y Yuko."
+            },
+            {
+              "id": "octubre-1025-062dc6cd",
+              "text": "Accept Chihiro’s Invite",
+              "sub": [
+                "“I’m happy to help” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1025-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "“Mamoru” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1026",
+      "date": "10/26",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "octubre-1026-ecf40a53",
+              "text": "Respuesta: <strong>Izumo</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1026-56d9f833",
+              "text": "Pasá tiempo con Kazushi",
+              "sub": [
+                "(Chariot Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1026-3d3a2a83",
+              "text": "Revisá la heladera (1x Doctor in Jelly)"
+            },
+            {
+              "id": "octubre-1026-55b7dbb0",
+              "text": "Tomá el té con Mitsuru",
+              "sub": [
+                "Característica desbloqueada: Ailment Surge, Greatly Raises Critical Rate on Foes with Ailments",
+                "(Sube la tasa de crítico del grupo un 15% contra enemigos con estados alterados)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1027",
+      "date": "10/27",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1027-9c68eef2",
+              "text": "Pasá tiempo con Keisuke",
+              "sub": [
+                "“You should tell your dad!” (+3)",
+                "(Fortune Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1027-7a74c980",
+              "text": "Cuidá la huerta con Fuuka (Vínculo +1)",
+              "sub": [
+                "Característica desbloqueada: Weakness Mitigator, Greatly Reduces Damage Taken When an Ally&#39;s Weakness is Struck",
+                "(Reduce un 15% el daño recibido cuando golpean la debilidad de un aliado)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1028",
+      "date": "10/28",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1028-66d86ff2",
+              "text": "Pasá tiempo con Bebe",
+              "sub": [
+                "“Why not take a break?” (+1)",
+                "“Let’s do it” (+1)",
+                "“I have your back!” (+3)",
+                "(Temperence Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1028-fb562112",
+              "text": "Usá Assassin Site Note en la compu compartida.",
+              "sub": [
+                "(Siempre causa Distress al emboscar a un enemigo por la espalda)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1029",
+      "date": "10/29",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "note": true,
+              "text": "Ya no necesitás puntos de stats sociales: desde ahora decidís si te quedás despierto o dormís."
+            },
+            {
+              "id": "octubre-1029-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1029-9c68eef2",
+              "text": "Pasá tiempo con Keisuke",
+              "sub": [
+                "Cualquiera",
+                "“It’s your choice now” (+3)",
+                "(Fortune Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1029-ab3ffea2",
+              "text": "Cosechá la huerta de la terraza y plantá Soul Spinach Sprout."
+            },
+            {
+              "id": "octubre-1029-21c2c0df",
+              "text": "Comprale la Veggie Blog Note al Suspicious Man en Escapade."
+            },
+            {
+              "id": "octubre-1029-ff845f03",
+              "text": "Pasá tiempo con Mutatsu",
+              "sub": [
+                "“I don&#39;t have any friends” (+3)",
+                "(Tower Rango 3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1030",
+      "date": "10/30",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "octubre-1030-285391bf",
+              "text": "Respuesta: <strong>Beta-amylase</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1030-66d86ff2",
+              "text": "Pasá tiempo con Bebe",
+              "sub": [
+                "“That’s a great idea” (+3)",
+                "(Temperance Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1030-937c1353",
+              "text": "Sacá una fortuna en Escapade."
+            },
+            {
+              "id": "octubre-1030-606bf63c",
+              "text": "Hablá con Fuuka y andá a Tartarus."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> No te pierdas los rescates de hoy: si lo hacés, te bloqueás un vínculo para siempre."
+            },
+            {
+              "id": "octubre-1030-58278818",
+              "text": "Antes de empezar hoy, fusioná a Hecatoncheires y subilo a nivel 53 para que aprenda Auto Maraku, antes de cualquier otra fusión.",
+              "sub": [
+                "Reemplazá Growth 2 por Growth 3 si la tenés. Cuando llegue a nivel 53, reemplazá Growth 2/3 por Auto Maraku"
+              ]
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>White Rider + Cu Chulainn → <strong>Hecatoncheires</strong></td><td>Charge, Auto Tarukaja, / Life Aid y Growth 2</td><td>Vile Assault, Heatwave, / Regenerate 2 y Endure</td></tr></table></div>"
+            },
+            {
+              "id": "octubre-1030-79c9703a",
+              "text": "Como siempre, te recomiendo conseguir las cartas Lovers, Justice y Devil si podés."
+            },
+            {
+              "id": "octubre-1030-ddcc012e",
+              "text": "Volvé al 143F y seguí hasta el 151F, primer guardián del bloque. Derrotalo, abrí los cofres y dale el Hero&#39;s Cape a Ken."
+            },
+            {
+              "id": "octubre-1030-7a6e9e8f",
+              "text": "Seguí subiendo hasta el 155F para el próximo guardián, derrotalo, abrí los cofres y dale Aristocracy a Mitsuru."
+            },
+            {
+              "id": "octubre-1030-95aab0b7",
+              "text": "Seguí subiendo hasta el 161F para el próximo guardián, derrotalo, abrí los cofres y dale la armadura Tetra Jammer a quien más la necesite."
+            },
+            {
+              "id": "octubre-1030-c7142ad1",
+              "text": "Seguí subiendo Tartarus hasta el 170F para otra pelea de dos guardianes seguidos, derrotalos y abrí los cofres. No le daría las Rapid Bands a Akihiko: el Endure de los Champion Gloves vale más que el poco ataque extra."
+            },
+            {
+              "id": "octubre-1030-ffd1b951",
+              "text": "Salteá el Monad Passage por ahora: estás por crear una de las mejores Personas del juego, que lo va a hacer mucho más fácil. Subí al piso frontera 172F y abrí el cofre."
+            },
+            {
+              "id": "octubre-1030-1ea23c2f",
+              "text": "Volvé a la entrada y entregá el encargo 70 a Elizabeth."
+            },
+            {
+              "note": true,
+              "text": "Si querés más materiales base y gemas para craftear, podés volver a la primera parte de Tziah y hacer las Monad Doors: dan lo mismo que la segunda parte de Tziah."
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC, seguí la DLC Fusion Guide del 30 de octubre (archivo 14 de la guía original)."
+            },
+            {
+              "id": "octubre-1030-9f5e4049",
+              "text": "Farmeá hasta tener 500k, nivel 56 como mínimo y que Hecatoncheires haya aprendido Auto Maraku. El Arcano Lovers es recomendable pero no imprescindible."
+            },
+            {
+              "id": "octubre-1030-2c0fb37a",
+              "text": "Cuando estés listo, guardá, entrá al Velvet Room, registrá tus Personas y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Recetas de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Lachesis + Cu Chulainn → <strong>Nidhoggr</strong></td><td>Matarukaja, Masukukaja, / Marakunda y Dekaja</td><td>No llena su lista de habilidades</td></tr><tr><td>Hecatoncheires + Kaiwan → <strong>Hariti</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Endure</td><td>No llena su lista de habilidades</td></tr><tr><td>Hariti + Dominion → <strong>Belphegor</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Endure</td><td>Mabufula, Maeigaon, / Stagnant Air y Endure Light</td></tr><tr><td>Belphegor + Baphomet → <strong>Dionysus</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Endure</td><td>Ziodyne, Mazionga, / Heatwave y Resist Slash</td></tr><tr><td>Dionysys + Mishaguji → <strong>Rangda</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Endure</td><td>Agidyne, Maeiga, / Myriad Arrows y High Counter</td></tr><tr><td>Rangda + Titania → <strong>Koumokuten</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y High Counter</td><td>Gigantic Fist, Herculean Strike, / Vile Assault y Enduring Soul</td></tr><tr><td>Koumokuten + Okuninushi → <strong>Nebrios</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Enduring Soul</td><td>Evil Smile, Ghastly Wail, / Fear Boost y Resist Ailments</td></tr><tr><td>Nebiros + Quetzalcoatl → <strong>Ganesha</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Enduring Soul</td><td>Charge, Revolution, / Gigantic Fist y Deathbound</td></tr><tr><td>Ganesha + Girimekhala → <strong>Jatayu</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Enduring Soul</td><td>Garudyne, Magarula, / Evade Pierce, Growth 3</td></tr></table></div>"
+            },
+            {
+              "id": "octubre-1030-9614746c",
+              "text": "Invocá a Rangda y salí del Velvet Room",
+              "sub": [
+                "Característica desbloqueada: Weakness Amp, for hitting 60% compendium",
+                "(Sube el daño un 20% al pegarle a la debilidad de un enemigo)"
+              ]
+            },
+            {
+              "id": "octubre-1030-df78fa66",
+              "text": "Entregá el encargo 63, que desbloquea:",
+              "sub": [
+                "72. Fusion Series #7: Hierophant, Daisoujou"
+              ]
+            },
+            {
+              "id": "octubre-1030-c2bfef23",
+              "text": "Guardá la partida y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Lachesis + Nebrios → <strong>Throne</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Enduring Soul</td><td>Kougan, Mahamaon, / Hama Boost y Samarecarm</td></tr><tr><td>Kurama Tengu + Parvati → <strong>Siegfried</strong></td><td>Auto Tarukaja, Auto Rakukaja / Life Aid y <strong>Endure (importante)</strong></td><td>Brave Blade, Deathbound, Charge / Crit Rate Amp y Auto Rebellion / (borrá Auto Rakukaja)</td></tr><tr><td>White Rider + Koumokuten → <strong>Suzaku</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Enduring Soul</td><td>Agidyne, Maragion, / Diarahan y Samarecarm</td></tr><tr><td>Mishaguji + Throne → <strong>Decarabia</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Enduring Soul</td><td>Agidyne, Megidola, / Tetrakarn y Invigorate 2</td></tr><tr><td>Suzaku + Siegfried → <strong>Chernobog</strong></td><td>Auto Tarukaja, Auto Maraku, / Life aid y Enduring Soul</td><td>Eigaon, Maeiga, / Shift Amp y Poision Mist</td></tr><tr><td>Mishaguji + Samael → <strong>Atropos</strong></td><td>Auto Tarukaja, Life aid, / Mazionga y Endue</td><td>Ziodyne, Garudyne, / Magarula y Dekunda</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "Ahora casi todas las Personas tienen Auto Maraku, que sube la defensa de todo el grupo los primeros 3 turnos, y Enduring Soul, que es como Endure pero además te recupera todo el HP al activarse."
+            },
+            {
+              "id": "octubre-1030-3eb3ddac",
+              "text": "Acabás de desbloquear dos Theurgies nuevas:",
+              "sub": [
+                "Best Friends, que da Concentrate y Charge",
+                "(por tener a Decarabia y Forneus)",
+                "Scarlot Havoc",
+                "(por tener a Siegfried y Mithras)"
+              ]
+            },
+            {
+              "id": "octubre-1030-e2977e3d",
+              "text": "Dismiss Succubus, Rangda y Decarabia"
+            },
+            {
+              "id": "octubre-1030-d5df74ee",
+              "text": "Las Personas que tenés que llevar encima son <strong>Parvati, Titania, Throne, Atropos, Siegfried, Suzaku, Chernobog, Cu Chulainn, Nidhoggr</strong> y <strong>Ganesha</strong>"
+            },
+            {
+              "id": "octubre-1030-a2b1c823",
+              "text": "Entregá el encargo 71 a Elizabeth.",
+              "sub": [
+                "Enseñale Growth 2/3 a Chernobog reemplazando Poison Mist",
+                "Enseñale Growth 2/3 a Atropos reemplazando Dekunda",
+                "Enseñale Growth 2/3 a Suzaku reemplazando Diarahan; en nivel 61 reemplazá Growth por Fire Amp"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Nidhoggr va a ser tu Persona de buffs y debuffs por el resto del juego: tiene casi todos, solo le faltan Marakukaja y Masukunda. Son cartas rango 9 opcionales; farmealas solo si querés completar el set. Para una Persona perfecta de buffs/debuffs también podés enseñarle Dekaja y Dekunda."
+            },
+            {
+              "note": true,
+              "text": "Mahamaon con Hama Boost tiene muy buena chance de liquidar de un golpe a las sombras débiles a la luz. Si falla con alguna del grupo, rematá con Kougaon."
+            },
+            {
+              "note": true,
+              "text": "Siegfried es una de las mejores Personas físicas del juego, por eso lo especializamos en crítico y daño. Usá su Charge antes de la nueva Theurgy Scarlet Havoc y tené a Siegfried como Persona activa al usarla."
+            },
+            {
+              "note": true,
+              "text": "Yo reemplazaría Brave Blade por Slash Boost o Multi-Target Boost. Slash Boost da 25% de daño pero hay que farmearla; Multi-Target Boost da 15% y te la da Elizabeth. Las dos funcionan, usá la que tengas."
+            },
+            {
+              "note": true,
+              "text": "Si farmeaste un Apt Pupil antes, reemplazá Auto Rebellion por él. Los dos suben el crítico; la diferencia es que Apt Pupil es incondicional y Auto Rebellion requiere que Siegfried sea la Persona inicial. Otra vez, usá la que tengas."
+            },
+            {
+              "note": true,
+              "text": "Reemplazá Life Aid por Growth 2/3 y, cuando llegue a nivel 61, Growth por Slash Amp."
+            },
+            {
+              "note": true,
+              "text": "La razón de estos cambios: la Theurgy Scarlet Havoc con Slash Amp, Slash Boost/Multi-Target Boost y Charge liquida casi cualquier enemigo del juego de un golpe, incluso guardianes y jefes Monad en Merciless. Todas esas habilidades también potencian Deathbound, así que aunque borramos Brave Blade (más fuerte), el daño extra de Slash Boost/Multi-Target Boost en Deathbound y Scarlet Havoc lo compensa de sobra."
+            },
+            {
+              "id": "octubre-1030-9a52a61e",
+              "text": "Volvé al 171F y entrá al Monad Passage: derrotá a la primera sombra y dale el Whirlwind Bow a Yukari. Derrotá a la segunda y la tercera, y abrí los cofres para conseguir el Arcano Mayor Star."
+            },
+            {
+              "id": "octubre-1030-500247ff",
+              "text": "Vas a necesitar al menos <strong>275k</strong> yen después de vender todo el botín."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Llevá Personas de estos arcanos: <strong>Strength, Star, Temperance, Lovers, Moon, Justice, Fortune, Priestess</strong> y <strong>Tower</strong>, que son los vínculos que vas a trabajar. Necesitás al menos <strong>275k</strong> después de vender el botín."
+            },
+            {
+              "note": true,
+              "text": "Si querés comprar todo lo del canal de compras, vas a necesitar al menos 370k."
+            },
+            {
+              "note": true,
+              "text": "Si querés calcular cuánto vale tu botín antes de salir, la guía original tiene la sección Loot and Breakable Objects de Tziah Block 2 con nombres y precios de venta."
+            },
+            {
+              "note": true,
+              "text": "<strong>Si no seguís la guía de fusión, puede que tengas que farmear más yen: los montos de acá no incluyen cambios de Persona que no se mencionen explícitamente.</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1031",
+      "date": "10/31",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "octubre-1031-1c3a466a",
+              "text": "Vendé el botín y cobrá las recompensas."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Estás por hacer la primera subida de rango donde elegís entre seguir como amigos o empezar una relación. Si querés tener la opción de ver la cita de Nochebuena con ese personaje, tenés que estar en una relación con él/ella."
+            },
+            {
+              "id": "octubre-1031-f9e602e9",
+              "text": "Pasá tiempo con Chihiro",
+              "sub": [
+                "“Don&#39;t worry, she&#39;ll help us” (+1)",
+                "“You need to tell her yourself” (+1)",
+                "Cualquiera",
+                "“What&#39;s gotten into you?” (+1)",
+                "(Justice Rango 9)",
+                "<strong>Amistad:</strong> “I like working with you, but...”",
+                "Cualquiera",
+                "<strong>Relación:</strong> “I feel the same, Chihiro.”",
+                "Cualquiera"
+              ]
+            },
+            {
+              "id": "octubre-1031-e408705d",
+              "text": "Si elegís la relación acá, desbloqueás:",
+              "sub": [
+                "🏆 Logro/Trofeo: That Special Someone (38/48)"
+              ]
+            },
+            {
+              "note": true,
+              "text": "No hace falta salir con Chihiro para este logro, pero sí tenés que empezar una relación con alguien antes del final. Si querés el logro ya pero no querés salir con Chihiro, elegí la relación y después usá el Rewind para volver a después de clase."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "octubre-1031-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Ken comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": {
+    "stats": [
+      {
+        "stat": "Charm",
+        "rank": 6,
+        "label": "Popular"
+      },
+      {
+        "stat": "Academics",
+        "rank": 6,
+        "label": "Genius"
+      },
+      {
+        "stat": "Courage",
+        "rank": 6,
+        "label": "Badass"
+      }
+    ],
+    "sl": [
+      {
+        "arcana": "Fool",
+        "rank": 5
+      },
+      {
+        "arcana": "Magician",
+        "rank": 9
+      },
+      {
+        "arcana": "Priestess",
+        "rank": 7
+      },
+      {
+        "arcana": "Emperor",
+        "rank": 10
+      },
+      {
+        "arcana": "Hierophant",
+        "rank": 8
+      },
+      {
+        "arcana": "Lovers",
+        "rank": 6
+      },
+      {
+        "arcana": "Chariot",
+        "rank": 10
+      },
+      {
+        "arcana": "Justice",
+        "rank": 9
+      },
+      {
+        "arcana": "Hermit",
+        "rank": 10
+      },
+      {
+        "arcana": "Fortune",
+        "rank": 6
+      },
+      {
+        "arcana": "Strength",
+        "rank": 8
+      },
+      {
+        "arcana": "Hanged",
+        "rank": 7
+      },
+      {
+        "arcana": "Death",
+        "rank": 8
+      },
+      {
+        "arcana": "Temperance",
+        "rank": 7
+      },
+      {
+        "arcana": "Devil",
+        "rank": 4
+      },
+      {
+        "arcana": "Tower",
+        "rank": 3
+      },
+      {
+        "arcana": "Star",
+        "rank": 3
+      },
+      {
+        "arcana": "Moon",
+        "rank": 6
+      },
+      {
+        "arcana": "Sun",
+        "rank": 3
+      }
+    ],
+    "trophies": [
+      "Awakened Power",
+      "SEES the Day",
+      "The First of Many",
+      "There’s no “I” in “Team”",
+      "The Thrill of the Hunt",
+      "The Power of Choice",
+      "Shrouded Assassin",
+      "Making the Dream Work",
+      "Back on Track",
+      "Gourmand",
+      "Briefcase Burglar",
+      "Eagle Eye",
+      "Empowered Protector",
+      "In High Deman",
+      "Birthday Present",
+      "Fusion Artisan",
+      "The Fool’s Journey",
+      "Dorm Life",
+      "Eat Your Veggies, Peas",
+      "Specialist",
+      "Through Thick and Thin",
+      "Unbreakable Link",
+      "Shattered Plumes",
+      "Extracurricular Excellence",
+      "Never Toy with Matter of the Heart",
+      "Benevolent Purr-tector",
+      "Top of the Class",
+      "Beyond the Darkness",
+      "Armor Disarmed",
+      "The Strength of Our Hearts",
+      "Get a Load of Those Numbers!",
+      "Tempting Fate",
+      "Dodging Lightning",
+      "Glimpse of the Depths",
+      "Twist of Fate",
+      "That Special Someone",
+      "Peak Performance",
+      "The Horror of the Shade"
+    ],
+    "compendium": 111
+  }
+}

@@ -1,0 +1,1136 @@
+{
+  "title": "🌒 MAYO — El SEES se organiza",
+  "intro": [],
+  "days": [
+    {
+      "id": "501",
+      "date": "5/1",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-501-0-0",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-501-1-0",
+              "text": "Net Cafe (3F Strip Mall) → comprá todo excepto Muscle Boot Camp y Mindful Boot Camp"
+            },
+            {
+              "id": "mayo-501-1-1",
+              "text": "Compu compartida → Digital Cram School <span class=\"wt-tag wt-tag-stat\">Académicos +2</span> → Académicos Rango 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "502",
+      "date": "5/2",
+      "name": "Sábado",
+      "tips": [
+        "⚠️ IMPORTANTE: Guardá el <strong>Lukewarm Taiyaki</strong> en la heladera del dorm — lo vas a necesitar para un encargo de Elizabeth más adelante."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-502-0-0",
+              "text": "Comprá <strong>Lukewarm Taiyaki</strong> en la tienda del colegio (lobby)"
+            },
+            {
+              "id": "mayo-502-0-1",
+              "text": "Hablale a Chihiro: <strong>\"Hello\"</strong> y <strong>\"Let's hang out\"</strong> (flag Justice)"
+            },
+            {
+              "id": "mayo-502-0-2",
+              "text": "Salir con Yuko: <strong>\"What happened (+3)\"</strong>, <strong>\"It wasn't your fault (+1)\"</strong>, <strong>\"That's true (+3)\"</strong> → <strong>Strength Rango 2</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-502-1-0",
+              "text": "Guardá el Lukewarm Taiyaki en la heladera"
+            },
+            {
+              "id": "mayo-502-1-1",
+              "text": "Game Parade → You're the Answer <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>"
+            },
+            {
+              "id": "mayo-502-1-2",
+              "text": "Hora Oscura: Evento de historia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "503",
+      "date": "5/3",
+      "name": "Domingo",
+      "tips": [
+        "El <strong>canal de compras de Tanaka</strong> emite todos los domingos. Tiene ítems muy buenos pero algunos conviene saltearlos para ahorrar yen. Seguí siempre lo que dice la guía para cada domingo."
+      ],
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "mayo-503-0-0",
+              "text": "Canal de compras → Mother's Day set (Rose Bouquet + 2x Luxury Chocolate) 2.980 yen — ¡COMPRAR!"
+            },
+            {
+              "id": "mayo-503-0-1",
+              "text": "Recargá las máquinas de vending"
+            },
+            {
+              "id": "mayo-503-0-2",
+              "text": "Innocent Sin Online: <strong>\"Of course (+3)\"</strong>, <strong>\"Sunshine is overrated (+1)\"</strong> → <strong>Hermit Rango 2</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-503-1-0",
+              "text": "Compu compartida → Language Made Easy <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "504",
+      "date": "5/4",
+      "name": "Lunes",
+      "tips": [
+        "Podés usar el Rewind si querés ver el hangout de Kenji en vez de la invitación de Kazushi."
+      ],
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "mayo-504-0-0",
+              "text": "Aceptá invitación de Kazushi: <strong>\"Are you on a diet? (+3)\"</strong>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-504-1-0",
+              "text": "Compu compartida → Animal Othello <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "505",
+      "date": "5/5",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "mayo-505-0-0",
+              "text": "Innocent Sin Online: <strong>\"Oh really? (+1)\"</strong>, <strong>\"You don't like your job? (+3)\"</strong> → <strong>Hermit Rango 3</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-505-1-0",
+              "text": "Compu compartida → Typing Ghoul <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "506",
+      "date": "5/6",
+      "name": "Miércoles",
+      "tips": [
+        "⚠️ IMPORTANTE: Cuando revises la heladera esta noche, guardá el <strong>Chilled Taiyaki</strong> — lo necesitás para un encargo de Elizabeth más adelante. No lo comas.",
+        "Para hablar con Mitsuru hoy: necesitás <strong>Académicos Rango 6</strong> (Genius) para poder salir con ella. Es un objetivo de largo plazo."
+      ],
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "mayo-506-0-0",
+              "text": "Respuesta en clase: <strong>\"A pantograph\"</strong> <span class=\"wt-tag wt-tag-stat\">Encanto +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-506-1-0",
+              "text": "Octopia → comprá un <strong>Weird Takoyaki</strong>"
+            },
+            {
+              "id": "mayo-506-1-1",
+              "text": "Santuario → dáselo a Maiko con un Mad Bull — <strong>Hanged Flag activado</strong>"
+            },
+            {
+              "id": "mayo-506-1-2",
+              "text": "Salir con Yuko: <strong>\"Don't worry about it (+1)\"</strong>, <strong>\"I'm honoured (+1)\"</strong> → <strong>Strength Rango 3</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-506-2-0",
+              "text": "Revisá la heladera → guardá el <strong>Chilled Taiyaki</strong> (encargo Elizabeth)"
+            },
+            {
+              "id": "mayo-506-2-1",
+              "text": "Compu compartida → <strong>Iwatodai Forum Note</strong> (desbloquea nuevas bebidas en máquina de Iwatodai)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "507",
+      "date": "5/7",
+      "name": "Jueves",
+      "tips": [
+        "El <strong>4biotic Pack</strong> restaura 10 SP a todos los miembros del equipo incluyendo al Navegante — es muy útil en esta etapa. Comprá varias unidades."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-507-0-0",
+              "text": "Iwatodai Station → comprá <strong>4biotic Pack</strong> y <strong>Happiness Water</strong>"
+            },
+            {
+              "id": "mayo-507-0-1",
+              "text": "Hablá con Chihiro: <strong>\"Let's walk home together\"</strong> → <strong>Justice Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-507-1-0",
+              "text": "Compu compartida → Lessons in Etiquette <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "508",
+      "date": "5/8",
+      "name": "Viernes",
+      "tips": [
+        "⚠️ IMPORTANTE: El juego te avisa sobre una prueba que viene. Si seguiste la guía de fusión, estás listo. Si hacés tus propias fusiones, aseguráte de tener tus Personas de combate equipadas antes de salir esta noche."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-508-0-0",
+              "text": "Salir con Kenji: <strong>\"That's a secret (+1)\"</strong>, <strong>\"I'm into older women, too (+1)\"</strong> → <strong>Magician Rango 2</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-508-1-0",
+              "text": "Game Parade → House of the Deceased <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "509",
+      "date": "5/9",
+      "name": "Sábado",
+      "tips": [
+        "<strong>Valkyrie</strong> es muy útil contra el jefe de luna llena de este mes. Si la tenés equipada o disponible, úsala."
+      ],
+      "slots": [
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "mayo-509-0-0",
+              "text": "🔴 JEFE LUNA LLENA: Primera Sombra Mayor — es una sección lineal hasta el jefe"
+            },
+            {
+              "id": "mayo-509-0-1",
+              "text": "Trofeo: Back on Track 🏆 — <strong>Fool Rango 3</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "510",
+      "date": "5/10",
+      "name": "Domingo",
+      "tips": [
+        "⚠️ MUY IMPORTANTE: Los <strong>encargos de Elizabeth</strong> dan ítems increíbles, yen, Personas y son tu principal fuente de Twilight Fragments. Son obligatorios para seguir esta guía — algunos dan stats sociales que la guía usa. Si saltás encargos, puede que no tengas acceso a los correctos en el momento y te pierdas rangos de SL.",
+        "Los encargos de Shadow Hunting y Treasure Hunting pueden completarse antes de lo que dice la guía si farmeás más — no pasa nada, solo desbloqueás el siguiente antes de tiempo."
+      ],
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "mayo-510-0-0",
+              "text": "Recargá máquinas de vending — comprá 1 de cada bebida única (las necesitás para encargos)"
+            },
+            {
+              "id": "mayo-510-0-1",
+              "text": "Canal de compras → Jelly Tasting Set — ¡NO COMPRAR!"
+            },
+            {
+              "id": "mayo-510-0-2",
+              "text": "Innocent Sin Online: <strong>\"Let's plan our wedding (+3)\"</strong> → <strong>Hermit Rango 4</strong> <span class=\"wt-tag wt-tag-sl\">SL</span> (flag Devil)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-510-1-0",
+              "text": "Visitá a <strong>Elizabeth</strong> (Paulownia Mall) → aceptá encargos 1, 2, 3, 4, 5, 8, 12"
+            },
+            {
+              "id": "mayo-510-1-1",
+              "text": "Entregá encargos 2 y 3 → aceptá nuevos: 7, 14, 15"
+            },
+            {
+              "id": "mayo-510-1-2",
+              "text": "Comprá Muscle Drink en Aohige Pharmacy → entregá encargo 1"
+            },
+            {
+              "id": "mayo-510-1-3",
+              "text": "Hablá con Yukari en el dorm → entregá encargos → nuevos: 9, 10, 13"
+            },
+            {
+              "id": "mayo-510-1-4",
+              "text": "Hablá con Junpei → entregá encargos 9 y 13 → nuevo: 11"
+            },
+            {
+              "id": "mayo-510-1-5",
+              "text": "Equipá <strong>Pixel Vest</strong> en Makoto, <strong>Hothead Shirt</strong> y <strong>Toy Bow</strong> en Yukari"
+            },
+            {
+              "id": "mayo-510-1-6",
+              "text": "Big Eater Challenge en Wilduck: <strong>\"Look away\"</strong>, <strong>\"Eat without stopping\"</strong>, <strong>\"Imagine something sour\"</strong> <span class=\"wt-tag wt-tag-stat\">Acad+2, Enc+2, Val+2</span> → Valentía Rango 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "511",
+      "date": "5/11",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "mayo-511-0-0",
+              "text": "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-511-1-0",
+              "text": "Santuario → salir con Maiko → <strong>Hanged Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-511-2-0",
+              "text": "Sala de comando → mirá la grabación"
+            },
+            {
+              "id": "mayo-511-2-1",
+              "text": "Compu compartida → <strong>Umiushi Fan Book</strong> (desbloquea compras en Umiushi Beef Bowls)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "512",
+      "date": "5/12",
+      "name": "Martes",
+      "tips": [
+        "El <strong>Spring Cabbage Bowl</strong> de Umiushi Beef Bowls es un ítem de temporada — conseguilo antes de que desaparezca del menú."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-512-0-0",
+              "text": "Salir con Junpei → <strong>Episodio Vinculado Junpei 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-512-1-0",
+              "text": "Umiushi Beef Bowls (Strip Mall 3F) → comprá <strong>Spring Cabbage Bowl</strong> (ítem de temporada)"
+            },
+            {
+              "id": "mayo-512-1-1",
+              "text": "Entregá encargos 10 y 11 a Elizabeth"
+            },
+            {
+              "id": "mayo-512-1-2",
+              "text": "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 2.500 yen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "513",
+      "date": "5/13",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Tarde (clase)",
+          "items": [
+            {
+              "id": "mayo-513-0-0",
+              "text": "Respuesta en clase: <strong>\"The Pendulum\"</strong> <span class=\"wt-tag wt-tag-stat\">Encanto +1</span> → Encanto Rango 3"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-513-1-0",
+              "text": "Salir con Maiko: <strong>\"Sure, Let's go (+3)\"</strong> → <strong>Hanged Rango 2</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-513-2-0",
+              "text": "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 2.500 yen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "514",
+      "date": "5/14",
+      "name": "Jueves",
+      "tips": [
+        "El flag de <strong>Temperance</strong> se activa hoy con Hierophant R3 — no te lo pierdas o no podrás iniciar ese SL en el momento correcto."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-514-0-0",
+              "text": "Bookworms: <strong>\"Looking for something? (+1)\"</strong>, <strong>\"Can I help? (+3)\"</strong> → <strong>Hierophant Rango 3</strong> <span class=\"wt-tag wt-tag-sl\">SL</span> — activa flag Temperance"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-514-1-0",
+              "text": "Wakatsu Kitchen → Seafood Full Course <span class=\"wt-tag wt-tag-stat\">Académicos +2</span> (requiere Encanto R3) 🏆 Gourmand"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "515",
+      "date": "5/15",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Tarde (clase)",
+          "items": [
+            {
+              "id": "mayo-515-0-0",
+              "text": "Respuesta en clase: <strong>\"May Blues\"</strong> <span class=\"wt-tag wt-tag-stat\">Encanto +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-515-1-0",
+              "text": "Bookworms: <strong>\"I'll wait here (+3)\"</strong>, <strong>\"I'm worried (+1)\"</strong> → <strong>Hierophant Rango 4</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-515-2-0",
+              "text": "Estudiar con Mitsuru y Sanada <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "516",
+      "date": "5/16",
+      "name": "Sábado",
+      "tips": [
+        "El flag de <strong>Sun</strong> se activa hoy con Hanged R3 — también necesario para el SL del Sol más adelante."
+      ],
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "mayo-516-0-0",
+              "text": "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-516-1-0",
+              "text": "Salir con Maiko: <strong>\"Don't worry, he'll be there (+3)\"</strong> → <strong>Hanged Rango 3</strong> <span class=\"wt-tag wt-tag-sl\">SL</span> — activa flag Sun"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-516-2-0",
+              "text": "Estudiar con Yukari y Junpei <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "517",
+      "date": "5/17",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "mayo-517-0-0",
+              "text": "Canal de compras → The home alone security set — ¡NO COMPRAR!"
+            },
+            {
+              "id": "mayo-517-0-1",
+              "text": "Recargá máquinas de vending"
+            },
+            {
+              "id": "mayo-517-0-2",
+              "text": "Innocent Sin Online: <strong>\"Do you mean S.O.B.? (+1)\"</strong>, <strong>\"Are you a teacher? (+1)\"</strong> → <strong>Hermit Rango 5</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-517-1-0",
+              "text": "Estudiar con compañeros <span class=\"wt-tag wt-tag-stat\">Académicos +3</span> → Académicos Rango 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "518",
+      "date": "5/18",
+      "name": "Lunes — EXAMEN",
+      "tips": [
+        "Los exámenes de mayo duran 5 días. Respondé bien para quedar entre los mejores → bonus de Encanto y Académicos."
+      ],
+      "slots": [
+        {
+          "label": "Examen",
+          "items": [
+            {
+              "id": "mayo-518-0-0",
+              "text": "Pregunta automática (no hay respuesta manual)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "519",
+      "date": "5/19",
+      "name": "Martes — EXAMEN",
+      "slots": [
+        {
+          "label": "Examen",
+          "items": [
+            {
+              "id": "mayo-519-0-0",
+              "text": "Respuesta: <strong>\"May Blues\"</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "520",
+      "date": "5/20",
+      "name": "Miércoles — EXAMEN",
+      "slots": [
+        {
+          "label": "Examen",
+          "items": [
+            {
+              "id": "mayo-520-0-0",
+              "text": "Respuesta: <strong>\"A Pendulum\"</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "521",
+      "date": "5/21",
+      "name": "Jueves — EXAMEN",
+      "slots": [
+        {
+          "label": "Examen",
+          "items": [
+            {
+              "id": "mayo-521-0-0",
+              "text": "Respuesta: <strong>\"Electricity\"</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "522",
+      "date": "5/22",
+      "name": "Viernes — EXAMEN",
+      "slots": [
+        {
+          "label": "Examen",
+          "items": [
+            {
+              "id": "mayo-522-0-0",
+              "text": "Respuesta: <strong>\"Jomon\"</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "523",
+      "date": "5/23",
+      "name": "Sábado",
+      "tips": [
+        "Archangel en Velvet Room: para summonarlo necesitás tener Fool R3 (ya deberías tenerlo tras el jefe de luna llena). Cada Persona que summonás puede desbloquear diálogos de encargos con Elizabeth."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-523-0-0",
+              "text": "Velvet Room → summoná <strong>Archangel</strong>"
+            },
+            {
+              "id": "mayo-523-0-1",
+              "text": "Salir con Chihiro: <strong>\"Don't worry about it (+3)\"</strong>, <strong>\"I read manga (+1)\"</strong>, <strong>\"I'm having fun (+1)\"</strong> → <strong>Justice Rango 2</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-523-1-0",
+              "text": "Compu compartida → Virtual Diet <span class=\"wt-tag wt-tag-stat\">Encanto +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "524",
+      "date": "5/24",
+      "name": "Domingo",
+      "tips": [
+        "⚠️ SESIÓN DE TARTARUS: Esta noche es la sesión principal de farmeo del mes. Tenés que llegar hasta el piso 44F, derrotar dos jefes de bloque y acumular al menos 125k yen para las fusiones que vienen.",
+        "Para los <strong>jefes de los pisos 34F y 42F</strong>: usá Poisma si lo tenés disponible y la estrategia de guardia en los turnos del jefe para sobrevivir los ataques más duros.",
+        "El <strong>Old Document 2</strong> está en un cofre del 44F — es obligatorio agarrarlo para completar un encargo de Elizabeth."
+      ],
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "mayo-524-0-0",
+              "text": "Canal de compras → Beginner's home cooking set — ¡COMPRAR! (2.980 yen)"
+            },
+            {
+              "id": "mayo-524-0-1",
+              "text": "Recargá máquinas de vending"
+            },
+            {
+              "id": "mayo-524-0-2",
+              "text": "Aceptá invitación de Kenji: <strong>\"I'm pretty picky (+3)\"</strong>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-524-1-0",
+              "text": "Club Escapade → lectura de fortuna (3.000 yen) — necesaria para un encargo de Elizabeth"
+            },
+            {
+              "id": "mayo-524-1-1",
+              "text": "⚠️ TARTARUS: Bloques 23–44F. Objetivos: nivel ~Naga 22, 125k yen"
+            },
+            {
+              "id": "mayo-524-1-2",
+              "text": "Múltiples fusiones de Personas (ver guía de fusión completa del mes)"
+            },
+            {
+              "id": "mayo-524-1-3",
+              "text": "Entregá encargos 4, 5, 8, 15 a Elizabeth → aceptá nuevos: 6, 16, 17, 22"
+            },
+            {
+              "id": "mayo-524-1-4",
+              "text": "Derrotá jefes en pisos 34F y 42F (Poisma + guardia)"
+            },
+            {
+              "id": "mayo-524-1-5",
+              "text": "Agarrá <strong>Old Document 2</strong> en cofre del 44F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "525",
+      "date": "5/25",
+      "name": "Lunes",
+      "tips": [
+        "El <strong>Proto-Choker</strong> que te da Mitsuru es un accesorio muy bueno para esta etapa — equipálo en Makoto de inmediato.",
+        "La <strong>huerta de la azotea</strong> comienza hoy. Las plantas dan ítems de stats valiosos después de varios días. Seguí plantando y regando según indica la guía.",
+        "No te olvides del <strong>Twilight Fragment</strong> en la esquina izquierda de la azotea — es fácil pasarlo por alto."
+      ],
+      "slots": [
+        {
+          "label": "Almuerzo",
+          "items": [
+            {
+              "id": "mayo-525-0-0",
+              "text": "Resultado de examen: Top de la clase <span class=\"wt-tag wt-tag-stat\">Encanto +2</span> 🏆 Top of the Class"
+            }
+          ]
+        },
+        {
+          "label": "Tarde (clase)",
+          "items": [
+            {
+              "id": "mayo-525-1-0",
+              "text": "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-525-2-0",
+              "text": "Hablá con Mitsuru → recibís Incense items + <strong>Proto-Choker</strong> (equipálo en Makoto)"
+            },
+            {
+              "id": "mayo-525-2-1",
+              "text": "Enfermería → Strange Medicine <span class=\"wt-tag wt-tag-stat\">Valentía +1</span>"
+            },
+            {
+              "id": "mayo-525-2-2",
+              "text": "Vendé botín en la comisaría"
+            },
+            {
+              "id": "mayo-525-2-3",
+              "text": "Santuario → copiá Makouha con Inari, enseñásela a Principality"
+            },
+            {
+              "id": "mayo-525-2-4",
+              "text": "Visitá a Elizabeth → entregá encargo 77"
+            },
+            {
+              "id": "mayo-525-2-5",
+              "text": "Sala Consejo Estudiantil: <strong>\"Sounds like nonsense (+3)\"</strong> → <strong>Emperor Rango 2</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-525-3-0",
+              "text": "Azotea del dorm → plantá <strong>Healthy Tomato Sprout</strong>"
+            },
+            {
+              "id": "mayo-525-3-1",
+              "text": "Agarrá el <strong>Twilight Fragment</strong> en la esquina izquierda de la azotea 🏆 Eagle Eye"
+            },
+            {
+              "id": "mayo-525-3-2",
+              "text": "Net Cafe → comprá Muscle Boot Camp y Mindful Boot Camp"
+            },
+            {
+              "id": "mayo-525-3-3",
+              "text": "Compu compartida → Mindful Boot Camp (SP +5)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "526",
+      "date": "5/26",
+      "name": "Martes",
+      "tips": [
+        "El SL de <strong>Temperance</strong> (profesora de Economía Doméstica) empieza hoy. El flag se activó el 5/14 con Hierophant R3, y necesitás Académicos R2 para iniciar el vínculo."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-526-0-0",
+              "text": "Sala de Economía Doméstica (1F) → <strong>Temperance Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span> (requiere Académicos R2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-526-1-0",
+              "text": "Equipá <strong>All-Purpose Apron</strong> en Makoto, <strong>Pixel Vest</strong> a Junpei, <strong>Hothead Shirt</strong> a Yukari"
+            },
+            {
+              "id": "mayo-526-1-1",
+              "text": "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 3.500 yen → <strong>Encanto Rango 4</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "527",
+      "date": "5/27",
+      "name": "Miércoles",
+      "tips": [
+        "En Rafflesia podés comprar el <strong>Buff Potato Sprout</strong> para la huerta de la azotea. Las plantas de vegetales dan ítems que aumentan stats del partido."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-527-0-0",
+              "text": "Rafflesia (Port Island Station) → comprá <strong>Buff Potato Sprout</strong>"
+            },
+            {
+              "id": "mayo-527-0-1",
+              "text": "Sala Consejo Estudiantil: <strong>\"What happened? (+1)\"</strong> → <strong>Emperor Rango 3</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-527-1-0",
+              "text": "Trabajá en Chagall Café <span class=\"wt-tag wt-tag-stat\">Enc+1, Val+1</span> + 2.500 yen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "528",
+      "date": "5/28",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "mayo-528-0-0",
+              "text": "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-528-1-0",
+              "text": "Salir con Kenji: <strong>\"What, of life? (+3)\"</strong>, <strong>\"Good luck! (+1)\"</strong> → <strong>Magician Rango 3</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-528-2-0",
+              "text": "Wakatsu Kitchen → Seafood Full Course <span class=\"wt-tag wt-tag-stat\">Académicos +2</span>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "529",
+      "date": "5/29",
+      "name": "Viernes",
+      "tips": [
+        "Con Magician R4 hoy se activa el flag de <strong>Moon</strong>. Nozomi (el SL de Luna) se puede iniciar mañana en Paulownia Mall si tenés Encanto R3 y el Odd Morsel."
+      ],
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "mayo-529-0-0",
+              "text": "Quedáte despierto <span class=\"wt-tag wt-tag-stat\">Académicos +1</span>"
+            }
+          ]
+        },
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-529-1-0",
+              "text": "Salir con Kenji: <strong>\"Good luck! (+3)\"</strong> → <strong>Magician Rango 4</strong> <span class=\"wt-tag wt-tag-sl\">SL</span> — activa flag Moon"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-529-2-0",
+              "text": "Revisá el mail → salir con Akihiko → <strong>Episodio Vinculado Akihiko 1</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "530",
+      "date": "5/30",
+      "name": "Sábado",
+      "tips": [
+        "Para iniciar <strong>Moon R1 (Nozomi)</strong>: hablale al Chubby Student en Paulownia Mall. El orden de respuestas es importante — seguilo exactamente. Necesitás Encanto R3 y tener el Odd Morsel en el inventario.",
+        "⚠️ Comprá el <strong>Lukewarm Taiyaki</strong> hoy — mañana lo tenés que guardar en la heladera para el encargo de Elizabeth."
+      ],
+      "slots": [
+        {
+          "label": "Después del colegio",
+          "items": [
+            {
+              "id": "mayo-530-0-0",
+              "text": "Tienda del colegio → comprá <strong>Lukewarm Taiyaki</strong>"
+            },
+            {
+              "id": "mayo-530-0-1",
+              "text": "Paulownia Mall → Chubby Student (requiere Encanto R3): <strong>\"What are you eating?\"</strong> / <strong>\"Pheromone Coffee\"</strong> / <strong>\"Red\"</strong> / <strong>\"Hagakure Bowl\"</strong> / handover Odd Morsel → <strong>Moon Rango 1</strong> <span class=\"wt-tag wt-tag-sl\">SL</span>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-530-1-0",
+              "text": "Compu compartida → Muscle Boot Camp (HP +7)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "531",
+      "date": "5/31",
+      "name": "Domingo",
+      "tips": [
+        "⚠️ Acordáte de guardar el <strong>Lukewarm Taiyaki</strong> en la heladera — es para el encargo de Elizabeth. No lo comas."
+      ],
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "mayo-531-0-0",
+              "text": "Canal de compras → Healthy lifestyle set — ¡COMPRAR! (3.980 yen)"
+            },
+            {
+              "id": "mayo-531-0-1",
+              "text": "Recargá máquinas de vending"
+            },
+            {
+              "id": "mayo-531-0-2",
+              "text": "Guardá el <strong>Lukewarm Taiyaki</strong> en la heladera"
+            },
+            {
+              "id": "mayo-531-0-3",
+              "text": "Aceptá invitación de Yuko: <strong>\"Let's just calm down first (+3)\"</strong>"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "mayo-531-1-0",
+              "text": "Wilduck → Weekend Wilduck Set <span class=\"wt-tag wt-tag-stat\">Valentía +2</span>"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": {
+    "stats": [
+      {
+        "stat": "Charm",
+        "rank": 4,
+        "label": "Charismatic"
+      },
+      {
+        "stat": "Academics",
+        "rank": 3,
+        "label": "Above Average"
+      },
+      {
+        "stat": "Courage",
+        "rank": 3,
+        "label": "Determined"
+      }
+    ],
+    "sl": [
+      {
+        "arcana": "Fool",
+        "rank": 3
+      },
+      {
+        "arcana": "Magician",
+        "rank": 4
+      },
+      {
+        "arcana": "Emperor",
+        "rank": 3
+      },
+      {
+        "arcana": "Hierophant",
+        "rank": 4
+      },
+      {
+        "arcana": "Chariot",
+        "rank": 3
+      },
+      {
+        "arcana": "Justice",
+        "rank": 2
+      },
+      {
+        "arcana": "Hermit",
+        "rank": 5
+      },
+      {
+        "arcana": "Strength",
+        "rank": 3
+      },
+      {
+        "arcana": "Hanged",
+        "rank": 3
+      },
+      {
+        "arcana": "Temperance",
+        "rank": 1
+      },
+      {
+        "arcana": "Moon",
+        "rank": 1
+      }
+    ],
+    "trophies": [
+      "Back on Track",
+      "Gourmand",
+      "Briefcase Burglar",
+      "Top of the Class",
+      "Eagle Eye"
+    ],
+    "compendium": 0
+  }
+}

@@ -1,0 +1,1406 @@
+{
+  "title": "🌖 SEPTIEMBRE — Vuelta a clases",
+  "intro": [],
+  "days": [
+    {
+      "id": "901",
+      "date": "9/1",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "septiembre-901-381fcb4f",
+              "text": "Respuesta: <strong>Resistance</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-901-56d9f833",
+              "text": "Pasá tiempo con Kazushi",
+              "sub": [
+                "“I Don’t mind at all” (+3)",
+                "(Chariot Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-901-13b769a6",
+              "text": "Pasá tiempo con President Tanaka",
+              "sub": [
+                "“Sure have!” (+3)",
+                "(Devil Rango 4)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "902",
+      "date": "9/2",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-902-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-902-512151ff",
+              "text": "Leé con Aigis (Encanto +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "903",
+      "date": "9/3",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-903-f80aa98f",
+              "text": "Pasá tiempo con Yukari",
+              "sub": [
+                "“Cute pink” (+3)",
+                "“That’s mean” (+1)",
+                "(Lovers Rango 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-903-63e06aa7",
+              "text": "Cociná con Shinjiro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "904",
+      "date": "9/4",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-904-08a81bee",
+              "text": "Pasá tiempo con Koromaru (Encanto +1)",
+              "sub": [
+                "(Episodio de Koromaru 1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-904-0fd05fd0",
+              "text": "Sacá la fortuna que quieras."
+            },
+            {
+              "id": "septiembre-904-8701b883",
+              "text": "Hablá con Fuuka y andá a Tartarus (puede que tengas que hablarle dos veces para que aparezca la opción)."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "septiembre-904-83bef579",
+              "text": "Por fin tenés el equipo completo, lo que abre muchas combinaciones. Te recomiendo empezar hoy con los 3 nuevos (Ken, Koromaru y Shinji) para usar sus Theurgy; si ya usaste las de todos los demás, desbloqueás:",
+              "sub": [
+                "🏆 Logro/Trofeo: The Strength of Our Hearts (30/48)"
+              ]
+            },
+            {
+              "id": "septiembre-904-858ce9d6",
+              "text": "Con eso hecho, podés usar a quien quieras. Cualquier combinación sirve: Makoto cubre los huecos y los ítems suplen buffs o debuffs que falten. Algunas sugerencias:"
+            },
+            {
+              "note": true,
+              "text": "<strong>Paliza física: abusá de las sombras y robales la merienda</strong> Makoto, Koromaru, Aigis y Shinji o Junpei"
+            },
+            {
+              "note": true,
+              "text": "Usás Revolution de Koromaru para subir la tasa de crítico y su segunda Theurgy, que duplica el ataque físico de todo el grupo y combina muy bien con las Theurgy de los demás. Vas a usar sobre todo ataques físicos a varios objetivos para farmear críticos; llevá también una Persona física en Makoto. Aigis además tiene buffs de ataque y defensa para todo el grupo. Contras: los críticos dependen del RNG y no tenés debuffs, hechizos debilitantes ni curador principal salvo que uses ítems o armes Personas en Makoto para eso."
+            },
+            {
+              "note": true,
+              "text": "<strong>Abrazá el harem</strong> Makoto, Yukari, Mitsuru, Aigis"
+            },
+            {
+              "note": true,
+              "text": "Yukari te va a juzgar en silencio, Aigis va a tomar nota y Mitsuru lo va a liderar, pero como dice Mitsuru, la formación es estratégicamente sólida. Tenés buena mezcla de hechizos ofensivos, curación, debilitantes, buffs, debuffs y ataques físicos. Contras: Mitsuru y Yukari son frágiles y reciben mucho daño, peor sin acceso al debuff de ataque. Yukari y Aigis además son débiles al rayo, lo que complica pelear contra ese elemento."
+            },
+            {
+              "note": true,
+              "text": "<strong>Igualdad de género</strong> Makoto, Akihiko, Mitsuru y Yukari"
+            },
+            {
+              "note": true,
+              "text": "Mitad chicos, mitad chicas. Te da mucha variedad de hechizos ofensivos, debilitantes, los 3 debuffs y algunos buffs: probablemente la formación más versátil, nunca te vas a quedar sin opciones. Andás corto de ataques físicos, así que llevá una buena Persona física en Makoto."
+            },
+            {
+              "note": true,
+              "text": "Cualquier combinación funciona; estas son solo algunas sugerencias."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Si venías guardando inciensos, ahora es el momento ideal para usarlos en tu equipo: para tapar debilidades (por ejemplo Guard incense en Yukari) o para que peguen más fuerte. El único en quien no los usaría es Shinji: está tan roto comparado con los demás que no le hace falta."
+            },
+            {
+              "note": true,
+              "text": "Desde ahora, en cualquier momento Elizabeth puede contarte que un pequeñín se metió en Tartarus. Puede quedar medio a trasmano, pero si lo encontrás te da una cantidad aleatoria de Twilight Fragments."
+            },
+            {
+              "note": true,
+              "text": "Todas las fusiones desde acá se hicieron con el Arcano Lovers activo. Si fusionás sin Lovers, algunas Personas no llegan al mismo nivel que en la guía y no aprenden las mismas habilidades. No rompe la guía, pero puede afectar la guía de fusión más adelante porque te pueden faltar habilidades para heredar."
+            },
+            {
+              "note": true,
+              "text": "El Arcano Mayor Justice es de los mejores del juego: te deja elegir 2 cartas en cada Shuffle Time, lo que facilita muchísimo conseguir yen, cartas de habilidad, etc."
+            },
+            {
+              "note": true,
+              "text": "Justice es buenísimo, pero a veces te obliga a agarrar un arcano mayor que no querés, porque en Reload no se pueden cancelar los Shuffle Time. Por eso conviene guardar seguido una vez que tengas Justice, así cargás la partida anterior si te pasa."
+            },
+            {
+              "id": "septiembre-904-615a5386",
+              "text": "Desde ahora conviene enseñarle cartas Growth a cualquier Persona que dé Heart Items y lleves encima: así ganan EXP solo por estar en tu stock. La única que deberías llevar que da Heart Item es Take-Minakata: reemplazá Dekaja por Growth 2."
+            },
+            {
+              "id": "septiembre-904-03da7e63",
+              "text": "Si usás Personas DLC, liberá a Shiisaa e invocá a Goemon. Reemplazá su Invigorate 1 por Invigorate 2."
+            },
+            {
+              "id": "septiembre-904-9543b79d",
+              "text": "Volvé al 91F y subí Tartarus hasta el 99F, primer guardián del bloque. Derrotalo, abrí los cofres y dale el Carnage Knife a Koromaru."
+            },
+            {
+              "id": "septiembre-904-fbb49c7d",
+              "text": "Seguí subiendo hasta el 105F para el próximo guardián. Derrotalo y dale las Insulated Tights del cofre a Yukari."
+            },
+            {
+              "id": "septiembre-904-4c50363e",
+              "text": "Seguí subiendo hasta el 112F, último guardián del bloque. Derrotalo, abrí los cofres y dale la Flash Grenade a Aigis."
+            },
+            {
+              "note": true,
+              "text": "En los pisos 109 a 116 puede salir Kushi Mitama en los Shuffle Time. Si la agarrás, le da muchísima EXP a la que llevás, que llega rápido a nivel 32 y aprende Magarula. Solo la vas a tener si seguís la guía de fusión sin DLC."
+            },
+            {
+              "id": "septiembre-904-0ba904da",
+              "text": "Seguí subiendo Tartarus hasta el 117F para el próximo Monad Passage. Derrotá a la primera sombra y dale los Champion Gloves a Akihiko. Quedan dos sombras más; cuando las derrotes, abrí el cofre para conseguir el Arcano Mayor Devil."
+            },
+            {
+              "note": true,
+              "text": "El Arcano Devil es de las mejores cartas del juego: duplica los drops de sombras y objetos rompibles. Acelera muchísimo el farmeo de yen y gemas, clave para el equipo de endgame."
+            },
+            {
+              "id": "septiembre-904-d4850c65",
+              "text": "Cuando termines, subí al piso frontera 118F, abrí el cofre y volvé a la entrada."
+            },
+            {
+              "id": "septiembre-904-3fabbb69",
+              "text": "Entregá los encargos 45 y 47."
+            },
+            {
+              "note": true,
+              "text": "Si querés farmear más materiales base y gemas raras para craftear, podés recorrer la primera sección de Yabbashah y limpiar las Monad Doors que aparezcan ahí."
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC, seguí la DLC Fusion Guide de septiembre (archivo 14 de la guía original)."
+            },
+            {
+              "id": "septiembre-904-85942ef9",
+              "text": "Farmeá hasta nivel 42, con al menos 310k yen e idealmente la carta de Arcano Mayor Lovers. Cuando estés listo, guardá, entrá al Velvet Room y registrá tus Personas. Conviene guardar cada tanto por los accidentes de fusión."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Oni + Shiisaa → <strong>Virtue</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Kouga, Maguru, / Null Poison y Light Boost</td></tr><tr><td>Baphomet + Kushi Mitama → <strong>Yakshini</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 2 y Dodge Fire</td><td>No llena su lista de habilidades</td></tr><tr><td>Eligor + Take-Minakata → <strong>Loa</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Zionga, Maehia, / Marakunda y Survive Light</td></tr><tr><td>Power + Yakshini → <strong>King Frost</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 2 y Dodge Fire</td><td>Bufula, Mabufula, / Freeze Boost y Null Ice</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>King Frost + Yamata-no-Orochi → <strong>Saki Mitama</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Diarama, Mediarama, / Mabufu y Dekunda</td></tr><tr><td>Yatagarasu + Saki Mitama → <strong>Incubus</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Eiga, Evil Touch, / Spirit Drain y Stagnant Air</td></tr><tr><td>Sarasvati + Genbu → <strong>Clotho</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 2 y Mabaisudi</td><td>Garula, Me Patra, / Rakunda y Masukunda</td></tr><tr><td>Virtue + Loa → <strong>Dakini</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Getsu-ei, Herculean Strike, / Strike Boost y High Counter</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Fuse Black Frost / From the Special Fusion</td><td>Mabufula, Auto Taraukaja, / Auto Rakukaja, y Invigorate 2</td><td>Bufudyne, Agidyne, / Maeiga y Dark Boost</td></tr><tr><td>Lamia + Incubus → <strong>Hanuman</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Getsu-ei, Blade of Fury, / Fatal End y Shift Boost</td></tr><tr><td>Black Frost + Take-Mikazuchi → <strong>Seiryu</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Bufudyne</td><td>Mabufula, Mediarama / Amrita Drop y Matarunda</td></tr><tr><td>Clotho + Virtue → <strong>Vasuki</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Mahama, Neuro Slash, / Hama Boost y Counterstrike</td></tr><tr><td>Hanuman + Seiryu → <strong>Girimekhala</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Cruel Attack, Heat Wave, / Virus Breath y Marakunda</td></tr><tr><td>Dakini + Girimekhala → <strong>Thoth</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Zionga, Mazionga, / Megido y Soul Shift</td></tr><tr><td>Vasuki + Kushi Mitama → <strong>Orobas</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Garula</td><td>Magarula, Masukukaja, / Wind Boost y Resist Ice</td></tr><tr><td>Black Frost + Queen Medb → <strong>Dominion</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Auto Sukukaja y Invigorate 2</td><td>Makouga, Samarecarm, / Infuriate y Light Boost</td></tr><tr><td>Fuse Flauros / From the Special Fusion</td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 2 y Revolution</td><td>Herculean Strike, Auto Sukukaja, / Crit Rate Boost y Apt Pupil</td></tr><tr><td>Dominion + Flauros → <strong>Ose</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Crit Rate Boost y Apt Pupil</td><td>Deathbound, Matarunda, / Multi-Target Boost y Life Aid</td></tr><tr><td>Hua Po + Thoth → <strong>Mothman</strong></td><td>Agilao, Mazionga, / Auto Tarukaja y Auto Rakukaja</td><td>Zionga, Elec Boost, / Diizy Boost y Megido</td></tr></table></div>"
+            },
+            {
+              "id": "septiembre-904-2ec2d800",
+              "text": "Entregá los encargos 35, 49 y 50 a Elizabeth y después hacé una última fusión."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Mothman + Yakshini → <strong>Thunderbird</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Zionga y Elec Boost</td><td>No llena su lista de habilidades</td></tr></table></div>"
+            },
+            {
+              "id": "septiembre-904-b3f02d8e",
+              "text": "Lo desbloqueé hoy; es bastante probable que ya lo tengas si estuviste experimentando con mutaciones de habilidades.",
+              "sub": [
+                "🏆 Logro/Trofeo: Tempting Fate (31/48)"
+              ]
+            },
+            {
+              "id": "septiembre-904-0d8eb7a0",
+              "text": "Ya deberías tener todas las Personas del compendio fusionadas hasta nivel 39."
+            },
+            {
+              "id": "septiembre-904-c6bc7b21",
+              "text": "Las Personas que tenés que llevar encima son <strong>Dominion, Thoth, Seiryu, Baphomet, Sarasvati, Queen Medb, Dakini, Clotho, Hanuman, Eligor, Orobas</strong> y <strong>Ose</strong>."
+            },
+            {
+              "id": "septiembre-904-fd2779d4",
+              "text": "Desbloqueás la Theurgy King and I",
+              "sub": [
+                "(por tener Black Frost, King Frost y Jack Frost en el compendio)",
+                "Enseñale Growth 2 a Dominion reemplazando Infuriate. Cuando llegue a nivel 47, reemplazá Growth 2 por Kougaon",
+                "Enseñale Invigorate 2 a Orobas reemplazando Masukukaja",
+                "Enseñale Growth 2 a Clotho reemplazando Rakunda (dejá Growth 2 hasta que suelte el Heart Item)",
+                "Enseñale Growth 2 a Seiryu reemplazando Amrita Drop (dejá Growth 2 hasta que suelte el Heart Item)"
+              ]
+            },
+            {
+              "id": "septiembre-904-d5943860",
+              "text": "Vas a necesitar al menos 110k después de vender todo el botín."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Antes de salir, llevá Personas de estos arcanos: <strong>Hierophant, Justice, Temperance, Priestess, Lovers, Hermit, Fortune, Strength</strong> y <strong>Tower</strong>, que son los vínculos que vas a trabajar. Necesitás al menos <strong>110k</strong> después de vender el botín."
+            },
+            {
+              "note": true,
+              "text": "Si querés comprar todo lo del canal de compras, vas a necesitar al menos 115k."
+            },
+            {
+              "note": true,
+              "text": "Si querés calcular cuánto vale tu botín antes de salir, la guía original tiene la sección Loot and Breakable Objects de Yabbashah Block 2 con nombres y precios de venta."
+            },
+            {
+              "note": true,
+              "text": "<strong>Si no seguís la guía de fusión, puede que tengas que farmear más yen: los montos de acá no incluyen cambios de Persona que no se mencionen explícitamente.</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "905",
+      "date": "9/5",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-905-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "septiembre-905-af0349c3",
+              "text": "Llegó el próximo jefe Arcano Mayor. Cuidado con llevar a Yukari y Aigis juntas: las dos son débiles al rayo.",
+              "sub": [
+                "🏆 Logro/Trofeo: Dodging Lightning (32/48)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "906",
+      "date": "9/6",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "septiembre-906-d5b3c936",
+              "text": "Canal de compras: Luxury Brand Set, 1x Brand Purse and 1x Brand Wallet por 9.800 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "septiembre-906-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "note": true,
+              "text": "A esta altura, el SP que recuperan las bebidas es mínimo comparado con tu SP total. Si querés seguí juntándolas, pero ya no lo voy a recordar."
+            },
+            {
+              "id": "septiembre-906-35d3d4f8",
+              "text": "Vendé el botín y cobrá las recompensas en la comisaría."
+            },
+            {
+              "id": "septiembre-906-2b1cc294",
+              "text": "Mejorá el equipo en la tienda de antigüedades; recordá que no te va a alcanzar para todos, así que priorizá a los que usás. Si todavía no lo tenés, conseguí hoy Outenta Mitsuyo para Makoto."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td></td><td><strong>Arma</strong></td><td><strong>Armadura</strong></td><td><strong>Calzado</strong></td><td><strong>Accesorio</strong></td></tr><tr><td><strong>Makoto</strong></td><td>Outenta Mitsuyo</td><td>Plate Mail</td><td>Electro Shoes</td><td>Mega Master Band</td></tr><tr><td><strong>Yukari</strong></td><td>Source Yumi</td><td>Sorcery Robe</td><td>Insulated Tights</td><td>Wind Bracers</td></tr><tr><td><strong>Junpei</strong></td><td>Claymore</td><td>Slugger’s Jacket</td><td>Genbu’s Leggings</td><td>Fire Bracers</td></tr><tr><td><strong>Akihiko</strong></td><td>Champion Gloves</td><td>Plate Mail</td><td>Boxing Shoes</td><td>Thunder Bracers</td></tr><tr><td><strong>Mitsuru</strong></td><td>Flamberge</td><td>Sorcery Robe</td><td>Leg Protector</td><td>Ice Bracers</td></tr><tr><td><strong>Aigis</strong></td><td>Flash Grenade</td><td>Phalanx Shell</td><td>Ergotite Legs</td><td>Pierce Bracers</td></tr><tr><td><strong>Ken</strong></td><td>SEES Longspear</td><td>Plate Mail</td><td>Leg Protector</td><td>Light Bracers</td></tr><tr><td><strong>Koromaru</strong></td><td>Carnage Knife</td><td>Rock Dog Suit</td><td>Bare Paws</td><td>Dark Bracers</td></tr><tr><td><strong>Shinjiro</strong></td><td>Charun’s Hammer</td><td>Plate Mail</td><td>Genbu’s Leggings</td><td>Strike Bracers</td></tr></table></div>"
+            },
+            {
+              "id": "septiembre-906-d1b2227b",
+              "text": "Ya que estás, cambiá por el Vintage Yagen y después entrá a la farmacia."
+            },
+            {
+              "id": "septiembre-906-68a5f42a",
+              "text": "Entregá los encargos 51 y 57 a Elizabeth."
+            },
+            {
+              "note": true,
+              "text": "Conviene tener algunas copias de sobra de Invigorate 2 y Growth 2: con 5 de cada una alcanza."
+            },
+            {
+              "id": "septiembre-906-36fb2d6f",
+              "text": "Hablá con el Thin Young Man en el santuario (requiere Académicos Rango 4), después volvé al dormitorio y hablá con Koromaru. Volvé con el Thin Young Man.",
+              "sub": [
+                "(Sun Rango 1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-906-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "“Chihiro” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "907",
+      "date": "9/7",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-907-f80aa98f",
+              "text": "Pasá tiempo con Yukari",
+              "sub": [
+                "Cualquiera",
+                "(Lovers Rango 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-907-4704ac07",
+              "text": "Cuidá la huerta con Shinjiro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "908",
+      "date": "9/8",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-908-f09aad37",
+              "text": "Pasá tiempo con Koromaru (Valentía +2)",
+              "sub": [
+                "(Episodio de Koromaru 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-908-ab3ffea2",
+              "text": "Cosechá la huerta de la terraza y plantá Soul Spinach Sprout."
+            },
+            {
+              "id": "septiembre-908-07530d2a",
+              "text": "Revisá la consola de comandos: hay un video nuevo."
+            },
+            {
+              "id": "septiembre-908-7e7b0674",
+              "text": "Pasá tiempo con Ken (Académicos +2)",
+              "sub": [
+                "(Episodio de Ken 1)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "909",
+      "date": "9/9",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-909-91b2df49",
+              "text": "Pasá tiempo con Mamoru en Strip Mall (Requiere Valentía Rango 4)",
+              "sub": [
+                "(Star Rango 1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-909-18fd1e44",
+              "text": "Cuidá la huerta con Fuuka"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "910",
+      "date": "9/10",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "septiembre-910-23bb7467",
+              "text": "Respuesta: <strong>To reveal a secret</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-910-c41da3fc",
+              "text": "Hoy se actualizan los encargos de Elizabeth. Aceptá:",
+              "sub": [
+                "59. Retrieve the sixth old document",
+                "61. Create a Persona that’s level 46 or above",
+                "62. Fusion Series #4: Lovers, Titania",
+                "63. Fusion Series #5 Magician, Rangda",
+                "64. Defeat a rare Shadow #2",
+                "65. Bring me an Ote-gine",
+                "66. Bring me a giant, creepy doll",
+                "67. Fine me a beautiful tile",
+                "68. Bring me a fruit knife"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Puede que ya puedas entregar el encargo 61 si seguís la ruta de fusión sin DLC; con la ruta DLC te va a faltar un nivel. No te preocupes si tus Personas quedan un poco cortas: lo vas a alcanzar solo en la próxima visita a Tartarus."
+            },
+            {
+              "id": "septiembre-910-a90a0ee8",
+              "text": "Andá a Station Outskirts y entrá al Mahjong Parlor Red Hawk (requiere Valentía Rango 5)"
+            },
+            {
+              "id": "septiembre-910-e8c6028f",
+              "text": "Andá al laboratorio del 1F del colegio y entrá."
+            },
+            {
+              "id": "septiembre-910-f9e602e9",
+              "text": "Pasá tiempo con Chihiro",
+              "sub": [
+                "“Is it good?” (+3)",
+                "“What do you mean?” (+1)",
+                "(Justice Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-910-f0ad070b",
+              "text": "Hablá con Shinjiro, después volvé con Elizabeth y entregá los encargos 66, 67 y 68. Desbloquean:",
+              "sub": [
+                "69. Bring me oil"
+              ]
+            },
+            {
+              "id": "septiembre-910-5d28fd52",
+              "text": "Hablá con Aigis, después volvé con Elizabeth y entregá el encargo 69."
+            },
+            {
+              "note": true,
+              "text": "Si pudiste entregar antes el encargo 61, Elizabeth te va a pedir que la acompañes a Gekkoukan. Yo lo dejaría para más adelante, porque todavía no todos tienen acceso a ese hangout."
+            },
+            {
+              "id": "septiembre-910-37ef8fab",
+              "text": "Equipá el Rocket Punch a Aigis y el Scrub Brush a Ken."
+            },
+            {
+              "id": "septiembre-910-4704ac07",
+              "text": "Cuidá la huerta con Shinjiro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "911",
+      "date": "9/11",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "septiembre-911-e67ad83d",
+              "text": "Respuesta: <strong>The Hermetica</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-911-975b2827",
+              "text": "Hablá con Mitsuru, después andá a Station Outskirts y hablá con Shinjiro (Valentía +1)",
+              "sub": [
+                "(Episodio de Shinjiro 1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-911-323598ed",
+              "text": "Mirá un DVD con Ken (Valentía +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "912",
+      "date": "9/12",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "septiembre-912-03fba73c",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-912-a2f566c3",
+              "text": "Comprá un Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "septiembre-912-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "“You did a great job” (+3)",
+                "“I’m glad I could help” (+1)",
+                "“Can you make more sometime?” (+3)",
+                "(Priestess Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-912-63e06aa7",
+              "text": "Cociná con Shinjiro"
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "septiembre-912-57026f75",
+              "text": "(Death Rango 6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "913",
+      "date": "9/13",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Fuuka."
+            },
+            {
+              "id": "septiembre-913-50f0fd80",
+              "text": "Canal de compras: Foolproof Disaster Prevention Set, 1x Emergency Vest and 5x First Aid Kit M por 24.800 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "id": "septiembre-913-8727a64b",
+              "text": "Guardá tu Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "id": "septiembre-913-42956fa3",
+              "text": "Aceptá la invitación de Yukari",
+              "sub": [
+                "“I love it” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-913-a77e9fad",
+              "text": "Tomá un café con Ken."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "914",
+      "date": "9/14",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "septiembre-914-77f31466",
+              "text": "Respuesta: <strong>Their soulmate</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-914-b730b313",
+              "text": "Pasá tiempo con Shinjiro (Encanto +1)",
+              "sub": [
+                "(Episodio de Shinjiro 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-914-12eda866",
+              "text": "Revisá la heladera (3x Mega Protein)"
+            },
+            {
+              "id": "septiembre-914-4704ac07",
+              "text": "Cuidá la huerta con Shinjiro",
+              "sub": [
+                "Característica desbloqueada: Auto Bolster",
+                "(Sube temporalmente el ataque y la defensa del usuario al empezar la pelea)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "915",
+      "date": "9/15",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-915-2c3be3ac",
+              "text": "Pasá tiempo con Koromaru",
+              "sub": [
+                "(Episodio de Koromaru 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Hoy llega el Emergency Vest. Recomiendo mucho equipárselo a Mitsuru: tiene Anti-Fire Master y protege su debilidad los primeros 3 turnos."
+            },
+            {
+              "id": "septiembre-915-63e06aa7",
+              "text": "Cociná con Shinjiro"
+            },
+            {
+              "id": "septiembre-915-cd88ad8f",
+              "text": "Característica desbloqueada: Auto Heat Riser",
+              "sub": [
+                "(Sube temporalmente todos los stats del usuario al empezar la pelea)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "916",
+      "date": "9/16",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-916-1c164623",
+              "text": "Pasá tiempo con Koromaru (Valentía +1)",
+              "sub": [
+                "(Episodio de Koromaru 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-916-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Shinjiro comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "917",
+      "date": "9/17",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-917-f63b17b5",
+              "text": "Pasá tiempo con Shinjiro (Académicos +1)",
+              "sub": [
+                "(Episodio de Shinjiro 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-917-95a81b4c",
+              "text": "Cepillá a Koromaru."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "918",
+      "date": "9/18",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-918-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-918-1acb489f",
+              "text": "Esta noche no podés hacer nada más que dormir."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "Igor desbloquea nuevas fusiones especiales: ahora podés usar hasta 6 Personas en una fusión. Lamentablemente, la mayoría requiere vínculos maxeados y episodios vinculados, y un nivel mucho más alto del que tenés."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "921",
+      "date": "9/21",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "septiembre-921-f16ed5b2",
+              "text": "Jugá Innocent Sin Online",
+              "sub": [
+                "“No way!” (+1)",
+                "Cualquiera",
+                "“What are you planning?” (+1)",
+                "(Hermit Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-921-07530d2a",
+              "text": "Revisá la consola de comandos: hay un video nuevo."
+            },
+            {
+              "id": "septiembre-921-ab3ffea2",
+              "text": "Cosechá la huerta de la terraza y plantá Soul Spinach Sprout."
+            },
+            {
+              "id": "septiembre-921-55b7dbb0",
+              "text": "Tomá el té con Mitsuru"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "922",
+      "date": "9/22",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "septiembre-922-f16ed5b2",
+              "text": "Jugá Innocent Sin Online",
+              "sub": [
+                "(Hermit Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-922-83c69f3c",
+              "text": "Pasá tiempo con Ken (Valentía +1)",
+              "sub": [
+                "(Linked Episode 2)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "923",
+      "date": "9/23",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "septiembre-923-83f66494",
+              "text": "Invitá a Shinjiro al cine (Valentía +2)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-923-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Shinjiro comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "924",
+      "date": "9/24",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "septiembre-924-03fba73c",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "note": true,
+              "text": "La limpieza del festival de verano tiene dos caminos de historia: la escena cambia según lo que respondas a la pregunta de Kenji. Si querés ver los dos, usá el Rewind para volver al día anterior."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-924-4b167588",
+              "text": "Hablá con Mitsuru, elegí “Tell me what is going on” y después “Wait a minute”"
+            },
+            {
+              "id": "septiembre-924-e1e1dec1",
+              "text": "Pasá tiempo con Shinjiro (Valentía +1)",
+              "sub": [
+                "(Episodio de Shinjiro 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-924-95a81b4c",
+              "text": "Cepillá a Koromaru."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "925",
+      "date": "9/25",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-925-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "“Of course” (+3)",
+                "“That’s the spirit” (+3)",
+                "(Priestess Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-925-512151ff",
+              "text": "Leé con Aigis (Encanto +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "926",
+      "date": "9/26",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "septiembre-926-4d381d2b",
+              "text": "Respuesta: <strong>Tetractys</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-926-299e50e5",
+              "text": "Comprá Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "septiembre-926-42bc1706",
+              "text": "Pasá tiempo con Yuko",
+              "sub": [
+                "“It’s because you teach so well” (+2)",
+                "“I trust whatever you decide, Yuko” (+1)",
+                "(Strength Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-926-d537350e",
+              "text": "Guardá Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "id": "septiembre-926-3c96fdcc",
+              "text": "Mirá un DVD con Akihiko (Valentía +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "927",
+      "date": "9/27",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "septiembre-927-36c319cb",
+              "text": "Canal de compras: Exciting Toy Set, 1x R/C Geta and 1x Hyper-Metal Robot por 19.800 yen. <strong>¡Comprar!</strong>"
+            },
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Kazushi."
+            },
+            {
+              "id": "septiembre-927-f7ce8b84",
+              "text": "Aceptá la invitación de Chihiro",
+              "sub": [
+                "“You can do it” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-927-b81a4c2b",
+              "text": "Revisá la heladera (1x Chilled Taiyaki and 1x YABA Chocolate)"
+            },
+            {
+              "id": "septiembre-927-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Akihiko comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "928",
+      "date": "9/28",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "septiembre-928-03fba73c",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-928-f80aa98f",
+              "text": "Pasá tiempo con Yukari",
+              "sub": [
+                "“Are you okay?” (+3)",
+                "(Lovers Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-928-55b7dbb0",
+              "text": "Tomá el té con Mitsuru"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "929",
+      "date": "9/29",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-929-f9e602e9",
+              "text": "Pasá tiempo con Chihiro",
+              "sub": [
+                "“It’s gotta be a misunderstanding” (+1)",
+                "“We have to do something...” (+1)",
+                "(Justice Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-929-18fd1e44",
+              "text": "Cuidá la huerta con Fuuka"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "930",
+      "date": "9/30",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "septiembre-930-42bc1706",
+              "text": "Pasá tiempo con Yuko",
+              "sub": [
+                "“You guys got this” (+1)",
+                "“As long as we believe in them” (+1)",
+                "(Strength Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "septiembre-930-bb9f83f3",
+              "text": "Hoy llegan los R/C Geta: equipáselos a Makoto."
+            },
+            {
+              "id": "septiembre-930-512151ff",
+              "text": "Leé con Aigis (Encanto +1)",
+              "sub": [
+                "Característica desbloqueada: Physical Boost, Strengthens Physical Skills",
+                "(Potencia un 10% las habilidades físicas)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": {
+    "stats": [
+      {
+        "stat": "Charm",
+        "rank": 6,
+        "label": "Popular"
+      },
+      {
+        "stat": "Academics",
+        "rank": 5,
+        "label": "Intelligent"
+      },
+      {
+        "stat": "Courage",
+        "rank": 6,
+        "label": "Badass"
+      }
+    ],
+    "sl": [
+      {
+        "arcana": "Fool",
+        "rank": 5
+      },
+      {
+        "arcana": "Magician",
+        "rank": 9
+      },
+      {
+        "arcana": "Priestess",
+        "rank": 6
+      },
+      {
+        "arcana": "Emperor",
+        "rank": 10
+      },
+      {
+        "arcana": "Hierophant",
+        "rank": 5
+      },
+      {
+        "arcana": "Lovers",
+        "rank": 4
+      },
+      {
+        "arcana": "Chariot",
+        "rank": 9
+      },
+      {
+        "arcana": "Justice",
+        "rank": 7
+      },
+      {
+        "arcana": "Hermit",
+        "rank": 10
+      },
+      {
+        "arcana": "Fortune",
+        "rank": 2
+      },
+      {
+        "arcana": "Strength",
+        "rank": 6
+      },
+      {
+        "arcana": "Hanged",
+        "rank": 7
+      },
+      {
+        "arcana": "Death",
+        "rank": 6
+      },
+      {
+        "arcana": "Temperance",
+        "rank": 3
+      },
+      {
+        "arcana": "Devil",
+        "rank": 4
+      },
+      {
+        "arcana": "Tower",
+        "rank": 2
+      },
+      {
+        "arcana": "Star",
+        "rank": 1
+      },
+      {
+        "arcana": "Moon",
+        "rank": 5
+      },
+      {
+        "arcana": "Sun",
+        "rank": 1
+      }
+    ],
+    "trophies": [
+      "Awakened Power",
+      "SEES the Day",
+      "The First of Many",
+      "There’s no “I” in “Team”",
+      "The Thrill of the Hunt",
+      "The Power of Choice",
+      "Shrouded Assassin",
+      "Making the Dream Work",
+      "Back on Track",
+      "Gourmand",
+      "Briefcase Burglar",
+      "Eagle Eye",
+      "Empowered Protector",
+      "In High Deman",
+      "Birthday Present",
+      "Fusion Artisan",
+      "The Fool’s Journey",
+      "Dorm Life",
+      "Eat Your Veggies, Peas",
+      "Specialist",
+      "Through Thick and Thin",
+      "Unbreakable Link",
+      "Shattered Plumes",
+      "Extracurricular Excellence",
+      "Never Toy with Matter of the Heart",
+      "Benevolent Purr-tector",
+      "Top of the Class",
+      "Beyond the Darkness",
+      "Armor Disarmed",
+      "The Strength of Our Hearts",
+      "Tempting Fate",
+      "Dodging Lightning"
+    ],
+    "compendium": 79
+  }
+}

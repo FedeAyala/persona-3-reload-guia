@@ -1,0 +1,1470 @@
+{
+  "title": "🌔 JULIO — Exámenes y vacaciones de verano",
+  "intro": [],
+  "days": [
+    {
+      "id": "701",
+      "date": "7/1",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "note": true,
+              "text": "Las respuestas no importan para el rango 10: subís de rango digas lo que digas."
+            },
+            {
+              "id": "julio-701-6e250341",
+              "text": "Andá a la sala del Consejo Estudiantil",
+              "sub": [
+                "(Emperor Rango 10)",
+                "🏆 Logro/Trofeo: Unbreakable Link (21/48)"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Va a pasar un tiempo hasta que puedas usar las Personas que desbloqueás al maxear vínculos: son de nivel muy alto y algunas solo salen con fusiones especiales avanzadas que todavía no tenés."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-701-cb31f6bf",
+              "text": "Comé Special Hagakure Bowl en Hagakure (Encanto +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "702",
+      "date": "7/2",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-702-f9e602e9",
+              "text": "Pasá tiempo con Chihiro",
+              "sub": [
+                "“I’m all ears.” (+2)",
+                "“Yeah, she’s in love” (+3)",
+                "(Justice Rango 5)",
+                "“Happy to help” (+2)",
+                "“Hold her hand” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-702-c0ddf9e2",
+              "text": "Andá a Club Escapade y hablá con el Luxury Shopkeeper, después hablá con Elizabeth."
+            },
+            {
+              "note": true,
+              "text": "El Black Quartz lo dejan las “Formidable Shadows” del bloque de Tartarus que vas a explorar; también sale de cofres."
+            },
+            {
+              "note": true,
+              "text": "Si te sobran 16k podés comprarle el Platinum Brooch al Luxury Shopkeeper, después volvé con Elizabeth y usá el comando Talk: recibís 2x Master Incense. Muy opcional."
+            },
+            {
+              "id": "julio-702-50ec5863",
+              "text": "Sacá una fortuna si querés farmear golden hands."
+            },
+            {
+              "id": "julio-702-28d9ef0a",
+              "text": "Hablá con Fuuka para ir a Tartarus."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "Por primera vez elegís la formación del equipo, podés armarla como quieras. Si sacás a Yukari, llevá una Persona curadora en Makoto. Ojo con Mitsuru: sus habilidades son muy fuertes para este bloque de Tartarus, pero es la peor opción para el próximo jefe Arcano Mayor. Te recomiendo usarla para limpiar sombras mientras subís hasta los guardianes y después cambiarla por el que quedó afuera. Así todos ganan EXP y nadie se queda atrás en nivel."
+            },
+            {
+              "id": "julio-702-13ce8752",
+              "text": "Liberá a Nigi Mitama e invocá a Pisaca desde el compendio: vas a necesitar sus hechizos oscuros."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Subí a Naga al nivel 22 antes de la próxima tanda de fusiones: a ese nivel aprende Invigorate 1, que después vas a heredar a otras Personas. Invigorate 1 también puede caer como carta de habilidad rango 4: si la conseguís antes, enseñásela directamente. Las sombras raras y los guardianes dan mucha EXP; tener a Naga equipada al derrotarlos reduce bastante el farmeo."
+            },
+            {
+              "note": true,
+              "text": "Desde hoy caen cartas de habilidad rango 5, así que podés conseguir las cartas Boost. Las Boost (Fire, Ice, Wind Boost, etc.) suben el daño un 25%. Son totalmente opcionales: la guía de fusión no las usa, farmealas solo si querés un poco más de daño."
+            },
+            {
+              "note": true,
+              "text": "Si pensás enfrentar al jefe secreto al final del juego, conviene farmear la carta Slash Boost. Si no te cae esta noche, podés volver a estos pisos en próximas visitas: vas a tener muchas oportunidades antes de necesitarla."
+            },
+            {
+              "note": true,
+              "text": "Para un detalle de cada carta de habilidad, en qué rango cae y qué hace, mirá la sección Skill Cards de la guía original."
+            },
+            {
+              "note": true,
+              "text": "Mientras subís Tartarus esta noche vas a encontrar a las personas perdidas: todas están en este bloque. Al entrar al piso correcto aparece una pequeña animación mostrando a la persona; explorá el piso completo para encontrarla. Cuando la encuentres, pedí una escolta y el miembro de sobra la lleva a la entrada para que sigas explorando."
+            },
+            {
+              "id": "julio-702-84b9723c",
+              "text": "Volvé al 42F y subí hasta el primer guardián en el 47F. Después de derrotarlo abrí el cofre y dale las Boxing Shoes a Akihiko."
+            },
+            {
+              "id": "julio-702-4bb25500",
+              "text": "Seguí hasta el 54F para el próximo guardián y derrotalo. Abrí los cofres y dale Onimaru Kunitsuna a Makoto, la Muscle Shirt a Yukari y el All-Purpose Apron a Akihiko."
+            },
+            {
+              "id": "julio-702-e10ba017",
+              "text": "Seguí subiendo hasta el 60F para el próximo guardián. Después de derrotarlo, abrí los cofres y dale el Bold Bow a Yukari."
+            },
+            {
+              "note": true,
+              "text": "En el 57F se presenta la habilidad de interferencia (jamming) de Fuuka: te deja recorrer el piso sin que las sombras te persigan, mientras no las ataques. Dura solo ese piso o hasta que ataques a una sombra."
+            },
+            {
+              "id": "julio-702-26876fad",
+              "text": "Seguí subiendo hasta el piso frontera 69F y abrí el cofre para conseguir el Old Document 3. En algún momento de esta noche deberías desbloquear:",
+              "sub": [
+                "🏆 Logro/Trofeo: Extracurricular Excellence (22/48)",
+                "🏆 Logro/Trofeo: The Fool’s Journey (23/48) (Get 10 Major Arcana from shuffle time)",
+                "🏆 Logro/Trofeo: Birthday Present (24/48) (Got mine from Jack-o-Lantern)",
+                "🏆 Logro/Trofeo: Shattered Plumes (25/48) (use 50 Twighlight Fragments)"
+              ]
+            },
+            {
+              "id": "julio-702-0d48f374",
+              "text": "Volvé a la entrada y entregá los encargos 16, 21 y 26 a Elizabeth, que desbloquean:",
+              "sub": [
+                "32. Treasure Hunting Milestone #3"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Desde acá la guía de fusión se separa entre Personas DLC y no DLC. Si tenés Personas DLC instaladas, seguí la DLC Fusion Guide de julio (archivo 14 de la guía original)."
+            },
+            {
+              "note": true,
+              "text": "No cambies de ruta de fusión a mitad de camino: si elegís la ruta sin DLC, mantenela hasta el final del juego."
+            },
+            {
+              "id": "julio-702-3db948d0",
+              "text": "Farmeá hasta que Naga esté en nivel 22 y tengas 125k. Recomiendo los pisos 60 a 68, que es donde caen las cartas de habilidad rango 5, así las juntás al mismo tiempo."
+            },
+            {
+              "id": "julio-702-4f797136",
+              "text": "Cuando estés listo, guardá, entrá al Velvet Room, registrá tus Personas y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Naga + Oberon → <strong>Shiisaa</strong></td><td>Auto Tarukaja, Invigorate 1, / Zio, y Mazio</td><td>No llena su lista de habilidades</td></tr><tr><td>Shissa + Slime → <strong>Take-Minakata</strong></td><td>Auto Tarukaja, Invigorate 1, / Mazio y Assault Dive</td><td>Zionga, Auto Rakukaja, / Dekaja y Survive Dark</td></tr><tr><td>Principality + Take-Minakata → <strong>High Pixie</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 1 y Dekaja</td><td>No llena su lista de habilidades</td></tr><tr><td>High Pixie + Nigi Mitama → <strong>Sandman</strong></td><td>Auto Tarukaja, Auto Rakukaja, / Invigorate 1 y Tarunda</td><td>No llena su lista de habilidades</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Fortuna + Take-Minakata → <strong>Hua Po</strong></td><td>Invigorate 1, Auto Tarukaja, / Auto Rakukaja y Dekaja</td><td>Agilao, Maragi, / Fire Boost y Resist Freeze</td></tr><tr><td>Hua Po + Zouchouten → <strong>Mokoi</strong></td><td>Invigorate 1, Auto Tarukaja, / Auto Rakukaja y Tarunda</td><td>No llena su lista de habilidades</td></tr><tr><td>Mokoi + Sandman → <strong>Leanan Sidhe</strong></td><td>Invigorate 1, Auto Tarukaja, / Auto Rakukaja y Tarunda</td><td>No llena su lista de habilidades</td></tr><tr><td>Leanan Sidhe + High Pixie → <strong>Mitra</strong></td><td>Invigorate 1, Auto Tarukaja, / Auto Rakukaja y Mabufu</td><td>No llena su lista de habilidades</td></tr><tr><td>Pisaca + Take-Minakata → <strong>Matador</strong></td><td>Invigorate 1, Auto Tarukaja, / Auto Rakukaja y Eiha</td><td>No llena su lista de habilidades</td></tr><tr><td>Mokoi + Matador → <strong>Narcissus</strong></td><td>Invigorate 1, Auto Tarukaja, / Auto Rakukaja y Auto Sukukaja</td><td>No llena su lista de habilidades</td></tr><tr><td>Principality + Narcissus → <strong>Take Mikazuchi</strong></td><td>Invigorate 1, Auto Tarukaja, / Auto Rakukaja y Auto Sukukaja</td><td>Zionga, Mazionga, / Getsu-ei, Fatal End</td></tr></table></div>"
+            },
+            {
+              "id": "julio-702-7bfec3ec",
+              "text": "Ya deberías haber fusionado todas las Personas del compendio hasta nivel 23, excepto Pale Rider de la sección de fusiones especiales."
+            },
+            {
+              "note": true,
+              "text": "Habrás notado que esta guía de fusión se enfoca mucho en heredar las habilidades Auto y una de regeneración de SP. Son habilidades excelentes: hacés más daño, recibís menos, sos más preciso y manejás mejor el SP. En el 95% de las peleas no llegan a expirar, y tenerlas en todas tus Personas evita cambiar de Persona al final de cada pelea. También hace la guía más simple, porque se centra en pocas habilidades con pequeñas mejoras. Con las Personas de endgame vas a hacer algunas más especializadas: hay muchas habilidades fuertes y no alcanzan los espacios para tener ambas cosas en la misma Persona."
+            },
+            {
+              "id": "julio-702-ef51293d",
+              "text": "Deberías poder entregar los encargos 24, 33 y 46, que desbloquean:",
+              "sub": [
+                "32. Treasure Hunting Milestone #3",
+                "48. Personna Fusion Milestone #3",
+                "60. Shadow Hunting Milestone #6"
+              ]
+            },
+            {
+              "id": "julio-702-4d590b2e",
+              "text": "Ahora Elizabeth te pide que la acompañes a la estación de Iwatodai."
+            },
+            {
+              "id": "julio-702-a2f93f25",
+              "text": "Liberá a Jack-o-Lantern y Rakshasa."
+            },
+            {
+              "id": "julio-702-1f13a074",
+              "text": "Las Personas que tenés que llevar encima antes de salir son <strong>Mitra, Take-Mikazuchi, Shiisaa, Matador, Hua Po, High Pixie, Naga, Take-Minakata, Principality</strong> y <strong>Fortuna</strong>. Necesitás unos <strong>80k</strong> después de vender el botín; además una de las personas rescatadas te da 40k de recompensa."
+            },
+            {
+              "note": true,
+              "text": "Ya maxeaste el vínculo Emperor, pero Take-Mikazuchi está en la lista porque va a ser muy útil contra el próximo jefe de luna llena."
+            },
+            {
+              "note": true,
+              "text": "<strong>¡Importante!</strong> Antes de salir, llevá Personas de estos arcanos: <strong>Temperance, Strength, Magician, Hierophant, Priestess, Hermit, Hanged, Justice</strong> y <strong>Fortune</strong>, que son los vínculos que vas a trabajar. También necesitás unos <strong>80k</strong> después de vender el botín."
+            },
+            {
+              "note": true,
+              "text": "Si querés comprar todo lo del canal de compras, vas a necesitar 110k."
+            },
+            {
+              "note": true,
+              "text": "Si querés calcular cuánto vale tu botín antes de salir, la guía original tiene la sección Loot and Breakable Objects de Arqa Block 2 con nombres y precios de venta."
+            },
+            {
+              "note": true,
+              "text": "<strong>Si no seguís la guía de fusión, puede que tengas que farmear más yen: los montos de acá no incluyen cambios de Persona que no se mencionen explícitamente.</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "703",
+      "date": "7/3",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-703-b9e845d4",
+              "text": "Respuesta: <strong>About Romance</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-703-c77dc891",
+              "text": "Andá a la comisaría a cobrar las recompensas y vender el botín."
+            },
+            {
+              "id": "julio-703-a71f49b8",
+              "text": "Andá a la enfermería a buscar una medicina potente."
+            },
+            {
+              "note": true,
+              "text": "Podés volver a la enfermería por la medicina rara, pero ya tenés Valentía al máximo."
+            },
+            {
+              "id": "julio-703-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "“Sure” (+3)",
+                "Cualquiera",
+                "(Priestess Rango 2)",
+                "“Sure thing” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-703-768e61db",
+              "text": "Andá a Club Escapade, dale un Black Quartz al Luxury Shopkeeper y comprá los anteojos por 10.000 yen."
+            },
+            {
+              "id": "julio-703-285ca079",
+              "text": "Entregá los encargos 20 y 29 a Elizabeth."
+            },
+            {
+              "id": "julio-703-88b4afec",
+              "text": "Comé Seafood Full Course en Wakatsu (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "704",
+      "date": "7/4",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-704-7e6d139f",
+              "text": "Andá a la farmacia y abastecete de Dis-Charm: vas a querer 15 en total."
+            },
+            {
+              "id": "julio-704-dbfffce4",
+              "text": "Pasá tiempo con Elizabeth y entregá el encargo 78"
+            },
+            {
+              "id": "julio-704-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "“Just a dash or two” (+3)",
+                "“Just take it slow” (+3)",
+                "(Priestess Rango 3)",
+                "Cualquiera"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-704-2caee325",
+              "text": "Cuidá la huerta con Junpei",
+              "sub": [
+                "Característica desbloqueada: Critical Amp, Greatly Increases Critical Rate and Critical Strength",
+                "(Sube la tasa de crítico un 10% y el daño crítico un 40%)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "705",
+      "date": "7/5",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Para tener más chances de críticos contra el próximo jefe Arcano Mayor, duplicá tu carta Crit Rate Boost (te la dio uno de los encargos de Elizabeth). Después enseñásela a Take-Mikazuchi reemplazando Fatal End."
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC, no vale la pena reemplazar habilidades de Captain Kidd."
+            },
+            {
+              "note": true,
+              "text": "Si farmeaste cartas Boost en la última visita a Tartarus, conviene duplicarlas, y también cualquier otra carta que te interese."
+            },
+            {
+              "id": "julio-705-bb848596",
+              "text": "Canal de compras: Tasty Office Snack Set, 3x YABA Chocolate and 3x Doctor in Jelly, por 3.980 yen. Saltear."
+            },
+            {
+              "id": "julio-705-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver el hangout de Chihiro."
+            },
+            {
+              "id": "julio-705-f2224498",
+              "text": "Aceptá la invitación de Yuko",
+              "sub": [
+                "“You’re very responsible” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-705-29671afc",
+              "text": "Leé con Mitsuru (Académicos +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "706",
+      "date": "7/6",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-706-d869d294",
+              "text": "Comprá 4x Ascetic Charm en la comisaría."
+            },
+            {
+              "id": "julio-706-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "Cualquiera",
+                "“You’re a hard worker” (+1)",
+                "“That’s not true” (+3)",
+                "(Priestess Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Si no seguís la guía de fusión, equipate tus Personas de combate antes de la actividad de esta noche."
+            },
+            {
+              "id": "julio-706-f3172d65",
+              "text": "Cosechá la huerta de la terraza y plantá Buff Potato Sprout."
+            },
+            {
+              "id": "julio-706-f620f0eb",
+              "text": "Jugá High School of Youth en Game Parade (Encanto +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "707",
+      "date": "7/7",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-707-921fef55",
+              "text": "Te mandan automáticamente al dormitorio."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "julio-707-3b37671c",
+              "text": "Llegó tu 4° jefe Arcano Mayor. Te recomiendo mucho dejar a Mitsuru afuera, que todos tengan Ascetic Charm (resisten Charm) y que Yukari tenga puesta la Muscle Shirt. Ojalá hayas traído Dis-Charm de la farmacia."
+            },
+            {
+              "id": "julio-707-bea3d8e2",
+              "text": "Vas a recorrer un poco antes de llegar al jefe: seguí el punto ! del mapa.",
+              "sub": [
+                "🏆 Logro/Trofeo: Never Toy with Matters of the Heart (26/48)",
+                "(Fool Rango 4)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "708",
+      "date": "7/8",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-708-1f048adb",
+              "text": "Respuesta: <strong>Between “time” and “it’s”</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-708-747170d2",
+              "text": "Pasá tiempo en Bookworms",
+              "sub": [
+                "“I wouldn’t worry about it” (+1)",
+                "“It’ll be okay” (+1)",
+                "(Hierophant Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-708-6b65821e",
+              "text": "Comé Special Hagakure Bowl en Hagakure (Encanto +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "709",
+      "date": "7/9",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-709-a00e0774",
+              "text": "Respuesta: <strong>Social disparity</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-709-52dd8b56",
+              "text": "Hoy se actualizan los encargos de Elizabeth."
+            },
+            {
+              "id": "julio-709-98dc8407",
+              "text": "Deberías poder entregar enseguida los encargos 34 y 38; después aceptá:",
+              "sub": [
+                "30. Retrieve the fourth old document",
+                "36. Defeat a rare Shadow #1",
+                "39. Let me hear music unique to Gekkoukan",
+                "40. I’d like a pair of Max Safety Shoes",
+                "42. Please feed the cat",
+                "43. Bring me a Christmas star",
+                "44. I wish to feel the ocean"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Liberá a Principality e invocá a Gurulu."
+            },
+            {
+              "id": "julio-709-83c898af",
+              "text": "Andá a la farmacia y comprá 4x Super Cat Food, después andá a Station Outskirts y dale de comer al gato."
+            },
+            {
+              "id": "julio-709-97997d61",
+              "text": "Volvé al colegio y andá a la sala de PA en el 2F."
+            },
+            {
+              "id": "julio-709-b472c271",
+              "text": "Estudiá en la biblioteca (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-709-df88f7dd",
+              "text": "Andá al 3F, hablá con Fuuka y después volvé con Elizabeth y entregá los encargos 39 y 43."
+            },
+            {
+              "id": "julio-709-bfba61d4",
+              "text": "Equipá los Jack&#39;s Gloves a Akihiko."
+            },
+            {
+              "id": "julio-709-23797866",
+              "text": "Revisá la heladera (1x Chilled Taiyaki)"
+            },
+            {
+              "id": "julio-709-8f4a7b29",
+              "text": "Estudiá con Akihiko y Mitsuru (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "710",
+      "date": "7/10",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-710-4e7ea58a",
+              "text": "Respuesta: <strong>Kabbalah</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-710-8565cc35",
+              "text": "Dale de comer al gato."
+            },
+            {
+              "id": "julio-710-7e4efe35",
+              "text": "Pasá tiempo con Nozomi",
+              "sub": [
+                "(Moon Rango 2)",
+                "“Sure, why not” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-710-607f303f",
+              "text": "Estudiá con Yukari y Fuuka (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "711",
+      "date": "7/11",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-711-fc26551f",
+              "text": "Respuesta: <strong>The Katana</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-711-8565cc35",
+              "text": "Dale de comer al gato."
+            },
+            {
+              "id": "julio-711-7e4efe35",
+              "text": "Pasá tiempo con Nozomi",
+              "sub": [
+                "(Moon Rango 3)",
+                "“The Gourmet King” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Después del evento de historia podés hablar con Shuji Ikutsuki: responde un montón de preguntas, seguí hablando hasta agotarlas."
+            },
+            {
+              "id": "julio-711-ed919d0c",
+              "text": "Dale otros 10k al Man in a Suit y decidí escucharlo.",
+              "sub": [
+                "(Devil Rango 1)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "712",
+      "date": "7/12",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-712-48d7ab48",
+              "text": "Canal de compras: The Outdoor Activity Set, 1x Max Safety Shoes and 2x Instant Curry por 9.800 yen. <strong>¡Comprar!</strong> ¡Lo necesitás para un encargo!"
+            },
+            {
+              "id": "julio-712-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "id": "julio-712-fd823d5d",
+              "text": "Dale de comer al gato y entregá el encargo 42 a Elizabeth.",
+              "sub": [
+                "🏆 Logro/Trofeo: Benevolent Purr-tector (27/48)"
+              ]
+            },
+            {
+              "id": "julio-712-f16ed5b2",
+              "text": "Jugá Innocent Sin Online",
+              "sub": [
+                "“Well, yeah.” (+3)",
+                "“She, um...what?” (+1)",
+                "(Hermit Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-712-d383c71b",
+              "text": "Comé Seafood Full Course en Wakatsu Kitchen (Académicos +2)",
+              "sub": [
+                "(Académicos Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "id": "julio-712-3e6880d1",
+              "text": "(Death Rango 3)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "713",
+      "date": "7/13",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-713-91474cc0",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-713-77c990a6",
+              "text": "Pasá tiempo con Maiko",
+              "sub": [
+                "“That’s awful” (+3)",
+                "“They would never” (+1)",
+                "(Hanged Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-713-837ce093",
+              "text": "Dale las Max Safety Shoes a Yukari y las Gallant Sneakers a Junpei."
+            },
+            {
+              "id": "julio-713-53f328e7",
+              "text": "Estudiá con todos (Académicos +3)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "714",
+      "date": "7/14",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-714-42bbfdb0",
+              "text": "Respuesta: <strong>Dowsing</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "715",
+      "date": "7/15",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-715-67a3cf25",
+              "text": "Respuesta: <strong>An error in translation</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "716",
+      "date": "7/16",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-716-4c4e8571",
+              "text": "Respuesta: <strong>Taira No Masakado</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "717",
+      "date": "7/17",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-717-9ff5bbc0",
+              "text": "Respuesta: <strong>Comma splice</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "718",
+      "date": "7/18",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-718-f03a62d0",
+              "text": "Respuesta automática"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-718-caf7ebf7",
+              "text": "Evento de historia"
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Esta noche se habilita Mayoido Antiques, de lejos la mejor tienda del juego: ahí crafteás equipo y cambiás gemas por cartas de habilidad, ítems e inciensos. De ahora en más vas a sacar casi todo tu equipo de acá."
+            },
+            {
+              "id": "julio-718-f4eacc48",
+              "text": "Entrá a la tienda de antigüedades, salí y andá a ver a Elizabeth."
+            },
+            {
+              "id": "julio-718-ad5e379a",
+              "text": "Entregá el encargo 40 a Elizabeth, eso desbloquea:",
+              "sub": [
+                "41. Bring me the mysterious person&#39;s autograph"
+              ]
+            },
+            {
+              "id": "julio-718-887b4f39",
+              "text": "Deberías poder entregarlo enseguida."
+            },
+            {
+              "id": "julio-718-dc719b88",
+              "text": "Volvé a la tienda de antigüedades. Por ahora no hay mucho para hacer, pero si venís al día con los encargos de Elizabeth deberías tener Black Sword, Nihil Cloth y Nihil Blade. Cambialos por Nameless Katana, Plate Mail y Source Yumi: los dos primeros para Makoto y el arco para Yukari."
+            },
+            {
+              "note": true,
+              "text": "Para el arcano Devil no necesitás una Persona del mismo arcano para subir de rango cada vez."
+            },
+            {
+              "id": "julio-718-13b769a6",
+              "text": "Pasá tiempo con President Tanaka",
+              "sub": [
+                "“Placebo” (+3)",
+                "“Wow” (+1)",
+                "(Devil Rango 2)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "719",
+      "date": "7/19",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-719-9ea3c693",
+              "text": "Canal de compras: The Sweet Seasonal Corn Set: 3x Tetracone and 3x Makaracone, por 14.800 yen. Saltear."
+            },
+            {
+              "id": "julio-719-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "id": "julio-719-455707b2",
+              "text": "Cosechá la huerta de la terraza y plantá Amronion Sprout."
+            },
+            {
+              "id": "julio-719-f16ed5b2",
+              "text": "Jugá Innocent Sin Online",
+              "sub": [
+                "“Hurry up and tell me” (+3)",
+                "“What is he like?” (+1)",
+                "(Hermit Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Umiushi tiene otro plato de temporada, el Summer-Hot Bowl. Comprálo esta noche si los estás coleccionando."
+            },
+            {
+              "id": "julio-719-d383c71b",
+              "text": "Comé Seafood Full Course en Wakatsu Kitchen (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "720",
+      "date": "7/20",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-720-01dadfe7",
+              "text": "Agarrá el Strange Seaweed y la Pretty Seashell junto al muelle. En la zona rocosa del lado opuesto están la Yakushima Wood y el Small Crab. Cuando quieras seguir, tomá la salida de arriba a la izquierda."
+            },
+            {
+              "note": true,
+              "text": "Es tu única oportunidad de conseguir estos ítems y al menos uno se necesita para un encargo."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-720-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "721",
+      "date": "7/21",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-721-636913b6",
+              "text": "Intentan levantarse unas chicas; para avanzar hablá con las chicas que tienen el punto !. Después seguí a la chica al bosque hasta llegar al claro."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-721-d9d2cbc7",
+              "text": "Evento de historia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "722",
+      "date": "7/22",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-722-d9d2cbc7",
+              "text": "Evento de historia",
+              "sub": [
+                "(Fool Rango 5)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "723",
+      "date": "7/23",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Si hablás con Shuji, te responde algunas preguntas."
+            },
+            {
+              "id": "julio-723-b19f60ce",
+              "text": "Entregá el encargo 44 a Elizabeth: no importa qué ítem le des, todos dan la misma recompensa."
+            },
+            {
+              "id": "julio-723-5faea548",
+              "text": "Andá a Club Escapade y comprale la Security Site Note al Suspicious Man."
+            },
+            {
+              "id": "julio-723-beff11e3",
+              "text": "Usá Security Site Note en la compu compartida."
+            },
+            {
+              "note": true,
+              "text": "Desbloqueás la habilidad de emboscar siempre a las sombras mientras corrés, aunque te hayan visto, y funciona con todas. Necesita un poco de carrerita: vas a ver estelas azules detrás y Makoto salta antes de atacar. En la próxima visita a Tartarus probalo sin sombras cerca para agarrarle la mano; hace que moverte por Tartarus sea mucho más rápido."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "724",
+      "date": "7/24",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Almuerzo",
+          "items": [
+            {
+              "id": "julio-724-0fb86499",
+              "text": "Resultado del examen: primero de la clase (Encanto +2)",
+              "sub": [
+                "(Encanto Rango 6)"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Maxear Encanto te da otro multiplicador de 1,51x en las respuestas de vínculos."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-724-6e623ddc",
+              "text": "Pasá tiempo con Kenji",
+              "sub": [
+                "“Let me handle this!” (+3)",
+                "(Magician Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-724-fae4c902",
+              "text": "Hablá con Mitsuru para recibir:",
+              "sub": [
+                "1x Power Incense II",
+                "1x Guard Incense II",
+                "1x Magic Incense II",
+                "1x Speed Incense II",
+                "1x Mega Master Band (equipáselo a Makoto)"
+              ]
+            },
+            {
+              "id": "julio-724-1d9e5feb",
+              "text": "Aceptá la invitación de Akihiko"
+            },
+            {
+              "id": "julio-724-ee4526aa",
+              "text": "(Episodio de Akihiko 2) (Encanto +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "725",
+      "date": "7/25",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "julio-725-03fba73c",
+              "text": "Quedate despierto en clase (Académicos +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "julio-725-0b19d438",
+              "text": "Hablá con Yuko pero no pases tiempo con ella (flag Tower)"
+            },
+            {
+              "id": "julio-725-01749d3d",
+              "text": "Comprá Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "julio-725-00f3fa06",
+              "text": "Pasá tiempo con Yukari (Requiere Encanto Rango 6)",
+              "sub": [
+                "(Lovers Rango 1)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-725-b53e6855",
+              "text": "Andá a Club Escapade y hablá con Monk en el 2F (Requiere Valentía Rango 2)"
+            },
+            {
+              "id": "julio-725-d77012e5",
+              "text": "Hablá con el Bartender abajo y tomá el pedido de bebidas de los cuatro clientes",
+              "sub": [
+                "Upbeat Man: Oolong Tea",
+                "Active Woman: Screwdriver",
+                "Temperamental Woman: Bloody Mary",
+                "Unemotional Woman: Margarita"
+              ]
+            },
+            {
+              "id": "julio-725-dbf37630",
+              "text": "Volvé con el Bartender y pasale el pedido",
+              "sub": [
+                "(Tower Rango 1)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "726",
+      "date": "7/26",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-726-2bd035c3",
+              "text": "Canal de compras: Designer Brand Set, 1x Brand Wallet and 1x Perfume por 6.980 yen. Saltear."
+            },
+            {
+              "id": "julio-726-ae77ea83",
+              "text": "Hoy se recargan las máquinas expendedoras."
+            },
+            {
+              "note": true,
+              "text": "Podés usar el Rewind si querés ver los hangouts."
+            },
+            {
+              "id": "julio-726-7e4efe35",
+              "text": "Pasá tiempo con Nozomi",
+              "sub": [
+                "“Are you feeling sick?” (+3)",
+                "(Moon Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-726-29671afc",
+              "text": "Leé con Mitsuru (Académicos +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "727",
+      "date": "7/27",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-727-e4bd54f4",
+              "text": "Entrenamiento de atletismo."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-727-ed1eb085",
+              "text": "Cuidá la huerta con Aigis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "728",
+      "date": "7/28",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-728-e4bd54f4",
+              "text": "Entrenamiento de atletismo."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-728-2655b251",
+              "text": "Mirá un DVD con Yukari (Charm and Social link +1)"
+            },
+            {
+              "note": true,
+              "text": "Aunque esta actividad da puntos de vínculo, no necesitás una Persona del mismo arcano."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "729",
+      "date": "7/29",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-729-e4bd54f4",
+              "text": "Entrenamiento de atletismo."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-729-0369246f",
+              "text": "Guardá en la heladera tu Lukewarm Taiyaki de 4 días."
+            },
+            {
+              "id": "julio-729-f3172d65",
+              "text": "Cosechá la huerta de la terraza y plantá Buff Potato Sprout."
+            },
+            {
+              "id": "julio-729-2caed5d4",
+              "text": "Jugá You&#39;re the Answer en Game Parade (Académicos +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "730",
+      "date": "7/30",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-730-e4bd54f4",
+              "text": "Entrenamiento de atletismo."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-730-c3853146",
+              "text": "Revisá la heladera (1x Chilled Taiyaki and 1x Umugi Water)"
+            },
+            {
+              "id": "julio-730-cc82ce41",
+              "text": "Leé con Fuuka (Academics and Social Link +1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "731",
+      "date": "7/31",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "julio-731-e4bd54f4",
+              "text": "Entrenamiento de atletismo."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "julio-731-ecfa21a7",
+              "text": "“Cook with Yukari” (+1)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": {
+    "stats": [
+      {
+        "stat": "Charm",
+        "rank": 6,
+        "label": "Popular"
+      },
+      {
+        "stat": "Academics",
+        "rank": 4,
+        "label": "Above Average"
+      },
+      {
+        "stat": "Courage",
+        "rank": 6,
+        "label": "Badass"
+      }
+    ],
+    "sl": [
+      {
+        "arcana": "Fool",
+        "rank": 5
+      },
+      {
+        "arcana": "Magician",
+        "rank": 9
+      },
+      {
+        "arcana": "Priestess",
+        "rank": 4
+      },
+      {
+        "arcana": "Emperor",
+        "rank": 10
+      },
+      {
+        "arcana": "Hierophant",
+        "rank": 5
+      },
+      {
+        "arcana": "Lovers",
+        "rank": 1
+      },
+      {
+        "arcana": "Chariot",
+        "rank": 8
+      },
+      {
+        "arcana": "Justice",
+        "rank": 5
+      },
+      {
+        "arcana": "Hermit",
+        "rank": 8
+      },
+      {
+        "arcana": "Fortune",
+        "rank": 2
+      },
+      {
+        "arcana": "Strength",
+        "rank": 4
+      },
+      {
+        "arcana": "Hanged",
+        "rank": 5
+      },
+      {
+        "arcana": "Death",
+        "rank": 3
+      },
+      {
+        "arcana": "Temperance",
+        "rank": 3
+      },
+      {
+        "arcana": "Devil",
+        "rank": 2
+      },
+      {
+        "arcana": "Tower",
+        "rank": 1
+      },
+      {
+        "arcana": "Moon",
+        "rank": 4
+      }
+    ],
+    "trophies": [
+      "Awakened Power",
+      "SEES the Day",
+      "The First of Many",
+      "There’s no “I” in “Team”",
+      "The Thrill of the Hunt",
+      "The Power of Choice",
+      "Shrouded Assassin",
+      "Making the Dream Work",
+      "Back on Track",
+      "Gourmand",
+      "Briefcase Burglar",
+      "Eagle Eye",
+      "Empowered Protector",
+      "In High Deman",
+      "Birthday Present",
+      "Fusion Artisan",
+      "The Fool’s Journey",
+      "Dorm Life",
+      "Eat Your Veggies, Peas",
+      "Specialist",
+      "Through Thick and Thin",
+      "Unbreakable Link",
+      "Shattered Plumes",
+      "Extracurricular Excellence",
+      "Never Toy with Matter of the Heart",
+      "Benevolent Purr-tector",
+      "Top of the Class"
+    ],
+    "compendium": 42
+  }
+}

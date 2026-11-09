@@ -1,0 +1,1631 @@
+{
+  "title": "🌒 ENERO — La cuenta regresiva",
+  "intro": [],
+  "days": [
+    {
+      "id": "101",
+      "date": "1/1",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-101-5b673749",
+              "text": "Cuando quieras irte del santuario, hablá con Mitsuru."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-101-5c427084",
+              "text": "Comprale la Believer&#39;s Blog Note al Suspicious Man en Club Escapade."
+            },
+            {
+              "id": "enero-101-707f431c",
+              "text": "Hoy se actualizaron los encargos de Elizabeth. Aceptá:",
+              "sub": [
+                "91. Bring me a Tonbo-Kiri",
+                "100. Bring me a Bloody Button"
+              ]
+            },
+            {
+              "id": "enero-101-782cd82a",
+              "text": "Mejorá tu equipo en la tienda de antigüedades."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td></td><td><strong>Arma</strong></td><td><strong>Armadura</strong></td><td><strong>Calzado</strong></td><td><strong>Accesorio</strong></td></tr><tr><td><strong>Makoto</strong></td><td>Kaneshige</td><td>Fallen Noble Armor</td><td>Mysterious Geta or / Silent Sandals</td><td>Power Transmitter</td></tr><tr><td><strong>Yukari</strong></td><td>Circe&#39;s Bow</td><td>Fallen Noble Armor</td><td>Mysterious Geta or / Silent Sandals</td><td>Yellow Shawl or / Vayu Bracers</td></tr><tr><td><strong>Junpei</strong></td><td>Dojigri Yasutsuna</td><td>Fallen Noble Armor</td><td>Mysterious Geta or / Silent Sandals</td><td>Green Shawl or / Agni Bracers</td></tr><tr><td><strong>Akihiko</strong></td><td>Sabazios</td><td>Fallen Noble Armor</td><td>Mysterious Geta or / Silent Sandals</td><td>Blue Shawl or / Indra Bracers</td></tr><tr><td><strong>Mitsuru</strong></td><td>Snow Queen Whip</td><td>Fallen Noble Armor</td><td>Mysterious Geta or / Silent Sandals</td><td>Red Shawl or / Varna Bracers</td></tr><tr><td><strong>Aigis</strong></td><td>Kyriotes or / Pandemonium</td><td>Papillon Method</td><td>Kugelbein</td><td>Yellow Shawl or / Vijaya Bracers</td></tr><tr><td><strong>Koromaru</strong></td><td>Underworld Kunai</td><td>Gaia Dog Suit</td><td>Bare Paws</td><td>Ratri Bracers</td></tr><tr><td><strong>Ken</strong></td><td>Tonbo-Kiri</td><td>Fallen Noble Armor</td><td>Mysterious Geta or / Silent Sandals</td><td>Ushas Bracers</td></tr></table></div>"
+            },
+            {
+              "note": true,
+              "text": "Si llevás a Aigis con Kyriotes, usá Mysterious Geta. Si Aigis usa Pandemonium o no está en el equipo, usá Silent Sandals."
+            },
+            {
+              "note": true,
+              "text": "Las cartas Resist ya están en la tienda de antigüedades. Si te sobran gemas, empezá a comprarlas para tapar las debilidades de tus Personas."
+            },
+            {
+              "note": true,
+              "text": "No te olvides de seguir haciendo copias de Growth 3: vas a usar unas 30 durante el mes."
+            },
+            {
+              "id": "enero-101-cd43b522",
+              "text": "Usá la Dating Site Note en la compu compartida y elegí al matrimonio mayor (Old Couple)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "date": "1/2",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-102-747170d2",
+              "text": "Pasá tiempo en Bookworms",
+              "sub": [
+                "(Hierophant Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-102-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "(Yuko +3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "date": "1/3",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-103-7ddcde18",
+              "text": "Canal de compras: desde acá ya no hay más ítems para comprar."
+            },
+            {
+              "id": "enero-103-3d512df9",
+              "text": "Pasá tiempo con Mamoru",
+              "sub": [
+                "“Do it!” (+3)",
+                "“Don&#39;t sweat it” (+1)",
+                "(Star Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-103-5d7458f1",
+              "text": "Usá la Dating Site Note en la compu compartida y elegí a Gourmet King."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "date": "1/4",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-104-77c990a6",
+              "text": "Pasá tiempo con Maiko",
+              "sub": [
+                "(Hanged Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-104-304dc181",
+              "text": "Pasá tiempo con Akihiko",
+              "sub": [
+                "(Episodio de Akihiko 5)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "date": "1/5",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-105-e022edf5",
+              "text": "Aceptá la invitación de Fuuka",
+              "sub": [
+                "“N-No, I haven&#39;t” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-105-1973711c",
+              "text": "Usá Pickup Line Master en la compu compartida (Encanto +2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "date": "1/6",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-106-2c3be3ac",
+              "text": "Pasá tiempo con Koromaru",
+              "sub": [
+                "(Episodio de Koromaru 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-106-ade19eaf",
+              "text": "Usá Believer&#39;s Blog Note en la compu compartida.",
+              "sub": [
+                "(SP +5)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "date": "1/7",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-107-26d20c33",
+              "text": "Aceptá la invitación de Yukari",
+              "sub": [
+                "“Some people do” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-107-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Aigis comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "date": "1/8",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "enero-108-3af4c988",
+              "text": "Respuesta: <strong>The underworld</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-108-6e623ddc",
+              "text": "Pasá tiempo con Kenji",
+              "sub": [
+                "(Magician Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "El tratamiento en Be Blue V te deja rehacer por completo la lista de habilidades de un miembro del equipo. Si querés hacer todas las actividades del juego, hay que hacerlo una vez."
+            },
+            {
+              "id": "enero-108-d038cc7b",
+              "text": "Aceptá el tratamiento en Be Blue V e invitá a quien quieras."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "date": "1/9",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-109-f4c6d3ec",
+              "text": "Comprá Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "id": "enero-109-a6d52df8",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "(Aeon Rango 1)",
+                "🏆 Logro/Trofeo: People Person (43/48)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-109-d537350e",
+              "text": "Guardá Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "id": "enero-109-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "“Chihiro” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "date": "1/10",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-110-ed6a6735",
+              "text": "Aceptá la invitación de Keisuke",
+              "sub": [
+                "“You&#39;re right” (+3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Esta noche hay un paseo de Koromaru con Mamoru, pero es una escena repetida."
+            },
+            {
+              "id": "enero-110-e5a7bd5d",
+              "text": "Sacá una fortuna de apuesta (Gamble)."
+            },
+            {
+              "id": "enero-110-ab3f38a6",
+              "text": "Hablá con Fuuka y andá a Tartarus."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "Te recomiendo mucho conseguir el Arcano Devil esta noche: acelera muchísimo el farmeo de Gold Quartz, Diamonds y Rubies, que hacen falta para el equipo de endgame. Si podés, conseguí también Lovers. Para las fusiones de esta noche necesitás nivel 82 o el Arcano Sun."
+            },
+            {
+              "note": true,
+              "text": "Desde esta noche caen cartas de habilidad rango Q, así que podés conseguir cartas Amp (50% más de daño). Son opcionales: muchas de las mejores Personas las aprenden solas al subir de nivel. Las cartas de yen rango Q dan entre 40k y 50k cada vez, así que juntás mucho yen rápido."
+            },
+            {
+              "note": true,
+              "text": "Si pensás enfrentar al jefe secreto, vas a tener que farmear Ice Amp y Slash Amp."
+            },
+            {
+              "id": "enero-110-87d70d52",
+              "text": "Volvé al 225F y empezá a subir Tartarus; apenas llegues al bloque nuevo en el 227F desbloqueás:",
+              "sub": [
+                "(Judgement Rango 2)"
+              ]
+            },
+            {
+              "id": "enero-110-2ce66454",
+              "text": "Seguí subiendo Tartarus hasta el 230F para el primer guardián; al derrotarlo desbloqueás:",
+              "sub": [
+                "(Judgement Rango 3)"
+              ]
+            },
+            {
+              "id": "enero-110-287ad3f4",
+              "text": "Abrí los cofres y dale las Hanzo&#39;s Sandals a Makoto: tienen Auto Masuku, así que podés cambiar las Silent Sandals de los demás por Mysterious Geta si tenés. Equipá el Antimatter Cannon a Aigis salvo que tengas Pandemonium para ella."
+            },
+            {
+              "id": "enero-110-efb41424",
+              "text": "Seguí subiendo Tartarus hasta el 236F para el próximo guardián; al derrotarlo desbloqueás:",
+              "sub": [
+                "(Judgement Rango 4)"
+              ]
+            },
+            {
+              "id": "enero-110-16edb096",
+              "text": "Seguí subiendo Tartarus hasta el 241F para el próximo guardián; al derrotarlo desbloqueás:",
+              "sub": [
+                "(Judgment Rango 5)"
+              ]
+            },
+            {
+              "id": "enero-110-ec59a6be",
+              "text": "Abrí los cofres; yo le daría los Godspeed Shoes a quien no tenga Mysterious Geta."
+            },
+            {
+              "id": "enero-110-dbcb3deb",
+              "text": "Seguí subiendo Tartarus hasta el 246F para otra pelea de dos guardianes seguidos; al derrotar al primero desbloqueás:",
+              "sub": [
+                "(Judgment Rango 6)"
+              ]
+            },
+            {
+              "id": "enero-110-6cb2f094",
+              "text": "Abrí los cofres; te recomiendo darle las Goddess Boots a Mitsuru, porque Diamond Dust y Concentrate gastan mucho SP."
+            },
+            {
+              "id": "enero-110-6d01f4d9",
+              "text": "Subí al 247F y derrotá al guardián; desbloqueás:",
+              "sub": [
+                "(Judgment Rango 7)"
+              ]
+            },
+            {
+              "id": "enero-110-eeae1b71",
+              "text": "Abrí los cofres. No le daría Excalibur a Makoto: los 100 SP están buenos, pero entre Life Aid y Spell Master ya deberías tener SP prácticamente infinito."
+            },
+            {
+              "id": "enero-110-85fb603f",
+              "text": "Seguí subiendo Tartarus hasta el 253F, donde enfrentás 3 guardianes seguidos; al derrotar al primero desbloqueás:",
+              "sub": [
+                "(Judgement Rango 8)"
+              ]
+            },
+            {
+              "id": "enero-110-8336ba1d",
+              "text": "Subí al 254F, derrotá al guardián y desbloqueás:",
+              "sub": [
+                "(Judgment Rango 9)"
+              ]
+            },
+            {
+              "id": "enero-110-12f75d4d",
+              "text": "Subí al 255F y derrotá al último guardián. Después desbloqueás:",
+              "sub": [
+                "(Judgement Rango 10)"
+              ]
+            },
+            {
+              "id": "enero-110-fc4683de",
+              "text": "El último Monad Passage está en el 255F: derrotá a la primera y la segunda sombra y abrí los cofres. No le daría Myohou Muramasa a Makoto: su Dark Amp sirve para un solo elemento. Derrotá a la última sombra y vas a ver una puerta a la que por ahora no podés entrar."
+            },
+            {
+              "id": "enero-110-5c71960a",
+              "text": "Subí al piso frontera 256F y volvé a la entrada."
+            },
+            {
+              "id": "enero-110-a98ea75a",
+              "text": "Entregá el encargo 99 a Elizabeth."
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC, seguí la DLC Fusion Guide del 10 de enero (archivo 14 de la guía original)."
+            },
+            {
+              "id": "enero-110-5f4cad4c",
+              "text": "Si tenés el Arcano Lovers, sos nivel 82 como mínimo y tenés al menos 1,2 millones de yen, guardá, entrá al Velvet Room, registrá tus Personas y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "Con el Arcano Sun, alcanza con nivel 77 para estas fusiones."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Siegfried + Thor → <strong>Byakko</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Mabufudyne, Heat wave, / Freeze Boost y Evade Fire</td></tr><tr><td>Seth + Houou → <strong>Horus</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Kougan, Mahamaon, / Evade Dark y Growth 3</td></tr><tr><td>Norn + Horus → <strong>Satan</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Diamond Dust, Concentrate, / Debilitate y Repel Wind</td></tr><tr><td>Raphael + Satan → <strong>Baal Zebul</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Eigaon, Maeigaon, / Magarudyne y Megidola</td></tr><tr><td>Daisoujou + Baal Zebul → <strong>Futsunushi</strong></td><td>Auto Maraku, Null Dark, / Life Aid y Enduring Soul</td><td>Vorpal Blade, Bloody Charge, / Apt Pupil y Sharp Student</td></tr><tr><td>Hell Biker + Alice → <strong>Atavaka</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>God&#39;s Hand, Brave Blade, / Maragidyne y Null Dizzy</td></tr><tr><td>Skadi + Fusunushi → <strong>Attis</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Megidolaon, Mahamaon, / Samarecarm, Survival Trick</td></tr><tr><td>Fuse Kohryu / From the Special Fusion</td><td>Auto Maraku, Spell Master, Resist Strike / Life Aid y Enduring Soul</td><td>Concentrate, Makougaon / y Invigorate 3</td></tr><tr><td>Fuse Mara / From the Special Fusion</td><td>Auto Maraku, Spell Master, Null Fear / Life Aid y Enduring Soul</td><td>Primal Force, Myriad Arrows / Charge y Pierce Amp / (borrá Null Fear)</td></tr><tr><td>Fuse Susano-o / From the Special Fusion</td><td>Auto Maraku, Enduring Soul, Life Aid, / Crit Rate Boost y Resist Fire</td><td>Vorpal Blade, Charge / y Slash Amp</td></tr><tr><td>Fuse Thanatos / From the Special Fusion</td><td>Concentrate, Eiga, Auto Maruku, / Life Aid y Enduring Soul</td><td>Maeigaon, Megidolaon / y Dark Amp</td></tr><tr><td>Rangda + Barong → <strong>Shive</strong></td><td>Ziodyne, Auto Maraku, / Life Aid y Elec Boost</td><td>Pralaya, Maziodyne, / Enduring Soul y Ali Dance</td></tr><tr><td>Shiva + Cu Chulainn → <strong>Bishamonten</strong></td><td>Charge, Auto Maraku, / Life Aid y Enduring Soul</td><td>Primal Force, Myriad Arrows, / Crit Rate Amp y Pierce Amp</td></tr><tr><td>Fuse Masakado / From the Special Fusion</td><td>Auto Maraku, Crit Rate Amp, Charge, / Pierce Amp y Enduring Soul</td><td>Myriad Arrows, Debilitate / y Arms Master</td></tr><tr><td>Thanatos + Masakado → <strong>Anata</strong></td><td>Enduring Soul, Life Aid, / Arms Master y Crit Rate Amp</td><td>No llena su lista de habilidades</td></tr><tr><td>Yurlungur + Mara → <strong>Abaddon</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Deathbound, Virus Breath, / Evil Smile y Ailment Boost</td></tr><tr><td>Ananta + Abaddon → <strong>Saturnus</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Inferno, Maragidyne, / Concentrate y Fire Amp</td></tr><tr><td>Fuse Beelzebub / From the Special Fusion</td><td>Eigaon, Auto Maruku, Life Aid, / Spell Master y Enduring Soul</td><td>Concentrate, Maeigaon / y Dark Amp</td></tr><tr><td>Loki + Thor → <strong>Odin</strong></td><td>Null Wind, Auto Maraku, / Spell Master y Enduring Soul</td><td>Thunder Reign, Maziodyne, / Elec Amp y Conentrate</td></tr></table></div>"
+            },
+            {
+              "id": "enero-110-5b89cc49",
+              "text": "Desbloqueás una Theurgy nueva",
+              "sub": [
+                "Trickster",
+                "(por tener Susano-o y Loki en el compendio)"
+              ]
+            },
+            {
+              "id": "enero-110-b02cb8c6",
+              "text": "Entregá el encargo 98 a Elizabeth."
+            },
+            {
+              "id": "enero-110-124e6908",
+              "text": "Las Personas que tenés que llevar encima son <strong>Kohryu, Atavaka, Susano-o, Saturnus, Beelzebub, Yurlungur, Baal Zebul, Odin, Skadi, Siegfried, Ananta y Norn</strong>",
+              "sub": [
+                "Enseñale Growth 3 a Kohryu reemplazando Invigorate 3",
+                "Enseñale Growth 3 a Atavaka reemplazando Null Dizzy. Cuando aprenda Firm Stance, reemplazá Growth 3 por Firm Stance",
+                "Enseñale Growth 3 a Susano-o reemplazando Life Aid. Cuando aprenda Repel Light, reemplazá Growth 3 por Repel Light",
+                "Enseñale Growth 3 a Saturnus reemplazando Concentrate. Cuando aprenda Repel Ice, reemplazá Growth 3 por Repel Ice",
+                "Enseñale Growth 3 a Baal Zebul reemplazando Megidola. Cuando aprenda Panta Rhei, reemplazá Growth 3 por Panta Rhei",
+                "Enseñale Growth 3 a Odin reemplazando Concentrate. Cuando suelte el Heart Item, reemplazá Growth 3 por Life Aid",
+                "Enseñale Growth 3 a Ananta, reemplazá Evade Slash por Resist Ailments y, cuando aprenda Resist Slash, reemplazá Growth 3 por Resist Slash"
+              ]
+            },
+            {
+              "note": true,
+              "text": "Ojalá hayas conseguido el Arcano Devil: hace mucho más rápida esta etapa. Conviene hacer ahora todo o casi todo el farmeo de Rubies, Gold Quartz y Diamonds. Farmear equipo de endgame es totalmente opcional: podés vencer al jefe final con tu equipo y Personas actuales."
+            },
+            {
+              "note": true,
+              "text": "Cuánto farmear depende de cuántas piezas quieras mejorar por personaje y para cuántos personajes. Si solo querés enfrentar al jefe secreto y conseguir las armas definitivas y un accesorio Null para cada uno, necesitás:"
+            },
+            {
+              "note": true,
+              "text": "- Makoto: 15 Rubies (arma y Armour of Light para el jefe secreto) - Junpei: 7 Rubies - Yukari: 5 Rubies - Akihiko: 5 Rubies - Mitsuru: 7 Rubies - Aigis: 7 Rubies (incluye armadura y calzado) - Koromaru: 3 Rubies (para su armadura) - Ken: 5 Rubies"
+            },
+            {
+              "note": true,
+              "text": "Según a quién uses, son unas 30-35 Rubies para un equipo base (4 miembros) y 47 para todos."
+            },
+            {
+              "note": true,
+              "text": "Si además querés Shoes of Light para todos (Aigis y Koromaru no pueden equiparlas), que tienen Ali Dance y son el mejor calzado del juego, son 5 Rubies más por personaje: 72 en total para todos. Aunque hagas a todos, no se las haría a Makoto: dejale las Hanzo&#39;s Sandals. Siempre podés enseñarle Ali Dance a sus Personas, y las Hanzo&#39;s Sandals tienen Auto Masuku, que combinado con Ali Dance en los demás es muy efectivo."
+            },
+            {
+              "note": true,
+              "text": "Algunos también farmean Armour of Light para todos: tiene la mayor reducción de daño, pero es discutible que sea la mejor armadura. Yo prefiero la Fallen Noble Armour por Unshaken Will (anula estados mentales), que me resulta más útil. Si querés Armour of Light, son 5 Rubies más por personaje: 97 en total para todos."
+            },
+            {
+              "note": true,
+              "text": "Según para cuántos personajes hagas equipo, vas a necesitar entre 30 y 50 Gold Quartz y entre 30 y 160 Diamonds. Armour of Light y Shoes of Light piden 10 Diamonds cada una, así que hacerlas para todos dispara la cantidad."
+            },
+            {
+              "note": true,
+              "text": "- Los Diamonds salen 50k en Club Escapade - El Gold Quartz se cambia en la tienda de antigüedades por 5x Diamonds, o sea unos 250k - Las Rubies no se compran ni se cambian: solo se farmean."
+            },
+            {
+              "note": true,
+              "text": "La diferencia de farmeo entre equipar a un equipo base y a todos es enorme. El juego te da casi justo los Dead Moon&#39;s Husks, White Nihil Models y Nihil Black Models para un equipo base. Si querés más, hay que farmearlos y tienen tasas de drop muy bajas. Hay una estrategia para farmear estos materiales, pero igual lleva mucho tiempo."
+            },
+            {
+              "note": true,
+              "text": "No hace falta hacerlo todo esta noche, pero como el Arcano Devil duplica las Rubies, Gold Quartz y Diamonds de cada drop, conviene hacerlo hoy en vez de conseguir Devil otra noche."
+            },
+            {
+              "note": true,
+              "text": "Te recomiendo decidir qué personajes y qué equipo querés mejorar, y farmear todo o casi todo esta noche mientras Devil está activo."
+            },
+            {
+              "note": true,
+              "text": "Así las próximas visitas a Tartarus las dedicás solo a farmear el último bloque por los cofres rayados, que tienen Dead Moon&#39;s Husks, White Nihil Models y Nihil Black Models. Cuanto más equipo de endgame quieras, más noches vas a necesitar."
+            },
+            {
+              "note": true,
+              "text": "Rubies, Gold Quartz y Diamonds caen de sombras en los pisos 247 a 252. Rubies y Gold Quartz caen de la Formidable Shadow Tenjin Musha, y Rubies y Diamonds de las sombras normales de esos pisos. Llevá la cuenta de lo que te cae: si te falta más de algo, podés enfocarte en las sombras normales o en las Formidable según lo que necesites."
+            },
+            {
+              "note": true,
+              "text": "No hace falta farmear todo el Gold Quartz y los Diamonds, porque se pueden comprar y vas a juntar bastante yen mientras tanto. Igual se acumula rápido, y vas a seguir necesitando unos 2,5 millones para las últimas fusiones del último día."
+            },
+            {
+              "note": true,
+              "text": "Mientras tanto, atento a las cartas Vorpal Blade, Ice Amp y Slash Amp (todas rango Q). Ice Amp y Slash Amp hacen falta para el jefe secreto, y Vorpal Blade es una mejora de Deathbound para Siegfried; no es necesaria, pero si sale en un Shuffle Time, agarrala."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "date": "1/11",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "note": true,
+              "text": "Recordá seguir haciendo copias de Growth 3: vas a querer unas 25 para el último día."
+            },
+            {
+              "id": "enero-111-b535e363",
+              "text": "Pasá tiempo con Nozomi",
+              "sub": [
+                "(Moon Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-111-c1fb4912",
+              "text": "Cosechá la huerta de la terraza y plantá Golden Tomato Sprout."
+            },
+            {
+              "id": "enero-111-d934e4de",
+              "text": "Vendé el botín y mejorá tu equipo en la tienda de antigüedades. No te olvides de conseguir Tonbo-kiri hoy."
+            },
+            {
+              "note": true,
+              "text": "Por ahora no vas a poder conseguir la mayoría de las armas, Armour of Light ni Shoes of Light porque te faltan Heart Items de Personas. A fin de mes, cuando termines los vínculos, hacés otra tanda de fusiones y conseguís el resto de los Heart Items. La mayoría de los accesorios sí deberías poder conseguirlos ya."
+            },
+            {
+              "note": true,
+              "text": "Aprovechá para calcular cuánto necesitás de cada material base: así sabés exactamente cuánto farmear de cada uno."
+            },
+            {
+              "note": true,
+              "text": "Algunos equipos piden Heart Items de la misma Persona. Si alguno de los que te interesan es así, buscá ese Heart Item con Ctrl + F en la sección Mayoido Antiques Gear de la guía original: vas a ver de qué Persona sale y sabrás cuál tenés que fusionar y subir más de una vez."
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC y te sobra yen, conviene usar algunos Magic Incense en Mercurius, Kamu Susano-o y Seiten Taisei. Apuntá a dejar su Magia en 65-70; los Incense II son los de mejor relación."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td></td><td><strong>Arma</strong></td><td><strong>Armadura</strong></td><td><strong>Calzado</strong></td><td><strong>Accesorio</strong></td></tr><tr><td><strong>Makoto</strong></td><td>Lucifer’s Blade</td><td>Fallen Noble Armour / or Armour of Light</td><td>Hanzo’s Sandals</td><td>Power Transmitter</td></tr><tr><td><strong>Yukari</strong></td><td>Quintessence Bow</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Lightning Gloves</td></tr><tr><td><strong>Junpei</strong></td><td>Masakado’s Katana</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Storm Ring</td></tr><tr><td><strong>Akihiko</strong></td><td>Double Zigguart</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Frozen Stone</td></tr><tr><td><strong>Mitsuru</strong></td><td>Snow Queen Whip</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Blazing Flame</td></tr><tr><td><strong>Aigis</strong></td><td>Metatronius</td><td>Soul of Athena</td><td>Swan Legs</td><td>Lightning Gloves</td></tr><tr><td><strong>Koromaru</strong></td><td>Varja</td><td>Aura Dog Suit</td><td>Bare Paws</td><td>Ratri Bracers</td></tr><tr><td><strong>Ken</strong></td><td>Gungnir</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Ring of Darkness</td></tr></table></div>"
+            },
+            {
+              "id": "enero-111-de554508",
+              "text": "Entregá el encargo 91 a Elizabeth."
+            },
+            {
+              "note": true,
+              "text": "Esta es la primera de tus noches libres. Podés llevar a un miembro del equipo a Be Blue V para reordenar sus habilidades, ir a la arcade a subir stats de la Persona equipada (te recomiendo Siegfried) o ir a Tartarus a farmear Dead Moon&#39;s Husks, White Nihil Models y Nihil Black Models."
+            },
+            {
+              "note": true,
+              "text": "Para esta noche recomiendo Tartarus. Todos deberían tener Fallen Noble Armour y accesorios Null para proteger su debilidad: es el momento perfecto para enfrentar al Reaper."
+            },
+            {
+              "note": true,
+              "text": "Para que aparezca el Reaper, quedate 5 minutos en el mismo piso. Es una sombra muy poderosa y puede costar en Merciless, pero proteger tus debilidades y los estados mentales lo hace mucho más manejable. Si no podés con él, con tu última tanda de fusiones desbloqueás una Theurgy que lo liquida de un golpe."
+            },
+            {
+              "id": "enero-111-84d23ba2",
+              "text": "Si vencés al Reaper, volvé a la entrada y entregale el encargo 100 a Elizabeth, que desbloquea:",
+              "sub": [
+                "🏆 Logro/Trofeo: Reaper Reaped (44/48)",
+                "101. Take out the ultimate adversary"
+              ]
+            },
+            {
+              "id": "enero-111-d18d5789",
+              "text": "Este es el jefe secreto; si te interesa enfrentarlo, lo vas a hacer el último día."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "date": "1/12",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "enero-112-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-112-9c68eef2",
+              "text": "Pasá tiempo con Keisuke",
+              "sub": [
+                "“Do you want to be a doctor” (+3)",
+                "(Fortune Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-112-8e8bcd44",
+              "text": "Revisá la heladera (1x Chilled Taiyaki y 1x Umugi Water)"
+            },
+            {
+              "note": true,
+              "text": "Cada hangout del dormitorio tiene una escena adicional muy corta. No hay tiempo para ver las 16, sobre todo si farmeás equipo de endgame. Lo que podés hacer es ver la que esté disponible esa noche y usar el Rewind; repetilo en las noches con varias actividades disponibles. Después hacé lo que quieras, como ir a Tartarus o a la arcade."
+            },
+            {
+              "note": true,
+              "text": "Usando el Rewind vas a poder ver las 16 escenas extra antes del final."
+            },
+            {
+              "id": "enero-112-658c2392",
+              "text": "Noche libre."
+            },
+            {
+              "note": true,
+              "text": "Si querés farmear Dead Moon&#39;s Husks, White Nihil Models o Nihil Black Models, este es el momento ideal. Podés conseguir hasta 6 por noche en cualquier combinación de los 3, porque los drops son aleatorios."
+            },
+            {
+              "note": true,
+              "text": "La estrategia no es mía; dejo el link al video, pero el video original no la explica muy bien y las instrucciones detalladas están en un comentario. Por eso las escribí acá para que sea más fácil seguirlas. Si te sirve, entrá al video para que su autor reciba la visita."
+            },
+            {
+              "note": true,
+              "text": "La idea es hacer que aparezcan Monad Doors en ciertos pisos abusando de la habilidad Escape de Fuuka y guardando. Cada vez que aparece una Monad Door en un piso que no querés, recargás y probás de nuevo; cuando aparece en el piso que querés, usás Escape de Fuuka para volver a la entrada y guardar. Repetís esto subiendo de a poco hasta un piso específico, y ahí recargás hasta que aparezca una Monad Door en ese piso."
+            },
+            {
+              "note": true,
+              "text": "Aun con esta estrategia el RNG pesa mucho: podés tardar una hora o varias, y eso por cada noche en Tartarus. Dead Moon&#39;s Husks, White Nihil Models y Nihil Black Models no tienen buena tasa de drop; si pensás hacerlo varias noches, puede llevarte muchísimo tiempo."
+            },
+            {
+              "note": true,
+              "text": "<strong>La estrategia</strong>"
+            },
+            {
+              "note": true,
+              "text": "01. Guardá apenas entres a Tartarus.<br>02. Empezá en el 236F y subí al 237F.<br>03. No querés una Monad Door en el 237F: si aparece, recargá y probá de nuevo hasta que no aparezca.<br>04. Buscá la escalera al siguiente piso, usá Escape de Fuuka para volver a la entrada y guardá.<br>05. Volvé al 237F y subí al 238F.<br>06. No querés una Monad Door en el 238F: si aparece, recargá hasta que no aparezca.<br>07. Buscá la escalera, usá Escape de Fuuka para volver a la entrada y guardá.<br>08. Volvé al 238F y subí al 239F.<br>09. No querés una Monad Door en el 239F: si aparece, recargá hasta que no aparezca.<br>10. Buscá la escalera, usá Escape de Fuuka para volver a la entrada y guardá.<br>11. Volvé al 239F y subí al 240F.<br>12. No querés una Monad Door en el 240F: si aparece, recargá hasta que no aparezca.<br>13. El 240F tiene un cofre rayado: encontralo, usá Escape de Fuuka para volver a la entrada y guardá.<br>14. Volvé al 240F y abrí el cofre; si no trae el material base que querés, recargá y probá de nuevo.<br>15. Cuando el cofre rayado tenga el material que querés, subí al 241F, usá el teletransportador para volver al inicio y guardá.<br>16. Volvé al 241F y subí al 242F.<br>17. Querés una Monad Door en el 242F: si no aparece, recargá.<br>18. Cuando aparezca, entrá, derrotá a la sombra y revisá el cofre rayado; si el material no es el que querés, recargá hasta que salga uno que sí.<br>19. Cuando lo consigas, subí al 243F, usá Escape de Fuuka para volver a la entrada y guardá.<br>20. Volvé al 243F y subí al 244F.<br>21. Querés una Monad Door en el 244F: si no aparece, recargá.<br>22. Cuando aparezca, entrá, derrotá a la sombra y revisá el cofre rayado; recargá hasta que salga el material que querés.<br>23. Cuando lo consigas, subí al 245F.<br>24. Del 245F al 247F son pisos de jefes viejos: andá al 247F, usá el teletransportador para volver a la entrada y guardá.<br>25. Volvé al 247F y subí al 248F.<br>26. Querés una Monad Door en el 248F: si no aparece, recargá.<br>27. Cuando aparezca, entrá, derrotá a la sombra y revisá el cofre rayado; recargá hasta que salga el material que querés.<br>28. Cuando lo consigas, subí al 249F, usá Escape de Fuuka para volver a la entrada y guardá.<br>29. Volvé al 249F y subí al 250F.<br>30. No querés una Monad Door en el 250F: si aparece, recargá hasta que no aparezca.<br>31. Cuando no aparezca, buscá la escalera, usá Escape de Fuuka para volver a la entrada y guardá.<br>32. En el 251F hay mucha chance de que aparezca una Greedy Shadow, que no querés. Vas a forzar que aparezca en otro piso.<br>33. Andá al 225F y subí al 227F. Si no aparece una Greedy Shadow, recargá y probá de nuevo.<br>34. Cuando aparezca, usá Escape de Fuuka para volver a la entrada y guardá.<br>35. Volvé al 250F y subí al 251F.<br>36. Querés una Monad Door en el 251F: si no aparece, recargá.<br>37. Cuando aparezca, entrá, derrotá a la sombra y revisá el cofre rayado; recargá hasta que salga el material que querés.<br>38. El 251F también tiene un cofre rayado: encontralo, usá Escape de Fuuka para volver a la entrada y guardá.<br>39. Volvé al 251F y abrí el cofre rayado; si el material no es el que querés, recargá.<br>40. Repetí hasta que salga el material base que querés."
+            },
+            {
+              "note": true,
+              "text": "Esa es la estrategia para farmear Dead Moon&#39;s Husks, White Nihil Models o Nihil Black Models. Podés repetirla en cualquier noche libre. Si te sirvió, entrá al video y dejá un like o comentario para darle crédito al autor."
+            },
+            {
+              "note": true,
+              "text": "Persona 3 Reload: cómo conseguir 5 Dead Moon Husk en una noche (video)"
+            },
+            {
+              "note": true,
+              "text": "▶ <a href=\"https://www.youtube.com/watch?v=WC_Aohs6su8\">Persona 3 Reload: cómo conseguir 5 Dead Moon Husk en una noche</a>"
+            },
+            {
+              "note": true,
+              "text": "▶ <a href=\"https://www.youtube.com/watch?v=WC_Aohs6su8\">Ver en YouTube</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "date": "1/13",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-113-f80aa98f",
+              "text": "Pasá tiempo con Yukari",
+              "sub": [
+                "(Lovers Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-113-50780fae",
+              "text": "Andá a Club Escapade, hablá con el Suspicious-Looking Man junto a la escalera y elegí &quot;Meet the Messiah&quot;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "date": "1/14",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-114-9c68eef2",
+              "text": "Pasá tiempo con Keisuke",
+              "sub": [
+                "“It&#39;s okay, I&#39;m fine” (+3)",
+                "Cualquiera",
+                "Cualquiera",
+                "(Fortune Rango 8)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-114-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "date": "1/15",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "enero-115-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-115-1237bb2b",
+              "text": "Pasá tiempo con Junpei",
+              "sub": [
+                "(Episodio de Junpei 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Elizabeth te avisa que entraron más personas a Tartarus. Podés rescatarlas esta noche si estás farmeando materiales, o dejarlas para la próxima visita cuando termines tus fusiones."
+            },
+            {
+              "id": "enero-115-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "date": "1/16",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-116-52b6cd60",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "“I like it here” (+3)",
+                "(Aeon Rango 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-116-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Mitsuru comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "date": "1/17",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-117-3d512df9",
+              "text": "Pasá tiempo con Mamoru",
+              "sub": [
+                "“Did you win?” (+1)",
+                "“Congrats, man!” (+1)",
+                "“What will you do now?” (+1)",
+                "“Thanks!” (+1)",
+                "(Star Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-117-6620cfac",
+              "text": "Sacá a pasear a Koromaru (está en el 2F)",
+              "sub": [
+                "“Yuko” (+3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "date": "1/18",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "enero-118-3d6a6430",
+              "text": "Respuesta: <strong>Circe</strong> (Encanto +1)"
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-118-a3a7e47f",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "Cualquiera",
+                "“That&#39;s not true” (+1)",
+                "(Aeon Rango 3)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-118-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "date": "1/19",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-119-9c68eef2",
+              "text": "Pasá tiempo con Keisuke",
+              "sub": [
+                "“You can&#39;t go!” (+3)",
+                "Cualquiera",
+                "Cualquiera",
+                "Cualquiera",
+                "Cualquiera",
+                "(Fortune Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-119-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "date": "1/20",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-120-9c68eef2",
+              "text": "Pasá tiempo con Keisuke",
+              "sub": [
+                "(Fortune Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-120-e863916f",
+              "text": "Pasá tiempo con Ken",
+              "sub": [
+                "(Episodio de Ken 5)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "date": "1/21",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-121-7e15587e",
+              "text": "Evento de historia extra."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-121-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "date": "1/22",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "enero-122-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-122-f4c6d3ec",
+              "text": "Comprá Lukewarm Taiyaki en la tienda del colegio."
+            },
+            {
+              "note": true,
+              "text": "Si coleccionás ítems limitados, comprá un Cutlet Sandwich: solo lo vende la tienda del colegio los viernes."
+            },
+            {
+              "note": true,
+              "text": "Umiushi Beef Bowl también tiene un último plato de temporada."
+            },
+            {
+              "id": "enero-122-52b6cd60",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "Cualquiera",
+                "“All right” (+3)",
+                "Cualquiera",
+                "(Aeon Rango 4)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-122-d537350e",
+              "text": "Guardá Lukewarm Taiyaki en la heladera."
+            },
+            {
+              "id": "enero-122-07530d2a",
+              "text": "Revisá la consola de comandos: hay un video nuevo."
+            },
+            {
+              "id": "enero-122-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "date": "1/23",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-123-52b6cd60",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "“You might be right” (+3)",
+                "(Aeon Rango 5)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-123-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "(Chihiro +3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "date": "1/24",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-124-3d512df9",
+              "text": "Pasá tiempo con Mamoru",
+              "sub": [
+                "(Star Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-124-a5094650",
+              "text": "Revisá la heladera (1x Chilled Taiyaki y 1x Doctor in Jelly)"
+            },
+            {
+              "id": "enero-124-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "(Kenji +3)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "date": "1/25",
+      "name": "Lunes",
+      "slots": [
+        {
+          "label": "Tarde",
+          "items": [
+            {
+              "id": "enero-125-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-125-fc9d79c3",
+              "text": "Pasá tiempo con Fuuka",
+              "sub": [
+                "(Priestess Rango 10)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-125-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "date": "1/26",
+      "name": "Martes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-126-52b6cd60",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "“No, you didn&#39;t” (+3)",
+                "(Aeon Rango 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-126-9bff8e3a",
+              "text": "Cosechá la huerta de la terraza. Plantar o no es decisión tuya: lo podés cosechar durante el epílogo."
+            },
+            {
+              "id": "enero-126-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "date": "1/27",
+      "name": "Miércoles",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-127-52b6cd60",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "Cualquiera",
+                "Cualquiera",
+                "Cualquiera",
+                "(Aeon Rango 7)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-127-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "date": "1/28",
+      "name": "Jueves",
+      "slots": [
+        {
+          "label": "Mañana",
+          "items": [
+            {
+              "id": "enero-128-a3d36c26",
+              "text": "Cualquiera."
+            }
+          ]
+        },
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-128-52b6cd60",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "“I&#39;m doing it now” (+3)",
+                "Cualquiera",
+                "(Aeon Rango 8)",
+                "<strong>Amistad:</strong> “Because we&#39;re friends”",
+                "<strong>Relación:</strong> “It&#39;s love” (tenés que elegirla si querés el romance en el próximo encuentro)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-128-658c2392",
+              "text": "Noche libre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "date": "1/29",
+      "name": "Viernes",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "id": "enero-129-52b6cd60",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "“You&#39;re right” (+3)",
+                "<strong>Amistad:</strong> “Sorry, but I can&#39;t”",
+                "<strong>Relación:</strong> “I love you too”",
+                "(Aeon Rango 9)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-129-31018181",
+              "text": "Sacá a pasear a Koromaru",
+              "sub": [
+                "Everyone comes tonight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "date": "1/30",
+      "name": "Sábado",
+      "slots": [
+        {
+          "label": "Después de clase",
+          "items": [
+            {
+              "note": true,
+              "text": "Cada chica con la que tuviste romance tiene una escena extra corta. Hoy están disponibles las 5: si querés verlas, usá el Rewind. Cuando las veas todas, volvé a usar el Rewind porque todavía tenés que completar el vínculo de Aigis."
+            },
+            {
+              "id": "enero-130-52b6cd60",
+              "text": "Pasá tiempo con Aigis",
+              "sub": [
+                "(Aeon Rango 10)",
+                "🏆 Logro/Trofeo: A Legacy of Friendships (45/48)"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "id": "enero-130-1fece958",
+              "text": "Sacá una fortuna de rareza (Rarity)."
+            },
+            {
+              "id": "enero-130-a40f3269",
+              "text": "Hablá con Fuuka y andá a Tartarus."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "Ahora que terminaste todos los vínculos y episodios vinculados, podés completar el compendio. Para hacer todas las fusiones de esta noche necesitás nivel 91, o nivel 86 con el Arcano Sun."
+            },
+            {
+              "note": true,
+              "text": "Si necesitás subir de nivel, lo más rápido es pelear con el Reaper. Si te cuesta vencerlo, con nivel 88 (u 83 con el Arcano Sun) podés fusionar a Helel, la Persona necesaria para la Theurgy Armageddon, que lo liquida."
+            },
+            {
+              "note": true,
+              "text": "Helel es la primera Persona de la sección de fusión, así que fusionala primero si necesitás ayuda con el Reaper. Con Helel y Satan en el compendio desbloqueás la Theurgy Armageddon: hace 9.999 de daño a cualquier sombra, pero te deja sin SP y con 1 HP. Para maximizar la EXP, peleá solo contra el Reaper, entrá con la Theurgy cargada, liquidalo con Armageddon y agarrá una carta de EXP en el Shuffle Time. En un par de peleas deberías llegar a nivel 91."
+            },
+            {
+              "id": "enero-130-4df81a1f",
+              "text": "Recorré el último bloque de Tartarus para rescatar a las dos personas perdidas. Podés ir directo a buscarlas o pelear en el camino si necesitás EXP y yen. Conviene hacer las Monad Doors del camino porque dan muchísimas cartas de Arcano Mayor. Esta noche no necesitás ninguna en particular (quizás Sun o Devil), pero si tenés que farmear yen, las cartas de las Monad Doors facilitan mucho un Arcana Burst. Las cartas rango Q dan bastante más yen que las anteriores."
+            },
+            {
+              "id": "enero-130-38f9419d",
+              "text": "Conseguir la carta Lovers antes de fusionar es decisión tuya, pero puede tardar. Si ya tenés el yen, probablemente sea más rápido fusionar todo, enseñarles Growth 3 y liquidar al Reaper por EXP para desbloquear rápido habilidades y Heart Items."
+            },
+            {
+              "note": true,
+              "text": "Si usás Personas DLC, seguí la DLC Fusion Guide del 30 de enero (archivo 14 de la guía original)."
+            },
+            {
+              "id": "enero-130-d3c216a2",
+              "text": "Cuando tengas al menos 2,5 millones de yen, guardá, entrá al Velvet Room, registrá tus Personas y fusioná:"
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td><strong>Receta de fusión</strong></td><td><strong>Habilidades a heredar</strong></td><td><strong>Habilidades a conservar</strong></td></tr><tr><td>Ananta + Beelzebub → <strong>Helel</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Morning Star, Heat Riser, / Salvation y Makougaon</td></tr><tr><td>Baal Zebul + Odin → <strong>Cybele</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Diarahan, Mediarahan, / Makougaon y Light Amp</td></tr><tr><td>Saturnus + Yurlungur → <strong>Lakshmi</strong></td><td>Auto Maraku, Spell Master, / Evade Fire y Enduring Soul</td><td>Bufudyne, Mabufudyne, / Diarahan y Amrita Shower</td></tr><tr><td>Atavaka + Helel → <strong>Scathach</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Mabufudyne, Magarudyne, / Myriad Arrows y Freeze Boost</td></tr><tr><td>Masakado + Cybele → <strong>Vishnu</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Phanta Rhei, Akasha Arts, / Concentrate y Ali Dance</td></tr><tr><td>Odin + Abaddon → <strong>Sandalphon</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Divine Judgement, Makougaon, / Akasha Arts y Salvation</td></tr><tr><td>Lakshmi + Abaddon → <strong>Mother Harlot</strong></td><td>Auto Maraku, Spell Master, / Evade Fire y Enduring Soul</td><td>Ziodyne, Maziodyne, / Mamudoon y Mudo Boost</td></tr><tr><td>Susano-o + Sandalphon → <strong>Alilat</strong></td><td>Auto Maraku, Spell Master, / Life Aid y Enduring Soul</td><td>Diamond Dust, Mabufudyne, / Inferno y Repel Fire</td></tr><tr><td>Satan + Helel → <strong>Chi You</strong></td><td>Diamond Dust, Debilitate, / Concentrate y Spell Master</td><td>Akasha Arts, Vorpal Blade, / Charge y Arms Master</td></tr><tr><td>Norn + Kaiwan → <strong>Surt</strong></td><td>Auto Rakukaja, Auto Sukukaja, / Life Aid y Endure</td><td>Inferno, Maragidyne, / Deathbound y Auto Tarukaja</td></tr><tr><td>Seth + Uriel → <strong>Michael</strong></td><td>Auto Maraku, Vorpal Blade, / Life Aid y Enduring Soul</td><td>Heaven&#39;s Blade, Divine Judgement, / Makougaon, y Heat Riser</td></tr><tr><td>Barong + Rangda → <strong>Shiva</strong></td><td>Auto Maruku, Life Aid, / High Counter y Endure</td><td>God&#39;s Hand, Pralaya, / Enduring Soul y Invigorate 3</td></tr><tr><td>Fuse Asura / From the Special Fusion</td><td>Firm Stance, Apt Pupil, Crit Rate Amp, / Enduring Soul y Revolution</td><td>Akasha Arts, Heat Riser / Strike Amp y Unshaken Will / (borrá Revolution)</td></tr><tr><td>Fuse Metatron / From the Special Fusion</td><td>Auto Maraku, Kougaon, Heat Riser, / Life Aid y Enduring Soul</td><td>Divine Judgment, Makougaon / y Light Amp</td></tr><tr><td>Fuse Lucifer / From the Special Fusion</td><td>Diamond Dust, Morning Star, Heat Riser, / Enduring Soul y Spell Master</td><td>Inferno, Debilitate, / y Phanta Rhei</td></tr><tr><td>Thantaos + Orpheus → <strong>Messiah</strong></td><td>Auto Maraku, Concentrate / y Life Aid</td><td>Megidolaon, God&#39;s Hand, Regenerate 3, / Enduring Soul y Null Phys</td></tr><tr><td>Fuse Orpheus Telos / From the Special Fusion</td><td>Diamond Dust, Heat Riser, Firm Stance / Regenerate 3, Concentrate, Spell Master / y Enduring Soul</td><td>Victory Cry</td></tr></table></div>"
+            },
+            {
+              "id": "enero-130-16aef720",
+              "text": "Felicitaciones, acabás de completar el compendio y desbloqueás:",
+              "sub": [
+                "🏆 Logro/Trofeo: Path to Salvation (46/48)"
+              ]
+            },
+            {
+              "id": "enero-130-173c0ba8",
+              "text": "Solo falta conseguir los Heart Items de estas Personas. Lo más rápido es enseñarles Growth 3 a todas, farmear al Reaper solo, liquidarlo con Armageddon y repetir. Tu Persona equipada debería ser Orpheus Telos por Victory Cry, y las otras 11 deberían ser las que tienen que soltar Heart Items. Por ahora vas a tener que liberar Personas como Siegfried. Si no pensás farmear equipo de endgame, podés saltear todo esto."
+            },
+            {
+              "id": "enero-130-06db03dd",
+              "text": "Salí y volvé a entrar al Velvet Room: ahora tenés un descuento enorme para invocar Personas."
+            },
+            {
+              "id": "enero-130-71b92aa4",
+              "text": "Las Personas que tenés que llevar encima son <strong>Orpheus Telos, Scathach, Alilat, Surt, Shiva, Lucifer, Messiah, Metatron, Chi You, Asura, Sandalphon</strong> y <strong>Thanatos</strong>",
+              "sub": [
+                "Enseñale Growth 3 a Scathach reemplazando Freeze Boost. Cuando aprenda Auto Mataru, reemplazá Growth 3 por Auto Mataru",
+                "Enseñale Growth 3 a Alilat reemplazando Inferno. Después reemplazá Growth 3 por Repel Pierce",
+                "Enseñale Growth 3 a Surt reemplazando Auto Tarukaja. Después reemplazá Growth 3 por Fire Amp",
+                "Enseñale Growth 3 a Shiva reemplazando Endure. Después reemplazá Growth 3 por Ali Dance",
+                "Enseñale Growth 3 a Lucifer reemplazando Enduring Soul. Después reemplazá Growth 3 por Resist Phys",
+                "Enseñale Growth 3 a Messiah reemplazando God&#39;s Hand. Después reemplazá Growth 3 por Magic Ability",
+                "Enseñale Growth 3 a Metatron reemplazando Divine Judgement. Después reemplazá Growth 3 por Repel Elec",
+                "Enseñale Growth 3 a Chi You reemplazando Spell Master. Después reemplazá Growth 3 por Drain Strike",
+                "Enseñale Growth 3 a Asura reemplazando Unshaken Will",
+                "Enseñale Growth 3 a Sandalphon reemplazando Salvation. Después reemplazá Growth 3 por Drain Dark",
+                "Enseñale Growth 3 a Thanatos reemplazando Eiga"
+              ]
+            },
+            {
+              "id": "enero-130-c8edf27c",
+              "text": "Recorré un poco hasta cargar la Theurgy. Cuando esté lista, sacá a todo el equipo, poné a Orpheus Telos como Persona activa, esperá a que aparezca el Reaper y usá Armageddon. Agarrá la carta de EXP del Shuffle Time; con una pelea debería alcanzar para los Heart Items de todas estas Personas. Registralas y después liberá a Thanatos, Scathach, Surt, Sandalphon, Shiva, Asura, Lucifer, Chi You y Messiah."
+            },
+            {
+              "note": true,
+              "text": "Si de alguna de estas Personas necesitás más de un Heart Item, no la registres: si la liberás enseguida, podés volver a invocarla y repetir el proceso."
+            },
+            {
+              "id": "enero-130-897706fe",
+              "text": "Invocá cualquier otra Persona de la que todavía necesites Heart Items; a mí me faltaban 5: Beelzebub, Vishnu, Kohryu, Lakshmi y Cybele.",
+              "sub": [
+                "Enseñale Growth 3 a Vishnu reemplazando Concentrate. Después reemplazá Growth 3 por Salvation",
+                "Enseñale Growth 3 a Lakshmi reemplazando Diarahan. Después reemplazá Growth 3 por Salvation",
+                "Enseñale Growth 3 a Kohryu reemplazando Invigorate 3",
+                "Enseñale Growth 3 a Cybele reemplazando Diarahan"
+              ]
+            },
+            {
+              "id": "enero-130-cc11be6a",
+              "text": "Para cualquier otra Persona de la que te falten Heart Items, elegí qué habilidad borrar para Growth 3. Farmeá al Reaper una vez más, pero con Beelzebub como Persona activa para que reciba EXP sin carta Growth. Con eso deberías tener todos los Heart Items del juego."
+            },
+            {
+              "id": "enero-130-5203a3cd",
+              "text": "Según cuánto equipo de endgame hagas, puede que tengas que repetir el proceso algunas veces más por Heart Items duplicados. Registrá y liberá a Vishnu, Lakshmi, Kohryu y Cybele."
+            },
+            {
+              "id": "enero-130-bc7f9d29",
+              "text": "Las Personas que tenés que llevar encima son <strong>Orpheus Telos, Siegfried, Beelzebub, Alilat, Metatron, Saturnus, Odin y Baal Zebul</strong>"
+            },
+            {
+              "note": true,
+              "text": "Estas son tus Personas finales. Si farmeaste cartas Resist, Null, Boost o Amp, podés enseñárselas para tapar debilidades o para más daño. También podés conseguir Ali Dance en la tienda de antigüedades."
+            },
+            {
+              "note": true,
+              "text": "Si te llama la atención la build rara de Orpheus Telos, es porque ya lo estás preparando para el jefe secreto de mañana."
+            },
+            {
+              "id": "enero-130-fcf0b158",
+              "text": "Solo falta farmear yen suficiente para hacer mañana todo tu equipo de endgame. Es difícil estimar cuánto, porque depende de muchos factores, pero entre 1 y 6 millones debería alcanzar según cuántos personajes hagas y cuántas gemas farmeaste. Si querés enfrentar al jefe secreto mañana, sumá unos 2 millones más para todos los inciensos que vas a necesitar."
+            },
+            {
+              "id": "enero-130-247afea4",
+              "text": "Mi consejo: farmeá el mínimo de yen que creas que necesitás, guardá y salí de Tartarus. Si no te alcanza, cargá la partida y farmeá un poco más; además te da una idea de cuánto más te falta."
+            },
+            {
+              "note": true,
+              "text": "Si querés hacer el encargo 101 mañana, vas a tener que armar Personas muy específicas. Es por lejos el jefe más difícil del juego y tiene reglas muy estrictas: si las rompés, te tira un Megidolaon de muerte instantánea de 9.999. Es totalmente opcional: no tiene logro ni desbloquea nada."
+            },
+            {
+              "note": true,
+              "text": "Hay 3 cartas de habilidad que tenés que farmear esta noche si querés hacer el jefe secreto:"
+            },
+            {
+              "note": true,
+              "text": "- Rango 5: Slash Boost - Rango Q: Slash Amp - Rango Q: Ice Amp"
+            },
+            {
+              "note": true,
+              "text": "Vas a tener que refusionar a Chi You para el jefe secreto"
+            },
+            {
+              "note": true,
+              "text": "<strong>Receta:</strong> Asura + Daisoujou → <strong>Chi You</strong>. Habilidades a heredar: Apt Pupil, Firm Stance, Crit Rate Amp y Enduring Soul. Habilidad a conservar: Charge. Cartas a usar: Slash Boost, Slash Amp y Multi-Target Boost."
+            },
+            {
+              "note": true,
+              "text": "Usá al Reaper para subir a Chi You a nivel 99 (tenelo como Persona equipada al pelear). No le hagas aprender Drain Strike: en el jefe secreto no se pueden usar habilidades Drain. Hacé lo mismo con Orpheus Telos si todavía no es nivel 99."
+            },
+            {
+              "note": true,
+              "text": "Enseñale Ice Amp y Endure a Orpheus Telos reemplazando Victory Cry y Enduring Soul. Recordá que después del jefe secreto siempre podés refusionar a Orpheus Telos si querés esas habilidades de vuelta."
+            },
+            {
+              "note": true,
+              "text": "Para una guía detallada de cómo prepararte y vencer a este jefe, mirá la sección Guide for the Secret Boss de la guía original (archivo 13)."
+            },
+            {
+              "note": true,
+              "text": "Si te interesa armar Personas perfectas para tu estilo de juego, podés empezar a refusionar. Te recomiendo esta calculadora de fusiones:"
+            },
+            {
+              "note": true,
+              "text": "<a href=\"https://aqiu384.github.io/megaten-fusion-tool/p3r/personas\">Calculadora de fusiones de P3R (aqiu384)</a>"
+            },
+            {
+              "note": true,
+              "text": "Elegí las Personas y habilidades que querés y te muestra exactamente cómo hacerlo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "date": "1/31",
+      "name": "Domingo",
+      "slots": [
+        {
+          "label": "Día",
+          "items": [
+            {
+              "id": "enero-131-1c3a466a",
+              "text": "Vendé el botín y cobrá las recompensas."
+            },
+            {
+              "id": "enero-131-03a7b942",
+              "text": "El último día vas a hacer la única actividad que te falta: la caja de ofrendas del santuario. Ofrecé lo que quieras, no cambia nada porque ya tenés los stats sociales al máximo."
+            }
+          ]
+        },
+        {
+          "label": "Noche",
+          "items": [
+            {
+              "note": true,
+              "text": "Después de la escena podés salir a la ciudad."
+            },
+            {
+              "id": "enero-131-782cd82a",
+              "text": "Mejorá tu equipo en la tienda de antigüedades."
+            },
+            {
+              "note": true,
+              "text": "Si querés hacer el jefe secreto esta noche, conseguí la Lucifer&#39;s Blade y una Armour of Light. También tenés que comprar los inciensos que necesitás para esta pelea."
+            },
+            {
+              "note": true,
+              "text": "<div class=\"table-wrap\"><table><tr><td></td><td><strong>Arma</strong></td><td><strong>Armadura</strong></td><td><strong>Calzado</strong></td><td><strong>Accesorio</strong></td></tr><tr><td><strong>Makoto</strong></td><td>Lucifer’s Blade</td><td>Fallen Noble Armour / or Armour of Light</td><td>Hanzo’s Sandals</td><td>Power Transmitter</td></tr><tr><td><strong>Yukari</strong></td><td>Quintessence Bow</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Lightning Gloves</td></tr><tr><td><strong>Junpei</strong></td><td>Masakado’s Katana</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Storm Ring</td></tr><tr><td><strong>Akihiko</strong></td><td>Double Zigguart</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Frozen Stone</td></tr><tr><td><strong>Mitsuru</strong></td><td>Snow Queen Whip</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Blazing Flame</td></tr><tr><td><strong>Aigis</strong></td><td>Metatronius</td><td>Soul of Athena</td><td>Swan Legs</td><td>Lightning Gloves</td></tr><tr><td><strong>Koromaru</strong></td><td>Varja</td><td>Aura Dog Suit</td><td>Bare Paws</td><td>Ratri Bracers</td></tr><tr><td><strong>Ken</strong></td><td>Gungnir</td><td>Fallen Noble Armour / or Armour of Light</td><td>Mysterious Geta / or Shoes of Light</td><td>Ring of Darkness</td></tr></table></div>"
+            },
+            {
+              "id": "enero-131-b0da2622",
+              "text": "Cuando termines de comprar, volvé al dormitorio y salí para Tartarus."
+            }
+          ]
+        },
+        {
+          "label": "Hora Oscura",
+          "items": [
+            {
+              "note": true,
+              "text": "Si no lo hiciste, registrá todas tus Personas. Si el compendio no está actualizado, tus Personas pueden perder stats y habilidades al importarlo en Episode Aigis."
+            },
+            {
+              "id": "enero-131-3b37c01e",
+              "text": "Si vas por el jefe secreto, andá al fondo del Monad Passage del 255F y entrá por la puerta que antes estaba cerrada."
+            },
+            {
+              "id": "enero-131-ad8aba98",
+              "text": "Cuando estés listo para el jefe final, volvé al 256F y seguí más allá del último piso frontera."
+            },
+            {
+              "note": true,
+              "text": "Es la única vez en el juego que pueden caer cartas rango K: necesitás un Arcana Burst y farmear más allá del 256F."
+            },
+            {
+              "id": "enero-131-1b191673",
+              "text": "El 259F es un piso de preparación donde podés elegir el equipo. Cuando estés listo, subí por la rampa para el primero de los jefes finales."
+            },
+            {
+              "id": "enero-131-1130f710",
+              "text": "Después de derrotarlo, seguí subiendo hasta el próximo piso de preparación, el 263F. Cuando estés listo, subí por la rampa para el segundo de los jefes finales."
+            },
+            {
+              "id": "enero-131-aabcb3c6",
+              "text": "Tenés una zona de preparación más; cuando estés listo, andá por el jefe final del juego."
+            },
+            {
+              "id": "enero-131-a061bd35",
+              "text": "Cuando todo termine, desbloqueás:",
+              "sub": [
+                "🏆 Logro/Trofeo: The Great Seal (47/48)",
+                "Previous: December",
+                "Next: Epilogue"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checklist": null
+}

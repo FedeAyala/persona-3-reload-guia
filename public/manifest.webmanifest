@@ -1,0 +1,17 @@
+{
+  "name": "Guía Persona 3 Reload",
+  "short_name": "P3R Guía",
+  "description": "Walkthrough día a día de Persona 3 Reload en español, con progreso sincronizado.",
+  "lang": "es",
+  "start_url": "/walkthrough",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#05070F",
+  "theme_color": "#05070F",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
