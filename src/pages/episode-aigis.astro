@@ -1,0 +1,134 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DayItems from '../components/DayItems.astro';
+import aigis from '../data/aigis.json';
+
+// Episode Aigis (scripts/gen-aigis.mjs). Las claves de progreso son "x:<id del ítem>".
+type Section = { id: string; label: string; items: { id?: string; text: string; note?: boolean; sub?: string[] }[] };
+type Part = { key: string; title: string; sections: Section[] };
+type Mode = { key: string; title: string; parts: Part[] };
+const modes = aigis.modes as Mode[];
+const trophies = aigis.trophies as { n: number; name: string; mode: string; section: string; sectionLabel: string }[];
+const countItems = (secs: Section[]) => secs.reduce((a, s) => a + s.items.filter((i) => !i.note).length, 0);
+---
+<Layout title="Episode Aigis" section="aigis" description="Episode Aigis (The Answer) de Persona 3 Reload en español: zona por zona, con fusiones, encargos de Elizabeth, Monad Chamber, Joker y la ruta Heartless">
+
+  <section class="page-hero">
+    <p class="hero-eyebrow">DLC · The Answer</p>
+    <h1 class="page-title">Episode <span>Aigis</span></h1>
+    <p class="page-subtitle">
+      El epílogo jugable, zona por zona: qué invocar y fusionar, qué encargos entregar, cada guardián
+      y la Monad Chamber con Joker. Con una ruta aparte para Heartless.
+    </p>
+  </section>
+
+  <div class="content-wrap">
+    <div class="callout callout-warn">
+      <strong>Spoilers del juego principal:</strong> Episode Aigis pasa después del final. Jugalo (y leé esto) cuando termines la historia.
+    </div>
+
+    <div class="ea-modes" role="tablist" data-pagefind-ignore>
+      {modes.map((m, i) => (
+        <button class={`ea-mode-btn ${i === 0 ? 'active' : ''}`} data-mode={m.key} role="tab">
+          <span>{m.key === 'normal' ? 'Peaceful a Hard' : 'Heartless'}</span>
+          <small><span data-count={`x:ea-${m.key[0]}`} data-count-format="pct">0%</span> · {countItems(m.parts.flatMap((p) => p.sections))} pasos</small>
+        </button>
+      ))}
+    </div>
+
+    {modes.map((m, mi) => (
+      <div class="ea-mode" data-mode-panel={m.key} hidden={mi !== 0}>
+        <div class="track-progress" data-pagefind-ignore>
+          <strong class="wt-progress-label">{m.title}: <span data-count={`x:ea-${m.key[0]}`} data-count-format="full">0/0</span></strong>
+          <div class="wt-progress-track"><div class="wt-progress-fill" data-count-bar={`x:ea-${m.key[0]}`}></div></div>
+        </div>
+
+        {m.key === 'heartless' && (
+          <div class="callout callout-info">
+            <strong>Heartless es otro juego:</strong> no se trae el compendio, así que la ruta fusiona todo desde cero (con Personas DLC),
+            y el superjefe pide 20–30 horas de farmeo de stats. Si no te gusta grindear, jugá en otra dificultad.
+          </div>
+        )}
+
+        <nav class="quick-nav" data-pagefind-ignore>
+          {m.parts.map((p) => <a href={`#p-${p.key}`}>{p.title}</a>)}
+        </nav>
+
+        {m.parts.map((p) => (
+          <div id={`p-${p.key}`} style="margin-top:2rem">
+            <div class="section-label">{m.title}</div>
+            <h2 class="section-title">{p.title} <span class="muted" style="font-size:1rem" data-pagefind-ignore>(<span data-count="x:ea-" data-count-scope={`#p-${p.key}`}>0/0</span>)</span></h2>
+            {p.sections.map((s) => (
+              <details class="tart-visit ea-sec" id={`sec-${s.id}`}>
+                <summary>
+                  <span class="tart-sum">
+                    <h3 class="tart-area ea-sec-title" id={`s-${s.id}`}>{s.label}</h3>
+                    {s.items.some((i) => !i.note) && <span class="ea-sec-count muted" data-pagefind-ignore><span data-count="x:ea-" data-count-scope={`#sec-${s.id}`}>0/0</span></span>}
+                  </span>
+                </summary>
+                <div class="tart-body">
+                  <DayItems items={s.items} prefix="x:" />
+                  {s.items.some((i) => !i.note) && (
+                    <div class="wt-day-foot" data-pagefind-ignore>
+                      <button class="wt-btn wt-btn-sec" data-check-section={`sec-${s.id}`}>✓ Tildar toda la zona</button>
+                    </div>
+                  )}
+                </div>
+              </details>
+            ))}
+          </div>
+        ))}
+      </div>
+    ))}
+
+    <div id="logros" style="margin-top:3rem">
+      <div class="section-label">Episode Aigis</div>
+      <h2 class="section-title">Logros <span class="muted" style="font-size:1rem" data-pagefind-ignore>(<span data-count="tr:" data-count-scope="#logros">0/0</span>)</span></h2>
+      <div class="track-list">
+        {trophies.map((t) => (
+          <div class="track-row" data-check={`tr:${t.n}`} id={`t-${t.n}`}>
+            <span class="wt-checkmark" aria-hidden="true"></span>
+            <div><div class="track-name">{t.name}</div><div class="track-desc muted">{t.sectionLabel}</div></div>
+            <a class="track-date" href={`#sec-${t.section}`}>{t.n}/56 →</a>
+          </div>
+        ))}
+      </div>
+      <p class="muted" style="margin-top:0.75rem;font-size:0.85rem">Salen todos siguiendo la historia; la dificultad no importa. También aparecen en <a href="/trofeos#aigis">Trofeos</a>.</p>
+    </div>
+  </div>
+
+  <script>
+    import { store } from '../lib/store';
+    const btns = [...document.querySelectorAll<HTMLButtonElement>('.ea-mode-btn')];
+    const panels = [...document.querySelectorAll<HTMLElement>('[data-mode-panel]')];
+    const setMode = (mode: string, save = true) => {
+      for (const b of btns) b.classList.toggle('active', b.dataset.mode === mode);
+      for (const p of panels) p.hidden = p.dataset.modePanel !== mode;
+      if (save && store.get('cfg:eaMode') !== mode) store.set('cfg:eaMode', mode);
+    };
+    for (const b of btns) b.addEventListener('click', () => setMode(b.dataset.mode!));
+    setMode(store.get<string>('cfg:eaMode', 'normal')!, false);
+
+    // abrir la zona del hash (#sec-…, #s-… desde la búsqueda, #i-… de un ítem)
+    const openHash = () => {
+      const id = decodeURIComponent(location.hash.slice(1));
+      if (!id) return;
+      const el = document.getElementById(id);
+      if (!el) return;
+      const panel = el.closest<HTMLElement>('[data-mode-panel]');
+      if (panel) setMode(panel.dataset.modePanel!, false);
+      const det = el.closest('details');
+      if (det) det.open = true;
+      requestAnimationFrame(() => el.scrollIntoView({ block: 'start' }));
+      if (el.classList.contains('wt-check-item')) { el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 1600); }
+    };
+    window.addEventListener('hashchange', openHash);
+    openHash();
+
+    // tildar toda la zona
+    document.querySelectorAll<HTMLButtonElement>('[data-check-section]').forEach((b) => b.addEventListener('click', () => {
+      const sec = document.getElementById(b.dataset.checkSection!);
+      sec?.querySelectorAll<HTMLElement>('.wt-check-item[data-check]').forEach((it) => { if (!store.has(it.dataset.check!)) store.set(it.dataset.check!, 1); });
+    }));
+  </script>
+</Layout>

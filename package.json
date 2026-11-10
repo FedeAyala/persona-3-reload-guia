@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
-    "gen": "node scripts/gen-walkthrough.mjs"
+    "gen": "node scripts/gen-walkthrough.mjs",
+    "gen:aigis": "node scripts/gen-aigis.mjs"
   },
   "dependencies": {
     "astro": "^4.16.0",

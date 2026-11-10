@@ -14,7 +14,7 @@
 // de verdad: editalos a mano y NO cambies los ids existentes.
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { marked } from 'marked';
@@ -53,7 +53,7 @@ setDictionary((src) => {
 });
 
 // basura del reproductor de YouTube que quedó en los MD
-const JUNK = /^(Tap to unmute|Watch on|Watch later|Share|Copy link|Info|Shopping|If playback doesn't begin.*|You're signed out.*|Cancel|Confirm|More videos|Search|Include playlist|An error occurred.*|.*\d+ subscribers|0:00.*)$/i;
+const JUNK = /^(Tap to unmute|(?:Previous|Next): .*\(Main Game\)|Watch on|Watch later|Share|Copy link|Info|Shopping|If playback doesn't begin.*|You're signed out.*|Cancel|Confirm|More videos|Search|Include playlist|An error occurred.*|.*\d+ subscribers|0:00.*)$/i;
 
 function cleanInline(md) {
   return md
@@ -72,7 +72,14 @@ function tr(md) {
   if (es == null) {
     const h = hash(src);
     es = ES[h];
-    if (es == null) { pending.set(h, src); es = src; }
+    if (es == null) {
+      // sin traducción: restos del reproductor embebido dentro de citas (miniaturas, "[Watch on](…)")
+      if (/^!\[[^\]]*\]\([^)]*\)$/.test(src) || /^\[Watch on\]\(/.test(src)) return '';
+      // "[Título](youtube) [Ten Square](canal)" → link al video
+      const yt = src.match(/^\[([^\]]+)\]\((https?:\/\/(?:www\.)?youtube\.com\/watch\?v=[\w-]+)[^)]*\)(?:\s*\[[^\]]+\]\(https?:\/\/(?:www\.)?youtube\.com\/channel\/[^)]*\))?$/);
+      if (yt) return `▶ <a href="${yt[2]}" target="_blank" rel="noopener">Video: ${yt[1]}</a>`;
+      pending.set(h, src); es = src;
+    }
   }
   return marked.parseInline(es);
 }
@@ -146,10 +153,15 @@ function parseChecklist(blocks) {
 function buildDay(monthKey, date, weekday, sectionLines) {
   const [m, d] = date.split('/').map(Number);
   const dayId = `${m}${String(d).padStart(2, '0')}`;
-  const day = { id: dayId, date, name: translateWeekday(weekday ?? ''), slots: [] };
+  return { id: dayId, date, name: translateWeekday(weekday ?? ''), slots: buildSlots(`${monthKey}-${dayId}`, sectionLines) };
+}
+
+/** Convierte las líneas de una sección (con encabezados en negrita como turnos) en slots con ítems. */
+export function buildSlots(idPrefix, sectionLines) {
+  const day = { slots: [] };
   const seen = new Map();
   const mkId = (src) => {
-    const base = `${monthKey}-${dayId}-${hash(src)}`;
+    const base = `${idPrefix}-${hash(src)}`;
     const n = (seen.get(base) ?? 0) + 1;
     seen.set(base, n);
     return n > 1 ? `${base}-${n}` : base;
@@ -195,12 +207,13 @@ function buildDay(monthKey, date, weekday, sectionLines) {
 
   for (const l of sectionLines) {
     const s = isSlotHeader(l);
+    if (s && JUNK.test(s[1].trim())) continue; // "**Tap to unmute**" del reproductor embebido
     if (s && !isDayHeader(l)) { pushSlot(); slot = s[1].trim(); continue; }
     if (!slot) slot = 'General';
     slotLines.push(l);
   }
   pushSlot();
-  return day;
+  return day.slots;
 }
 
 function parseMonth({ key, file, title }) {
@@ -233,6 +246,13 @@ function parseMonth({ key, file, title }) {
   return month;
 }
 
+export { tr, pending, parseBlocks, cleanInline, JUNK, isDayHeader, isSlotHeader, tableToHtml, ES };
+
+// se puede importar desde otros generadores (gen-aigis.mjs) sin correr la generación de meses
+const isMain = process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1]);
+if (isMain) main();
+
+function main() {
 mkdirSync(OUT_DIR, { recursive: true });
 const report = [];
 for (const m of MONTHS) {
@@ -255,3 +275,4 @@ if (args.has('--pending')) {
   writeFileSync(join(ROOT, 'scripts', 'i18n', 'pending.tsv'), [...pending].map(([h, t]) => `${h}\t${t}`).join('\n') + '\n');
 }
 console.log(`Sin traducir: ${pending.size} frases únicas${args.has('--pending') ? ' → scripts/i18n/pending.tsv' : ''}`);
+}

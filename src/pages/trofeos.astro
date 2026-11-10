@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { TROPHIES, MONTHS, dateOrd } from '../data/walkthrough';
+import aigis from '../data/aigis.json';
 
 const byMonth = MONTHS.map((m) => ({ m, list: TROPHIES.filter((t) => Number(t.date.split('/')[0]) === m.num) })).filter((g) => g.list.length);
 ---
@@ -17,8 +18,8 @@ const byMonth = MONTHS.map((m) => ({ m, list: TROPHIES.filter((t) => Number(t.da
 
   <div class="content-wrap">
     <div class="track-progress" data-pagefind-ignore>
-      <strong class="wt-progress-label">Conseguidos: <span data-count="tr:" data-count-format="full">0/0</span></strong>
-      <div class="wt-progress-track"><div class="wt-progress-fill" data-count-bar="tr:"></div></div>
+      <strong class="wt-progress-label">Conseguidos: <span data-count="tr:" data-count-scope="#tr-main" data-count-format="full">0/0</span></strong>
+      <div class="wt-progress-track"><div class="wt-progress-fill" data-count-bar="tr:" data-count-scope="#tr-main"></div></div>
     </div>
 
     <div class="callout callout-info">
@@ -33,6 +34,7 @@ const byMonth = MONTHS.map((m) => ({ m, list: TROPHIES.filter((t) => Number(t.da
       empezar una relación, maxear todos los vínculos y completar el compendio. Seguí el walkthrough y no se escapa ninguno.
     </div>
 
+    <div id="tr-main">
     {byMonth.map(({ m, list }) => (
       <div style="margin-top:2rem">
         <div class="section-label">{m.title.split('—')[0]}</div>
@@ -54,14 +56,29 @@ const byMonth = MONTHS.map((m) => ({ m, list: TROPHIES.filter((t) => Number(t.da
       </div>
     ))}
 
+    </div>
+
     <div class="callout callout-tip" style="margin-top:2rem">
       <strong>Platino:</strong> en PlayStation, el Platino sale al conseguir los 48. Episode Aigis tiene logros propios aparte.
+    </div>
+
+    <div id="aigis" style="margin-top:2rem">
+      <div class="section-label">Episode Aigis · <span data-count="tr:" data-count-scope="#aigis">0/0</span></div>
+      <div class="track-list">
+        {aigis.trophies.map((t) => (
+          <div class="track-row" data-check={`tr:${t.n}`} id={`t-${t.n}`}>
+            <span class="wt-checkmark" aria-hidden="true"></span>
+            <div><div class="track-name">{t.name}</div><div class="track-desc muted">{t.sectionLabel}</div></div>
+            <a class="track-date" href={`/episode-aigis#sec-${t.section}`} title="Ver la zona en Episode Aigis">{t.n}/56 →</a>
+          </div>
+        ))}
+      </div>
     </div>
   </div>
 
   <script>
     import { store, dateOrd } from '../lib/store';
-    const rows = [...document.querySelectorAll<HTMLElement>('.track-row')];
+    const rows = [...document.querySelectorAll<HTMLElement>('#tr-main .track-row')];
     const paint = () => {
       const md = store.get<string>('cfg:date', '');
       const o = md ? dateOrd(md) : -1;

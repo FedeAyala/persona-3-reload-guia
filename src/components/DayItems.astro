@@ -3,8 +3,9 @@
 // progreso) que la página del walkthrough: tildar acá también tilda allá.
 import type { Item } from '../data/walkthrough';
 
-export interface Props { items: (Item & { slot?: string })[]; showSlots?: boolean }
-const { items, showSlots = false } = Astro.props;
+// prefix: clave de progreso ("c:" = walkthrough; Episode Aigis usa "x:")
+export interface Props { items: (Item & { slot?: string })[]; showSlots?: boolean; prefix?: string }
+const { items, showSlots = false, prefix = 'c:' } = Astro.props;
 const isWarn = (t: string) => /^(⚠️|🔴)/.test(t) || /¡Importante!/.test(t);
 let lastSlot = '';
 ---
@@ -18,7 +19,7 @@ let lastSlot = '';
         {it.note ? (
           <div class={`wt-note ${isWarn(it.text) ? 'wt-note-warn' : ''}`} set:html={it.text} />
         ) : (
-          <div class="wt-check-item" data-check={`c:${it.id}`}>
+          <div class="wt-check-item" data-check={`${prefix}${it.id}`} id={prefix === 'c:' ? undefined : `i-${it.id}`}>
             <span class="wt-checkmark" aria-hidden="true"></span>
             <div class="wt-check-body">
               <span class="wt-check-text" set:html={it.text} />

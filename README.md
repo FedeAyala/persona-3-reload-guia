@@ -22,11 +22,14 @@ Basado en la guía de TenSquare3 (GameFAQs v2.5.0), adaptada y traducida al espa
 | Feature | Descripción |
 |---|---|
 | **Walkthrough día a día** | Los 288 días de abril a enero, traducidos de la guía de TenSquare3: cada acción, respuesta y decisión |
-| **Checkboxes con progreso** | 1114 ítems tildables con progreso por día, por mes y total; "tildar todo el día" |
+| **Checkboxes con progreso** | 1126 ítems tildables con progreso por día, por mes y total; "tildar todo el día" |
 | **Panel "Hoy"** | Cargás la fecha en la que vas y muestra el próximo jefe, la próxima subida a Tartarus, los exámenes, los vínculos que suben y lo que te quedó pendiente |
 | **Stats y Social Links** | Anotás tus rangos y la guía te avisa si vas atrasado respecto de la ruta |
 | **Ruta de Social Links** | Los 22 arcanos rango a rango con fecha, acción y respuestas, generados del walkthrough |
-| **Trofeos** | Los 48 logros en el orden en que salen, con checkbox y link al día |
+| **Trofeos** | Los 48 logros en el orden en que salen, con checkbox y link al día (más los 8 de Episode Aigis) |
+| **Episode Aigis** | El epílogo zona por zona (311 pasos) y la ruta Heartless (231), con progreso propio |
+| **Encargos de Elizabeth** | Los 101 encargos con fecha de aceptación y entrega; avisa los atrasados |
+| **Tartarus y Fusión** | Las 10 subidas, las 12 tandas de fusión y las tablas de equipo recomendado, tildables y sincronizadas con el walkthrough |
 | **Notas por día** | Un campo de notas propio en cada día, sincronizado |
 | **Modo spoiler** | Oculta los días posteriores a tu fecha actual |
 | **Buscador (Ctrl+K)** | Búsqueda en toda la guía con Pagefind; lleva directo al día |
@@ -56,6 +59,9 @@ persona3-reload-guia/
 │   ├── data/walkthrough/
 │   │   ├── abril.json … enero.json   # Datos del walkthrough (un JSON por mes)
 │   │   └── index.ts                  # Tipos, validación de ids y datos derivados (SL, trofeos, eventos)
+│   ├── data/aigis.json               # Episode Aigis (generado)
+│   ├── data/elizabeth.json           # Encargos de Elizabeth (generado)
+│   ├── data/legacy-ids.json          # Ids viejos de abril/mayo → nuevos (migración del progreso)
 │   ├── lib/
 │   │   ├── store.ts                  # Estado del progreso (merge por clave + timestamp)
 │   │   ├── sync.ts                   # Firebase (carga diferida)
@@ -64,7 +70,9 @@ persona3-reload-guia/
 │   ├── layouts/Layout.astro          # Nav, buscador, panel de progreso, PWA
 │   └── pages/                        # walkthrough, social-links, trofeos, 100%, etc.
 ├── scripts/
-│   ├── gen-walkthrough.mjs           # MD de TenSquare3 → JSON de junio a enero
+│   ├── gen-walkthrough.mjs           # MD de TenSquare3 → JSON de abril a enero
+│   ├── gen-aigis.mjs                 # MD 15–19 → aigis.json
+│   ├── gen-elizabeth.mjs             # MD → elizabeth.json
 │   └── i18n/                         # Patrones de traducción + traducciones (es/*.tsv)
 ├── public/
 │   ├── styles/global.css, app.css
@@ -78,8 +86,13 @@ Los JSON de `src/data/walkthrough/` son la fuente de verdad. Cada ítem tildable
 cambiar ni reutilizar**: es la clave con la que se guarda el progreso. Para un ítem nuevo, inventá un id nuevo.
 El build falla si hay ids repetidos.
 
-`npm run gen` regenera junio–enero desde los MD (no pisa JSON existentes; `npm run gen -- --force` sí).
-Con `--pending` lista las frases que todavía no tienen traducción.
+`npm run gen` regenera los meses desde los MD (no pisa JSON existentes; `npm run gen -- --force` sí,
+y `--only=abril,mayo` limita los meses). Con `--pending` lista las frases que todavía no tienen traducción.
+Los ids salen del hash del texto en inglés, así que regenerar no cambia los ids existentes.
+Episode Aigis se regenera con `npm run gen:aigis`.
+
+Las traducciones: primero los patrones de `scripts/i18n/patterns.mjs` y después el diccionario por hash
+(`scripts/i18n/es/*.tsv`, formato `hash traducción`).
 
 ---
 

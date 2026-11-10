@@ -150,7 +150,12 @@ add(/^Tend (?:to )?the garden with (\w+)\.?(.*)$/, (_, n, r) => `Cuidá la huert
 add(/^Cook with (\w+)\.?(.*)$/, (_, n, r) => `Cociná con ${n}${T(r)}`);
 add(/^Study with (\w+) and (\w+) (\(.*\))\.?$/, (_, a, b, r) => `Estudiá con ${a} y ${b} ${T(r)}`);
 const CHAR = {"Raises Critical Rate on Foes with Ailments":"sube la tasa de crítico contra enemigos con estados alterados","Greatly Raises Critical Rate on Foes with Ailments":"sube mucho la tasa de crítico contra enemigos con estados alterados","Increases the Effect of Buffs on Self":"aumenta el efecto de los buffs sobre uno mismo","Greatly Increases the Effect of Buffs on Self":"aumenta mucho el efecto de los buffs sobre uno mismo"};
-add(/^Characteristics Unlocked: ([^,]+)(?:, (.+))?$/, (_, c, d) => `Característica desbloqueada: ${c}${d ? ', ' + (CHAR[d] ?? d.replace(/^for hitting (\d+)% compendium$/, 'por llegar al $1% del compendio')) : ''}`);
+const CHAR_CI = Object.fromEntries(Object.entries(CHAR).map(([k, v]) => [k.toLowerCase().replace(/effects/, 'effect'), v]));
+add(/^Characteristics Unlocked: ([^,]+)(?:, (.+))?$/, (_, c, d) => `Característica desbloqueada: ${c}${d ? ', ' + (CHAR_CI[d.toLowerCase().replace(/effects/, 'effect')] ?? d.replace(/^for hitting (\d+)% compendium$/, 'por llegar al $1% del compendio')) : ''}`);
+// celdas de las tablas de fusión de Episode Aigis
+add(/^(?:Fuse )?(.+?) \/ From the Special \/? ?Fusion$/, (_, p) => `Fusioná a ${p} / desde las fusiones especiales`);
+const NO_MATTER = { 'just fusing it for its heart item': 'es solo por su Heart Item', 'just fused for a quest': 'es solo para un encargo', 'just using it to fuse another persona': 'solo se usa para fusionar otra Persona', 'fusing for a Theurgy': 'es para una Theurgy', 'just filling out compendium': 'es solo para llenar el compendio' };
+add(/^Doesn'?t matter,?((?:\s*\/?\s*[\w ]+)*)$/i, (_, r) => { const k = r.replace(/[\s/]+/g, ' ').trim(); return k ? (NO_MATTER[k] ? `No importa: ${NO_MATTER[k]}` : null) : 'No importa'; });
 add(/^Doesn'?t max out its skill(?:s| list)\.?$|^Doesn't max out skill list\.?$/, () => 'No llena su lista de habilidades');
 add(/^Feed the cat\.?$/, () => 'Dale de comer al gato.');
 add(/^Feed the cat, then hand in quest (\d+) to Elizabeth\.?$/, (_, q) => `Dale de comer al gato y entregá el encargo ${q} a Elizabeth.`);
@@ -170,6 +175,8 @@ add(/^([\w'’\- ]+): ([\w'’\- ]+)$/, (s) => s); // "Upbeat Man: Oolong Tea"
 add(/^[\w'’\- ]+(?:, [\w'’\- ]+)*,? \/ [\w'’\- ]+(?:(?:,| and) [\w'’\- ]+)*$/, (s) => s.replace(/ and /g, ' y '));
 add(/^Automatically get sent to the dorm\.?$/, () => 'Te mandan automáticamente al dormitorio.');
 add(/^New dorm activities unlock\.?$/, () => 'Se desbloquean nuevas actividades en el dormitorio.');
+// celdas de equipo de Episode Aigis: "Blast Magnum/ / Betrayal Gear" → "Blast Magnum / o equipo Betrayal"
+add(/^((?:[^/]+\/ \/ )+)(\w+) Gear$/, (_, items, set) => `${items.split('/ / ').filter(Boolean).map((s) => s.trim()).join(' / ')} / o equipo ${set}`);
 // encabezados de la tabla de equipo
 const GEAR = { Gear: 'Equipo', Description: 'Descripción', Weapons: 'Armas', Armour: 'Armadura', Armor: 'Armadura', Footwear: 'Calzado', Accessories: 'Accesorios' };
 add(/^(Gear|Description|Weapons|Armour|Armor|Footwear|Accessories)$/, (_, w) => GEAR[w]);

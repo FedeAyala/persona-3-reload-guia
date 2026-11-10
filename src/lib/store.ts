@@ -7,12 +7,13 @@
 // Claves:
 //   c:<itemId>      checkbox del walkthrough (1 / 0)
 //   tr:<n>          trofeo conseguido (1 / 0)
-//   x:<id>          checkbox genérico de otras páginas (1 / 0)
+//   x:<id>          checkbox genérico de otras páginas (1 / 0); Episode Aigis usa x:ea-<modo><parte>-<hash>
 //   n:<dayId>       nota propia del día (texto)
 //   st:<stat>       rango de stat social (1-6)
 //   sl:<arcana>     rango de social link (0-10)
 //   cfg:date        fecha actual en el juego ("M/D")
 //   cfg:spoilers    ocultar días futuros (1 / 0)
+//   cfg:eaMode      ruta de Episode Aigis elegida (normal / heartless)
 
 import LEGACY from '../data/legacy-ids.json';
 
