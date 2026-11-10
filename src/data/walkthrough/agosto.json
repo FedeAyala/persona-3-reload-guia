@@ -318,7 +318,7 @@
           "items": [
             {
               "id": "agosto-804-cc97b9f7",
-              "text": "Mirá un DVD con Yukari (Charm and Social Link +1)"
+              "text": "Mirá un DVD con Yukari (Encanto y Vínculo +1)"
             }
           ]
         }
@@ -531,11 +531,10 @@
             },
             {
               "id": "agosto-809-f38692bf",
-              "text": "Aceptá la invitación de Junpei"
-            },
-            {
-              "id": "agosto-809-d98caab8",
-              "text": "(Episodio de Junpei 2) (Encanto +1)"
+              "text": "Aceptá la invitación de Junpei",
+              "sub": [
+                "(Episodio de Junpei 2) (Encanto +1)"
+              ]
             }
           ]
         },
@@ -830,7 +829,7 @@
           "items": [
             {
               "id": "agosto-820-cc82ce41",
-              "text": "Leé con Fuuka (Academics and Social Link +1)",
+              "text": "Leé con Fuuka (Académicos y Vínculo +1)",
               "sub": [
                 "Característica desbloqueada: Weakness Buffer, Reduces Damage Taken When an Ally&#39;s Weakness is Struck",
                 "(Reduce el daño un 10% cuando golpean la debilidad de un aliado)"
@@ -994,7 +993,7 @@
           "items": [
             {
               "id": "agosto-825-a94969db",
-              "text": "Mirá un DVD con Yukari (Charm and Social Link + 1)",
+              "text": "Mirá un DVD con Yukari (Encanto y Vínculo +1)",
               "sub": [
                 "Característica desbloqueada: Healing Apex",
                 "(Reduce un 75% el costo de SP de las habilidades de curación)"

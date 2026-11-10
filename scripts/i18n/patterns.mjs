@@ -7,10 +7,11 @@ export const translateWeekday = (w) => WEEKDAYS[w] ?? w;
 const LABELS = {
   'Morning': 'Mañana', 'Early Morning': 'Temprano', 'After School': 'Después de clase', 'Afternoon': 'Tarde',
   'Evening': 'Noche', 'Daytime': 'Día', 'Dark Hour': 'Hora Oscura', 'Lunchtime': 'Almuerzo', 'Lunch Time': 'Almuerzo',
-  'Social Stats': 'Stats sociales', 'Good Ending': 'Final bueno', 'Bad Ending': 'Final malo',
+  'Late Night': 'Medianoche', 'Social Stats': 'Stats sociales', 'Good Ending': 'Final bueno', 'Bad Ending': 'Final malo',
   "Elizabeth’s Request": 'Encargo de Elizabeth', "Elizabeth's Request": 'Encargo de Elizabeth', 'DLC Personas': 'Personas DLC', 'General': 'General',
 };
-export const translateLabel = (l) => LABELS[l.replace(/:$/, '').trim()] ?? l;
+const LABELS_CI = Object.fromEntries(Object.entries(LABELS).map(([k, v]) => [k.toLowerCase(), v]));
+export const translateLabel = (l) => LABELS_CI[l.replace(/:$/, '').trim().toLowerCase()] ?? l;
 
 const STAT = { Academics: 'Académicos', Charm: 'Encanto', Courage: 'Valentía' };
 const stat = (s) => STAT[s] ?? s;
@@ -21,6 +22,9 @@ export function translateInline(t) {
     .replace(/\bRequires (Academics|Charm|Courage) (?:Rank|Level) (\d+)/gi, (_, a, n) => `Requiere ${stat(a)} Rango ${n}`)
     .replace(/\b(Academics|Charm|Courage) Rank (\d+) Required\b/g, (_, a, n) => `requiere ${stat(a)} Rango ${n}`)
     .replace(/\b(Academics|Charm|Courage),\s*(Academics|Charm|Courage)\s*\+\s*(\d+)/g, (_, a, b, n) => `${stat(a)} y ${stat(b)} +${n}`)
+    .replace(/\b(Academics|Charm|Courage),\s*(Academics|Charm|Courage),?\s+and\s+(Academics|Charm|Courage)\s*\+\s*(\d+)/g, (_, a, b, c, n) => `${stat(a)}, ${stat(b)} y ${stat(c)} +${n}`)
+    .replace(/\b(Academics|Charm|Courage) and (Academics|Charm|Courage)\s*\+\s*(\d+)/g, (_, a, b, n) => `${stat(a)} y ${stat(b)} +${n}`)
+    .replace(/\b(Academics|Charm|Courage) and Social [Ll]ink\s*\+\s*(\d+)/g, (_, a, n) => `${stat(a)} y Vínculo +${n}`)
     .replace(/\b(Academics|Charm|Courage)\s*\+\s*(\d+)/g, (_, a, n) => `${stat(a)} +${n}`)
     .replace(/\b(Academics|Charm|Courage) Rank (\d+)/g, (_, a, n) => `${stat(a)} Rango ${n}`)
     .replace(/\+(\d+) and ([\d,.]+) yen\b/g, (_, n, y) => `+${n}, ${y.replace(/,/g, '.')} yen`)
@@ -112,7 +116,7 @@ add(/^Head to the Nurse’s Office and drink the strange medicine (\(.*\))\.?$/,
 add(/^Take (?:a )?bath at Naganaki Shrine (\(.*\))\.?$/, (_, r) => `Bañate en el santuario Naganaki ${T(r)}`);
 add(/^Take the Bath at (?:the )?(.+?) (\(.*\))\.?$/, (_, w, r) => `Bañate en ${w} ${T(r)}`);
 add(/^Go to (?:the )?movies with (\w+) (\(.*\))\.?$/i, (_, n, r) => `Andá al cine con ${n} ${T(r)}`);
-add(/^Go to (?:the )?(.+?) ((.*)).?$/, (_, w, r) => `Andá a ${w} ${T(r)}`);
+add(/^Go to (?:the )?((?:(?!\b(?:and|then|to|the|at|for|with|of|you|your)\b)[^()])+?) (\(.*\))\.?$/, (_, w, r) => `Andá a ${w} ${T(r)}`);
 
 // ---- dorm / items
 add(/^Check the [Ff]ridge \((.*)\)\.?$/, (_, r) => `Revisá la heladera (${r.replace(/ and /g, ' y ').replace(/, fully restores SP of one character/, ', recupera todo el SP de un personaje')})`);
@@ -160,14 +164,17 @@ add(/^Hand in quest (\d+) to Elizabeth, which unlocks:?$/, (_, q) => `Entregá e
 add(/^This unlocks:?$/, () => 'Esto desbloquea:');
 add(/^You'll need:?$/, () => 'Vas a necesitar:');
 add(/^Speak to (\w+) to [Rr]eceive:?$/, (_, n) => `Hablá con ${n} para recibir:`);
-add(/^\*\*(Weapon|Armor|Armour|Footwear|Accessory|Skills to Keep)\*\*$/, (_, w) => `**${{ Weapon: 'Arma', Armor: 'Armadura', Armour: 'Armadura', Footwear: 'Calzado', Accessory: 'Accesorio', 'Skills to Keep': 'Habilidades a conservar' }[w]}**`);
+add(/^\*\*(Weapon|Armor|Armour|Footwear|Accessory|Acessory|Skills to Keep)\*\*$/, (_, w) => `**${{ Weapon: 'Arma', Armor: 'Armadura', Armour: 'Armadura', Footwear: 'Calzado', Accessory: 'Accesorio', Acessory: 'Accesorio', 'Skills to Keep': 'Habilidades a conservar' }[w]}**`);
 add(/^\*\*([A-Z][a-z]+)\*\*$/, (s) => s);
 add(/^([\w'’\- ]+): ([\w'’\- ]+)$/, (s) => s); // "Upbeat Man: Oolong Tea"
 add(/^[\w'’\- ]+(?:, [\w'’\- ]+)*,? \/ [\w'’\- ]+(?:(?:,| and) [\w'’\- ]+)*$/, (s) => s.replace(/ and /g, ' y '));
 add(/^Automatically get sent to the dorm\.?$/, () => 'Te mandan automáticamente al dormitorio.');
 add(/^New dorm activities unlock\.?$/, () => 'Se desbloquean nuevas actividades en el dormitorio.');
+// encabezados de la tabla de equipo
+const GEAR = { Gear: 'Equipo', Description: 'Descripción', Weapons: 'Armas', Armour: 'Armadura', Armor: 'Armadura', Footwear: 'Calzado', Accessories: 'Accesorios' };
+add(/^(Gear|Description|Weapons|Armour|Armor|Footwear|Accessories)$/, (_, w) => GEAR[w]);
 // listas de habilidades / nombres sueltos (sin verbos): 1-4 palabras o separados por comas y barras
-add(/^(?!.*\b(?:to|the|with|at|of|your|in|on|for|you|it|is|out|up|her|him|go|look|that|that's|me|my)\b)[A-Z][\w'’\-]*(?: [A-Za-z0-9][\w'’\-]*){0,3}$/, (s) => s);
+add(/^(?!.*\b(?:to|the|with|at|of|your|in|on|for|you|it|is|out|up|her|him|go|look|that|that's|me|my)\b)[A-Z][\w'’\-]*(?: [A-Za-z0-9][\w'’\-]*){0,3}$/, (s) => s.replace(/ and /g, ' y '));
 add(/^[A-Z][\w'’\- ]+(?:,\s*[A-Z][\w'’\- ]+)+(?:\s*\/\s*[\w'’\- ]+(?:(?:,| and)\s*[\w'’\- ]+)*)?$/, (s) => s.replace(/ and /g, ' y '));
 
 export function translateLine(src) {

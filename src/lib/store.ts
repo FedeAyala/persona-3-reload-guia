@@ -14,6 +14,8 @@
 //   cfg:date        fecha actual en el juego ("M/D")
 //   cfg:spoilers    ocultar días futuros (1 / 0)
 
+import LEGACY from '../data/legacy-ids.json';
+
 export interface Entry { v: unknown; t: number }
 export type Entries = Record<string, Entry>;
 
@@ -43,6 +45,9 @@ class Store {
   /** claves modificadas localmente que todavía no se subieron a la nube */
   dirty = new Set<string>();
   onDirty: (() => void) | null = null;
+  private migrating = false;
+
+  constructor() { this.migrateLegacy(); }
 
   get<T = unknown>(key: string, fallback?: T): T {
     const e = this.entries[key];
@@ -68,7 +73,31 @@ class Store {
       if (!cur || e.t > cur.t) { this.entries[k] = e; changed.push(k); if (source === 'local') this.dirty.add(k); }
     }
     if (changed.length) { this.persist(); this.emit(changed, source); if (source === 'local') this.onDirty?.(); }
+    if (changed.length && source === 'remote') this.migrateLegacy();
     return changed;
+  }
+
+  /**
+   * Abril y mayo se regeneraron desde la guía y sus ítems tienen ids nuevos (src/data/legacy-ids.json).
+   * Si un día viejo estaba todo tildado se tildan todos los ítems nuevos de ese día; si no, cada ítem
+   * viejo tildado tilda los nuevos que lo reemplazan. Los ids viejos quedan con lápida para que la
+   * nube (y otros dispositivos) converjan. Es idempotente: corre al cargar y después de cada merge remoto.
+   */
+  migrateLegacy() {
+    if (this.migrating) return;
+    const updates: Entries = {};
+    const now = Date.now();
+    for (const [olds, news, cover] of LEGACY as [string[], string[], Record<string, string[]>][]) {
+      const checked = olds.filter((o) => this.has(`c:${o}`));
+      if (!checked.length) continue;
+      const t = Math.max(...checked.map((o) => this.entries[`c:${o}`].t));
+      const targets = checked.length === olds.length ? news : checked.flatMap((o) => cover[o] ?? []);
+      for (const n of targets) if (!this.entries[`c:${n}`]) updates[`c:${n}`] = { v: 1, t };
+      for (const o of checked) updates[`c:${o}`] = { v: null, t: Math.max(now, this.entries[`c:${o}`].t + 1) };
+    }
+    if (!Object.keys(updates).length) return;
+    this.migrating = true;
+    try { this.merge(updates, 'local'); } finally { this.migrating = false; }
   }
 
   /** Borra todo: escribe "lápidas" con timestamp nuevo para que el borrado también se sincronice. */

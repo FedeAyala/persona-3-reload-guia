@@ -4,6 +4,7 @@
 //   node scripts/gen-walkthrough.mjs            → genera los meses (no pisa JSON existentes)
 //   node scripts/gen-walkthrough.mjs --force    → regenera aunque existan
 //   node scripts/gen-walkthrough.mjs --pending  → lista las frases sin traducción (hash<TAB>texto)
+//   node scripts/gen-walkthrough.mjs --force --only=abril,mayo → regenera solo esos meses (conserva los tips)
 //
 // Traducción: primero se aplican patrones (scripts/i18n/patterns.mjs). Lo que no matchea
 // se busca por hash en scripts/i18n/es/*.tsv (hash<TAB>traducción). Si no hay traducción queda en inglés.
@@ -25,8 +26,13 @@ const ES_DIR = join(ROOT, 'scripts', 'i18n', 'es');
 const ES = Object.fromEntries(readdirSync(ES_DIR).filter((f) => f.endsWith('.tsv')).flatMap((f) =>
   readFileSync(join(ES_DIR, f), 'utf-8').split(/\r?\n/).filter((l) => /^[0-9a-f]{8}[\t ]/.test(l)).map((l) => [l.slice(0, 8), l.slice(9)])));
 const args = new Set(process.argv.slice(2));
+// --only=abril,mayo → regenera solo esos meses
+const onlyArg = [...args].find((a) => a.startsWith('--only='));
+const only = onlyArg ? new Set(onlyArg.slice(7).split(',')) : null;
 
 const MONTHS = [
+  { key: 'abril', file: '02.md', title: '🌑 ABRIL — Comienzo del año escolar' },
+  { key: 'mayo', file: '03.md', title: '🌒 MAYO — El SEES se organiza' },
   { key: 'junio', file: '04.md', title: '🌓 JUNIO — Exámenes y la escuela de noche' },
   { key: 'julio', file: '05.md', title: '🌔 JULIO — Exámenes y vacaciones de verano' },
   { key: 'agosto', file: '06.md', title: '🌕 AGOSTO — Verano en Iwatodai' },
@@ -161,7 +167,7 @@ function buildDay(monthKey, date, weekday, sectionLines) {
         const text = b.lines.join(' ');
         if (/^!\[/.test(text)) continue;
         // "(Charm Rank 4)" sola → se pega al ítem anterior
-        if (last && !last.note && /^\([^()]*(?:\([^()]*\)[^()]*)*\)$/.test(text)) { (last.sub ??= []).push(tr(text)); continue; }
+        if (last && !last.note && /^\([^()]*(?:\([^()]*\)[^()]*)*\)(?:\s*\([^()]*\))*$/.test(text)) { (last.sub ??= []).push(tr(text)); continue; }
         const yt = text.match(/\[([^\]]+)\]\((https?:\/\/(?:www\.)?youtube\.com\/watch\?v=[\w-]+)[^)]*\)/);
         if (yt) {
           if (!JUNK.test(yt[1])) items.push({ note: true, text: `▶ <a href="${yt[2]}" target="_blank" rel="noopener">Video: ${yt[1]}</a>` });
@@ -236,6 +242,12 @@ for (const m of MONTHS) {
   report.push(`${m.key}: ${month.days.length} días, ${items} ítems`);
   if (args.has('--pending')) continue;
   if (existsSync(out) && !args.has('--force')) { report.push(`  (existe ${m.key}.json, salteado — usá --force)`); continue; }
+  if (only && !only.has(m.key)) continue;
+  // los tips escritos a mano (no vienen del MD) se conservan por fecha
+  if (existsSync(out)) {
+    const prev = JSON.parse(readFileSync(out, 'utf-8'));
+    for (const d of month.days) { const tips = prev.days?.find((x) => x.date === d.date)?.tips; if (tips?.length) d.tips = tips; }
+  }
   writeFileSync(out, JSON.stringify(month, null, 2) + '\n');
 }
 console.log(report.join('\n'));

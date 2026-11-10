@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import DayItems from '../components/DayItems.astro';
-import { TARTARUS_BLOCKS, TARTARUS_VISITS, formatDate } from '../data/walkthrough';
+import { TARTARUS_BLOCKS, TARTARUS_VISITS, GEAR_TABLES, formatDate } from '../data/walkthrough';
 
 const MONAD = [
   ['91F', 'Temperance', 'Primer Monad Passage (agosto).'],
@@ -28,6 +28,7 @@ const MONAD = [
     <nav class="quick-nav" data-pagefind-ignore>
       <a href="#bloques">Bloques</a>
       <a href="#subidas">Subidas de la guía</a>
+      <a href="#equipo">Equipo</a>
       <a href="#mecanicas">Mecánicas</a>
       <a href="#monad">Monad Passages</a>
     </nav>
@@ -66,6 +67,21 @@ const MONAD = [
               {formatDate(v.date)} · <a href={`/walkthrough#d-${v.dayId}`}>ver el día completo en el walkthrough →</a>
             </p>
             <DayItems items={v.items} showSlots />
+          </div>
+        </details>
+      ))}
+    </div>
+
+    <div id="equipo" style="margin-top:3rem">
+      <div class="section-label">Qué ponerle a cada uno</div>
+      <h2 class="section-title">Equipo recomendado</h2>
+      <p class="muted" style="margin-bottom:1rem">Las tablas de equipo que da la guía, en orden. Los cofres cerrados pueden darte algo mejor (es aleatorio): si te toca, usalo.</p>
+      {GEAR_TABLES.map((g) => (
+        <details class="tart-visit">
+          <summary><span class="tart-sum"><span class="tart-date">{g.date}</span><span class="tart-area">Equipo desde el {formatDate(g.date)}</span></span></summary>
+          <div class="tart-body">
+            <p class="muted" style="font-size:0.85rem;margin-bottom:0.5rem"><a href={`/walkthrough#d-${g.dayId}`}>ver el día en el walkthrough →</a></p>
+            <Fragment set:html={g.html} />
           </div>
         </details>
       ))}

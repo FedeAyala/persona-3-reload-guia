@@ -1,5 +1,5 @@
-// Datos del walkthrough: un JSON por mes (abril/mayo escritos a mano, junio–enero generados
-// con scripts/gen-walkthrough.mjs desde los MD de TenSquare3).
+// Datos del walkthrough: un JSON por mes, generados con scripts/gen-walkthrough.mjs desde los MD
+// de TenSquare3 (los "tips" de abril/mayo son propios y el generador los conserva).
 //
 // Reglas para editar los JSON:
 // - Cada ítem tildable tiene un `id` único. NO lo cambies ni lo reutilices: es la clave con la
@@ -151,7 +151,9 @@ export const STATS = [
 ];
 export const STAT_RANKUPS: { stat: string; rank: number; date: string; dayId: string }[] = [];
 for (const d of DAYS) for (const s of d.slots) for (const it of s.items) {
-  for (const m of strip([it.text, ...(it.sub ?? [])].join(' ')).matchAll(/\b(Académicos|Encanto|Valentía) (?:Rango|R) ?(\d)\b/g)) {
+  for (const m of strip([it.text, ...(it.sub ?? [])].join(' ')).matchAll(/\((Académicos|Encanto|Valentía) Rango (\d)\)/g)) {
+    // la guía marca las subidas como "(Encanto Rango 4)"; "(Requiere Encanto Rango 4)" o un texto que
+    // menciona el rango es un requisito, no una subida
     const st = STATS.find((x) => x.name === m[1])!;
     const rank = Number(m[2]);
     if (!STAT_RANKUPS.some((r) => r.stat === st.key && r.rank === rank)) STAT_RANKUPS.push({ stat: st.key, rank, date: d.date, dayId: d.id });
@@ -184,7 +186,7 @@ for (const d of DAYS) for (const s of d.slots) for (const it of s.items) {
     TROPHY_MAP.set(String(n), { n, name: m[1].replace(/\s+🏆$/, ''), date: d.date, dayId: d.id, condition: m[4] ?? m[2], context: strip(it.text).replace(/^🏆\s*/, '') });
   }
 }
-// abril/mayo están escritos a mano sin el contador (n/48): los completamos desde el MD original
+// respaldo por si algún logro no aparece con el contador (n/48) en el texto
 const EARLY: [number, string, string, string?][] = [
   [1, 'Awakened Power', '4/9'], [2, 'SEES the Day', '4/18'], [3, 'The First of Many', '4/22'],
   [4, 'There’s No “I” in “Team”', '4/22'], [5, 'The Thrill of the Hunt', '4/22'],
@@ -260,7 +262,7 @@ export const TARTARUS_VISITS: TartarusVisit[] = EVENTS.filter((e) => e.kind === 
 // ---------- Fusiones ----------
 export interface FusionSession { date: string; dayId: string; month: string; items: (Item & { slot: string })[] }
 const FUS_RE = /Velvet Room|[Ff]usion|[Ff]usión|[Ff]usioná|Invocá|Liberá|Enseñale|Personas que tenés que llevar|Personas DLC|compendio|Theurgy|Heart Item|Growth|Lovers/;
-export const FUSION_SESSIONS: FusionSession[] = DAYS.filter((d) => d.slots.some((s) => s.items.some((i) => i.text.includes('<table')))).map((d) => ({
+export const FUSION_SESSIONS: FusionSession[] = DAYS.filter((d) => d.slots.some((s) => s.items.some((i) => i.text.includes("<table") && i.text.includes("Receta de fusión")))).map((d) => ({
   date: d.date,
   dayId: d.id,
   month: d.month,
@@ -275,3 +277,9 @@ export const QUESTS: Quest[] = (elizabethRaw as Quest[]).map((q) => ({
   acceptedDay: q.accepted ? dayIdFor(q.accepted) : undefined,
   doneDay: q.done ? dayIdFor(q.done) : undefined,
 }));
+
+// ---------- Equipo recomendado (tablas Arma/Armadura/Calzado/Accesorio de la guía) ----------
+export interface GearTable { date: string; dayId: string; html: string }
+export const GEAR_TABLES: GearTable[] = DAYS.flatMap((d) => d.slots.flatMap((s) => s.items
+  .filter((i) => i.note && i.text.includes('<table') && /Arma<\/strong>.*Armadura<\/strong>/.test(i.text))
+  .map((i) => ({ date: d.date, dayId: d.id, html: i.text }))));
